@@ -1,0 +1,1907 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>The Demon's lair remains conquered, the evil beast's dead body still rotting. Hell, the land of the evil and wicked, is still occupied by humanity–those who fear God. However, continuous economic strains by the occupying forces, mainly led by the US, have considered a thought once unthinkable: a presidential election for the residents of Hell. After a narrow pass in a United Nations vote, people on Earth grit their teeth and tune into what's quickly becoming the most interesting election in modern history.<br><br>Based off of the U.S. electoral college system, Hell now has the opportunity to elect a \"president\"—who'll still largely serve the interests of the Earth nations. With most overlords jailed or have served their sentences, politicians and religious figures are hopeful for a leader that'll align with their existing views. If only for a little while, this election will be historical event.<br><br>Is Hell able to elect a competent candidate, someone hell bent on attacking Earth, or perhaps someone else entirely?</p>",
+            "image_url": "https://files.catbox.moe/7f0aht.jpg",
+            "winning_electoral_vote_number": 309,
+            "advisor_url": "https://files.catbox.moe/pn6i2j.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Shows</h4><a href=\"https://youtu.be/Zlmswo0S0e0\" target=”_blank”>Hazbin Hotel (Pilot Episode)</a></br><a href=\"https://youtube.com/playlist?list=PL-uopgYBi65HwiiDR9Y23lomAkGr9mm-S\" target=”_blank”>Helluva Boss (Episode Playlist)</a></br><a href=\"https://watch.amazon.com/detail?gti=amzn1.dv.gti.5ef0ebcd-ce37-4f68-9438-82e9bde9cd00&ref_=atv_lp_share_ser&r=web\" target=”_blank”>Hazbin Hotel (Amazon Prime)</a><h4>Mike Pence & The GOP</h4><a href=\"https://www.forbes.com/sites/alisondurkee/2024/05/09/trump-trial-gop-considered-ousting-trump-after-access-hollywood-tape-ex-assistant-testifies/\" target=”_blank”>Source 1</a></br><a href=\"https://www.businessinsider.com/donald-trump-replace-ballot-access-hollywood-tape-testimony-hush-money-2024-5\" target=”_blank”>Source 2</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://pbs.twimg.com/media/E2GEG9pVUAQcovG?format=png&name=900x900",
+            "creator": "Dan Bryan",
+            "display_year": "5 YPS - The Hazbin Trail Redux"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Charlie",
+            "last_name": "Morningstar",
+            "election": 9,
+            "party": "Unity & Salvation",
+            "state": "Pentagram City (Pride Ring)",
+            "priority": 1,
+            "description": "<li><b>Name: Charlie Morningstar</b></li><li><b>Role: Former Princess of Hell, Hell's Ambassador to the UN</b></li><li><b>Character Mechanic: Optimism</b></li><div style='overflow-y:scroll;height:200px;'><p>At the sign of a pen, then-princess Charlie Morningstar surrendered Hell to the Global Coalition after the death of her father. Since then, Charlie has mindlessly wandered the streets of a place she once called home. Soldiers mix with past friends and enemies on the streets while the Hellborn get treated as slaves. The once chaotic streets of Hell turn quiet and dim like a ghost town as curfews are enforced and nighttime raids commonly occur. The current state of Hell is a far cry from what it was before... and Charlie's frustrated from seeing it.<br><br>However, one wish was granted for her by the world: a presidential election. It's a rare opportunity, but one the former princess is too eager to exploit. The advantages for her are endless: the leniency granted to her by the state, her already existing connections with powerful beings, the list goes on.<br><br>Since Lucifer's death, Charlie has known tragedy, but also learned to become hard-hearted to those she despises. Her past days of relentless optimism seem to be wavering as Charlie makes new friends but also new enemies. As the political landscape changes with every passing day, Charlie hopes to align her unknown (for now) beliefs with the general public.<br><br>Can the daughter of the devil prevail, or is she simply too much for her own people?</p>",
+            "color_hex": "#851448",
+            "secondary_color_hex": "#851448",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/kl8vue.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "",
+            "last_name": "Alastor",
+            "election": 9,
+            "party": "Reform",
+            "state": "Pentagram City (Pride Ring)",
+            "priority": 2,
+            "description": "<li><b>Name: Alastor ''The Radio Demon''</b></li><li><b>Role: Former Overlord, Former Radio Host</b></li><li><b>Character Mechanic: Likeability</b></li><div style='overflow-y:scroll;height:200px;'><p>The \"Radio Demon\" has been on the run ever since Hell has been under occupation. Considered one of the most feared overlords in all of Hell for an unknown reason, Alastor has held a reputation that can be best summed up into one word: ruthless. From the lowest sinner to the highest overlord, no one was safe from his grasp. Until that day when humans encroached into Hell and mortally wounded him, now turning how reputation into that of a pure joke. He has been forced to go underground, relying on weaker sinners to help him. The current state of Hell is a far cry from what it was before... and Alastor can do nothing but grin wider, his true emotions unknown.<br><br>Despite his love for being the center of attention, committing to anything else but an underground campaign would be suicide for him. It is with his help that an underground Guerrilla movement was formed, stealthily sabotaging and assassinating World leaders both in Hell and on Earth. If played right, Alastor could break out of his chains and walk through Hell stronger than ever.<br><br>Similar to Charlie, Alastor's stances on issues are virtually unknown. According to him, it doesn't matter; as long as his views aren't extreme, he can convince anyone with his charm and smile. Still, he may be a bit much for some and God knows what will happen when Vox finds out about him.<br><br>Can Alastor use his charisma and wit to achieve a high honor? Or will he fail in the many ways that'll destroy his chances?</p>",
+            "color_hex": "#611313",
+            "secondary_color_hex": "#611313",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/sx678CL6/Screenshot-20251213-212012-Chrome.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "",
+            "last_name": "Vox",
+            "election": 9,
+            "party": "Technocratic",
+            "state": "Entertainment District (Pride Ring)",
+            "priority": 3,
+            "description": "<li><b>Name: Vox ''The TV Demon''</b></li><li><b>Role: Former Overlord, Media/Internet Personality, CEO of VoxTek</b></li><li><b>Character Mechanic: Opportunism</b></li><div style='overflow-y:scroll;height:200px;'><p>Vox is now just a mere shadow of what he once was. One of the former overlord of the entertainment district has now been relegated to that of a mere puppet of the US Military, serving their interests by pumping up propaganda to advance the US war machine. It's embarrassing, infuriating, and most of all, shameful; it's shameful to this man that fell from grace. He no longer sees reporters that are so easily mind-controlled by him, but instead sees himself underneath the boot of Uncle Sam. The current state of Hell is a far cry from what it was before... and Vox is for sure outraged.<br><br>But all is not lost for this flat-faced prince; the upcoming election can not only allow him to regain notoriety once again, but also bring him more followers and profits for VoxTek. Despite being CEO of his now declining company, Vox has by far the best standing of any candidate, even bypassing the former princess in the polls.<br><br>Unlike most of his opponents, Vox has stated his positions clearly: he's a right-wing technocrat who believes in Hell's self-determination and generally leans authoritarian on government and socially moderate on social issues. Despite his clear cut stances, he has been plagued by his massive pride and ego, even willing to kill or betray his closest to rise the ranks. For now, he has his closest advisors—Valentino & Velvette—by his side to keep him accountable.<br><br>Similar to Alastor, Vox is very likeable and looks good on TV. But is it enough to persuade the masses?</p>",
+            "color_hex": "#16b5ba",
+            "secondary_color_hex": "#16b5ba",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/DZcqrXPV/Screenshot-20251213-204309-Chrome.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "",
+            "last_name": "Travis",
+            "election": 9,
+            "party": "H.E.L.L.",
+            "state": "Pentagram City (Pride Ring)",
+            "priority": 4,
+            "description": "<li><b>Name: Travis ''The Director''</b></li><li><b>Role: Assistant Director of Pornagraphic Films for VoxTek</b></li><li><b>Character Mechanic: Rabble-rousing</b></li><div style='overflow-y:scroll;height:200px;'><p>Travis shouldn't be running. After all, the vast majority of Hell doesn't have a clue about who the fuck this guy is. But while the rest of Hell decides how they're barely gonna get by, Travis makes stump speeches decrying the supposed tyrannical occupation set by the UN. He no longer finds being profitable as assistant director under his boss Valentino. Rather, he finds solace in debating others and freelance work. The current state of Hell is a far cry from what it was before... and Travis feels a sense of opportunity to change his life around for the better.<br><br>After hearing about Hell's first election, Travis can do nothing else but giggle like a little girl. He has been hoping for this day to come—for a day that will help spread his message and notoriety. The obscure sinner has developed a small but cult-like following, obeying his every word and plan. Him being once involved in American politics also gives him an advantage in understanding the new political system Hell has. In a man with his position, left-wing populism—the ideology Travis most subscribes to—will likely bode well with the masses.<br><br>Despite his upsides, Travis has a lot of baggage under his belt—being tied to a controversial former overlord, using his money to hang out with pornstars and gang leaders, and his recent statements decrying those above him possibly meeting a strong reaction, to name a few of many. Travis also doesn't have much with him—just his car, a soapbox, and a trusty megaphone. It's clear he starts off with so little while achieving so high.<br><br>Will the now notable rabble-rouser carry his rise to the presidency? Or will the rising star be eclipsed?</p>",
+            "color_hex": "#6c7373",
+            "secondary_color_hex": "#6c7373",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/wvwksxkZ/Screenshot-20251018-175829-Chrome.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Blitzø",
+            "last_name": "Buckzo",
+            "election": 9,
+            "party": "Prohibition",
+            "state": "Industry District (Wrath Ring)",
+            "priority": 5,
+            "description": "<li><b>Name: Blitzø Buckzo</b></li><li><b>Role: CEO of I.M.P., Former Assassin</b></li><li><b>Character Mechanic: Morality</b></li><div style='overflow-y:scroll;height:200px;'><p>The lowly Imp who started this all; Blitzø has a lot of baggage under his belt. After getting captured by federal agents and being coerced into opening the portal to the underworld for the United Nations, Blitzø has seen his reputation, and in turn his coworkers and his company, fall to dismay. Blitzø has been described as the most unpopular demon in all of hell thanks to his past sins. Rather than teleporting to Earth and killing people for his clients, he's stuck under house arrest, still being determined his sentence in jail. The current state of Hell is a far cry from what it was before... and Blitzø's having none of it.<br><br>Upon the news of Hell's presidential election, the thirst for power and reclamation of what Blitzø once had ultimately convinced him to run. Despite the immense scrutiny Blitzø has received for allowing humans to occupy Satan's chamber, the imp believes the current malaise brought upon by the occupation is a larger problem than he is. As expected, most don't buy it. But some, particularly in the newly formed Prohibition party, take notice.<br><br>According to those closest to him, Blitzø's a flip-flopper on nearly every issue—changing his view to fit the needs of whoever will give him the most votes. In order to even be considered a serious contender, Blitzø shall join a party or listen to his advisors to develop a coherent ideology. Blitzø's ties with an underground Guerrilla movement could either prove a success or a disaster, if he's smart with his cards.<br><br>Can this hell of a boss save face? Or will he get fired and deposed by the voters of Hell?",
+            "color_hex": "#452d2d",
+            "secondary_color_hex": "#452d2d",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/XND8jJqR/RDT-20251018-1756485399956004115572774.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Unity & Salvation",
+            "last_name": "(U&S)",
+            "election": 9,
+            "party": "Unity & Salvation",
+            "state": "Pentagram City",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Danforth served four terms as Senator from Missouri. He has broad experience in government, and as a moderate Republican would reinforce Bush's claim to be a uniter. Danforth also has close relationships with conservative stalwarts such as Kit Bond, Clarence Thomas, and John Ashcroft, and would not arouse undue suspicion from the conservative wing of the party. Winning Missouri back would be a key piece of any Republican victory in 2000.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Reform",
+            "last_name": "(RFM)",
+            "election": 9,
+            "party": "Reform",
+            "state": "Pentagram City",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Tom Ridge is the popular Governor of a large swing state. Pennsylvania's 23 electoral votes would almost ensure a Bush victory if Ridge could deliver them. He has a reputation as an able administrator and has been very tough on crime. However, he has also been pro-choice for his entire career, and his selection as running mate could cause issues with the Republican base in other regions.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "Technocratic",
+            "last_name": "(TPH)",
+            "election": 9,
+            "party": "Technocratic",
+            "state": "Entertainment District",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Colin Powell is a moderate Republican and a key general from the Desert Storm campaign. He enjoys high personal popularity among the American electorate. He would be the first African-American to be a running mate for a major party. It will take some strong inducements to get Powell to run, however. He has repeatedly stated that he is not seeking the role, but perhaps you could persuade him by taking a moderate position on the social issues of the day.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Hell's Egalitarian Liberation League",
+            "last_name": "(HELL)",
+            "election": 9,
+            "party": "HELL",
+            "state": "Pentagram City",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Prohibition",
+            "last_name": "(PRO)",
+            "election": 9,
+            "party": "Prohibition",
+            "state": "Pentagram City/Industry District",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Bob Graham is a Senator and former Governor from Florida. His popularity in that state could be crucial to a Democratic victory in 2000. He is fairly moderate and was one of Bill Clinton's top choices for running mate before Clinton went with Gore. His focus has been on the environment, education, and intelligence issues.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "",
+            "last_name": "Maestro",
+            "election": 9,
+            "party": "Independent",
+            "state": "Pentagram City (Pride Ring)",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#46c5c7",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Kerry is a Senator from Massachusetts. He gained prominence in his youth as a Vietnam Veteran Against the War. He also won a Silver Star in that war. He is a solid liberal on the political spectrum. His home state is strongly Democratic, but his views may help the Democrats reduce the loss of support to Ralph Nader. He can also be helpful in New Hampshire.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "",
+            "last_name": "Crimson",
+            "election": 9,
+            "party": "Hellborn Freedom",
+            "state": "\"The Office\" (Wrath Ring)",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#dea55b",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/evan-bayh-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Evan Bayh is a Senator from Indiana and a former Governor. He is broadly popular in that state and is a leader of the moderate wing of the Democrats. This could help the Democrats compete in the Midwest and South, but it could also alienate the left-wing of the party and drive additional support to Ralph Nader's bid.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Andrealphus",
+            "last_name": "Goetia",
+            "election": 9,
+            "party": "Royalist Restoration",
+            "state": "Itzeland (Wrath Ring)",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#7f3ca6",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "",
+            "last_name": "Others",
+            "election": 9,
+            "party": "Various",
+            "state": "Various",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#7d7d7d",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 148728,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 85872,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 177642,
+        "fields": {
+            "candidate": 81,
+            "running_mate": 86
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            87,
+            88,
+            89,
+            90
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80,
+            81,
+            87,
+            88,
+            89,
+            90
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "5 YPS - The Hazbin Trail Redux"
+    }
+]
+
+jet_data = {
+    "headerColor": "#8a0037",
+    "windowColor": "#990052",
+    "containerColor": "#4a0119",
+    "innerWindowColor": "#990052",
+    "bannerImageUrl": "https://files.catbox.moe/0wmh90.jpeg",
+    "backgroundImageUrl": "https://files.catbox.moe/atbgls.jpeg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "",
+    "gameTitle": "THE HAZBIN TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE HAZBIN TRAIL</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#8a0037";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#990052";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#4a0119";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/4nmu0f.jpg)"
+
+$("#game_window")[0].style.borderColor = "#8a0037"
+
+$(".container")[0].style.border = ".2em solid #8a0037"
+
+document.getElementById("header").src = "https://files.catbox.moe/0wmh90.jpeg";
+
+document.body.background = "https://files.catbox.moe/atbgls.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#990052!important;}</style>";
+
+var element = document.getElementById('my-invisible-element');
+if(!element){
+function changeIntroDescription() {
+  introObserver.disconnect();
+
+  const introTitle = document.querySelector("#inner_window_1 h3");
+  const listItems = document.querySelectorAll("#inner_window_1 ul li");
+
+  if (introTitle) {
+    introTitle.textContent = "The Hazbin Trail: Years Post Salvation";
+  }
+
+  if (listItems) {
+    listItems.forEach(item => {
+      if (item.textContent.includes('candidate')) {
+        item.textContent = item.textContent.replace('candidate', 'character');
+      }
+      if (item.textContent.includes('states')) {
+        item.textContent = item.textContent.replace('states', 'districts');
+      }
+      if (item.textContent.includes('Walk the fine line between appealing to your base and winning a majority of the votes.')) {
+        item.textContent = 'Walk the fine line between appealing to your base and winning a majority of the votes.';
+      }
+    });
+  }
+
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!introObserver){
+  var introObserver = new MutationObserver(changeIntroDescription);
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function modifyForm(){
+  modifiedFormobserver.disconnect();
+
+  const form = document.querySelector('form[name="game_type_selection"]');
+
+  if (form) {
+    const select = form.querySelector('select[name="game_type_id"]');
+    const h3 = form.querySelector('h3');
+    const option = select.querySelector('option[value="1"]');
+
+    if (option && option.textContent !== 'Default (Winner-Take-All)') {
+      option.textContent = 'Winner-Take-All)';
+    }
+    if (select && select.querySelector('option[value="2"]')) {
+      const queryTwo = select.querySelector('option[value="2"]');
+      if (queryTwo) {
+        queryTwo.remove();
+      }
+    }
+    if (h3 && h3.textContent !== 'Select your game mode.') {
+      h3.textContent = 'How would you like to play the mod?';
+    }
+  }
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!modifiedFormobserver){
+  var modifiedFormobserver = new MutationObserver(modifyForm);
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function changeOpponentSelectionDescription() {
+  selectionObserver.disconnect();
+
+  const opponentSelectionDescription = document.getElementById("opponent_selection_description_window");
+  
+  if (opponentSelectionDescription) {
+    opponentSelectionDescription.innerHTML = `<p><strong>Use the US Model of allocating electoral votes for each state.</strong></p><p>In the United States, states use a winner-take-all method. For instance, if Candiate A defeats Candidate B in a state, worth 20 electoral votes, Candidate A will usually win all 20 votes.</p><p>Forced to use this method by the will of the ''World'' (Just America), the election will tend to concentrate into a handful of competitive districts. The method also makes it difficult for third-party candidates to win electoral votes. On the other hand, it is easier for a single candidate to gain an overall majority of the electoral votes... hopefully.</p>`;
+  }
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!selectionObserver){
+  var selectionObserver = new MutationObserver(changeOpponentSelectionDescription);
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your character:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!formobserver){
+  var formobserver = new MutationObserver(updateCandidateForm);
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your party & general ideology:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!runformobserver){
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+function removeCandidateSummary() {
+  sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+if(!sumobserver){
+var sumobserver = new MutationObserver(removeCandidateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+  if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+var invisibleElement = document.createElement('div');
+invisibleElement.style.display = 'none';
+invisibleElement.id = 'my-invisible-element';
+document.body.appendChild(invisibleElement);
+}
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #824a4a;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #824a4a;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #824a4a;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+quotes = ["''Hell is forever, and is meant to suck a lot!'' ~ Adam", "''How the fuck ya fuck up that bad, titty haver?'' ~ Blitzø", "VOXTEK: TRUST US WITH YOUR EVERYTHING", "''The future of Hell belongs to the Vees!''", "''Guess who will be pulling all the strings?'' ~ Alastor", "You're a loser, baby...","TCT written by Vivziepop? lmao so mid", "''Inside of every demon is a rainbow!'' ~ Charlie", "''I'm the furor! I'm immense! I'm the avatar of your consequence!'' ~ Vox", "''It's not mean, exactly. It's... uh, aggressive kindness.'' ~ Charlie", "''Well, I got no chains on me!'' ~ Vox", "''HAIL VOX POPULI: THE PEOPLE'S VOICE!''", "''Just because you see a smile, don't think you know what's going on underneath.'' ~ Alastor", "''I don't have time for this lesbian drama.'' ~ Carmilla Carmine", "''Crack is expensive.'' ~ Angel Dust", "''I'm from fucking Florida!'' ~ Valentino", "''You know I can't understand you when you speak that island language, Val.'' ~ Vox", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE HAZBIN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#8a0037", "header_image_url": "https://files.catbox.moe/mm8o1r.png", "header_text_color": "#f5f3f4", "description_text_color": "#ffffff", "description_background_color": "#990052", "main_color": "#4a0119", "secondary_color": "#8a0037", "ui_text_color": "#FFFFFF" }
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original code 1 inspiration by u/Ivanthegreat66.", "Various codes made by Mangolith & DecStarG, with the base soundtrack code from 2012 Razistorija.", "Featuring art by many people!—RScintillae, Katorishimatsu, & therealone-rolf.", "All characters owned & created by Vivziepop.", "", "DISCLAIMER: This mod contains large amounts of swearing, sexual themes, instances of suicide, and other themes that may be considered NSFW for some. Player discretion is advised.", "", "IMPORTANT NOTE: Due to the terrible worldbuilding of the Hellaverse, various aspects have been imagined/created by the mod author for the sake of a cohesive narrative mod."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/3rgvif.png");
+
+HistHexcolour=["#851448","#611313","#16b5ba","#6c7373"];
+    HistName=[" Charlie Morningstar"," Alastor"," Vox"," Travis/Others"];
+    HistEV=[256,189,121,52];
+    HistPV=["78,832,308","64,460,735","45,228,188","22,825,440"];
+    HistPVP=["37.3%","30.5%","21.4%","10.8%"];
+
+$("#inner_window_1 h3").css("text-align", "center").text("The Hazbin Trail: Years Post Salvation");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://files.catbox.moe/lduvnt.png">\n\n<p>The discovery of demons in the modern era sent shockwaves around the globe. <b>U.S. President Mike Pence,</b> after replacing Donald Trump for the GOP ticket and narrowly defeating Hillary Clinton in the 2016 election, has called upon a holy crusade against Hell. With the support of many religious groups and endorsements from the Christian, Islamic, & Jewish worlds, UN Forces have forged the greatest military operation in human history: <b>Operation Burning Bush.</b> In mere hours, the underworld has been turned into a constant warzone.<br><br>After securing the underworld from the grip of the <b>now-deceased Lucifer and Satan,</b> Hell and its citizens remains adrift in disarray. The world has now been connected to Hell; there's no escape for the damned, even after death. Across the West, <b>a Great Awakening</b> has taken root while religious figures debate whether or not this Hell truly is a place for eternal punishment.<br><br><b>The Occupation of Hell</b> can be described in one word: stormy. Constant terrorist attacks by an <b>underground Guerrilla movement</b> combined with the "re-prisonment" of criminals who died has led to an immense strain on the world economy and the safety of their soldiers. The World can't simply police Hell for too long.</p>\n</span>`;
+
+
+
+document.getElementById('game_start').innerHTML = '<b>Fast Forward 5 Years Later...</b>';
+
+$("#inner_window_1 h3").css("text-align", "center").text("The Hazbin Trail: Years Post Salvation");
+
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://files.catbox.moe/lduvnt.png">\n\n<p>The discovery of demons in the modern era sent shockwaves around the globe. <b>U.S. President Mike Pence,</b> after replacing Donald Trump for the GOP ticket and narrowly defeating Hillary Clinton in the 2016 election, has called upon a holy crusade against Hell. With the support of many religious groups and endorsements from the Christian, Islamic, & Jewish worlds, UN Forces have forged the greatest military operation in human history: <b>Operation Burning Bush.</b> In mere hours, the underworld has been turned into a constant warzone.<br><br>After securing the underworld from the grip of the <b>now-deceased Lucifer and Satan,</b> Hell and its citizens remains adrift in disarray. The world has now been connected to Hell; there's no escape for the damned, even after death. Across the West, <b>a Great Awakening</b> has taken root while religious figures debate whether or not this Hell truly is a place for eternal punishment.<br><br><b>The Occupation of Hell</b> can be described in one word: stormy. Constant terrorist attacks by an <b>underground Guerrilla movement</b> combined with the "re-prisonment" of criminals who died has led to an immense strain on the world economy and the safety of their soldiers. The World can't simply police Hell for too long.</p>\n</span>`;
+
+
+
+document.getElementById('game_start').innerHTML = '<b>Fast Forward 5 Years Later...</b>';
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/n3yt54.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+if (!e.done) {
+e.done = true;
+
+// paste the rest of your code 1 here - it has to be wrapped around the "if (!e.done)" line for it to work on the loader
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+
+
+z.observe(document, { subtree: true, childList: true });
+
+}
+
+campaignTrail_temp.achievements = {
+    // Achievements
+    "Utopia" : {
+    "image" : "https://files.catbox.moe/u0memt.jpg",
+    "description" : "Sing your way to a landslide.",
+    "cannotBeCheated" : true
+    },
+    "Puttin' On The Ritz" : {
+    "image" : "https://files.catbox.moe/nsklie.jpeg",
+    "description" : "Fully revive radio.",
+    "cannotBeCheated" : true
+    },
+    "The New World Order" : {
+    "image" : "https://files.catbox.moe/l27jqu.webp",
+    "description" : "Bury Hell beneath a telescreen.",
+    "cannotBeCheated" : true
+    },
+    "The Second Jackson" : {
+    "image" : "https://files.catbox.moe/mx9spi.jpg",
+    "description" : "Achieve the unexpected.",
+    "cannotBeCheated" : true
+    },
+    "Sympathy For The Wicked" : {
+    "image" : "https://files.catbox.moe/7bjge3.jpg",
+    "description" : "Save face.",
+    "cannotBeCheated" : true
+    },
+    "Usurpation" : {
+    "image" : "https://files.catbox.moe/ecd07u.jpg",
+    "description" : "Go against everything you stood for.",
+    "cannotBeCheated" : true
+    },
+    "At What Cost?" : {
+    "image" : "https://files.catbox.moe/p5dub9.jpg",
+    "description" : "Lose an old colleague, but still reach the finish line.",
+    "cannotBeCheated" : true
+    },
+    "Master Of Puppets" : {
+    "image" : "https://files.catbox.moe/c4efpg.jpg",
+    "description" : "Reveal the strings.",
+    "cannotBeCheated" : true
+    },
+    "Catching The Devil" : {
+    "image" : "https://i.postimg.cc/DzWcfXvB/image.jpg",
+    "description" : "Fight the law... and lose.",
+    "cannotBeCheated" : true
+    },
+    "Fire & Brimstone" : {
+    "image" : "https://files.catbox.moe/krtplm.jpg",
+    "description" : "As Alastor, collude.",
+    "cannotBeCheated" : true
+    },
+    "Television & Its Consequences" : {
+    "image" : "https://files.catbox.moe/gvria1.jpg",
+    "description" : "As Alastor, rally against digital technology at every turn and win.",
+    "cannotBeCheated" : true
+    },
+    "It's Lonely At The Top" : {
+    "image" : "https://files.catbox.moe/a1fihn.jpg",
+    "description" : "Betray everyone & succeed.",
+    "cannotBeCheated" : true
+    },
+    "#Resist" : {
+    "image" : "https://files.catbox.moe/gjwi53.jpg",
+    "description" : "RESIST.",
+    "cannotBeCheated" : true
+    },
+    "Farenheit 451" : {
+    "image" : "https://files.catbox.moe/5vdsac.jpg",
+    "description" : "As Vox, embrace digital technology & AI at every turn and win.",
+    "cannotBeCheated" : true
+    },
+    "By The Barrel Of A Gun" : {
+    "image" : "https://files.catbox.moe/yr8k45.jpg",
+    "description" : "As Travis, kill an opponent.",
+    "cannotBeCheated" : true
+    },
+    "Alliances Of Assholes" : {
+    "image" : "https://files.catbox.moe/x7cwux.jpg",
+    "description" : "As Travis, ally with the worst person running.",
+    "cannotBeCheated" : true
+    },
+    "Darwin Award" : {
+    "image" : "https://files.catbox.moe/cjycsu.jpeg",
+    "description" : "Do a stupid stunt.",
+    "cannotBeCheated" : true
+    },
+    "Now That You're Gone" : {
+    "image" : "https://files.catbox.moe/8y0mrp.jpg",
+    "description" : "As Blitzø, get rid of Stolas and still achieve at least 5%.",
+    "cannotBeCheated" : true
+    },
+    "Kids Die For Free!" : {
+    "image" : "https://files.catbox.moe/71dl6m.jpg",
+    "description" : "Feel the sweet sense of killing... again.",
+    "cannotBeCheated" : true
+    },
+    "Apology Tour" : {
+    "image" : "https://files.catbox.moe/02cn0a.jpg",
+    "description" : "As Blitzø, improve relations with at least 3 of your exes.",
+    "cannotBeCheated" : true
+    },
+    "Deus Vult" : {
+    "image" : "https://files.catbox.moe/2xgjvv.jpg",
+    "description" : "God’s strongest soldiers fight his toughest battles.",
+    "cannotBeCheated" : true
+    },
+    "Roo(t) Of All Evil?" : {
+    "image" : "https://files.catbox.moe/x299l7.jpg",
+    "description" : "Get her to come down.",
+    "cannotBeCheated" : true
+    },
+    "Three Demons Down" : {
+    "image" : "https://files.catbox.moe/75ciqk.jpg",
+    "description" : "Oversee the deaths of 3 overlords in a single playthrough (contextual deaths don't count).",
+    "cannotBeCheated" : true
+    },
+    "Freedom Is Slavery" : {
+    "image" : "https://files.catbox.moe/f3z4nw.jpeg",
+    "description" : "Halt the game halfway through.",
+    "cannotBeCheated" : true
+    },
+    "Luciferian Carnage" : {
+    "image" : "https://files.catbox.moe/6d2823.jpg",
+    "description" : "''You're always on the run now!''",     
+    "cannotBeCheated" : true
+    },
+    "G̸̗̈́l̴͕̚i̵͑ͅt̴̮͗c̶̼͐ḣ̷͓ ̴̬̚í̵̭n̷̤͛ ̴̨̓t̸̺̐ḣ̵̦e̵̯̒ ̵̟̊ś̸̼y̸͎̔s̸̥̾t̵̤͌e̵̹̒m̴̢̊?̸̹̀" : {
+    "image" : "https://files.catbox.moe/1wvrst.jpg",
+    "description" : "Don't break the canon.",
+    "cannotBeCheated" : true
+    },
+    "No Gods, No Masters" : {
+    "image" : "https://files.catbox.moe/0ffpw7.jpg",
+    "description" : "... Lights Out!",
+    "cannotBeCheated" : true
+   }
+}
+
+  //MUSIC PLAYER
+  let currentPlaylist = null;
+  class Track {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.tracks = [];
+      this.currentTrackIndex = 0;
+    }
+  
+    addTrack(track) {
+      this.tracks.push(track);
+    }
+  
+    getCurrentTrack() {
+      return this.tracks[this.currentTrackIndex];
+    }
+  
+    playNext() {
+      this.currentTrackIndex = (this.currentTrackIndex + 1) % this.tracks.length;
+    }
+  
+    playPrevious() {
+      this.currentTrackIndex = (this.currentTrackIndex - 1 + this.tracks.length) % this.tracks.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Track=Track
+  
+	function changePlaylist(newPlaylist) {
+	  if (!newPlaylist || !(newPlaylist instanceof Playlist)) {
+		console.error("Invalid playlist provided.");
+		return;
+	  }
+	  
+	  // Update the current playlist and reset the track index
+	  currentPlaylist = newPlaylist;
+	  currentPlaylist.currentTrackIndex = 0;
+
+	  // Update the UI and start playback
+	  const audio = document.getElementById("audio");
+	  updateUI(currentPlaylist);
+	  audio.src = currentPlaylist.getCurrentTrack().audioLink;
+	  audio.play();
+	}
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentTrack = playlist.getCurrentTrack();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentTrack.getCoverLink();
+      player.querySelector("#title").textContent = currentTrack.getTitle();
+      player.querySelector("#artist").textContent = currentTrack.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const track1 = new Track(
+      "Hazbin Guarantee (Trust Us)",
+      "Hazbin Hotel OST",
+      "https://files.catbox.moe/h0il3a.png",
+      "https://files.catbox.moe/f827pi.mp3"
+    );
+ 
+    const track2 = new Track(
+      "Fire",
+      "The Crazy World Of Arthur Brown",
+      "https://files.catbox.moe/adeeyi.jpg",
+      "https://audio.jukehost.co.uk/ov0PpriJoopP5AQHcrgFcx1g2XTlBqk9"
+    );
+	
+	const track3 = new Track(
+      "Burn In Hell",
+      "Twisted Sister",
+      "https://files.catbox.moe/jwn5ri.jpg",
+      "https://files.catbox.moe/59oer6.mp3"
+    );
+	
+	const track4 = new Track(
+	  "Lucifer Sam",
+      "Pink Floyd",
+      "https://files.catbox.moe/ckhm0l.jpg",
+      "https://audio.jukehost.co.uk/D5dUEhJCwHZP7ROHBzKBQPpCHpIkon3F"
+    );
+	
+	const track5 = new Track(
+      "Hell Ain't A Bad Place To Be",
+      "AC/DC",
+      "https://files.catbox.moe/aw6tkm.jpg",
+      "https://files.catbox.moe/vige6q.mp3"
+    );
+	
+	const track6 = new Track(
+      "Sympathy For The Devil",
+      "The Rolling Stones",
+      "https://files.catbox.moe/bwzyif.jpg",
+      "https://files.catbox.moe/xa4wj5.mp3"
+    );
+	
+	const track7 = new Track(
+      "Hell's Comin' With Me",
+      "Poor Man's Poison",
+      "https://files.catbox.moe/i3cbx0.jpg",
+      "https://files.catbox.moe/rxyx6f.mp3"
+    );
+	
+	const track8 = new Track(
+      "Devil Inside",
+      "INXS",
+      "https://files.catbox.moe/6gtvdp.jpg",
+      "https://files.catbox.moe/dz4v2b.mp3"
+    );
+	
+	const track9 = new Track(
+      "This Is Hell",
+      "Elvis Costello",
+      "https://files.catbox.moe/e8yqai.jpg",
+      "https://files.catbox.moe/iux1xo.mp3"
+    );
+	
+	const track10 = new Track(
+      "Highway To Hell",
+      "AC/DC",
+      "https://files.catbox.moe/axpsnk.jpg",
+      "https://audio.jukehost.co.uk/Rb7tsCl01WKJrUeL9OM0LRi5jtAQtJ6b"
+    );
+  
+    playlist.addTrack(track1);
+	playlist.addTrack(track2);
+	playlist.addTrack(track3);
+	playlist.addTrack(track4);
+	playlist.addTrack(track5);
+	playlist.addTrack(track6);
+	playlist.addTrack(track7);
+	playlist.addTrack(track8);
+	playlist.addTrack(track9);
+	playlist.addTrack(track10);
+	
+	let currentPlaylist = playlist;
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://files.catbox.moe/02xdau.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const trackInfo = document.createElement("div");
+  trackInfo.id = "track-info";
+  
+  const titleElement = document.createElement("p");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  trackInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  trackInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(trackInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://files.catbox.moe/sidgv4.png";
+  prevButton.alt = "Skip Back";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://files.catbox.moe/beot67.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://files.catbox.moe/sbay7m.png";
+  nextButton.alt = "Skip";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://files.catbox.moe/beot67.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://files.catbox.moe/z9qlkj.png"; // Set the play image
+    }
+  });
+  
+	prevButton.addEventListener("click", function () {
+	  if (currentPlaylist) {
+		currentPlaylist.playPrevious(); // Use the current active playlist
+		updateUI(currentPlaylist);
+		const audio = document.getElementById("audio");
+		audio.src = currentPlaylist.getCurrentTrack().audioLink;
+		audio.play();
+	  }
+	});
+
+	nextButton.addEventListener("click", function () {
+	  if (currentPlaylist) {
+		currentPlaylist.playNext(); // Use the current active playlist
+		updateUI(currentPlaylist);
+		const audio = document.getElementById("audio");
+		audio.src = currentPlaylist.getCurrentTrack().audioLink;
+		audio.play();
+	  }
+	});
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+	progressBar.min = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+
+	const volumeContainer = document.createElement("div");
+	volumeContainer.id = "volume-container";
+
+	const volumeBar = document.createElement("input");
+	volumeBar.type = "range";
+	volumeBar.id = "volume-bar";
+	volumeBar.min = "0";
+	volumeBar.max = "1";
+	volumeBar.step = "0.01";
+	volumeBar.value = "1"; // Initial volume
+
+	volumeContainer.appendChild(volumeBar);
+
+	controlsContainer.appendChild(volumeContainer);
+
+	volumeBar.addEventListener("input", function () {
+	  const audio = document.getElementById("audio");
+	  audio.volume = volumeBar.value;
+	});
+	
+	const playlistButton = document.createElement("img");
+	playlistButton.id = "playlistButton";
+	playlistButton.src = "https://files.catbox.moe/3cxpjc.png";
+	playlistButton.alt = "Playlist ''Embers";
+	playlistButton.style.marginTop = "10px";
+
+	const redemptionButton = document.createElement("img");
+	redemptionButton.id = "redemptionButton";
+	redemptionButton.src = "https://files.catbox.moe/00sn2e.png";
+	redemptionButton.alt = "Playlist ''Redemption''";
+	redemptionButton.style.marginTop = "10px";
+
+	const assassinButton = document.createElement("img");
+	assassinButton.id = "assassinButton";
+	assassinButton.src = "https://files.catbox.moe/a9tii9.png";
+	assassinButton.alt = "Playlist ''Assassin''";
+	assassinButton.style.marginTop = "10px";
+
+	playlistButton.addEventListener("click", function () {
+	  changePlaylist(playlist); // Switch to the main playlist
+	  currentPlaylist = playlist;
+	});
+
+	redemptionButton.addEventListener("click", function () {
+	  if (!window.redemption) {
+		const redemption = new Playlist();
+
+		const redemptionTrack1 = new Track(
+		  "Inside Of Every Demon Is A Rainbow",
+		  "Hazbin Hotel Pilot OST",
+		  "https://files.catbox.moe/ctyec0.jpg",
+		  "https://files.catbox.moe/b6wdk4.mp3"
+		);
+
+		const redemptionTrack2 = new Track(
+		  "Addict",
+		  "Silva Hound ft. Michael Kovach & Chi-Chi",
+		  "https://files.catbox.moe/9uner8.jpg",
+		  "https://files.catbox.moe/qka88v.mp3"
+		);
+		
+		const redemptionTrack3 = new Track(
+		  "Insane",
+		  "Black Gryph0n ft. Baasik",
+		  "https://upload.wikimedia.org/wikipedia/en/f/fa/Insane_-_Black_Gryph0n_and_Baasik.png",
+		  "https://files.catbox.moe/jl2af6.mp3"
+		);
+		
+		const redemptionTrack4 = new Track(
+		  "The Other Side",
+		  "Caleb Hyles & Jonathan Young",
+		  "https://files.catbox.moe/z2spft.jpg",
+		  "https://files.catbox.moe/588vub.mp3"
+		);
+		
+		const redemptionTrack5 = new Track(
+		  "Happy Day In Hell",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/ockuw6.jpg",
+		  "https://files.catbox.moe/eanwaw.mp3"
+		);
+		
+		const redemptionTrack6 = new Track(
+		  "Hell Is Forever",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/m1rl2e.mp3"
+		);
+		
+		const redemptionTrack7 = new Track(
+		  "Stayed Gone",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/l9lhic.mp3"
+		);
+		
+		const redemptionTrack8 = new Track(
+		  "Respectless",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/uy9pkb.mp3"
+		);
+		
+		const redemptionTrack9 = new Track(
+		  "Poison",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/i48o3l.jpg",
+		  "https://files.catbox.moe/rcnpmc.mp3"
+		);
+		
+		const redemptionTrack10 = new Track(
+		  "Loser, Baby",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/2y93h7.mp3"
+		);
+		
+		const redemptionTrack11 = new Track(
+		  "Hell's Greatest Dad",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/vn5qjv.mp3"
+		);
+		
+		const redemptionTrack12 = new Track(
+		  "More Than Anything",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/ydtjly.mp3"
+		);
+		
+		const redemptionTrack13 = new Track(
+		  "You Didn't Know",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/7a8nky.mp3"
+		);
+		
+		const redemptionTrack14 = new Track(
+		  "Out For Love",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/7ywgoj.mp3"
+		);
+		
+		const redemptionTrack15 = new Track(
+		  "Ready For This",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/b6pfd7.mp3"
+		);
+		
+		const redemptionTrack16 = new Track(
+		  "Season 1 Finale",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://files.catbox.moe/afbgsb.mp3"
+		);
+		
+		const redemptionTrack17 = new Track(
+		  "Once We Get Up There",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/dmrfqk.mp3"
+		);
+		
+		const redemptionTrack18 = new Track(
+		  "Like You",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/j03xkf.mp3"
+		);
+		
+		const redemptionTrack19 = new Track(
+		  "Sera's Confession",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/wyoup6.mp3"
+		);
+		
+		const redemptionTrack20 = new Track(
+		  "Gravity",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/n3cc4e.mp3"
+		);
+		
+		const redemptionTrack21 = new Track(
+		  "Piss (A Love Song)",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/6f1zn5.mp3"
+		);
+		
+		const redemptionTrack22 = new Track(
+		  "Don't You Forget",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/dyiqsj.mp3"
+		);
+		
+		const redemptionTrack23 = new Track(
+		  "Don't You Forget (Reprise)",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/owscfn.mp3"
+		);
+		
+		const redemptionTrack24 = new Track(
+		  "Bad With Us",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/d3fbxi.mp3"
+		);
+		
+		const redemptionTrack25 = new Track(
+		  "Vox Populi",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/sqxbn9.mp3"
+		);
+		
+		const redemptionTrack26 = new Track(
+		  "Vox Dei",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/e9xqiw.mp3"
+		);
+		
+		const redemptionTrack27 = new Track(
+		  "Love In A Bottle",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/fpxi18.mp3"
+		);
+		
+		const redemptionTrack28 = new Track(
+		  "Losin' Streak",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/hee8xy.mp3"
+		);
+		
+		const redemptionTrack29 = new Track(
+		  "Easy",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/ukrz6l.mp3"
+		);
+		
+		const redemptionTrack30 = new Track(
+		  "Brighter",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/uejpxx.mp3"
+		);
+		
+		const redemptionTrack31 = new Track(
+		  "When I Think About The Future",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/5mmqj0.mp3"
+		);
+		
+		const redemptionTrack32 = new Track(
+		  "Hear My Hope",
+		  "Hazbin Hotel OST",
+		  "https://files.catbox.moe/h0il3a.png",
+		  "https://files.catbox.moe/cbn30k.mp3"
+		);
+
+
+		redemption.addTrack(redemptionTrack1);
+		redemption.addTrack(redemptionTrack2);
+		redemption.addTrack(redemptionTrack3);
+		redemption.addTrack(redemptionTrack4);
+		redemption.addTrack(redemptionTrack5);
+		redemption.addTrack(redemptionTrack6);
+		redemption.addTrack(redemptionTrack7);
+	
+redemption.addTrack(redemptionTrack8);
+	
+redemption.addTrack(redemptionTrack9);
+	
+redemption.addTrack(redemptionTrack10);
+	
+redemption.addTrack(redemptionTrack11);
+	
+redemption.addTrack(redemptionTrack12);
+	
+redemption.addTrack(redemptionTrack13);
+	
+redemption.addTrack(redemptionTrack14);
+	
+redemption.addTrack(redemptionTrack15);
+	
+redemption.addTrack(redemptionTrack16);
+	
+redemption.addTrack(redemptionTrack17);
+	
+redemption.addTrack(redemptionTrack18);
+	
+redemption.addTrack(redemptionTrack19);
+	
+redemption.addTrack(redemptionTrack20);
+	
+redemption.addTrack(redemptionTrack21);
+	
+redemption.addTrack(redemptionTrack22);
+	
+redemption.addTrack(redemptionTrack23);
+	
+redemption.addTrack(redemptionTrack24);
+	
+redemption.addTrack(redemptionTrack25);
+	
+redemption.addTrack(redemptionTrack26);
+	
+redemption.addTrack(redemptionTrack27);
+	
+redemption.addTrack(redemptionTrack28);
+	
+redemption.addTrack(redemptionTrack29);
+	
+redemption.addTrack(redemptionTrack30);
+	
+redemption.addTrack(redemptionTrack31);
+		redemption.addTrack(redemptionTrack32);
+
+		window.redemption = redemption;
+	  }
+	  changePlaylist(window.redemption);
+	  currentPlaylist = redemption;
+	});
+
+
+assassinButton.addEventListener("click", function () {
+	  if (!window.assassin) {
+		const assassin = new Playlist();
+
+		const assassinTrack1 = new Track(
+		  "IMP Jingle",
+		  "Helluva Boss Pilot OST",
+		  "https://files.catbox.moe/s2k9uk.jpg",
+		  "https://files.catbox.moe/phrvxl.mp3"
+		);
+
+		const assassinTrack2 = new Track(
+		  "Just Look My Way (Stolas' Lament)",
+		  "PARANOiD DJ",
+		  "https://files.catbox.moe/0quhg4.jpeg",
+		  "https://files.catbox.moe/69licb.mp3"
+		);
+
+		const assassinTrack3 = new Track(
+		  "Your Soul Is Mine!",
+		  "Caleb Hyles",
+		  "https://files.catbox.moe/hxext8.jpg",
+		  "https://files.catbox.moe/kwduov.mp3"
+		);
+
+		const assassinTrack4 = new Track(
+		  "Root Of All Evil",
+		  "Silva Hound ft. Erica Lindbeck & The Stupendium",
+		  "https://files.catbox.moe/afwqq4.jpg",
+		  "https://files.catbox.moe/cwiqyn.mp3"
+		);
+
+		const assassinTrack5 = new Track(
+		  "You Will Be Okay",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/45aphv.jpeg",
+		  "https://files.catbox.moe/2637i7.mp3"
+		);
+
+		const assassinTrack6 = new Track(
+		  "Moxxie's Bad Trip",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/45aphv.jpeg",
+		  "https://files.catbox.moe/5znh1e.mp3"
+		);
+
+		const assassinTrack7 = new Track(
+		  "House Of Asmodeus",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/45aphv.jpeg",
+		  "https://files.catbox.moe/b7bz97.mp3"
+		);
+
+		const assassinTrack8 = new Track(
+		  "Cotton Candy",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/45aphv.jpeg",
+		  "https://files.catbox.moe/b7m50p.mp3"
+		);
+
+		const assassinTrack9 = new Track(
+		  "Look At This",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/17mrvt.mp3"
+		);
+
+		const assassinTrack10 = new Track(
+		  "Klown Bitch",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/7e8biu.mp3"
+		);
+
+		const assassinTrack11 = new Track(
+		  "Two Minutes Notice",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/a1rmc4.mp3"
+		);
+
+		const assassinTrack12 = new Track(
+		  "When I See Him",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/vy7diw.mp3"
+		);
+
+		const assassinTrack13 = new Track(
+		  "All 2 U (Motherfucker)",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/bj79ro.mp3"
+		);
+
+		const assassinTrack14 = new Track(
+		  "Mastermind",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/s90uda.mp3"
+		);
+
+		const assassinTrack15 = new Track(
+		  "I Will Be Okay",
+		  "Helluva Boss OST",
+		  "https://files.catbox.moe/3cr38w.jpeg",
+		  "https://files.catbox.moe/4yn7c1.mp3"
+		);
+		
+
+		assassin.addTrack(assassinTrack1);
+
+assassin.addTrack(assassinTrack2);
+	
+assassin.addTrack(assassinTrack3);
+	
+assassin.addTrack(assassinTrack4);
+	
+assassin.addTrack(assassinTrack5);
+	
+assassin.addTrack(assassinTrack6);
+	
+assassin.addTrack(assassinTrack7);
+	
+assassin.addTrack(assassinTrack8);
+	
+assassin.addTrack(assassinTrack9);
+	
+assassin.addTrack(assassinTrack10);
+	
+assassin.addTrack(assassinTrack11);
+	
+assassin.addTrack(assassinTrack12);
+	
+assassin.addTrack(assassinTrack13);
+	
+assassin.addTrack(assassinTrack14);
+	
+assassin.addTrack(assassinTrack15);
+
+		window.assassin = assassin;
+	  }
+	  changePlaylist(window.assassin);
+	  currentPlaylist = assassin;
+	});
+
+	progressBarContainer.appendChild(playlistButton);
+	progressBarContainer.appendChild(redemptionButton);
+
+progressBarContainer.appendChild(assassinButton);
+	
+    playerContainer.appendChild(controlsContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+	let isDragging = false; // Track whether the user is dragging the progress bar
+
+	progressBar.addEventListener("mousedown", function (event) {
+	  isDragging = true;
+	  updateAudioCurrentTime(event); // Update the audio time immediately on click
+	});
+
+	document.addEventListener("mousemove", function (event) {
+	  if (isDragging) {
+		updateAudioCurrentTime(event);
+	  }
+	});
+
+	document.addEventListener("mouseup", function () {
+	  if (isDragging) {
+		isDragging = false;
+	  }
+	});
+
+	function updateAudioCurrentTime(event) {
+	  const audio = document.getElementById("audio");
+	  const progressBarRect = progressBar.getBoundingClientRect();
+	  const clickPositionX = event.clientX - progressBarRect.left;
+	  const progressWidth = progressBarRect.width;
+	  const newTime = (clickPositionX / progressWidth) * audio.duration;
+
+	  // Set the new time to the audio element and update the progress bar
+	  audio.currentTime = Math.max(0, Math.min(newTime, audio.duration)); // Ensure time is within bounds
+	  progressBar.value = (audio.currentTime / audio.duration) * 100;
+	}
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentTrack().audioLink;
+  
+	audio.addEventListener("ended", function () {
+	  if (currentPlaylist) {
+		currentPlaylist.playNext();
+		updateUI(currentPlaylist);
+		audio.src = currentPlaylist.getCurrentTrack().audioLink;
+		audio.play();
+	  } else {
+		console.error("No playlist!");
+	  }
+	});
+	
+	audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressBar.value = progress;
+        }
+    });
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      display: flex;
+      flex-direction: row;
+      height:191px;
+	  width:976px;
+      background-Image: url("https://itsastronomical.com/assets/music/blackbar.png");
+      border: 3px solid #8a0037; /* Add your desired border style */
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+	  height: 176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+	  width:127px;
+    margin-top: 3px;
+    }
+  
+    #track-info {
+      width: 100%;
+      padding-left: 5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+      padding-top:15px;
+	}
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+	  background-color: #5c0a0a;
+	  border-radius: 2px;
+    }
+
+	#volume-bar {
+	  appearance: none;
+	  width: 100px;
+	  height: 25px;
+	  background-color: #000000 !important;
+	  border-radius: 1px;
+	  overflow: hidden;
+	}
+
+	#volume-bar::-webkit-slider-runnable-track {
+	  background: linear-gradient(to right, #00fffa var(--volume, 100%), #ccc 0%);
+	  border-radius: 4px;
+	}
+
+	#volume-bar::-webkit-slider-thumb {
+	  appearance: none;
+	  width: 12px;
+	  height: 12px;
+	  background: #00fffa;
+	  border-radius: 50%;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	  margin-top: -2px;
+	}
+
+	#volume-bar::-moz-range-track {
+	  background: linear-gradient(to right, #00fffa var(--volume, 100%), #ccc 0%);
+	  border-radius: 4px;
+	}
+
+	#volume-bar::-moz-range-thumb {
+	  width: 12px;
+	  height: 12px;
+	  background: #00fffa;
+	  border-radius: 50%;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+	
+	#prevButton {
+      filter: drop-shadow(black 0.5rem 0.5rem 10px);
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+    }
+	
+	#playPauseButton {
+      filter: drop-shadow(black 0.5rem 0.5rem 10px);
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+    }
+	#nextButton {
+      filter: drop-shadow(black 0.5rem 0.5rem 10px);
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+    }
+	#playlistButton {
+	  margin-left: 4.7em;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+	#redemptionButton {
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+	#assassinButton {
+	  margin-right: 4.7em;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+	#progress-bar::-webkit-progress-bar {
+	  background-color: #ccc;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+
+	#progress-bar::-webkit-progress-value {
+	  background-color: #00fffa;
+	}
+
+	#progress-bar::-moz-progress-bar {
+	  background-color: #00fffa;
+	}
+	#volume-container {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  width: 40px;
+	  height: 100%;
+	  margin-left: 44em;
+	  margin-top: -9em;
+	}
+	#volume-bar {
+	  transform: rotate(-90deg);
+	  width: 100px; 
+	  margin: -15em;
+	  background-color: #261818; 
+	  border-radius: 2px;
+	  cursor: url("https://file.garden/Zrv1pPC1HzBK0svl/image%20(4).png") -5 10, auto;
+	}
+    
+  `;
+
+	document.head.appendChild(style);
+
+	const gameWindow_player = document.getElementById("game_window");
+	//use this function directly or put it in an event listener to start the music on the press of a certain button
+	setupMusicPlayer();
+
+//#endcode
