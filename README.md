@@ -148,6 +148,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1996: A New Age**
 - Creation Date: December 31st, 2025
 
+**1876 South Carolina: Keep It Burning**
+- Creation Date: December 31st, 2025
+
 -------
 
 And now? I'm creating/editing even more Code 1s...
