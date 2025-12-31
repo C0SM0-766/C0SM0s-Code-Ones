@@ -1,0 +1,771 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 8,
+        "fields": {
+            "year": 1860,
+            "summary": "<p>Eight years after the end of the Civil War and start of Reconstruction, South Carolina's gubernatorial election of 1876 is dominated by race riots and civil unrest that threaten to tear the state apart at the seams.<br><br>• Wade Hampton III attempts to present himself as a moderate Democrat who will promote peace amid the chaos of Reconstruction, while his armed surrogates fan the flames of racial tension.<br><br>• Daniel Henry Chamberlain tries to hold the line and prevent Democratic intimidation from preventing his re-election via the black Republican majority.</p>",
+            "image_url": "https://files.catbox.moe/yuq5y9.jpg",
+            "winning_electoral_vote_number": 152,
+            "advisor_url": "https://files.catbox.moe/b9o26t.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>\rDavid Herbert Donald - <a href=\"http://www.amazon.com/exec/obidos/ASIN/068482535X/amhius20-20\">Lincoln</a><br>\rRobert W. Johannsen - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0252066359/amhius20-20\">Stephen A. Douglas</a><br>\rHarriet Jacobs - <a href=http://docsouth.unc.edu/fpn/jacobs/jacobs.html\">Incidents in the Life of a Slave Girl</a><br>\rSolomon Northup - <a href=\"http://docsouth.unc.edu/fpn/northup/northup.html\">Twelve Years a Slave</a><br>\r<a href=\"https://suite.io/michael-streich/3cr92nv\">Abraham Lincoln, Stephen Douglas, and the Election of 1860</a><br>\r<a href=\"http://www.greatamericanhistory.net/nomination.htm\">How Lincoln Won the 1860 Republican Nomination</a><br>\r<a href=\"http://flattopshistorywarpolitics.yuku.com/topic/619/John-Bell-for-president-1860#.U8BmbY1dVZ0\">John Bell for President, 1860</a><br>\r<a href=\"http://faculty.virginia.edu/jajenkins/ES.pdf\">Running to Lose? The Candidacy of John C. Breckinridge</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1876SC"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 67,
+        "fields": {
+            "first_name": "Wade",
+            "last_name": "Hampton III",
+            "election": 8,
+            "party": "Democratic",
+            "state": "Charleston County",
+            "priority": 40,
+            "description": "<p>A former slave owner who served in the Confederate army as a lieutenant general, Wade Hampton III is the first Democratic gubernatorial candidate in the Palmetto State since 1868.<br><br>Hampton is running on behalf of the \"Redeemers\", a coalition of southern Democrats wishing to bring back white rule after a decade of Reconstruction. He will present himself as a moderate statesman promising order as the state is engulfed in bloody racial violence, much of which is carried out by his own supporters, and will campaign on a Democratic platform which has no policy specifics.<br><br>Victory for him will be dependent on how much the vote of the black Republican majority can be suppressed at the ballot.</p>",
+            "color_hex": "#3e5987",
+            "secondary_color_hex": "#3e5987",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/v26ath.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1860 Presidential Election.</h3><p>Don't celebrate just yet, however. Word has already arrived that South Carolina is planning a secession convention, with other states soon to follow. Your Presidency will surely be defined by how you deal with this challenge. Will you take a hard line against this action, seek a compromise Amendment to protect slavery, or simply allow the states to secede? There are few good choices for you.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1860 Presidential Election.</h3><p>You began this campaign as the heavy favorite, but somehow things just didn't come together for you. Hopefully the nation will survive the next four years, at which point the Republicans can field a candidate who promises to win. The only positive you can take out of this is that the Southern threats of secession seem to have quieted down with your defeat.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Congress will now choose from the top three candidates in the electoral vote count. You are highly unlikely to be the compromise candidate in this situation, however. It is unclear whether Congress will select Douglas or Bell, or if they will deadlock and precipitate a Constitutional crisis. If Douglas is selected, how would the South react? There are even whispers about a civil war.</p>",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 68,
+        "fields": {
+            "first_name": "Daniel Henry",
+            "last_name": "Chamberlain",
+            "election": 8,
+            "party": "Republican",
+            "state": "Charleston County",
+            "priority": 41,
+            "description": "<p>Daniel Henry Chamberlain is the incumbent Republican governor of South Carolina, and is running for a second two-year term.<br><br>With his party now united in the face of aggression by the Democrats' \"Red Shirts\" militias active across the state, Chamberlain's victory will depend on whether their tactics of violent voter intimidation will successfully weaken the black Republican majority that makes up practically his entire voter base.<br><br>While he is the only candidate running on a detailed policy platform of reform and cleaning up government, some of the down ballot nominations on his ticket face serious allegations of corruption and black supremacy, which will hurt him. He will also have to face attacks of being a carpetbagger, given that he is a Massachusetts native.</p>",
+            "color_hex": "#873e3e",
+            "secondary_color_hex": "#873e3e",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/0363m7.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1860 Presidential Election.</h3><p>How on earth did you pull this off? Hopefully you can soothe the frayed nerves from this turbulent campaign, and move the country past its slavery issues of the 1850s. Your supporters are already preparing a compromise amendment, offering permanent protection for slavery in the South in return for the admission of more free states. An invasion of Cuba may also be in order.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1860 Presidential Election.</h3><p>You began this campaign as the heavy underdog, and sure enough you were shut out of the North and South alike. Depending on what happens next, you may be called upon to keep the Democratic Party loyal to the Union. There are already rumblings of secession from several Southern states.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>Congress will now choose from the top three candidates in the electoral vote count. If you are in the top three, you have a great chance. Otherwise, Bell will be the favorite. Your supporters are already preparing a compromise amendment, offering permanent protection for slavery in the South in return for the admission of more free states. You will likely have to make such promises to prevent a deadlock in the House vote.</p>",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 69,
+        "fields": {
+            "first_name": "South Carolina",
+            "last_name": "Democratic Party",
+            "election": 8,
+            "party": "Democratic",
+            "state": "Statewide",
+            "priority": 42,
+            "description": "<p>John C. Breckinridge is the Southern answer to Stephen Douglas as Democrat nominee. Like Douglas, Breckinridge has little chance of winning the election outright. He does have a good chance of winning all or most of the Southern states, though.</p><p>As an ardent pro-slavery candidate (a \"Fire-Eater\"), it is Breckenridge's job to defend the <em>Dred Scott</em> decision and represent the slaveholding interests in any House negotiations that would ensue after a deadlocked Electoral College.</p>",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-c-breckenridge-1860.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 70,
+        "fields": {
+            "first_name": "South Carolina",
+            "last_name": "Republican Party",
+            "election": 8,
+            "party": "Republican",
+            "state": "Statewide",
+            "priority": 43,
+            "description": "<p>John Bell is a former Whig who has no stated position on the slavery issue, in spite of himself being a slaveholder. Bell's only position is to fight for the preservation of the Union under any circumstance. The vagueness of this stance is both an asset and a liability.</p><p>Bell's stronghold is the border states. His goal is to be another voice at the table, should Lincoln fail to win the Electoral College, and broker a compromise that would prevent the secession of any Southern states.</p>",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-bell-1860.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 92384,
+        "fields": {
+            "candidate": 67,
+            "running_mate": 69
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 123683,
+        "fields": {
+            "candidate": 68,
+            "running_mate": 70
+        }
+    }
+]
+
+campaignTrail_temp.credits = "u/astrohunch_o"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 28,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 8,
+        "candidates": [
+            67,
+            68
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 8,
+        "candidates": [
+            67,
+            68
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 8,
+        "year": 1860,
+        "is_premium": 0,
+        "display_year": "1876 South Carolina: Keep It Burning"
+    }
+]
+
+jet_data = {
+    "headerColor": "#613f32",
+    "windowColor": "#b8765e",
+    "containerColor": "#b17a66",
+    "innerWindowColor": "#c49382",
+    "bannerImageUrl": "https://files.catbox.moe/1ds50h.jpg",
+    "backgroundImageUrl": "https://files.catbox.moe/ierl6s.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#613f32";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#c49382";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#b17a66";
+
+$("#game_window")[0].style.backgroundColor = "#b8765e"
+
+$("#game_window")[0].style.borderColor = "#613f32"
+
+$(".container")[0].style.border = ".2em solid #613f32"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/1ds50h.jpg";
+
+document.body.background = "https://files.catbox.moe/2jzvcv.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#cc9c8b!important;}</style>";
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#613f32",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffffff",
+  "description_background_color": "#613f32",
+  "main_color": "#b17a66",
+  "secondary_color": "#613f32",
+ "ui_text_color": "#ffffff"
+}
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/arvp4d.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>u/astrohunch_o</button>";
+  
+window.credits = function() {
+  const creditsList = ["Liquid Astro (u/astrohunch_o) for the writing & coding.", "", "Code 1 exported by C0SM0.", "Some codes provided by DecstarG & Mangolith."];
+
+  const text = "This code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#3e5987","#873e3e","#000000","#000000"];
+    HistName=[" Wade Hampton III"," Daniel Henry Chamberlain"," -"," -"];
+    HistEV=[18,14,0,0];
+    HistPV=["92,261","91,127","-","-"];
+    HistPVP=["50.3%","49.7%","-","-"];
+
+    e.SelectText = "Please select the election you will run in:"
+    e.CandidText = "Please select your candidate:"
+    e.VpText = "Please confirm your party:"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #b8765e;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/cvf9c4.jpg");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+if (!e.done) {
+e.done = true;
+
+// paste the rest of your code 1 here - it has to be wrapped around the "if (!e.done)" line for it to work on the loader
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+
+
+z.observe(document, { subtree: true, childList: true });
+
+}
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to win a violent Gubernatorial election?");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>Introducing <b>Keep It Burning.</b></li><li>Play as either <b>Wade Hampton III</b> or <b>Daniel H. Chamberlain</b> and find out if you can win the election for South Carolina Governor.</li><li>You will answer questions about your platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both statewide and in individual counties.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>Let us Commence.</b>';
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#b8765e;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#b8765e;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Palmetto Tunes",
+
+    tracklist: [
+
+      {
+
+        name: "Oh! Susanna (2nd South Carolina String Band)",
+
+        url: "https://files.catbox.moe/gpme2w.m4a",
+
+      },
+
+      {
+
+        name: "Dixie's Land (2nd South Carolina String Band)",
+
+        url: "https://files.catbox.moe/3gwd2t.mp3",
+
+      },
+
+      {
+
+        name: "Hard Times Come Again No More (97th Regimental String Band)",
+
+        url: "https://files.catbox.moe/sp7gug.mp3",
+
+      },
+
+      {
+
+        name: "An Old Unreconstructed (Waylon Jennings)",
+
+        url: "https://files.catbox.moe/rd6a4f.mp3",
+
+      },
+
+      {
+
+        name: "Battle Cry Of Freedom (2nd South Carolina String Band)",
+
+        url: "https://files.catbox.moe/bg9rtr.mp3",
+
+      },
+
+      {
+
+        name: "Unreconstructed Rebel (Bittersweet & Briers)",
+
+        url: "https://files.catbox.moe/wqihgw.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+//#endcode
