@@ -1,0 +1,1221 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "<p>America is in a very unfortunate place heading into its bicentennial. The recent resignations of Spiro Agnew & Richard Nixon allowed long-time candidate Nelson Rockefeller to clench the presidency at a time of domestic turmoil. The economy remains stagnant as inflation and unemployment eat away the jobs of common Americans. The Soviets remain a threat as South Vietnam falls & the failures of Tricky Dick loom large over the Republic.<br><br>Americans increasingly turn towards the Democrats for answers with California governor Jerry Brown. Some conservatives upset at Rockefeller's shock victory against Reagan flock to Jesse Helms' right-wing third party candidacy hoping to send the election to the House, leaving president Rockefeller to fight an uphill battle.</p>",
+            "image_url": "https://files.catbox.moe/2bw9go.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/ffik4l.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1976 - Time For Healing"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Nelson",
+            "last_name": "Rockefeller",
+            "election": 10,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>After sixteen years of trying, Nelson Rockefeller has become President in the worst way imaginable.<br><br>Sidelined by Ford's former staffers during his time as Vice-President, Rockefeller has now had to undergo the task of actually being President - a very stressful job. However, he's mostly acted as a caretaker: attending foreign events and overseeing the nation's bicentennial. In the time since Ford's passing, Rocky has remained broadly popular with most of America. His gentle leadership has been appreciated by those still sore from Watergate.<br><br>Unfortunately, his chances seem ever more unlikely, as he faces a Southern splinter in the form of Senator Jesse Helms. To win the election, Rocky needs to pin down Brown on his unpopular ideas, while trying to put out the fire raging from the party's conservative wing. If he can do those two things successfully, then this election is his to win.</p>",
+            "color_hex": "#b53534",
+            "secondary_color_hex": "#b53534",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/prqjd4.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "Jerry",
+            "last_name": "Brown",
+            "election": 10,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 2,
+            "description": "<p>Riding a wave of youth displeasure, Edmund Gerald Brown Jr. has a serious shot at winning the Presidency here.<br><br>With the assassination of Ford happening right outside his office, Brown took it upon himself to ensure that Squeaky Fromme received the harsh hand of the law, becoming famous for his prosecution of her. Using that fame, he instantly became a front-runner for the nomination, and, snatched up the nomination using momentum carried by wins in Illinois and New York. At 38, Brown is the youngest person ever nominated for the Democrats.<br><br>Brown supports a variety of odd and quirky policies for a Democrat, key among them being his fiscal conservatism, which could open up some interesting coalitions. Despite that, he is still a solid liberal on the day's social topics. To win, Brown needs to hammer his strengths and argue that the Republicans can't be trusted from Watergate.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/zvc6z9.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "Jesse",
+            "last_name": "Helms",
+            "election": 10,
+            "party": "Conservative",
+            "state": "North Carolina",
+            "priority": 3,
+            "description": "<p>In a vein similar to that of George Wallace, the Senate's so-called \"most conservative Senator\" runs the third wheel.<br><br>A staunch opponent to Rockefeller from the very beginning, being one of the few Senators to vote against his confirmation to the Vice-Presidency, Helms emphatically supported Reagan's insurgent bid for the nomination this year, stumping heavily for him in the South. Yet with the party machinery gearing towards Rockefeller, Helms decided the time to act was now, and announced the formation of a brand new \"Conservative\" party.<br><br>Helms has no way of winning outright, but he doesn't need to. His main options in this election are to shift the Overton window to the right, ensure conservatism lives another day, and deny Nelson Rockefeller his second term in office. However, Helms is a bit demagogic and has very limited national appeal, being centered mainly in the South.</p>",
+            "color_hex": "#c89a3c",
+            "secondary_color_hex": "#c89a3c",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/8yyucf.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "Eugene",
+            "last_name": "McCarthy/Others",
+            "election": 10,
+            "party": "Independent/Various",
+            "state": "Minnesota/Various",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#3cc848",
+            "secondary_color_hex": "#3cc848",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Bush",
+            "election": 10,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/nwjhtn.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The current C.I.A director, a former ambassador, and a House member, Bush's resume might be small, but it's tight.<br><br>Despite being born into New England wealth, Bush turned himself into a made man through the oil fields of Texas. Bush would allow you to gain an additional edge in the foreign policy sphere. Despite supporting Goldwater's bid over you in 1961, the two of you share a decent enough working relationship. Additionally, Texas would be in play with him as your number two.<br><br>Despite giving your campaign a Southern edge, he would be far from the player you need to dissuade Helms, and his selection would come as a betrayal to some Dems, who allowed Bush to become C.I.A director on the promise he would not become V.P. Overall, Bush allows you to play into the South, while not pushing away your base.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "Guy Vander",
+            "last_name": "Jagt",
+            "election": 10,
+            "party": "Republican",
+            "state": "Michigan",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/cnwrm6.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>An ingrained Representative from a key state this fall, Guy Vander Jagt would be a strong choice for the election.<br><br>Acclaimed by Richard Nixon as \"the best public speaker in America\" Jagt would be an incredibly strong choice if your current focus is on simply winning this election. A standard conservative, he could potentially help quell some dissatisfaction from your nomination, and while not a strong enough olive branch to Helms, he could temper the reactionary revolt's more bitter elements. Jagt could help you in the greater Midwest as well, being from Ford's state.<br><br>The main issue regarding Jagt is that he could make some issues for the next four years if you win, given the two of you's different perceptions of conservative politics. His appeal to Reaganites could also push away some of the more fringe elements of your centrist support base. Overall, If you're looking for short-term gain, Jagt is your guy.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 97,
+        "fields": {
+            "first_name": "Clifford",
+            "last_name": "Hansen",
+            "election": 10,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/n2wva7.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The popular populist, Clifford Peter Hansen is the right mix of pragmatic and conservative you need this year.<br><br>Born in a too-small town in the rural Wyoming countryside, Hansen learned from a young age about the importance of education, and it's an issue that he holds close to this day. Hansen's main appeal lies in his deeply conservative nature, as he has been floated as an option to limit Helms' appeal to the most die-hard reactionaries. Hansen would lock down the Rockies, and bring a folksy sheen to a campaign that desperately lacks it.<br><br>Hansen would be quite a gamble though, as many see him as too conservative for you - he voted against the C.R.A. Additionally, Wyoming is already in your corner, and you'd be depressing the majority of your base, some states in the Northeast could be out of play with Hansen. Overall, if you want to focus on Helms, then Clifford's your guy.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Schweiker",
+            "election": 10,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/0fi2f7.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Brought to the mainstream due to the primaries, the Pennsylvanian would be a surprising pick for the V.P slot.<br><br>Coming from a small-town church community in rural Pennsylvania, Schweiker started his political career young. After an eight year stint in the House, he was elected to the Senate despite Humphrey's overwhelming win in 1968. Schweiker would reinforce the ticket as a moderate one, and his membership on the Church Committee would help with voters concerned about integrity in Government. He would certainly help you in the Northeast as well.<br><br>Schweiker is an interesting choice due to him being Ronald Reagan's preferred running mate, and campaigned for him as well, meaning the two of you aren't exactly close. Despite that, he'll only galvanize Helms' candidacy, and would potentially cause you trouble even in the solid Rockies. Overall, he's a gamble, but perhaps it's a worthy risk.\n</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Ella",
+            "last_name": "Grasso",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/ourn80.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Only the fourth female Governor ever elected to the office, Ella Grasso would be an exotic, if not historic pick.<br><br>Born to Italians in a sleepy Connecticut town, Grasso quickly became a political icon as a member of the League of Women's Voters, and after being persuaded to run for Governor in 1975, won a historic victory. Grasso would represent more or less a reinforcing of your core beliefs. Fiscal responsibility and liberal social views. Being an Italian Catholic, she would help lock down New England and combat Rockefeller's influence in the Northeast.<br><br>Despite the nature of this historic pick, she does little to expand your coalition. She supported Scoop Jackson in the primaries and is a bit hesitant to be your running mate in general. Not to mention Helms' making Grasso a feature of his attacks. Overall, if you're looking to play it safe while still challenging the norm, Grasso is the gal for you.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Edwin",
+            "last_name": "Edwards",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Louisiana",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/etam26.jpeg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>A staunch ally of yours in the South, and one that has lobbying for the V.P. slot, Edwin Edwards is certainly an ally.<br><br>Born in the rural corners of Louisiana, Edwards became a Representative in 1965, and quickly catapulted his name in local politics, and won the Governorship in 1972. Edwards is a vital ally of yours, and helped secure Louisiana's delegates for you during the primaries. Edwards would give your campaign a populist spin, and with his sharp wit and touches of humor, can certainly hold his own while stumping. He can help in Louisiana against Helms.<br><br>Edwards' main drawbacks come from the fact that he can't combat Helms in the greater South, and some unsubstantiated reports of seedy behavior while Governor. His willingness to secure rights for minorities also hurts you with more... fringe voters. Overall, Edwards would be a safer choice and could help balance the ticket's views.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Floyd",
+            "last_name": "Haskell",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Colorado",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/3m09ng.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The current Senator from Colorado, Floyd Kirk Haskell would do well as an establishment olive branch.<br><br>Hailing from New Jersey, this Coloradan saw serious action during World War 2, and saw firsthand the destruction inflicted on Hiroshima. Following a brief period in the Colorado House, he was elected in a nail-biter win against incumbent Gordon Allot in 1972, despite Nixon sweeping the state by hundreds of thousands of votes. Haskell would signal to party leaders that you plan on running a more calm administration, and Haskell would help with it.<br><br>Despite helping in Colorado and the Rockies, Haskell doesn't add much. You and him are both environmentalists, and both support tax reform. Unfortunately for Floyd, he's in the midst of a divorce proceeding right now, which Helms would certainly jump on. Overall, Haskell would let party insiders calm down while fortifying your strengths.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Eagleton",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Missouri",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/n9a1at.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Despite the shenanigans four years ago, some of your advisors think Eagleton would do your campaign good.<br><br>A big city kid, Thomas Eagleton started out a lowly lawyer, but climbed the rungs of the political ladder and eventually found himself as the state of Missouri's youngest-ever Attorney General at 31. Soon enough, he was elected Senator in a state that voted narrowly for Nixon. Eagleton would help give your campaign some additional rural appeal, and as a practicing Catholic, can appeal to New Englanders. Missouri should also be in your court now.<br><br>The biggest thing holding Eagleton back is the fiasco that saw him ejected off the ticket four years ago, and while his reputation has recovered, the news will still poke at it every chance they get. Eagleton also strongly opposes abortion, which could hurt you with liberals. Overall, Eagleton is a risk, but maybe you need to gamble this one.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "Bo",
+            "last_name": "Callaway",
+            "election": 10,
+            "party": "Republican",
+            "state": "Colorado",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/nseyv5.jpeg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The former Secretary of the Army, Howard Hallis Calloway answered the call when you sent out for a running mate.<br><br>Born into a prominent Georgia family, he served in the Army during the Korean War. Calloway built up a reputation as a conservative during his singular term in the House before trying and failing to run for Governor of Georgia. Calloway is a more respectable pick and could help you pick off dissatisfied Conservatives, alongside giving you an additional boost in both the states of Georgia and Colorado. His army bonafides could also help with Veterans.<br><br>The main drawback of Calloway is that he doesn't offer much else in the way of strategies, he's a stock conservative who is willing to campaign for the ticket. Additionally, he was a Democrat until Goldwater ran in 1964. Overall, if you're looking to pay it safe with a decent pick who won't overshadow you, then Calloway is your guy.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "Earl",
+            "last_name": "Butz",
+            "election": 10,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/skyczt.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>An enemy of Rockefeller with a long history in the agricultural sector, Earl Butz could give your campaign legitimacy.<br><br>With roots in a small dairy farm in Indiana, Butz's farm fondness runs deep in his blood. In 1954, he became the Assistant Secretary of Agriculture under Benson and Eisenhower, and despite a failed run at the Indiana Governorship in 1968, remained relevant for Nixon to appoint him as his Agricultural Secretary in 1971. Butz could give your campaign a real edge in the Farm states and especially the Rockies, given his popular policies.<br><br>Despite this, Butz's policies have come under critique from some for allowing the rise of so-called \"Agribusiness\" and the slow death of the small family farm. Butz himself is also more of a bureaucrat than anything, meaning he's an weak campaigner. Overall, if you're looking to blitz into the farm states and the Rockies, then Butz is your guy.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 105,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Buchanan",
+            "election": 10,
+            "party": "Republican",
+            "state": "Virginia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/uxwbos.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>A rigid conservative, the youthful and staunch Nixon ally and communications director would be an excellent choice.<br><br>Patrick Joseph Buchanan was born into a large Catholic household and was shaped by his surroundings. A supporter of Goldwater's bid in 1964, he stood out to many as an excellent writer and a rising star within the party. Soon enough, he found himself as a trusted advisor of Nixon, becoming his inside man and a speechwriter for the President. Buchanan could give your campaign a younger face to look at while helping in the Mid-Atlantic.<br><br>However, Buchanan is not very well known, and his only real experience being an advisor to Nixon would open up attacks to inexperience. Buchanan himself is advocating for you to adopt a more pro-Nixon stance regarding Watergate. Overall, if you want to focus on optics and have a young face on board, then Pat's the man for you.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 106,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Running Mates",
+            "election": 10,
+            "party": "Various",
+            "state": "Various",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 66,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 62,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 63,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 100
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 59,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 96
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 60,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 97
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 61,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 98
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 64,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 101
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 65,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 102
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 111817,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 104
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 90994,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 105
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 112164,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 106
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Jimbo"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1976 - Time For Healing"
+    }
+]
+
+jet_data = {
+    "headerColor": "#563c3e",
+    "windowColor": "#f8be55",
+    "containerColor": "#853a2f",
+    "innerWindowColor": "#f8be55",
+    "bannerImageUrl": "https://files.catbox.moe/cxwf6b.png",
+    "backgroundImageUrl": "https://files.catbox.moe/q5pov7.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#563c3e";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f8be55";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#853a2f";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/aedf72.png)"
+
+$("#game_window")[0].style.borderColor = "#563c3e"
+
+$(".container")[0].style.border = ".2em solid #563c3e"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/cxwf6b.png";
+
+document.body.background = "https://files.catbox.moe/q5pov7.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f8be55!important;}</style>";
+
+quotes = ["''America is not just a power, it is a promise.'' ~ Nelson Rockefeller", "''It is not enough for our country to be extraordinary in might; it must be exemplary in meaning.'' ~ Nelson Rockefeller", "''As President, I would work toward international creation of a new world order.'' ~ Nelson Rockefeller", "''Republican attacks are without basis, but when the Democrats attack me they're usually right.'' ~ Jerry Brown", "''It doesn't matter what I say as long as I sound different from other politicians.'' ~ Jerry Brown", "''We're going to move left and right at the same time.'' ~ Jerry Brown", "''White people, wake up before it is too late.'' ~ Jesse Helms", "''If you want to call me a bigot, fine.'' ~ Jesse Helms", "''I fight for what I believe. If you are not willing to stand up for what you believe, your beliefs are not strong enough.'' ~ Jesse Helms", "''My fellow Americans, our long national nightmare is over.'' ~ Gerald Ford", "''Let us remember that our national unity is a most priceless asset.'' ~ Gerald Ford", "''... There is no such thing as a left or right. There is only an up or down.'' ~ Ronald Reagan", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>The 1976 Presidential Election</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#563c3e", "header_image_url": "https://files.catbox.moe/2sls5v.png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#f8be55", "main_color": "#853a2f", "secondary_color": "#563c3e", "ui_text_color": "#FFFFFF" }
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/czs9xc.jpg");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #563c3e;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/e9h6ry.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>Jimbo</button>";
+  
+window.credits = function() {
+  const creditsList = ["Jimbo, for the writing, theme, & original redux concept.", "C0SM0, for the images, soundtrack, & code 1.", "", "Original mod made by u/DillWesmond27.", "Various codes provided by DecStarG & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#3761b5","#b53534","#c89a3c","#3cc848"];
+    HistName=[" Jerry Brown"," Nelson Rockefeller"," Jesse Helms"," Eugene McCarthy/Others"];
+    HistEV=[278,195,65,0];
+    HistPV=["37,507,764","37,412,448","5,044,582","1,011,894"];
+    HistPVP=["46.3%","46.2%","6.2%","1.2%"];
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#f8be55;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#f8be55;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "An American Trilogy (Elvis Presley)",
+
+        url: "https://files.catbox.moe/m75mzz.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Rocky & A Hard Place",
+
+    tracklist: [
+
+      {
+
+        name: "Bang A Gong (T.Rex)",
+
+        url: "https://files.catbox.moe/4i5h6r.mp3",
+
+      },
+
+      {
+
+        name: "New York's A Lonely Town (The Tradewinds)",
+
+        url: "https://files.catbox.moe/7jgiyc.mp3",
+
+      },
+
+      {
+
+        name: "Why Can't We Be Friends? (War)",
+
+        url: "https://files.catbox.moe/k0cpq1.mp3",
+
+      },
+
+      {
+
+        name: "Why Did It Have To Be Me (ABBA)",
+
+        url: "https://files.catbox.moe/7efb06.mp3",
+
+      },
+
+      {
+
+        name: "Big Yellow Taxi (Joni Mitchell)",
+
+        url: "https://files.catbox.moe/9nux6l.mp3",
+
+      },
+
+      {
+
+        name: "Have You Ever Seen The Rain (Creedence Clearwater Revival)",
+
+        url: "https://files.catbox.moe/pe8ts2.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Moonbeam Marauder",
+
+    tracklist: [
+
+      {
+
+        name: "California Dreamin' (The Mama's & The Papa's)",
+
+        url: "https://files.catbox.moe/50zp5f.mp3",
+
+      },
+
+      {
+
+        name: "Tryin' (Eagles)",
+
+        url: "https://files.catbox.moe/dljhux.mp3",
+
+      },
+
+      {
+
+        name: "Young Americans (David Bowie)",
+
+        url: "https://files.catbox.moe/4cjpcg.mp3",
+
+      },
+
+      {
+
+        name: "Freedom (Jimi Hendrix)",
+
+        url: "https://files.catbox.moe/1o2x0x.mp3",
+
+      },
+
+      {
+
+        name: "Street Fighting Man (The Rolling Stones)",
+
+        url: "https://audio.jukehost.co.uk/SWAh5qmf5hl4eqvpODwAKcq93GoBJaWy",
+
+      },
+
+      {
+
+        name: "Are You Ready For The Country (Neil Young)",
+
+        url: "https://files.catbox.moe/j1e6cy.mp3",
+
+      },
+
+    ],
+
+},
+
+3: {
+
+    name: "At The Helm Of Reaction",
+
+    tracklist: [
+
+      {
+
+        name: "Things Goin' On (Lynyrd Skynyrd)",
+
+        url: "https://files.catbox.moe/pwdyyb.mp3",
+
+      },
+
+      {
+
+        name: "The Night They Drove Old Dixie Down (The Band)",
+
+        url: "https://files.catbox.moe/s5kqnd.mp3",
+
+      },
+
+      {
+
+        name: "Oney (Johnny Cash)",
+
+        url: "https://files.catbox.moe/xybu0h.mp3",
+
+      },
+
+      {
+
+        name: "Settin' The Woods On Fire (Hank Williams)",
+
+        url: "https://files.catbox.moe/144bco.mp3",
+
+      },
+
+      {
+
+        name: "Dixie Chicken (Little Feat)",
+
+        url: "https://files.catbox.moe/uiw3fa.mp3",
+
+      },
+
+      {
+
+        name: "The South's Gonna Do It Again (The Charlie Daniels Band)",
+
+        url: "https://files.catbox.moe/8w3erm.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+//#endcode
