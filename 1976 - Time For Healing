@@ -299,7 +299,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 103,
         "fields": {
             "first_name": "Bo",
-            "last_name": "Callaway",
+            "last_name": "Calloway",
             "election": 10,
             "party": "Republican",
             "state": "Colorado",
