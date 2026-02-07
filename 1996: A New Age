@@ -562,7 +562,7 @@ function setupMusicPlayer() {
   const songs = [
     ["Pressure","Billy Joel","https://upload.wikimedia.org/wikipedia/en/e/e8/PressureBillyJoel.jpg","https://files.catbox.moe/59ikq4.mp3"],
     ["Walkin' On The Sun","Smash Mouth","https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690","https://files.catbox.moe/jgcx50.mp3"],
-    ["Man In The Box","Alice In Chains","https://upload.wikimedia.org/wikipedia/en/2/21/Man_In_The_Box_CD.jpeg","https://files.catbox.moe/2yhy6l.mp3"],
+    ["Man In The Box","Alice In Chains","https://upload.wikimedia.org/wikipedia/en/4/43/Alice_In_Chains-Facelift.jpg","https://files.catbox.moe/2yhy6l.mp3"],
     ["Burnout","Green Day","https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg","https://files.catbox.moe/6fmlsj.mp3"],
     ["Mailman","Soundgarden","https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg","https://files.catbox.moe/3s6s6n.mp3"],
     ["Man On A Mission","Bad Religion","https://upload.wikimedia.org/wikipedia/en/c/c3/BadReligionRecipeForHate.jpg","https://files.catbox.moe/ewofcg.mp3"],
