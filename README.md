@@ -160,7 +160,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **2008 - The Tempest.**
 - Creation Date: February 7th, 2026
 
-**1997-2001: PERPETUAL AMERICAN TERROR**
+**1997-2000: PERPETUAL AMERICAN TERROR**
 - Creation Date: February 13th, 2026
 
 -------
