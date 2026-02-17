@@ -1,0 +1,1569 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 4,
+        "fields": {
+            "year": 1968,
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>\nThroughout the 1940s & '50s, <b>Vincent Whittman</b> has captured all of American Television. From once a measly weather reporter to now controlling the strings of the most viewed cable news networks, Vincent has undoubtedly lived the American dream. But for some like himself, it is never enough to have it all. Yes, he's the de facto controller of American television, but it just doesn't cut it for a greedy guy like him.<br><br>Venturing into the realm of American politics seems to sate his desires. Coming out as a Democrat & winning the governorship for the state of Maryland, his ascendancy to the Vice Presidency was secured. With him on the ticket, John F. Kennedy was able to gain the state and exceeding expectations—he miraculously held onto southern swing states such as Texas.<br><br>The Vice Presidency wasn't worth a bucket of warm piss. Whittman found himself doing frustratingly little as the Kennedys took on most of actual governing. With a heart now filled full of resentment, he visits the CIA, gets into contact with an obscure Dallas native, and hands him a Carcano Rifle with one mission:<br><br><b>Kill the president.</b></p>",
+            "image_url": "https://files.catbox.moe/wky5gm.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/ZKSPvXW2/Screenshot-20260210-002325-Chrome.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4><a href=\"http://uselectionatlas.org/RESULTS/national.php?year=1968\" target=\"_blank\">Final 1968 Results</a><br>Theodore White - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061900648/amhius20-20\" target=\"_blank\">The Making of the President 1968 (Landmark Political)</a><br>Rick Perlstein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B003E7ET0S/amhius20-20\" target=\"_blank\">Nixonland: The Rise of a President and the Fracturing of America</a><br><h4>By the Candidates</h4>Richard Nixon - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0448143747/amhius20-20\" target=\"_blank\">The Memoirs of Richard Nixon</a><br>Hubert Humphrey - <a href=\"http://www.youtube.com/watch?v=8nwIdIUVFm4\" target=\"_blank\">1948 Civil Rights speech</a><br>George Wallace - <a href=\"https://www.youtube.com/watch?v=DcNv4aQI_QQ\" target=\"_blank\">1967 speech on dissent and intellectualism</a><br><h4>The Vietnam War</h4> Stanley Karnow - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0140265473/amhius20-20\" target=\"_blank\" >Vietnam: A History</a><h4>Misceallany</h4><a href=\"http://www.jahrbuch2001.studien-von-zeitfragen.net/Weltmacht/Secret_of__68/secret_of__68.html\" target=\"_blank\">Secret of '68</a><br><a href=\"http://www.propublica.org/article/living-apart-how-the-government-betrayed-a-landmark-civil-rights-law\" target=\"_blank\">Living Apart: How the Government Betrayed a Landmark Civil Rights Law</a><br><a href=\"http://www.nytimes.com/2012/09/05/business/the-gops-journey-from-the-liberal-days-of-nixon.html\" target=\"_blank\">The G.O.P.'s Journey From the Liberal Days of Nixon</a><br><a href=\"http://www.umich.edu/~lawrace/votetour10.htm\" target=\"_blank\">George Wallace and the 1968 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://files.catbox.moe/vpbbb6.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1963-1964: VOX POPULI"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 23,
+        "fields": {
+            "first_name": "Vincent",
+            "last_name": "Whittman",
+            "election": 4,
+            "party": "Democratic",
+            "state": "President Of The United States (1963-)",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>At the strike of a bullet, then president John F. Kennedy has been assassinated. Aboard Air Force One, Whittman took the oath of office—honoring to preserve, protect and defend the Constitution of the United States. It's an oath he knows to keep, a promise to live by, a rule to preserve.<br><br>But he won't.<br><br>He got to the mountaintop through dirty tactics—slander, corruption, even murder. If it works, why stop here? Why limit yourself by protecting a document written by dead old men nearly 200 years ago? It doesn't make sense for a man like Vincent, the embodiment of greed.<br><br>What does Vincent want? <b>Power. Unlimited and Unchecked Power.</b> And what better to obtain that feat by making the 1964 election a total, complete Landslide victory for him?</p>",
+            "color_hex": "#59c7c2",
+            "secondary_color_hex": "#59c7c2",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/84c07p.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>In one of the great turnarounds of American politics, you have salvaged your once-wrecked political career and shed your label as a 'loser' once and for all. As it turns out, the press <em>will</em> have Nixon to kick around.</p><p>If you can end the War in Vietnam and roll back the excesses of the Great Society, you may just go down as a truly great President. Good luck working with a Democratic Congress, however...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>Never has a candidate been so far ahead in a Presidential election, only to come up short. After your heartbreaking loss in 1960, it's going to take a long while for you to recover from this new defeat.</p><p>The American public will never know what might have transpired with you in the Oval Office. As it is, you are sure to enjoy a long retirement after this one...</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate holds a majority in the electoral college.</h3><p>Wallace's machinations have succeeded. The election will go to the House of Representatives where the Democrats hold a clear majority.</p><p>You do hold some cards however -- Humphrey would certainly rather make concessions to you, rather than deal with George Wallace. Perhaps you could obtain a place in his Administration, or some assurances on a policy issue of your choice.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.666,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 24,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republi-Cunts",
+            "election": 4,
+            "party": "Republican",
+            "state": "Opposition Party",
+            "priority": 2,
+            "description": "'",
+            "color_hex": "#782828",
+            "secondary_color_hex": "#782828",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>It looked like a hopeless case as you accepted the nomination, but you have run an outstanding campaign in the interval.</p><p>Now you must press forward with your efforts to defend the Great Society and to end the war in Vietnam. Failure in the latter case could be devastating when you seek reelection in 1972. After all, just look at what happened to the once-lustrous reputation of Lyndon Johnson over the past four years...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>You may have performed admirably under trying circumstances, but it was always a tough sell for you after the chaos at the Democratic Convention in Chicago.</p><p>Your only consolation is that Nixon himself is a former loser. Even so, this is a horrednous turn of events for Democrats after the landslide of 1964. The best you can do now is to plot a comeback to the Senate, or as a candidate for President in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate achieved a majority in the electoral college.</h3><p>Fortunately for you the Democrats have won a majority of the nation's Congressional delegations. Unfortunately, you also have to deal with George Wallace. He will not allow the Southern states to support any candidate who advocates desegregation.</p><p>Your best chance, sadly, is to try to broker a deal with Nixon or with other moderate Republicans.</p><p>You are the likely winner, but who knows where this all ends?</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.7,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 25,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Unpledged Dipshits ",
+            "election": 4,
+            "party": "Independent/Democratic",
+            "state": "Electors",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#bf7d13",
+            "secondary_color_hex": "#bf7d13",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Wow! You have won the 1968 election in a shocker!</h3><p>Dixie forever! Even with the Long Hot Summer of 1967, nobody guessed that you could do well enough in the Northern states to win the election outright. You have instantly become most polarizing President-elect since Abraham Lincoln.</p>",
+            "electoral_loss_message": "<h3>Sorry, you did not prevent an electoral college majority.</h3><p>You put in a good effort, but your dream of brokering an end to desegregation will not come to fruition in 1968. No winning candidate will negotiate that point with you unless they absolutely have no choice.</p><p>The best you can do for now is continue to sound the call for a return to sanity in American politics. Perhaps if the riots and discord continue, you will have a better chance of making your voice heard in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have deadlocked the electoral college with your votes in the South.</h3><p>In a close election, your electoral votes in the South have prevented either candidate from winning a majority. Get ready to put the squeeze on Humphrey and Nixon.</p><p>Of course, you still have to deal with the possibility that Humphrey and Nixon dislike you so much that they will simply strike a deal with each other. Whatever happens, it's sure to be interesting.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 55,
+        "fields": {
+            "first_name": "The Voice On The",
+            "last_name": "Television",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Senior Advisor To The President (1963-)",
+            "priority": 29,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/xtempe.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>The Voice on the television is getting louder. The thirst for eternal power has consumed you whole, even going so far as to make you orchestrate the Kennedy Assassination. Mainstream news say Oswald did it by himself. Good. They don't know what really happened that day. The Voice has guided you on the path to becoming a God; without it, where would you be?<br><br>It'll be a better Vice than whoever you'll select next year. It is more useful than Congress themselves—sincerely, fuck that cabal of boring losers. Whatever useful idiot you'll pick to be on the ticket can easily be casted aside the same way you were under Jack. You wouldn't have it any other way.<br><br>The stage is lit, the cameras are on; <b>it's all on you to win it all.</b></p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 58,
+        "fields": {
+            "first_name": "Some",
+            "last_name": "Random-Nobody",
+            "election": 4,
+            "party": "Republican",
+            "state": "God Knows What",
+            "priority": 33,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Muskie is a Senator from Maine, and although he has a low national profile he could help Humphrey solidify his base and carry the Northeastern states.</p><p>By going with Muskie, Humphrey would probably be writing off most of the South and also would be giving Nixon an opening among moderate voters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 62,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Dixie Bitch",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Being A Loser",
+            "priority": 37,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A famous (some say infamous) General in the Army for many years, LeMay is dismayed by the prospect of Richard Nixon accepting nuclear parity with the Soviet Union. He also is drawn to Wallace's message of social order.</p><p>LeMay is prone to make off the cuff remarks about the use of nuclear weapons, however, which could lead to concerns about Wallace's foreign policy vision.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 63,
+        "fields": {
+            "first_name": "Eric",
+            "last_name": "Hass/Others",
+            "election": 4,
+            "party": "Various",
+            "state": "Glub Shitto",
+            "priority": 38,
+            "description": "n/a",
+            "color_hex": "#2f732a",
+            "secondary_color_hex": "#2f732a",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A Democratic Senator from Kentucky and former Commissioner of Major League Baseball, Chandler would give Wallace's outsider campaign some credibility.</p><p>As a conservative Democrat, Chandler supports the calls for law and order and fiscal conservatism. However, he will not stand as Wallace's running mate unless he softens his rhetoric on segregation, which in turn could alienate other Southern states.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 64,
+        "fields": {
+            "first_name": "Eric",
+            "last_name": "Hass",
+            "election": 4,
+            "party": "Socialist Workers'",
+            "state": "Being A Crybaby",
+            "priority": 39,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>The most mainline Southerner among Wallace's options, Thurmond did well in his own right when running in 1948.</p><p>Thurmond's presence could help tilt the Carolinas in Wallace's direction, but it will take every ounce of Wallace's persuasive acumen to get Thurmond to agree to run.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 41,
+        "fields": {
+            "candidate": 25,
+            "running_mate": 62
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 37,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 58
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 33,
+        "fields": {
+            "candidate": 23,
+            "running_mate": 55
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 99862,
+        "fields": {
+            "candidate": 63,
+            "running_mate": 64
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25,
+            63
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25,
+            63
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 4,
+        "year": 1968,
+        "is_premium": 0,
+        "display_year": "1963-1964: VOX POPULI"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#000000",
+    "containerColor": "#000000",
+    "innerWindowColor": "#000000",
+    "bannerImageUrl": "https://i.postimg.cc/2SZBNc1H/Untitled110-20260216215035.png",
+    "backgroundImageUrl": "https://files.catbox.moe/1vhq91.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000000";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/nuvrfv.png)"
+
+$("#game_window")[0].style.borderColor = "#59c7c2"
+
+$(".container")[0].style.border = ".2em solid #59c7c2"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://i.postimg.cc/2SZBNc1H/Untitled110-20260216215035.png";
+
+document.body.background = "https://files.catbox.moe/1vhq91.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#000000!important;}</style>";
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to win in a Landslide?");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>TV Personality turned US politician <b><span style="color: #000000;">Vincent Whittman</span></b> thinks so.</li><li>In this scenario, you will play as a deeply immoral and opportunist person who only cares about his power.</li><li>As president, you will answer questions about your actions and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states. Be careful.</li><li>Utilize all propaganda tools in order to win 538 Electoral Votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, and secret endings.</li><li>Shall we proceed?</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>Indeed. Trust ME With Your Country.</b>';
+
+corrr = `
+  <h2 style="
+    font-family: 'Sans-serif', 'Arial', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #13e8f0;
+    text-shadow: 0 0 15px rgba(19, 232, 240, 0.9),
+                 0 0 30px rgba(19, 232, 240, 0.6);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    VOX POPULI
+  </h2>
+`;
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://files.catbox.moe/zb2jey.png", "header_text_color": "#59c7c2", "description_text_color": "#59c7c2", "description_background_color": "#1c1c1c", "main_color": "#000000", "secondary_color": "#1c1c1c", "ui_text_color": "#59c7c2" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/auvq4w.png");
+
+e.HomeStateText = "Occupation:";
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original code 1 concept & TV Portrait by u/SureCryptographer240.", "All fictional characters created and owned by Vivziepop.", "Various codes provided by RTTJ, DecStarG, & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#59c7c2","#782828","#bf7d13","#2f732a"];
+    HistName=[" Vincent Whittman"," Barry Goldwater"," Unpledged Electors"," Eric Hass/Others"];
+    HistEV=[538,0,0,0];
+    HistPV=["44,713,721","25,021,654","76,277","767,992"];
+    HistPVP=["63.4%","35.5%","0.1%","1.1%"];
+
+    e.SelectText = "Select your scenario:"
+    e.CandidText = "Introducing the President."
+    e.VpText = "Introducing the Vice President...?"
+
+const fontLink = document.createElement('link');
+fontLink.href = "https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oranienbaum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Six+Caps&display=swap";
+fontLink.rel = "stylesheet";
+document.head.appendChild(fontLink);
+
+class Song {
+constructor(title, artist, coverLink, audioLink) {
+  this.title = title;
+  this.artist = artist;
+  this.coverLink = coverLink;
+  this.audioLink = audioLink;
+}
+getTitle() {
+  return this.title;
+}
+
+getArtist() {
+  return this.artist;
+}
+
+getCoverLink() {
+  return this.coverLink;
+}
+
+getAudioLink() {
+  return this.audioLink;
+}
+}
+
+class Playlist {
+constructor() {
+  this.songs = [];
+  this.currentSongIndex = 0;
+}
+
+addSong(song) {
+  this.songs.push(song);
+}
+
+getCurrentSong() {
+  return this.songs[this.currentSongIndex];
+}
+
+playNext() {
+  this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+}
+
+playPrevious() {
+  this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+}
+}
+window.Playlist=Playlist
+window.Song=Song
+
+function changePlaylist(newPlaylist) {
+playlist = newPlaylist;
+playlist.currentSongIndex = 0;
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio();
+audio.play();
+}
+window.changePlaylist=changePlaylist
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  var player = document.getElementById("player");
+  player.querySelector("#cover").src = currentSong.getCoverLink();
+  player.querySelector("#title").textContent = currentSong.getTitle();
+  player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+window.updateUI=updateUI
+
+let getAudioAmplitude = (time) => 0;
+
+async function isBraveBrowser() {
+  if (window.navigator.brave && await window.navigator.brave.isBrave()) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+async function decodeAudio(audioSrc) {
+try {
+  if (await isBraveBrowser()) return null; 
+
+  const audioContext = new AudioContext();
+  const response = await fetch(audioSrc);
+  const arrayBuffer = await response.arrayBuffer();
+  const buffer = await audioContext.decodeAudioData(arrayBuffer);
+
+  const sampleRate = buffer.sampleRate;
+  const totalSamples = buffer.length;
+  const numChannels = buffer.numberOfChannels;
+
+  // Reduce memory usage by processing every 32nd sample
+  const downsampleFactor = 32;
+  const reducedSize = Math.floor(totalSamples / downsampleFactor);
+  
+  let amplitudes = new Float32Array(reducedSize);
+  let meanAmplitude = 0;
+
+  for (let i = 0; i < reducedSize; i++) {
+    let sum = 0;
+    for (let channel = 0; channel < numChannels; channel++) {
+      sum += buffer.getChannelData(channel)[i * downsampleFactor] ** 2; 
+    }
+    amplitudes[i] = sum / numChannels; 
+    meanAmplitude += amplitudes[i];
+  }
+
+  meanAmplitude /= reducedSize;
+
+  getAudioAmplitude = function (time) {
+    const delay = 0.17;
+    let index = Math.floor((time + delay) * sampleRate / downsampleFactor);
+    index = Math.min(index, reducedSize - 1);
+    let amplitudeNorm = amplitudes[index] / (2 * meanAmplitude);
+    return Math.min(amplitudeNorm, 1);
+  };
+
+  console.log("Audio decoded successfully!");
+
+} catch (error) {
+  console.error("Error decoding audio:", error);
+}
+}
+
+  
+function setupMusicPlayer() {
+
+playlist = new Playlist();
+
+const song1 = new Song(
+  "Brighter",
+  "Christian Borle",
+  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
+  "https://files.catbox.moe/uejpxx.mp3"
+);
+
+const song2 = new Song(
+"Dazed And Confused",
+"Led Zeppelin",
+"https://files.catbox.moe/i1wav4.jpg",
+"https://files.catbox.moe/x0082k.mp3"
+);
+
+const song3 = new Song(
+"Suspicious Minds",
+"Elvis Presley",
+"https://www.bear-family.com/media/image/ed/3b/86/RCA69336_600x600.jpg",
+"https://files.catbox.moe/kulmjf.mp3"
+);
+
+const song4 = new Song(
+  "(You're The) Devil In Disguise",
+  "Elvis Presley",
+  "https://upload.wikimedia.org/wikipedia/en/9/94/Elvis_Devil_in_Disguise.jpg",
+  "https://file.garden/Zrv1pPC1HzBK0svl/Elvis%20Presley%20-%20(You're%20The)%20Devil%20in%20Disguise%20(Official%20Audio).mp3"
+);
+
+const song5 = new Song(
+  "Somebody Nobody Wants",
+  "Dion",
+  "https://files.catbox.moe/rh8159.jpg",
+  "https://files.catbox.moe/vknvf9.mp3"
+);
+
+const song6 = new Song(
+  "I Fought The Law",
+  "The Crickets",
+  "https://files.catbox.moe/iczq39.jpg",
+  "https://files.catbox.moe/8n739x.mp3"
+);
+
+const song7 = new Song(
+  "The Crucifixion",
+  "Phil Ochs",
+  "https://files.catbox.moe/s1xji2.jpg",
+  "https://audio.jukehost.co.uk/rgge7w0JSXm0HgLwuxGpTTmTbQSoCMOj"
+);
+
+const song8 = new Song(
+  "VOX DEI",
+  "Christian Borle",
+  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
+  "https://files.catbox.moe/e9xqiw.mp3"
+);
+
+
+
+playlist.addSong(song1);
+playlist.addSong(song2);
+playlist.addSong(song3);
+playlist.addSong(song4);
+playlist.addSong(song5);
+playlist.addSong(song6);
+playlist.addSong(song7);
+playlist.addSong(song8);
+
+const playerContainer = document.createElement("div");
+playerContainer.id = "player";
+
+const displayBox = document.createElement("div");
+displayBox.id = "display-box";
+
+const coverElement = document.createElement("img");
+coverElement.id = "cover";
+displayBox.appendChild(coverElement);
+
+const infoContainer = document.createElement("div");
+infoContainer.id = "info-container";
+infoContainer.style.backgroundSize = "cover";
+infoContainer.style.color = "#71d4c1";
+infoContainer.style.position = "relative";
+infoContainer.style.border = "1px solid #71d4c1";
+infoContainer.style.marginLeft = "2px";
+infoContainer.style.backgroundColor = "black";
+infoContainer.style.textShadow = "0 0 20px #71d4c1";
+
+// Local time display (user's device time)
+const localTime = document.createElement("div");
+localTime.id = "local-time";
+localTime.style.position = "absolute";
+localTime.style.bottom = "4%";
+localTime.style.right = "4%";
+localTime.style.minWidth = "70px";
+localTime.style.display = "inline-block";
+localTime.style.textAlign = "right";
+localTime.style.whiteSpace = "nowrap";
+localTime.style.fontVariantNumeric = "tabular-nums";
+localTime.style.fontFeatureSettings = '"tnum"';
+localTime.style.fontFamily = "Inter";
+localTime.style.fontSize = "12px";
+localTime.style.color = "#71d4c1";
+localTime.style.textShadow = "0 0 10px #71d4c1";
+infoContainer.appendChild(localTime);
+
+// Build time DOM so blinking colons don't change layout width
+const localTimeHours = document.createElement("span");
+localTimeHours.id = "local-time-hours";
+
+const localTimeColon1 = document.createElement("span");
+localTimeColon1.id = "local-time-colon-1";
+localTimeColon1.textContent = ":";
+
+const localTimeMinutes = document.createElement("span");
+localTimeMinutes.id = "local-time-minutes";
+
+const localTimeColon2 = document.createElement("span");
+localTimeColon2.id = "local-time-colon-2";
+localTimeColon2.textContent = ":";
+
+const localTimeSeconds = document.createElement("span");
+localTimeSeconds.id = "local-time-seconds";
+
+localTime.appendChild(localTimeHours);
+localTime.appendChild(localTimeColon1);
+localTime.appendChild(localTimeMinutes);
+localTime.appendChild(localTimeColon2);
+localTime.appendChild(localTimeSeconds);
+
+const updateLocalTime = () => {
+  const now = new Date();
+  localTimeHours.textContent = String(now.getHours()).padStart(2, "0");
+  localTimeMinutes.textContent = String(now.getMinutes()).padStart(2, "0");
+  localTimeSeconds.textContent = String(now.getSeconds()).padStart(2, "0");
+
+  const showColons = Math.floor(Date.now() / 1000) % 2 === 0;
+  const visibility = showColons ? "visible" : "hidden";
+  localTimeColon1.style.visibility = visibility;
+  localTimeColon2.style.visibility = visibility;
+};
+updateLocalTime();
+setInterval(updateLocalTime, 500);
+
+
+const songInfo = document.createElement("div");
+songInfo.id = "song-info";
+
+const titleElement = document.createElement("h3");
+titleElement.id = "title";
+titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+songInfo.appendChild(titleElement);
+
+const artistElement = document.createElement("p");
+artistElement.id = "artist";
+songInfo.appendChild(artistElement);
+
+infoContainer.appendChild(songInfo);
+displayBox.appendChild(infoContainer);
+
+playerContainer.appendChild(displayBox);
+
+const controlsContainer = document.createElement("div");
+controlsContainer.id = "controls-container";
+
+const controls = document.createElement("div");
+controls.id = "controls";
+
+// Create the image element for the button
+const prevButton = document.createElement("img");
+prevButton.id = "prevButton";
+prevButton.src = "https://i.imgur.com/HOLAKL2.png"; // Default image
+prevButton.alt = "Previous";
+controls.appendChild(prevButton);
+
+// Add event listeners for mousedown and mouseup
+prevButton.addEventListener("mousedown", function() {
+  prevButton.style.filter = "brightness(0.4)";
+});
+
+prevButton.addEventListener("mouseup", function() {
+  prevButton.style.filter = "brightness(1)";
+});
+
+
+prevButton.addEventListener("mouseleave", function() {
+  prevButton.style.filter = "brightness(1)";
+});
+
+const playPauseButton = document.createElement("img");
+playPauseButton.id = "playPauseButton";
+playPauseButton.src = "https://i.imgur.com/MUCxlaS.png"; // Set the default Pause image
+playPauseButton.alt = "Play/Pause";
+controls.appendChild(playPauseButton);
+
+const nextButton = document.createElement("img");
+nextButton.id = "nextButton";
+nextButton.src = "https://i.imgur.com/HVfruxg.png"; // Default image for "Next"
+nextButton.alt = "Next";
+controls.appendChild(nextButton);
+
+
+nextButton.addEventListener("mousedown", function() {
+  nextButton.style.filter = "brightness(0.4)";
+});
+
+nextButton.addEventListener("mouseup", function() {
+  nextButton.style.filter = "brightness(1)";
+});
+
+
+nextButton.addEventListener("mouseleave", function() {
+  nextButton.style.filter = "brightness(1)";
+});
+
+const frequencyContainer = document.createElement("div");
+frequencyContainer.id = "frequency-container";
+
+const frequency1 = document.createElement("div");
+frequency1.id = "frequency1";
+
+const frequency2 = document.createElement("div");
+frequency2.id = "frequency2";
+
+const frequency3 = document.createElement("div");
+frequency3.id = "frequency3";
+
+frequencyContainer.appendChild(frequency1);
+frequencyContainer.appendChild(frequency2);
+frequencyContainer.appendChild(frequency3);
+
+controlsContainer.appendChild(frequencyContainer);
+controlsContainer.appendChild(controls);
+
+// Play/Pause functionality with image toggle
+playPauseButton.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  if (audio.paused) {
+    audio.play();
+    playPauseButton.src = "https://i.imgur.com/MUCxlaS.png"; // Pause image
+  } else {
+    audio.pause();
+    playPauseButton.src = "https://i.imgur.com/BKXWOcD.png"; // Set the play image
+    updateProgressBar();
+  }
+});
+
+
+// Press effect for the play/pause button
+playPauseButton.addEventListener("mousedown", function() {
+    playPauseButton.style.filter = "brightness(0.4)"; 
+});
+
+
+playPauseButton.addEventListener("mouseup", function() {
+    playPauseButton.style.filter = "brightness(1)"; 
+});
+
+playPauseButton.addEventListener("mouseleave", function() {
+    playPauseButton.style.filter = "brightness(1)"; 
+});
+
+nextButton.addEventListener("click", function () {
+playlist.playNext();
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.play();
+});
+
+prevButton.addEventListener("click", function () {
+playlist.playPrevious();
+updateUI(playlist);
+const audio = document.getElementById("audio");
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.play();
+});
+
+
+
+// Create the progress bar container
+const progressBarContainer = document.createElement("div");
+progressBarContainer.id = "progress-bar-container";
+
+// Create time displays (current / total)
+const currentTimeDisplay = document.createElement("span");
+currentTimeDisplay.id = "current-time";
+currentTimeDisplay.textContent = "0:00";
+
+const totalTimeDisplay = document.createElement("span");
+totalTimeDisplay.id = "total-time";
+totalTimeDisplay.textContent = "0:00";
+
+// Create the progress bar slider
+const progressBar = document.createElement("input");
+progressBar.type = "range"; // Change to range type for a slider
+progressBar.id = "progress-bar";
+progressBar.value = "0";
+progressBar.max = "100";
+progressBar.step = "0.1"; // Optional: sets the granularity of the slider
+
+progressBarContainer.appendChild(currentTimeDisplay);
+progressBarContainer.appendChild(progressBar);
+progressBarContainer.appendChild(totalTimeDisplay);
+controlsContainer.appendChild(progressBarContainer);
+playerContainer.appendChild(controlsContainer);
+
+const volumeContainer = document.createElement("div");
+volumeContainer.id = "volume-container";
+
+const volumeLabel = document.createElement("img");
+volumeLabel.src = "https://i.imgur.com/NsLicIu.png"; // Set the volume image
+volumeLabel.alt = "Volume";
+volumeContainer.appendChild(volumeLabel);
+
+const volumeSliderContainer = document.createElement("div");
+volumeSliderContainer.classList.add("is-vertical");
+volumeSliderContainer.style.marginLeft = "29%";
+volumeSliderContainer.style.height = "126px";
+
+const volumeSlider = document.createElement("input");
+volumeSlider.type = "range";
+volumeSlider.id = "volumeSlider";
+volumeSlider.min = 0;
+volumeSlider.max = 9;
+volumeSlider.step = 1;
+volumeSlider.value = 4; // Initial volume
+
+volumeSliderContainer.appendChild(volumeSlider);
+
+const volumeDisplay = document.createElement("span");
+volumeDisplay.id = "volume-display";
+volumeDisplay.style.fontWeight = 'bold'; 
+volumeDisplay.style.display = 'none';
+volumeDisplay.textContent = "1";
+
+volumeContainer.appendChild(volumeSliderContainer);
+volumeContainer.appendChild(volumeDisplay);
+
+playerContainer.appendChild(volumeContainer);
+
+gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+
+// Update progress bar as the song plays
+function updateProgressBar() {
+const audio = document.getElementById("audio");
+
+function formatTime(totalSeconds) {
+  if (!Number.isFinite(totalSeconds) || totalSeconds < 0) return "0:00";
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = Math.floor(totalSeconds % 60);
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
+const progress = duration > 0 ? (audio.currentTime / duration) * 100 : 0;
+progressBar.value = progress;
+
+const currentTimeEl = document.getElementById("current-time");
+const totalTimeEl = document.getElementById("total-time");
+if (currentTimeEl) currentTimeEl.textContent = formatTime(audio.currentTime);
+if (totalTimeEl) totalTimeEl.textContent = formatTime(audio.duration);
+
+const MIN_DEG = -45, MAX_DEG = 45;
+
+// If paused, use amplitude=0 so it rotates to -45.
+let amplitude = audio.paused 
+                ? 0 
+                : getAudioAmplitude(audio.currentTime);
+
+let degrees = MIN_DEG + amplitude * (MAX_DEG - MIN_DEG);
+needle.style.transform = "rotate(" + degrees + "deg)";
+}
+
+
+// Seek functionality when the slider is moved
+progressBar.addEventListener("input", function () {
+  const audio = document.getElementById("audio");
+  const seekTime = (progressBar.value / 100) * audio.duration;
+  audio.currentTime = seekTime;
+});
+
+// Setup the audio element and event listeners
+const audio = document.createElement("audio");
+audio.id = "audio";
+audio.src = playlist.getCurrentSong().audioLink;
+decodeAudio(audio.src);
+audio.volume = 4 / 9;
+
+audio.addEventListener("timeupdate", updateProgressBar);
+audio.addEventListener("loadedmetadata", updateProgressBar);
+audio.addEventListener("ended", function () {
+  // Play the next song when the current song ends
+  playlist.playNext();
+  updateUI(playlist);
+  audio.src = playlist.getCurrentSong().audioLink;
+  decodeAudio(audio.src);
+  updateProgressBar();
+  audio.play();
+});
+
+  let currentVolume = 4; // Initial volume
+
+volumeSlider.addEventListener("input", function () {
+  currentVolume = parseInt(volumeSlider.value, 10);
+  updateVolumeDisplay();
+  updateAudioVolume();
+});
+
+function updateVolumeDisplay() {
+  volumeDisplay.textContent = currentVolume;
+}
+
+ function updateAudioVolume() {
+  const audio = document.getElementById("audio");
+  audio.volume = currentVolume / 9; // Set volume between 0 and 1
+}
+
+document.body.appendChild(audio);
+audio.play();
+
+
+// Update the UI when the page loads
+updateUI(playlist);
+}
+
+
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+  border: 3px solid #59c7c2; 
+  display: flex;
+  flex-direction: row;
+  height:191px;
+  background-Image: url(https://i.imgur.com/VKb0al5.png);
+  background-color: #0c0c0ceb;
+  box-shadow: inset 0 0 20px 13px #000000;
+}
+
+#display-box {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+  h3#title {
+    font-size: 34px;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+  }
+
+  #cover {
+    width: 176px;
+    height: 176px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #71d4c1;
+    z-index: 9992;
+  }
+
+  #cover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0px #71d4c1;
+    transition: all 0.2s 
+    cubic-bezier(0.00, 0.00, 1.00, 1.00);
+  }
+
+    p#artist {
+    font-size: 24px;
+    text-shadow: 0 0 20px #71d4c1;
+    transform: translateY(-1.34em);
+    }
+
+ #info-container {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 163px;
+    margin-top: 3px;
+ }
+
+  #song-info {
+    width: 100%;
+    padding: 7px;
+    font-family: Six Caps;
+    padding-right: 2px;
+    padding-top: 3px;
+  }
+
+  #controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width:100%;
+  }
+
+#frequency-container {
+  width: 100%;
+  height: 2rem;
+  background-image: url(https://via.placeholder.com/20);
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 2px;
+  outline: 1px solid #71d4c1;
+}
+
+#frequency1 {
+  width: 53px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/FBctr8K.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0.2rem;
+}
+
+#frequency2 {
+    width: 223px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/qTaJJdt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1em;
+}
+
+#frequency3 {
+    width: 218px;
+    height: 23px;
+    background-image: url(https://i.imgur.com/AVv02pU.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1.5rem;
+}
+
+.is-vertical #volumeSlider {
+  width: 8px;
+  height: 133px;
+  -webkit-appearance: none;
+  appearance: none;
+  writing-mode: vertical-lr;
+  border-radius: 15px;
+  background-color: #242424;
+  border: 1px solid #71d4c1;
+  transform: rotate(180deg);
+}
+
+.is-vertical #volumeSlider::-webkit-slider-runnable-track {
+  width: 8px;
+  height: 133px;
+  background: #242424;
+  border-radius: 15px;
+}
+
+.is-vertical #volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #333;
+  border-radius: 50%;
+  transform: translateX(-3.5px);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.is-vertical #volumeSlider::-moz-range-track {
+  width: 8px;
+  height: 133px;
+  background: #242424;
+  border-radius: 15px;
+  border: 1px solid #71d4c1;
+}
+
+.is-vertical #volumeSlider::-moz-range-thumb {
+  background-color: #71d4c1;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+  #controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-top: 3.8rem;
+    transform: scale(0.8);
+  }
+
+    #progress-bar-container {
+    width: 98%;
+    display: flex;
+    align-items: end;
+    gap: 8px;
+    }
+
+    #current-time, #total-time {
+    color: #71d4c1;
+    font-family: Inter;
+    font-size: 13px;
+    text-shadow: 0 0 7px #71d4c1;
+    user-select: none;
+    transform: translateY(26%);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+    }
+
+    #progress-bar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    appearance: none;
+    background: #242424;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #71d4c1;
+    }
+
+#progress-bar::-webkit-slider-thumb {
+  appearance: none; /* Remove default styling for consistency across browsers */
+  width: 15px;
+  height: 15px;
+  background: #333; /* Slider thumb color */
+  border-radius: 50%; /* Round thumb */
+  cursor: pointer;
+}
+
+#progress-bar::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+  .is-vertical #volumeSlider::-webkit-slider-thumb {
+    appearance: none;
+    background-color: #71d4c1;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 9998;
+  }
+
+#question_form {
+  color: #59c7c2;
+  overflow: visible;
+}
+
+.inner_window_question {
+  background-color:#000000;
+  border-radius: 5px; 
+  position: relative;
+  overflow: visible;
+}
+
+.inner_window_question h3 {
+  background: linear-gradient(90deg, rgba(36, 36, 36, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 75%, rgba(36, 36, 36, 1) 100%);
+  border-radius: 5px;
+  box-shadow: 
+  0 0 5px rgba(224, 255, 255, 0.5),  
+  0 0 10px rgba(224, 255, 255, 0.3),  
+  0 0 20px rgba(224, 255, 255, 0.1); 
+  
+}
+    
+@keyframes fadeInScale {
+  0% {
+      opacity: 0;
+      transform: scale(0.8);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.overlay_window {
+  position: absolute;
+  opacity: 0; /* Start hidden */
+  transform: scale(0.8); /* Start slightly smaller */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow:
+      0 0 10px rgba(224, 255, 255, 0.5),  
+      0 0 20px rgba(224, 255, 255, 0.3),  
+      0 0 40px rgba(224, 255, 255, 0.1);
+  
+  height: 62%;
+  width: 50%;
+  top: 17%;
+  left: 25%;
+  
+  border-style: double;
+  border-color: #59c7c2;
+
+  animation: fadeInScale 0.3s cubic-bezier(0.3, 1.2, 0.2, 1) forwards;
+}
+
+
+.overlay_window h3 {
+  background-color: #000000;
+}
+
+.overlay_window_content {
+  color: #000000;
+}
+
+#progress_bar h3 {
+  color: #000000;
+  }
+
+  .inner_inner_window h3 {
+      color: #ffffff;
+      }
+
+  .inner_window_sign_display {
+    margin: 0;
+    height: 25%;
+    position: relative;
+    width: 30%;
+    height: 80%;
+    background-color: #000000;
+    margin: 0;
+    border-style: ridge;
+    border-color: #59c7c2;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 7px;
+}
+
+  .overlay_window img {
+    width: 251px;
+    height: 134px;
+}
+
+.final_results_table {
+  color: black;
+}
+
+#state_result_data_summary table {
+  color: black;
+}
+
+#state_result_data_summary table th,
+#state_result_data_summary table td {
+  color: black; 
+}
+
+#overall_result_container,
+#menu_container,
+#state_result_container {
+  background-color:transparent
+}
+
+#map_container{
+  background-color:#000000;
+  border-radius: 25px; 
+  box-shadow: 
+  0 0 10px rgba(224, 255, 255, 0.5),  
+  0 0 20px rgba(224, 255, 255, 0.3),  
+  0 0 40px rgba(224, 255, 255, 0.1); 
+  position: relative;
+  overflow: hidden;
+}
+
+.cheatIndicator {
+position: absolute;
+}
+#difficulty_mult {
+display: none;
+}
+#results_container{
+  overflow: auto;
+}
+.person_image {
+  position: sticky;
+  top: 16px; 
+  align-self: flex-start;
+  z-index: 1;
+  float: left;
+  margin: 1.2em 1em 0;
+  border: double;
+  border-color: #59c7c2;
+  height: 250px;
+}
+
+.final_results_table {
+width: 66% !important;
+table-layout: fixed !important;
+border-collapse: collapse !important;
+margin-right: 3% !important;
+font-family: Georgia, serif !important;
+background-color: #e6ecf5 !important;
+box-shadow: 0 0 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.final_results_table th,
+.final_results_table td {
+padding: 2px 4px !important;
+border: 1px solid #ccc !important;
+text-align: center !important;
+white-space: nowrap !important; /* â¬… Prevents wrapping */
+}
+
+.final_results_table td:first-child {
+text-align: left !important;
+width: 40% !important; /* â¬… Makes room for long names */
+}
+
+ #candidate_description_window {
+    box-shadow: inset 0 0 18px 4px #000;
+ }
+
+ .inner_window_w_desc {
+    background-image: url(https://files.catbox.moe/nuvrfv.png);
+ }
+
+ .person_summary ul {
+    font-weight: 900;
+ }
+
+
+ #election_image img {
+    outline: 3px ridge #59c7c2;
+    box-shadow: 3px 3px 5px 0px #000;
+ }
+
+ button {
+    background-color: #000000;
+    color: #59c7c2;
+    font-weight: 900;
+  }
+    
+  .base {
+    font-family: 'Inter';
+  }
+
+  #answer_select_button {
+    margin-top: .4em;
+    font-weight: 900;
+    margin-right: 1.5em;
+  }
+
+  #campaign_sign p {
+    font-size: 0;
+  }
+
+  #campaign_sign {
+    background-color: #000000;
+    border-style: solid;
+    border-width: 0;
+    border-color: #59c7c2;
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    height: 94px;
+    background-image: url(https://i.postimg.cc/Qd811kCm/Untitled111-20260217014529.png);
+    outline-style: ridge;
+    outline-color: #59c7c2;
+    margin-bottom: 4px;
+  } 
+
+  #progress_bar h3 {
+    color: #71d4c1;
+    font-weight: 900;
+    text-shadow: 0 0 15px rgba(89, 199, 194, 1), 0 0 30px rgba(89, 199, 194, 1);
+  }
+
+  #candidate_pic {
+    height: 15em;
+    border: ridge;
+    border-color: #59c7c2;
+    float: unset;
+    margin: 0;
+    order: 1;
+  }
+
+  #running_mate_pic {
+    height: 15em;
+    border: ridge;
+    border-color: #59c7c2;
+    float: unset;
+    margin: 0;
+    order: 3;
+  }
+
+  #game_window g {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 36%;
+  }
+
+  #map_footer {
+    clear: both;
+    padding-top: 0.8em;
+  }
+
+  #menu_container button {
+    font-weight: 400;
+  }
+
+.campaign_trail_start_emphasis {
+  background-color: #f8f8f8;
+}
+#final_results_description h3 {
+			color: white;
+		}
+		#overall_details_container h3 {
+			color: white;
+		}
+		#overall_election_details h4 {
+			color: white;
+		}
+		#main_content_area_reading p {
+			color: white;
+		}
+		#main_content_area_reading h3.results_tab_header {
+			color: white;
+		}
+		.inner_window_w_desc h3 {
+			color: white;
+		}
+		.overlay_window h3 {
+			color: #59c7c2;
+				}
+p#credits {
+		color: white;
+	}
+
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(0, 0, 0);
+    color: #59c7c2;
+    padding: 2px 27px 2px 4px;
+    background-position: top 2px right 2px;
+    background-image: url(https://files.catbox.moe/auvq4w.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border: 1px solid #59c7c2;
+    font-family: 'Inter';
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
+  }
+
+  .container {
+  box-shadow: inset 0 0 15px 2px #000000;
+  }
+
+  #header {
+    border: 1px solid black;
+    box-shadow: 0.5px 1px 6px 3px #000000;
+  }
+
+  #cover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0px #71d4c1;
+    transition: all 0.1s 
+  cubic-bezier(0.65, 0.21, 0.29, 0.65);
+  }
+
+
+
+}
+
+
+`;
+
+document.head.appendChild(style);
+
+async function appendStyle() {
+  var metaTag=document.createElement('meta');
+  metaTag.name = "viewport";
+  metaTag.content = "width=device-width, initial-scale=1";
+  document.getElementsByTagName('head')[0].appendChild(metaTag);
+
+  if (!document.querySelector('#radio-option-style')) {
+      let style = document.createElement('style');
+      style.type = 'text/css';
+      style.id = 'radio-option-style';
+      style.innerHTML = `
+      #visit_window {
+          height: auto;
+      }
+      #visit_content {
+          height: 79%;
+      }
+
+.person_button{
+margin-top:0.2em
+}
+      @media only screen and (max-width: 768px) {
+
+          #inner_window_2,
+          #inner_window_3,
+          #inner_window_4{
+              overflow:visible;
+          }
+          #visit_window {
+              font-size: 1.8em;
+              width: 90%;
+              left:5%;
+          }
+          .inner_window_question button,
+              #visit_window button,
+              #map_footer{
+                  line-height: 2.5em;
+              }
+          #drop_down_area_state {
+              margin-left: auto;
+              margin-right: auto;
+          }
+      }
+      `;
+
+      document.head.appendChild(style);
+  }
+}
+appendStyle();
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+//#endcode
