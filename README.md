@@ -14,7 +14,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 
 ---------
 
-**List of Code 1s Made and/or Edited**
+<h2>List of Code 1s Made and/or Edited</h2>
 
 **1992 Rock!**
 - Creation Date: January 23rd, 2024
