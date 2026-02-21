@@ -57,6 +57,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1976 Red Dawn**
 - Creation Date: June 10th, 2024
 
+**1948 Identity War (Edited)**
+- Creation Date: June 25th, 2024 *(Updated on December 8th, 2024)*
+
 **N.**
 - Creation Date: June 30th, 2024 *(Redux made on November 30th, 2024)*
 
@@ -173,7 +176,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 
 -------
 
-~~Holy shit, I've made so much of these for so long.~~ But anyways, I'm still making them even after **2 years!** More to come soon.
+~~Holy shit, I've made so much of these for so long.~~ But anyways, I'm still making them even after **2 years!** More to come soon. (˶˃ ᵕ ˂˶)
 
 ![Banner 2](https://raw.githubusercontent.com/C0SM0-766/C0SM0s-Code-1s/refs/heads/main/Banner2.jpeg)
 
