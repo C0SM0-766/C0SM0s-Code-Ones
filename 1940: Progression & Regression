@@ -1,0 +1,950 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 12,
+        "fields": {
+            "year": 1948,
+            "summary": "<p>As America exits the Great Depression, the world holds its breath as Germany storms through the European continent. Two unexpected candidates have emerged pledging to keep the homeland safe and ensure the nation’s economic recovery continues.<br><br>• Louisiana party boss and Senator Huey Long is running on a platform to enact his “Share Our Wealth” policies on a national scale.<br><br>• Former President Herbert Hoover hopes to rehabilitate his image and convince the American public he is the only one with the skills to navigate these uneasy times.</p>",
+            "image_url": "https://files.catbox.moe/4x9h6y.jpg",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://files.catbox.moe/l4sxqq.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1948 Election Books and Links</h4>David McCullough - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000FC0VVQ/amhius20-20\" target=\"_blank\">Truman</a></br>Andrew E. Busch - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618678/amhius20-20\" target=\"_blank\">Truman's Triumphs: The 1948 Election and the Making of Postwar America</a></br>David Pietruza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/140276748X/amhius20-20\" target=\"_blank\">1948: Harry Truman's Improbable Victory and the Year that Transformed America</a></br>Richard Norton Smith - <a href=\"http://www.amazon.com/exec/obidos/ASIN/067141741X/amhius20-20\" target=\"_blank\">Thomas E. Dewey and His Times</a></br><a href=\"https://www.youtube.com/watch?v=rJABgG4YDwM\" target=\"_blank\">The 1948 Democratic Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=ogg9YsxGQm4\" target=\"_blank\">The 1948 Republican Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=LW2ae0Fznwg\" target=\"_blank\">The 1948 Election Explained (video)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1940: Progression & Regression"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 116,
+        "fields": {
+            "first_name": "Huey",
+            "last_name": "Long",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Louisiana",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'><i>I'm for the poor man — all poor men, black and white, they all gotta have a chance.</i><br><p>The Kingfish, Senator Huey Long, is a polarizing figure known for his reformist stance and captivating exploits. Some view him as a savior, a man unafraid to stand up for real change and challenge the status quo. Others, however, perceive him as a despot and a demagogue, accusing him of parroting authoritarian rhetoric reminiscent of the increasingly fascist Europe of the time. Nevertheless, regardless of one's perspective, the name of Huey Long and his \"Share Our Wealth\" policies have resonated far and wide, leaving an indelible mark on the public consciousness.<br><br>As the general election approaches, Senator Long finds himself in a complex position that is both commanding and difficult. On one hand, his opponent is former President Herbert Hoover, who still carries the weight of blame from many Americans for the Great Depression and its aftermath. This gives Long a potential advantage, as public sentiment against Hoover and the Republicans lingers. On the other hand, many Democratic leaders harbor concerns about Long's elevation to become President Roosevelt's successor. They fear his policies and approach, leading them to actively seek ways to undermine Long's candidacy or potentially corrupt his campaign.<br><br>Should the Kingfish successfully navigate these challenges, he stands poised to become the next resident of the White House, shaping the course of the nation's future.</p>",
+            "color_hex": "#274eb0",
+            "secondary_color_hex": "#274eb0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/92qcvo.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>In a comeback for the ages, you defeated Thomas Dewey and shocked the nation. Prepare for another four years in the White House. There is much work to be done. You have an ambitious domestic agenda, and face a dangerous foreign situation with the Soviet Union. With a new Democratic majority in Congress, you can hopefully push for universal health care and a repeal of the Taft-Hartley Act.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>It was always going to be a longshot after your first, tumultuous years in office. With luck, Dewey will defend the New Deal reforms and continue your foreign policy. As for you, who knows what history will say of your Presidency? You made some momentous decisions, but will ultimately leave office under a cloud of unpopularity. Perhaps you could serve another term in the Senate?</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Dewey to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 117,
+        "fields": {
+            "first_name": "Herbert",
+            "last_name": "Hoover",
+            "election": 12,
+            "party": "Republican",
+            "state": "California",
+            "priority": 2,
+            "description": "<div style='overflow-y:scroll;height:200px;'><i>Once upon a time my opponents honored me as possessing the fabulous intellectual and economic power by which I created a worldwide depression all by myself.</i><br><p>The man for whom countless shantytowns were named after across the land, former President Herbert Hoover hopes to mount the greatest political comeback in history. Hoover was first elected President in 1928 and initially enjoyed a wave of popularity…until it all came crashing down. Upon the collapse of the economy, Hoover was met with fierce opposition from the American public and was subsequently ousted from office in 1932, losing in a landslide to Franklin D. Roosevelt.<br><br>Despite this, Hoover believes he has an opportunity to right the wrongs of the past. As storm clouds brew across the Atlantic, Hoover could utilize his vast array of foreign policy expertise to offer the American people a sense of stability in a time of great instability. With Europe at war, perhaps the best hand in the White House is an experienced one. Hoover also has the unique advantage of running against infamous Louisiana statesman Huey Long, a man with controversial means of governance.<br><br>Hoover could ask the nation a very simple question: do they want to elect a man that will lead them down a similar road as Europe? Perhaps the perfect series of events is playing out for voters to give the former President a second look.",
+            "color_hex": "#b02727",
+            "secondary_color_hex": "#b02727",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/92w2m1.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>You have become the first Republican to win the White House in 20 years. You face a dangerous foreign situation, and your domestic agenda is likely to be opposed by Democrats and conservatives alike. Conversely, the support and confidence of the Republican establishment is almost guaranteed. With luck, you might become the first two-term Republican since Ulysses Grant.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>Pundits and political pros are shocked at your collapse. The second-guessing will likely come fast and furious from your party. The Republicans have now lost five Presidential elections in a row, and have no obvious standard-bearer to break the trend in 1952. As for your own career, you are still the Governor of New York, but it is pretty unlikely that you'll be given another chance to prove yourself on the national stage.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Truman to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 118,
+        "fields": {
+            "first_name": "Norman",
+            "last_name": "Thomas",
+            "election": 12,
+            "party": "Socialist",
+            "state": "New York",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#591a16",
+            "secondary_color_hex": "#591a16",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Norman_Thomas_1937.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 119,
+        "fields": {
+            "first_name": "Roger",
+            "last_name": "Babson/Other",
+            "election": 12,
+            "party": "Prohibition/Others",
+            "state": "Massachusetts/Various",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#8727b0",
+            "secondary_color_hex": "#8727b0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Roger_Babson_Portrait_%284x5_cropped%29.jpg/1280px-Roger_Babson_Portrait_%284x5_cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 120,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Wallace",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Iowa",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/othkab.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><i>In an effort to eliminate the possibility of any rival growing up, some monopolists would sacrifice democracy itself.</i><br><p>A journalist, farmer, and former secretary of agriculture, Henry Wallace has had a remarkable career. Like Long, he hails from humble origins, growing up in a journalist family in rural Iowa. His passion for both journalism and agriculture was nurtured in this environment. Initially aligned with the Hoover administration, Wallace switched parties when appointed as agricultural secretary under President Roosevelt. In this role, he played a vital part in shaping key aspects of the New Deal programs.<br><br>Wallace, an early supporter of Long, would bring significant advantages if added to the ticket. His established rapport with President Roosevelt could facilitate brokering an agreement between Roosevelt and Long, granting the campaign access to a crucial ally. Moreover, Wallace enjoys favorable relations with many other Democratic leaders, including those who may have reservations about Long. This could help repair any strained relationships within the party, fostering greater unity as they move forward. Furthermore, Wallace has been an outspoken critic of Nazi Germany and Adolf Hitler.<br><br>Choosing Wallace as a running mate would effectively dispel any rumors suggesting Long's sympathy towards fascism. Lastly, both Wallace and Long embody the same populist ideology, fostering a sense of coherence and shared purpose on the campaign trail.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 121,
+        "fields": {
+            "first_name": "Burton",
+            "last_name": "Wheeler",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Montana",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/2murrf.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><i>We sympathize with the oppressed and persecuted everywhere.</i><br><p>Senator Burton Wheeler, a fellow progressive hailing from Montana, has gained recognition as a champion of the working class and a staunch opponent of powerful industries. Notably, he played a crucial role in the passage of the Norris-LaGuardia Act in 1932, a landmark legislation protecting workers' rights to collective bargaining and striking, effectively curbing employers' influence and supporting the labor movement.<br><br>Bringing Wheeler on board as a running mate would greatly enhance Senator Long's prospects of winning the western region in the upcoming election. With deep roots in Montana and a formidable reputation as \"The Fighting Senator,\" Wheeler enjoys substantial popularity and support in the western states. Adding him to the ticket would not only capitalize on his existing base but also expand Long's appeal to a wider audience throughout the region. Furthermore, Wheeler's early endorsement of Long during the primary demonstrated their shared values and political alignment. Their mutual commitment to progressive ideals and addressing social and economic injustices struck a chord with many voters.<br><br>By selecting Wheeler as his running mate, Long would send a resounding message of unity and solidarity, showcasing their shared vision for the nation.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 122,
+        "fields": {
+            "first_name": "Wendell",
+            "last_name": "Wilkie",
+            "election": 12,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/gznbat.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><i>I believe in America because we have great dreams, and because we have the opportunity to make those dreams come true.</i><br><p>If Hoover were looking for a way to distance himself from the past and begin anew, making New York attorney Wendell Willkie his running mate would certainly be a step in the right direction. Willkie emerged as a dark horse candidate for the Republican nomination this year but fell short. However, he has remained a popular figure in the Republican party, and across the country. Adding Willkie to the ticket could give Hoover some much-needed star power.<br><br>Willkie, a charismatic and forward-thinking candidate, would not only provide Hoover with a fresh perspective but also endow him with the invaluable capacity to liberate himself from the haunting repercussions of his preceding tenure. With Willkie's leadership, Hoover would gain the necessary impetus to transcend the lingering shadows of past missteps, enabling him to forge a renewed path towards progress and redemption.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 123,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Dewey",
+            "election": 12,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/hsdcof.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><i>We need not be afraid of the future, for the future will be in our own hands.</i><br><p>A rising star within Republican politics, New York prosecutor Thomas Dewey would help give Hoover’s candidacy new life. Dewey had a distinguished career as a prosecutor, known for his relentless pursuit of justice and his successful crackdown on organized crime. Rising to prominence in the 1930s, Dewey's notable achievements include dismantling the \"Murder, Inc.\" syndicate and leading the prosecution against Charles \"Lucky\" Luciano. As District Attorney of New York County, he implemented innovative techniques like wiretapping to gather evidence against criminals. Dewey's prosecutorial success propelled him to national recognition and political office.<br><br>Adding Dewey to the ticket could significantly bolster Hoover's ability to emphasize his unwavering commitment to a clean and honest government. As a distinguished prosecutor known for his relentless pursuit of justice, Dewey's presence on the ticket would send a strong message to the public about the administration's dedication to upholding the highest standards of integrity. And Dewey's presence would also provide valuable expertise and insights into shaping policies and initiatives aimed at promoting accountability and ethical governance.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 125,
+        "fields": {
+            "first_name": "Maynard",
+            "last_name": "Krueger",
+            "election": 12,
+            "party": "Socialist",
+            "state": "Illinois",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 126,
+        "fields": {
+            "first_name": "Edgar",
+            "last_name": "Mooreman/Others",
+            "election": 12,
+            "party": "Prohibition/Others",
+            "state": "Illinois/Various",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 76,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 120
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 81,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 125
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 82,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 126
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 78,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 122
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 79,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 123
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109293,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 121
+        }
+    }
+]
+
+campaignTrail_temp.credits = "PalmettoPolitics"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 12,
+        "year": 1948,
+        "is_premium": 0,
+        "display_year": "1940: Progression & Regression"
+    }
+]
+
+jet_data = {
+    "headerColor": "#8ea0b3",
+    "windowColor": "#5f8748",
+    "containerColor": "#fcce73",
+    "innerWindowColor": "#7aad5c",
+    "bannerImageUrl": "https://i.imgur.com/GdSQreN.jpg",
+    "backgroundImageUrl": "https://i.imgur.com/XDdc4rr.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#8ea0b3";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5f8748";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#fcce73";
+
+document.getElementById("header").src = "https://i.imgur.com/GdSQreN.jpg";
+
+document.body.background = "https://i.imgur.com/XDdc4rr.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#7aad5c!important;}</style>";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+quotes = ["''I can frighten or buy ninety-nine out of every one hundred men.'' ~ Huey Long", "''I would describe a demagogue as a politician who don’t keep his promises.'' ~ Huey Long", "''A man is not a dictator when he is given a commission from the people and carries it out.'' ~ Huey Long", "''Honor is not the exclusive property of any political party.'' ~ Herbert Hoover", "''Being a politician is a poor profession. Being a public servant is a noble one.'' ~ Herbert Hoover", "''No private industry should have the right to bid unfairly for private profit against government and public necessity.'' ~ Henry Wallace", "''Political parties, overanxious for vote catching, become tolerant to intolerant groups.'' ~ Wendell Wilkie", "''... It is the ''liberals'' who are anxious to give more and more power to the executive...'' ~ Burton Wheeler", "''No man should be in public office who can't make more money in private life.'' ~ Thomas Dewey", "''In politics, nothing happens by accident. If it happens, you can bet it was planned that way.'' ~ Franklin D. Roosevelt", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#8ea0b3",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#5f8748",
+  "main_color": "#fcce73",
+  "secondary_color": "#8ea0b3",
+ "ui_text_color": "#ffffff"
+}
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>PalmettoPolitics</button>";
+  
+window.credits = function() {
+  const creditsList = ["u/Randomuser1520/PalmettoPolitics, for the writing & theme.", "C0SM0, for the coding, portraits, and soundtrack.", "", "Various codes provided by DecStarG."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://www.alternatehistory.com/forum/attachments/5hxmptc-png.501832/");
+
+HistHexcolour=["#b02727","#274eb0","#591a16","#8727b0"];
+    HistName=[" Herbert Hoover"," Huey Long"," Norman Thomas"," Roger Babson/Others"];
+    HistEV=[276,255,0,0];
+    HistPV=["24,110,611","24,808,025","199,261","697,414"];
+    HistPVP=["48.4%","49.8%","0.4%","1.4%"];
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#5f8748;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#5f8748;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "Which Side Are You On (The Weavers)",
+
+        url: "https://audio.jukehost.co.uk/D4R0NARbt5lOfpjawcYXDcIz43E7HSB8",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Kingfish & His Kin",
+
+    tracklist: [
+
+      {
+
+        name: "Every Man A King (Louisiana Ramblers)",
+
+        url: "https://files.catbox.moe/qeko15.mp3",
+
+      },
+
+      {
+
+        name: "Kingfish (Randy Newman)",
+
+        url: "https://files.catbox.moe/m1b7l4.mp3",
+
+      },
+
+      {
+
+        name: "The Bourgeois Blues (Lead Belly)",
+
+        url: "https://audio.jukehost.co.uk/dS15xXisEWoTxlT4SrH5DbL2xziZvUXW",
+
+      },
+
+      {
+
+        name: "Better World A Comin' (Woody Guthrie)",
+
+        url: "https://files.catbox.moe/si8cwf.mp3",
+
+      },
+
+      {
+
+        name: "All I Want (The Almanac Singers)",
+
+        url: "https://audio.jukehost.co.uk/hjULxw3tbuREOLCLXmcoiz6yuqq21xY9",
+
+      },
+
+      {
+
+        name: "We Shall Overcome (Pete Seeger)",
+
+        url: "https://files.catbox.moe/w39a71.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Hooverville Tunes",
+
+    tracklist: [
+
+      {
+
+        name: "If He's Good Enough For Lindy (Sing Along With Millard Fillmore)",
+
+        url: "https://files.catbox.moe/s7387h.mp3",
+
+      },
+
+      {
+
+        name: "You Are My Sunshine (Mitch Miller)",
+
+        url: "https://files.catbox.moe/u7z37t.mp3",
+
+      },
+
+      {
+
+        name: "President Hoover March (Howard Da Silva)",
+
+        url: "https://files.catbox.moe/6p0bef.mp3",
+
+      },
+
+      {
+
+        name: "You're The Top (Cole Porter)",
+
+        url: "https://files.catbox.moe/p9j9xp.mp3",
+
+      },
+
+      {
+
+        name: "Give Me Liberty Or Give Me Love (Mildred Bailey)",
+
+        url: "https://audio.jukehost.co.uk/lpWKdRv8lEO1Em1tW4vgK9Ymby4GH1U3",
+
+      },
+
+      {
+
+        name: "God Bless America (Kate Smith)",
+
+        url: "https://files.catbox.moe/8ylre4.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+//#endcode
