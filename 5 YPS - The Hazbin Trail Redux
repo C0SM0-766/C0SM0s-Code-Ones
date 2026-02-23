@@ -1,3 +1,5 @@
+// NOTE: Many images don't work, & I'm aware. It's a catbox problem. If it's not fixed soon, I'll upload the images onto file garden (P.S: I'm pissed off at this situation; for this Code 1, I put a lot of effort into it)
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
