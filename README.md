@@ -177,6 +177,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1940: Progression & Regression**
 - Creation Date: February 22nd, 2026
 
+**1972: Too Left, Too Late**
+- Creation Date: February 28th, 2026
+
 -------
 
 ~~Holy shit, I've made so much of these for so long.~~ But anyways, I'm still making them even after **2 years!** More to come soon. (˶˃ ᵕ ˂˶)
