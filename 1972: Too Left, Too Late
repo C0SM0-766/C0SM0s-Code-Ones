@@ -1,0 +1,967 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "<p>After a surprising victory against President Lyndon Johnson, George Romney faces battles from all corners of the nation. A depression is seemingly about to effect America, as well as increased racial tensions, urban decay, and a the possibility of South Vietnam falling. President Romney still believes he has the best chance to halt the incoming crises and usher in a new wave of liberal conservatism.<br><br>On the contrary, Governor George Wallace has won the Democratic nomination, upsetting various people from Yankees to southern blacks. Already, a mass exodus of northerners intend to vote for Romney. Despite his racist past, Wallace intends to moderate himself on issues and exploit his populist appeal among workers in the midwest.</p>",
+            "image_url": "https://files.catbox.moe/oe5sfx.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/jh4v3l.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1972: Too Left, Too Late"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Romney",
+            "election": 10,
+            "party": "Republican",
+            "state": "Michigan",
+            "priority": 1,
+            "description": "<p>It was uncertain if the Michigan Mormon could've won the 1968 election with a black man as his running mate. Most predicted a landslide defeat against most candidates, even against President Johnson. However, they were proven wrong as Romney managed to hold on to the west, midwest, and northeast by the skin of his teeth. Conservatives seethed, liberals were shocked, and moderates were skeptical for the new administration.<br><br>Four years later, and most of the country still has doubts on him. A coalition of conservative Democrats and hardline Republicans have blocked nearly all of his legislation. As many issues from '68 continue to linger—Vietnam, the worsening economy, and the increase in racial tensions—Romney shall send a prayer to God asking for the Democrats to nominate the wrong man.</p>",
+            "color_hex": "#911a1a",
+            "secondary_color_hex": "#911a1a",
+            "is_active": 1,
+            "image_url": "https://i.ibb.co/JRrXQYSg/De-Watermark-ai-1754670996546.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Wallace",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Alabama",
+            "priority": 2,
+            "description": "<p>The Democratic Party, the party that had mainly led the Civil Rights movement, now seems to have taken a different turn. Romney's bold decision to choose Ed Brooke has enraged the south, and now in 1972, Dixieland has coalesced around their prophet: George Corley Wallace, the man infamous for defending segregation throughout most of the 1960s. The former Alabama governor is a household name to many, yet finds himself despised by many. Thr party is still utterly divided, with many having no faith for the candidacy of the Alabamian.<br><br>Having sworn to have moderated himself on civil rights, Wallace takes the fight against a party that has failed to bring most of its promises: withdrawing from Vietnam, prevent the economy from going into freefall, and to halt urban decay.</p>",
+            "color_hex": "#439ea3",
+            "secondary_color_hex": "#439ea3",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/1u8vr9.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "Eugene",
+            "last_name": "McCarthy",
+            "election": 10,
+            "party": "Independent",
+            "state": "Minnesota",
+            "priority": 3,
+            "description": "''",
+            "color_hex": "#43a34d",
+            "secondary_color_hex": "#43a34d",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "Linda",
+            "last_name": "Jenness/Others",
+            "election": 10,
+            "party": "Socialist Workers'/Various",
+            "state": "Georgia/Various",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#7e43a3",
+            "secondary_color_hex": "#7e43a3",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "Edward",
+            "last_name": "Brooke",
+            "election": 10,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/4u8bgx.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Blood, sweat and tears were poured by Leonard Hall to get Ed Brooke on the Republican ticket. After besting Lyndon in the general election, was the herculean effort to get him Vice worth it? Romney and a few others would say yes, the rest of the country–including members of Romney's own cabinet–would say no. Even today, most people would agree Brooke is more of a liability than anything else for your administration. The man is directly or indirectly responsible for making your cabinet butt heads with him—a clown show for all to watch.<br><br>But there is one upside he brings: he brings history to those who have been stepped on by the white racist for far too long. He reassures the dreams of King, Kennedy, and the like have never been extinguished with their deaths—they have only been emboldened.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Sam",
+            "last_name": "Yorty",
+            "election": 10,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/n0dwq1.jpeg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Like yourself, Sam Yorty is fueled by the increasing fire of white rage ignited by Johnson and fueled by Romney. The mayor of the City of Angels has had public fueds with just about everyone—president Romney, the Democratic establishment, the list goes on. As mayor, he promised to drain the swamp and get rid of the \"little ruling clique of downtown interests\". Under his tenure, his promises were kept; L.A. experienced economic growth and special interests in the city were slashed.<br><br>After endorsing you in the primaries, the opportunist Yorty hopes to secure a political win on his resume. However, his mixed record as mayor, mainly regarding his poor civil rights record, won't do much to differentiate yourself from the Old Wallace—something that shall be done if you want a winning chance against the president.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Washington",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/jeukjt.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Senator Scoop Jackson made a name for himself for supporting two things: war and unions. The \"Senator from Boeing\" has stood firm on his hawkish stances, particularly regarding his continued support for the Vietnam War. In congress, he's sesn as a fighter for the rights of labor and minorities everywhere. To you, he's seen as a tool to dispel your racist past and to usher in the \"New Wallace\" image to undecided voters.<br><br>Jackson appeals to most voters nationally, propelling your already promising inroads with Midwestern unions and hawks. His progressive civil rights record can reel in skeptical blacks as well. On the contrary, his dull speaking and his support for continued Vietnamese intervention won't help with liberal doves and the peace-leaning establishment, but who needs them to succeed, anyway?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Louise Day",
+            "last_name": "Hicks",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Massachusetts",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/9gkkl9.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Anna Louise Day Hicks is a bit of an enigma, of sorts. In one of the most liberal states in America, she was able to ride off the white rage against busing in Massachusetts, propelling her name to prominence among social conservatives and skeptical whites. She then went on to go on a tirade against the Romney administration, going so far as to claim election fraud in '68 and proclaiming VP Brooke as a radical negro. Afterwards, she went to congress, succeeding John W. McCormack for his seat, and later unsuccessfully ran for Boston mayor.<br><br>Hicks' name will aid in galvanizing the women and moderate vote as busing is disapproved by the majority of the country. Despite these upsides, her various nasty race-baiting statements and her disdain for your candidacy are both stains for your chances if she's on the ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "Dr. Benjamin",
+            "last_name": "Spock",
+            "election": 10,
+            "party": "People's",
+            "state": "California",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "Andrew",
+            "last_name": "Pulley/Others",
+            "election": 10,
+            "party": "Socialist Workers'/Various",
+            "state": "Illinois/Various",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 67,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 104
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 66,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 62,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 63,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 100
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 64,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 101
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1972: Too Left, Too Late"
+    }
+]
+
+jet_data = {
+    "headerColor": "#526286",
+    "windowColor": "#65708c",
+    "containerColor": "#455269",
+    "innerWindowColor": "#65708c",
+    "bannerImageUrl": "https://files.catbox.moe/bjptoz.png",
+    "backgroundImageUrl": "https://files.catbox.moe/3hh1nr.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": "Too Left, Too Late",
+    "gameTitle": "NEW CAMPAIGN TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>NEW CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>Too Left, Too Late</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#526286";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#65708c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#455269";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/mt3nvu.png)"
+
+$("#game_window")[0].style.borderColor = "#526286"
+
+$(".container")[0].style.border = ".2em solid #526286"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/bjptoz.png";
+
+document.body.background = "https://files.catbox.moe/3hh1nr.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#65708c!important;}</style>";
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#526286", "header_image_url": "https://files.catbox.moe/g7zbtk.png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#ffffff", "main_color": "#455269", "secondary_color": "#526286", "ui_text_color": "#FFFFFF" }
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #526286;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/6rtbin.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Inspired by an r/imaginaryelections post by WNDIUA/Jimbo and by Obummer's Romneyverse.", "Many codes provided by Mangolith & DecStarG."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#911a1a","#439ea3","#43a34d","#7e43a3"];
+    HistName=[" George Romney"," George Wallace"," Eugene McCarthy"," Linda Jenness/Others"];
+    HistEV=[369,168,1,0];
+    HistPV=["38,629,724","36,242,037","1,086,752","232,875"];
+    HistPVP=["49.6%","46.6%","1.4%","0.3%"];
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#65708c;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#65708c;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "The Impossible Dream (Andy Williams)",
+
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/The%20Impossible%20Dream%20(The%20Quest).mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Romney’s Way Vol. 2",
+
+    tracklist: [
+
+      {
+
+        name: "Terr Et Tiwa (Alain Goraguer)",
+
+        url: "https://files.catbox.moe/035suq.mp3",
+
+      },
+
+      {
+
+        name: "Little Umbrellas (Frank Zappa)",
+
+        url: "https://files.catbox.moe/3rz89z.mp3",
+
+      },
+
+      {
+
+        name: "The Man Who Sold The World (David Bowie)",
+
+        url: "https://audio.jukehost.co.uk/UAUQvtcNILuV7DuxphmpMTJvtKdc8OCh",
+
+      },
+
+      {
+
+        name: "Please Don't Leave Me (The Chambers Brothers)",
+
+        url: "https://files.catbox.moe/5q3w87.mp3",
+
+      },
+
+      {
+
+        name: "Burning Bridges (Mike Curb Congregation)",
+
+        url: "https://files.catbox.moe/uge4xq.mp3",
+
+      },
+
+      {
+
+        name: "Daydream Believer (The Monkees)",
+
+        url: "https://files.catbox.moe/41hhzw.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Wallace’s Way",
+
+    tracklist: [
+
+      {
+
+        name: "Sweet Home Alabama (Lynyrd Skynyrd)",
+
+        url: "https://files.catbox.moe/sk92xt.mp3",
+
+      },
+
+      {
+
+        name: "Southern Man (Neil Young)",
+
+        url: "https://files.catbox.moe/d6gssb.mp3",
+
+      },
+
+      {
+
+        name: "Alabama Jubilee (Jerry Reed)",
+
+        url: "https://files.catbox.moe/36o8f6.mp3",
+
+      },
+
+      {
+
+        name: "My Old Kentucky Home (Johnny Cash)",
+
+        url: "https://files.catbox.moe/rj4bzu.mp3",
+
+      },
+
+      {
+
+        name: "The Night They Drove Old Dixie Down (The Band)",
+
+        url: "https://files.catbox.moe/s5kqnd.mp3",
+
+      },
+
+      {
+
+        name: "The South's Gonna Do It Again (The Charlie Daniels Band)",
+
+        url: "https://files.catbox.moe/8w3erm.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+//#endcode
