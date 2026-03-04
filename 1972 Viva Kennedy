@@ -1,0 +1,965 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "Since Johnson’s victory in 1968, the country has been on the decline. Global tensions have peaked as the US stays active in foreign conflicts, and the economy is nearing a breaking point with unchecked government spending. After Johnson declines to run for re-election, a vicious primary ensues in which Governor John Connally of Texas narrowly snakes the nomination away from Vice-President Humphrey. Meanwhile, Republicans have mostly united behind political outsider and California Governor, Ronald Reagan.<br><br>• John Connally will have to balance distancing himself from the unpopular Johnson administration while trying to keep the Democratic base on board.<br><br>• Ronald Reagan will have to prove that his brand of Conservatism is the right direction for the nation without succumbing to the same pitfalls of his predecessors.</p>",
+            "image_url": "https://i.imgur.com/B0l9ekX.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/hHms7RV.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://i.imgur.com/IyKpKzG.png",
+            "creator": "Dan Bryan",
+            "display_year": "1972 Viva Kennedy"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Ronald W.",
+            "last_name": "Reagan",
+            "election": 10,
+            "party": "Republican",
+            "state": "California",
+            "priority": 1,
+            "description": "<p>Ronald Reagan is the actor turned politician and the sitting Governor of California. Once a Democrat, his first appearance on the political scene was his prominent endorsement of Barry Goldwater in 1964. In the time since, he has become the face of the Republican conservative wing, and had ran to the right of Nixon in the 1968 Republican primaries.<br><br>Reagan is heavily favored to win, running hard on his “New Normalcy” agenda of walking back extreme programs passed under Johnson. Still, with 2 conservatives on the ballot, Reagan will need to rely on moderates from both parties settling for him rather than bolting for McCloskey.<br><br>Will Reagan be able to finesse the line between traditional and regressive? Or will his acting chops not measure up to a bona-fide cowboy?</p>",
+            "color_hex": "#EF2F16",
+            "secondary_color_hex": "#EF2F16",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Reagan.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "John B.",
+            "last_name": "Connally",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 2,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>John Connally is the former Governor of Texas and the one politician injured during the asassination attempt on President Kennedy in November 1963. He traditionally allies himself with the conservative wing of the party, though he has distanced himself from fellow Southern Governors on the issue of race, softening his rhetoric on the Civil Rights Act.<br><br>In 1969, Connally stepped down from Governor and served as Johnson's Secretary of Defense, garnering a reputation as a cold war hawk. It was this reputation that Connally built his primary campaign on, distancing himself as much as possible from the unpopular aspects of the Johnson administration. Despite this, it was only on the 5th ballot that Connally was able to secure the nomination over Vice President Humphrey after back room deals including both Kennedy and Johnson.<br><br>This leaves Connally at a distinct disadvantage heading into the general election. With a divided party and an opponent undercutting his platform, he'll have to campaign hard to regain the trust of Democrats and moderates alike - without letting Reagan's star power eclipse his conservative base.</p>",
+            "color_hex": "#0C4686",
+            "secondary_color_hex": "#0C4686",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/wmremove-transformed%20(1).jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "Paul N. \"Pete\"",
+            "last_name": "McCloskey",
+            "election": 10,
+            "party": "Independent Republican",
+            "state": "California",
+            "priority": 3,
+            "description": "<p>On August 23rd, 1972, Pete McCloskey was watching as the final day of the DNC stretched into the wee hours of the morning. The Democratic primaries had been a nightmare so far, and it was clear that it would come down to Vice President Hubert Humphrey, or Secretary of Defense John Connally. After he had been bulldozed by Reagan and his conservative rhetoric during the Republican primaries, McCloskey hoped that the Democrats could pull through with a viable candidate.<br><br>His heart sank as Secretary Connally came out to give his official acceptance speech as nominee.<br><br>There was no other choice. He had to take matters into his own hands.</p><p><button onclick='mccloskeynext0()'>More</button></p>",
+            "color_hex": "#0c8616",
+            "secondary_color_hex": "#0c8616",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/image_thumbnail_300.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "Shirley A.",
+            "last_name": "Chisholm/Others",
+            "election": 10,
+            "party": "Independent Democratic/Various",
+            "state": "New York/Various",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#5d0c86",
+            "secondary_color_hex": "#5d0c86",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "Howard H.",
+            "last_name": "Baker",
+            "election": 10,
+            "party": "Republican",
+            "state": "Tennessee",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/uf3MDOS.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Howard Baker has served as Senator from Tennessee since his upset victory in 1964. Being the first Republican Senator from the state since reconstruction, his advantages in the South are obvious. He has also made a significant name for himself in the Senate, gaining a reputation for being willing to work across the aisle, which would help soften your appeals to disaffected Democrats. Baker wouldn’t be as useful in the Midwest, however, which could be somewhat competitive now that Connally has selected Senator Jackson as his running mate.<br><br>Selecting Baker might be your best chance at the coveted Republican Southern sweep, but be mindful not to neglect other vital regions during the campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "John A.",
+            "last_name": "Volpe",
+            "election": 10,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/dmd7xw.jpeg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Volpe has served on and off as Governor of Massachusetts for the past decade. As a moderate Republican, he would heal some of the wounds between yourself and the Rockefeller wing of the Republicans without ruffling many feathers in your base. He'd also give you a regional advantage in what has been a traditionally Democratic region for some time now. On the other hand, his strong positions on Civil Rights might cede more of the South to Connally, but how badly do you really need it anyway?<br><br>Volpe would represent a Northern strategy for your campaign, but given your opponent, that strategy is a surefire path to victory.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 97,
+        "fields": {
+            "first_name": "Charles H. \"Chuck\"",
+            "last_name": "Percy",
+            "election": 10,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/z4zaz9cg6srmt0cwp6mbdtt10w.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Charles Percy has served as Senator for Illinois since 1966. A Rockefeller Republican from the Midwest, he'll be vital to swinging industrial workers who might be considering McCloskey. He's also been an outstanding advocate for escalating measures in Cambodia, which would help solidify your foreign policy against Connally's. On the other hand, conservatives would be beside themselves for nominating you just to hand your Vice Presidential slot to the exact kind of politicians they were voting against.<br><br>Choosing Percy would be a good way to balance the ticket, provided you don't let him drive you too far from your base.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Wayne",
+            "election": 10,
+            "party": "Republican",
+            "state": "California*",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-1153479757-2048x2048.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Wayne is...well, you probably already know who he is. A well known Hollywood cowboy, Wayne's profile is similar to what yours was when you first sought the Governor's mansion. Some argue this would make him completely unqualified for the position, though others believe it contributes to your outsider credentials. His strong conservative stances would provide a unified front on policy heading into the general election, though some of his statements on race might urge moderates toward McCloskey. There's also the issue of his declining health, which does not help the claims that he is unfit for office.<br><br>Nevertheless, Reagan and The Duke could be the all-star ticket to take back the White House!<br><br><i>*Wayne would register his home state as lowa for electoral purposes.</i></p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Henry M. \"Scoop\"",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Washington",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/0jnae8zqa9rmr0cwp6ma66tmx4.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Henry Jackson is a Senator from Washington, and placed third during the primaries. Running to the left of you on social issues, he would help balance the ticket without sacrificing your foreign policy platform. His history with unions would also help win back voters in the Midwest that have been vital to Democratic victories in the past. However, two foreign policy hawks sharing a ticket could push more of the traditionally liberal Democratic voters towards McCloskey.<br><br>Scoop may be your best chance against these insurmountable odds, but even still you're looking at an uphill battle.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Warren H.",
+            "last_name": "Hearnes",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Missouri",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/MO_Governors_-_46_Warren_Eastman_Hearnes.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Warren Hearnes is the twice elected Governor of Missouri. Having won in two subsequent landslides, he would help your campaign expand northward into the Midwest. His strong record creating jobs and expanding educational and vocational programs would also give you an edge with union voters who will be vital to your chances come November. On the other hand, his vocal support of Civil Rights could make some Southerners uneasy.<br><br>Ultimately, Hearnes would represent a pragmatic campaign similar to President Kennedy's, with just as fine a line to walk.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Ernest F. \"Fritz\"",
+            "last_name": "Hollings",
+            "election": 10,
+            "party": "Democratic",
+            "state": "South Carolina",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/zampdrjyw5rmt0cwp6nr31ecpg.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Ernest Hollings is a Senator and former Governor of South Carolina. Unlike his fellow Senator, Strom Thurmond, Hollings chose not to switch parties during the 1970 \"Republican Southern Revolution.\" As a Southerner, he would cement your base, ensuring you would retain key Wallace states that have been slipping for Democrats in recent years. However, his record on segregation will make inroads in the North exceedingly difficult, despite his best efforts to distance himself from his racist past.<br><br>Hollings is the Southern strategy this year, plain and simple - but is that a strategy that can lead your campaign to victory?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "Shirley A.",
+            "last_name": "Chisholm",
+            "election": 10,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://jetsimon.com/cts-media/public/1972b_WallaceChisholm_0.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The party can't figure out what to make of it. Southern delegates, elated by your victory in the primaries, are baffled by this choice. Northern delegates wonder if there is hope for your campaign after all. Everyone is speechless. How could the uber conservative John Connally pick the uber liberal Shirley Chisholm? Chisholm herself is lost for words when you ask her. Finally, she purses her lips, and sternly responds: \"Alright, Governor. Provided we can agree on an amenable platform, I accept.\"<br><br>The next morning, across the nation the headlines all read the same: \"Connally/Chisholm! The Odd Couple hit the Campaign Trail!\"</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "William L.",
+            "last_name": "Guy",
+            "election": 10,
+            "party": "Democratic",
+            "state": "North Dakota",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260228-162906_Chrome.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>William Guy is the Democratic Governor of North Dakota. Like you, he is a war veteran, and like you, he opposes escalating the situation in Cambodia. Being from the opposing party, Guy would assist in demonstrating your ticket as one for liberals of both parties, which will be essential to your chances. He also has a strong record on domestic policy which will help broaden your appeal beyond your anti-war rhetoric.<br><br>Guy may not be the most exciting choice, but he's a solid play to get some real traction in this race.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "Uncommitted",
+            "last_name": "Voters/Others",
+            "election": 10,
+            "party": "Independent/Various",
+            "state": "Washington, D.C./Various",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 67,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 104
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 66,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 62,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 63,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 100
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 59,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 96
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 60,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 97
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 61,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 98
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 64,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 101
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 65,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 102
+        }
+    }
+]
+
+campaignTrail_temp.credits = "The Viva Kennedy Team"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1972 Viva Kennedy"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "",
+    "backgroundImageUrl": "https://i.imgur.com/1aH649Y.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#969690";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#cdcdc5";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#898c71";
+
+document.getElementById("header").src = "";
+
+document.body.background = "https://i.imgur.com/1aH649Y.png";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/8w8dgm.png)"
+
+$("#game_window")[0].style.borderColor = "#c4d6e0"
+
+$(".container")[0].style.border = ".2em solid #969690"
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#cdcdc5!important;}</style>";
+
+mccloskeynext0 = function() {
+    text = "<ul><li>Name: Paul N. ''Pete'' McCloskey</li><li>Party: Independent Republican</li><li>Home State: California</li></ul><p>Paul ''Pete'' McCloskey is the Representative for California's 11th congressional district and a decorated Korean War veteran. Having served in Congress since 1970, he has been steadfastly against Johnson's actions in Cambodia, even going so far as to publicly call them ''war crimes.''<br><br>With two conservative hawks on the ballot come November, McCloskey felt he had no choice but to announce his bid for President. Though he was annihilated in the primaries, he's hoping to create a similar movement to Wallace's four years ago (from a much different base).<br><br>McCloskey has virtually no chances of winning, but if he can capitalize on disaffected liberal voters enough, he may be able to pull off the impossible and deadlock the election - validating the anti-war movement.</li></p><button onclick='back0()'>Back</button></p>"
+    document.getElementById("candidate_summary").innerHTML = text
+}
+mccloskeyback0 = function() {
+    text = "<p>On August 23rd, 1972, Pete McCloskey was watching as the final day of the DNC stretched into the wee hours of the morning. The Democratic primaries had been a nightmare so far, and it was clear that it would come down to Vice President Hubert Humphrey, or Secretary of Defense John Connally. After he had been bulldozed by Reagan and his conservative rhetoric during the Republican primaries, McCloskey hoped that the Democrats could pull through with a viable candidate.<br><br>His heart sank as Secretary Connally came out to give his official acceptance speech as nominee.<br><br>There was no other choice. He had to take matters into his own hands.</p><p><button onclick='next0()'>More</button></p>"
+    document.getElementById("candidate_summary").innerHTML = text
+}
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/fmnwvm.jpg");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+quotes = ["''You and I have a rendezvous with destiny.'' ~ Ronald Reagan", "''If fascism ever comes to America, it will come in the name of liberalism.'' ~ Ronald Reagan", "''The trouble with our liberal friends is not that they are ignorant, but that they know so much that isn't so.'' ~ Ronald Reagan", "''When you're out of office, you can be a statesman.'' ~ John Connally", "''In the early sixties, we were strong, we were virulent.'' ~ John Connally", "''A chess tournament disguised as a circus.'' ~ John Connally", "''In Washington I'm thought of as a conservative, but in Tennessee I'm thought of as a Bolshevik.'' ~ Howard Baker", "''In matters of national security, the best politics is no politics.'' ~ Henry Jackson", "''A man may die, nations may rise and fall, but an idea lives on.'' ~ John F. Kennedy", "''Things don't just happen, they are made to happen.'' ~ John F. Kennedy", "''Congressmen are like diapers - You need to change them often, and for the same reason.'' ~ Pete McCloskey", "''Doing the right thing is not the problem. Knowing what the right thing is, that's the challenge.'' ~ Lyndon B. Johnson", "''... The Democratic Party must look quite often to Jewish money to finance candidates.'' ~ Pete McCloskey", "''I dream of things that never were; and I say Why not?'' ~ George Bernard Shaw", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>VIVA KENNEDY</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#969690", "header_image_url": "https://files.catbox.moe/45kiqr.png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#cdcdc5", "main_color": "#898c71", "secondary_color": "#969690", "ui_text_color": "#FFFFFF" }
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>The Viva Kennedy Team</button>";
+  
+window.credits = function() {
+  const creditsList = ["u/jake_dionysos and u/Tazsabin for the writing, theme, & mod universe.", "", "Code 1 exported by C0SM0.", "littleamericanman_85501 provided a banner.", "Soundtrack code provided by 1970 Texas Senate.", "Various codes provided my DecStarG & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #cdcdc5;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/i29mvl.png");
+
+bannerArr=0
+
+bannerlist=["https://i.imgur.com/ukrhsLS.png", "https://files.catbox.moe/xu9p3x.png"]
+document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))]
+
+HistHexcolour=["#EF2F16","#0C4686","#0c8616","#5d0c86"];
+    HistName=[" Ronald W. Reagan"," John B. Connally"," Paul N. ''Pete'' McCloskey"," Shirley Chisholm/Others"];
+    HistEV=[292,243,0,3];
+    HistPV=["38,237,859","36,581,707","2,684,812","687,692"];
+    HistPVP=["48.9%","46.8%","3.4%","0.9%"];
+
+e.music = {};
+e.music.shuffleEnabled = false;
+e.music.Volume=0.3;
+e.music.loopEnabled = false;
+var element = document.getElementById('my-invisible-element');
+$("#music_player")[0].children[0].style.display = "none"
+$("#music_player")[0].children[1].style.display = "none"
+document.getElementById("modLoadReveal").style.display = "none"
+document.getElementById("modloaddiv").style.display = "none"
+musicBox = document.getElementById("music_player")
+musicBox.style.display = ""
+var trackSel;
+e = campaignTrail_temp
+e.selectedSoundtrack = 0
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+}
+
+generateTime = () => {
+            // Get the audio element
+            var audio = document.getElementById("campaigntrailmusic");
+            timeTracker = document.createElement("div");
+            timeTracker.id ='timeTracker'
+            timeTracker.style = `
+      text-align:left;
+      border-style:solid;
+      border-width:3px;
+      height:180px;
+      width:200px;
+      background-color:#cdcdc5;
+      float:right;
+      padding: 10px;
+      `
+            $("#trackSelParent")[0].prepend(timeTracker);
+            $("#trackSelParent")[0].prepend(document.createElement("br"));
+            var positionDisplay = document.createElement("gg");
+            positionDisplay.id = "position-display";
+            var timeSlider = document.createElement("input");
+            timeSlider.type = "range";
+            timeSlider.min = 0;
+            timeSlider.max = 1;
+            timeSlider.step = 0.001;
+            timeSlider.value = 0;
+            timeSlider.style.width = "200px";
+            timeSlider.id = "time-slider";
+            var pausePlay = document.createElement("button");
+            pausePlay.id = "position-display";
+            pausePlay.innerHTML = "<b>Pause</b>"
+            pausePlay.style.width = "100%";
+            pausePlay.style.margin = "2px";
+            pausePlay.addEventListener("click", event => {
+                event.preventDefault();
+                updatePositionDisplay();
+                let audio = document.getElementById("campaigntrailmusic");
+                if (audio.paused) {
+                    audio.play();
+                    event.target.innerHTML = "<b>Pause</b>";
+                    return;
+                }
+                audio.pause();
+                event.target.innerHTML = "<b>Play</b>";
+                return;
+            })
+            var shuffleButton = document.createElement("button");
+            shuffleButton.id = "shuffle-button";
+            shuffleButton.innerHTML = "<b>Shuffle</b>"
+            shuffleButton.style.width = "100%"
+            shuffleButton.style.margin = "2px";;
+            shuffleButton.addEventListener("click", event => {
+                event.preventDefault();
+                e.music.shuffleEnabled = !e.music.shuffleEnabled;
+                event.target.innerHTML = e.music.shuffleEnabled ? "<b>Unshuffle</b>" : "<b>Shuffle</b>";
+                if (e.music.shuffleEnabled) {
+                    shuffledIndices = shuffle(trackIndices.slice());
+                    let currentTrackIndex = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                    shuffledIndices = shuffledIndices.filter(index => index !== currentTrackIndex);
+                    shuffledIndices.unshift(currentTrackIndex);
+                }
+            });
+            var skipButton = document.createElement("button");
+            skipButton.id = "skip-button";
+            skipButton.innerHTML = "<b>Skip</b>"
+            skipButton.style.width = "100%";
+            skipButton.style.margin = "2px"; // Add margin
+            skipButton.addEventListener("click", event => {
+                event.preventDefault();
+                let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                let newSel;
+                if (e.music.shuffleEnabled) {
+                    if (!shuffledIndices) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                    }
+                    let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                    if (currentIndex === shuffledIndices.length - 1) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                        currentIndex = -1;
+                    }
+                    newSel = shuffledIndices[currentIndex + 1];
+                } else {
+                    newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+                }
+                let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                        return f.tagName == "LABEL"
+                    }).map(f => f.children[0])
+                buttons[newSel].click()
+            });
+            skipButton.style.width = "50%";
+            var loopButton = document.createElement("button");
+            loopButton.id = "loop-button";
+            loopButton.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Check the initial loop state
+            loopButton.style.width = "50%";  // Match the width with skipButton
+            loopButton.style.margin = "2px";
+            loopButton.addEventListener("click", event => {
+                event.preventDefault();
+                e.music.loopEnabled = !e.music.loopEnabled;
+                let audio = document.getElementById("campaigntrailmusic");
+                audio.loop = e.music.loopEnabled;  // Set the audio's loop property
+                event.target.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Toggle the button text
+            });
+            var volumeLabel = document.createElement("gg");
+            volumeLabel.id = "volume-label";
+            volumeLabel.innerHTML = "<br><b>Volume: </b>"
+            var volumeSlider = document.createElement("input");
+            volumeSlider.type = "range";
+            volumeSlider.min = 0;
+            volumeSlider.max = 1;
+            volumeSlider.step = 0.001;
+            volumeSlider.value = 0;
+            volumeSlider.style.width = "200px";
+            volumeSlider.id = "volume-slider";
+            audio.volume= e.music.Volume;
+            volumeSlider.value = audio.volume;
+            timeTracker.appendChild(pausePlay);
+            if (audio.volume === 0) {
+                audio.pause();
+                pausePlay.innerHTML = "<b>Play</b>";  // Update the pause button text to "Play"
+            }
+            timeTracker.appendChild(shuffleButton);
+            var buttonContainer = document.createElement("div");
+            buttonContainer.style.display = "flex"; // Makes children inline
+            buttonContainer.style.justifyContent = "space-between";
+            skipButton.style.flex = "1"; // Makes it take up equal space
+            skipButton.style.marginRight = "5px"; // Adds some space between the buttons
+
+            loopButton.style.marginRight = "0px";
+
+            buttonContainer.appendChild(skipButton);
+            buttonContainer.appendChild(loopButton);
+
+            timeTracker.appendChild(buttonContainer); // Add the container to timeTracker instead of individual buttons
+            timeTracker.appendChild(positionDisplay);
+            timeTracker.appendChild(timeSlider);
+            timeTracker.appendChild(volumeLabel);
+            timeTracker.appendChild(volumeSlider);
+            updatePositionDisplay();
+            function updatePositionDisplay() {
+                positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+                timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+            }
+            function changeTime() {
+                positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+                audio.currentTime = timeSlider.value * audio.duration;
+            }
+            updateVolume = event => {
+                audio.volume = event.target.value;
+                e.music.Volume=audio.volume;
+            }
+            setInterval(updatePositionDisplay, 1000);
+            timeSlider.addEventListener("input", changeTime);
+            volumeSlider.addEventListener("input", updateVolume)
+        }
+
+    function newMusicPlayer(previousBgImage = null) {
+            trackSel = document.createElement("div");
+            trackSel.id = "trackSelParent";
+            let z = `<div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#cdcdc5;float:right;">`
+            z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+            for (i in soundtracks) {
+                if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                    z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+                }
+            }
+            z += `</select></b><br><br>`
+                // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+            for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+                let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+                let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+                z += b
+            }
+            z += "</div><br><br>"
+            trackSel.innerHTML = z
+            musicBox.appendChild(trackSel);
+            Array.from(document.getElementById("trackSel").children).filter(f => {
+                return f.tagName == "LABEL"
+            }).map(f => f.children[0])[0].checked = true
+            soundtrackSelector = document.getElementById("selectSoundtrack")
+            soundtrackSelector.onchange = function() {
+                let currentBgImage = document.getElementById("trackSel").style.backgroundImage;
+
+                for (i in soundtracks) {
+                    if (soundtracks[i].name == soundtrackSelector.value) {
+                        e.selectedSoundtrack = i;
+                        break;
+                    }
+                }
+                e.music.shuffleEnabled = false;
+                shuffledIndices = null;
+
+                document.getElementById("trackSelParent").remove();
+                newMusicPlayer(currentBgImage);  // Pass the current background image to the next function invocation.
+            };
+            var matches = document.querySelectorAll('.trackSelector');
+            for (match in matches) {
+                matches[match].onchange = function() {
+                    audio = $("#campaigntrailmusic")[0];
+                    audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                    audio.currentTime = 0
+                }
+            }
+            musicBox.children[2].loop = false
+            musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+            trackIndices = Array.from({length: soundtracks[e.selectedSoundtrack].tracklist.length}, (_, i) => i);
+
+            musicBox.children[2].onended = function() {
+                if (e.music.loopEnabled) {
+                    this.play();  // If loop is enabled, simply play the same track again
+                } else {
+                let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                let newSel;
+                if (e.music.shuffleEnabled) {
+                    if (!shuffledIndices) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                    }
+                    let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                    if (currentIndex === shuffledIndices.length - 1) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                        currentIndex = -1;
+                    }
+                    newSel = shuffledIndices[currentIndex + 1];
+                } else {
+                    newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+                }
+                let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                        return f.tagName == "LABEL"
+                    }).map(f => f.children[0])
+                buttons[newSel].click()
+                }
+            }
+
+            for (w = 0; w < 7; w++) {
+              document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+            }
+            generateTime();
+           if (previousBgImage) {
+                document.getElementById("trackSel").style.backgroundImage = previousBgImage;
+                 document.getElementById("timeTracker").style.backgroundImage = previousBgImage;
+            }
+        }
+        clamp = function(a, max, min, overflow = true) {
+            if (overflow) {
+                return a > max ? min : a < min ? max : a;
+            }
+            return a > max ? max : a < min ? min : a;
+        }
+        var soundtracks = {
+  0: { // opening song yaaay
+    name: "Opening Song",
+    tracklist: [
+    {
+      "name": "Sunshine Of Your Love (Cream)",
+      "url": "https://files.catbox.moe/wqwaae.mp3"
+    }
+  ]
+}, 
+   1: { // Reagan soundtrack
+    name: "Make America Great Again (Reagan)",
+    tracklist: [
+    {
+      "name": "SWLABR (Cream)",
+      "url": "https://files.catbox.moe/weowe7.mp3"
+    },
+    {
+      "name": "A Horse With No Name (America)",
+      "url": "https://files.catbox.moe/hyq38z.mp3"
+    },
+    {
+      "name": "Hollywood Waltz (Eagles)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Hollywood%20Waltz%20(2013%20Remaster).mp3"
+    },
+    {
+      "name": "Going To California (Led Zeppelin)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Led%20Zeppelin%20-%20Going%20To%20California%20(Official%20Audio)%204.mp3"
+    },
+    {
+      "name": "Ain't I Right (Johnny Freedom)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Johnny%20Freedom%20-%20Ain't%20I%20Right.mp3"
+    },
+    {
+      "name": "Old Man (Neil Young)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Old%20Man%20(2017%20Remaster).mp3"
+    }
+  ]
+}, 
+   2: { // Connally soundtrack
+    name: "For A Greater America (Connally)",
+    tracklist: [
+    {
+      "name": "Simple Man (Lynyrd Skynyrd)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Lynyrd%20Skynyrd%20-%20Simple%20Man%20(Audio)%204.mp3"
+    },
+    {
+      "name": "Under My Thumb (The Rolling Stones)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Under%20My%20Thumb.mp3"
+    },
+    {
+      "name": "Southern Comfort (Johnny Cash)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Southern%20Comfort.mp3"
+    },
+    {
+      "name": "Everybody's Wrong (Buffalo Springfield)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Everybody's%20Wrong.mp3"
+    },
+    {
+      "name": "Gunsmoke (The Outlaws)",
+      "url": "https://file.garden/ZdjMW5zmo3pLm5z8/Gunsmoke%20(Digitally%20Remastered%2C%201996)%204.mp3"
+    },
+    {
+      "name": "Honky-Tonk Man (Johnny Horton)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Honky-Tonk%20Man.mp3"
+    }
+  ]
+}, 
+   3: { // McCloskey soundtrack
+    name: "For Truth, Not Fear (McCloskey)",
+    tracklist: [
+    {
+      "name": "We Gotta Get Out Of This Place (The Animals)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/We%20Gotta%20Get%20Out%20Of%20This%20Place%20(US%20Version)%204.mp3"
+    },
+    {
+      "name": "Let The Sunshine In (The 5th Dimension)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Let%20The%20Sunshine%20In%20-%205th%20Dimension%20%5BHD%5D%204.mp3"
+    },
+    {
+      "name": "Somebody To Love (Jefferson Airplane)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Somebody%20to%20Love%204.mp3"
+    },
+    {
+      "name": "Gimme Shelter (The Rolling Stones)",
+      "url": "https://audio.jukehost.co.uk/69NmDkw1Ba9afzVwrhHCitTx5EJO2iHO"
+    },
+    {
+      "name": "Blowin' In The Wind (Bob Dylan)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Blowin'%20in%20the%20Wind.mp3"
+    },
+    {
+      "name": "War Pigs (Black Sabbath)",
+      "url": "https://file.garden/ZdjMW5zmo3pLm5z8/Black%20Sabbath%20~%20War%20Pigs%204.mp3"
+    }
+    ], 
+},
+}
+
+
+newMusicPlayer()
+
+//#endcode
