@@ -1,0 +1,794 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "In 2020, the death knell to the Bush Dynasty had finally been accomplished. When a botched war with Iran concided with heavy protests for social justice and a deadly pandemic, the tides turned against President Jeb Bush. The same year, Massachusetts liberal Ed Markey won in a surprisingly close race—the fate of the country decided by one state: Georgia.<br><br>Since then, however, expectations for the administration have fallen off a cliff. Signs the economy is about to collapse, the continuation of the war in Iran, and a congress hellbent on stonewalling Markey's agenda has made everyone lose their minds.<br><br>In a time of chaos, unappealing candidates may enter the mainstream. And the GOP will find itself crucified to a Cross of small government, noninterventionism, and laissez-faire capitalism once again...",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260310-155132_Chrome.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260310-155505_Chrome.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2024 - Liberty & Liberalism"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Markey",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>A shock victory in the used-to-be Republican stronghold of Georgia elevated Ed Markey to the status of president—a Massachusetts liberal akin to Dukakis & the Kennedys. But since his inauguration, he has been forced to deal with a GOP congress blocking his agenda and a disastrous war with Iran, whom the people paint Markey as weak and dovish. At home, the life of ordinary folks seems bleaker by the moment as telltale signs to economy will be in free fall soon plaster the front page of every news site.<br><br>Markey has sacrificed a lot to get here; he's not gonna let the regressive opposition take back the country and continue their warmongering bigoted policies. No, he'll fight like hell. And by God, he'll do it.<br><br>You don't change horses in the middle of a stream.</p>",
+            "color_hex": "#2751e8",
+            "secondary_color_hex": "#2751e8",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260310-004753_Google.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Massie",
+            "election": 20,
+            "party": "Republican",
+            "state": "Kentucky",
+            "priority": 2,
+            "description": "<p>Barry Goldwater, Ron Paul, Gary Johnson—the flames of liberty have not gone out since America's genesis in 1776. The one who tries to spread the fire again is none other than Kentucky representative Thomas Massie. Massie is known for increasingly voting \"No\" on many proposed laws, even voting against the Iran War resolution when President Jeb Bush called him. Since 2020, he has been quickly compared to the likes of Ron Paul—libertarian thought over partisanship. His decisive nature made him many enemies within GOP circles.<br><br>But for the wider American—the liberal, conservative, and apolitical—Massie's just as much of a kook like Paul. His Maverick-style lean towards politics won't do him any favors when funds are needed, the president still has a sizable war chest, and the only person you can rely on to defend you... is you. But for a guy like Massie, all he needs to triumph over anti-freedom tyrants... are the people.</p>",
+            "color_hex": "#e8bb27",
+            "secondary_color_hex": "#e8bb27",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Massie.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Alex",
+            "last_name": "Jones",
+            "election": 20,
+            "party": "Constitution/American",
+            "state": "Texas",
+            "priority": 3,
+            "description": "<p>How far can you go by playing the card of unorthodoxy? Surprisingly, very far. Talk show host Alex Jones gained notoriety online by spouting asinine conspiracy theories and filming himself doing childish outbursts on InfoWars. It was funny, it was entertaining, and it gained him popularity, which he'll exploit to get far. It's from these wacky clips he was able to amass a noticeable following on the hard to far right of the spectrum. To the establishment, he's their biggest nightmare.<br><br>Unfortunately, most potential voters view him as a tragedy-denying wacky dumbass who's only reason in life is to be a total douche. But Alex doesn't need them—those people brainwashed by the deep state. What he needs are voters to vote for him; support him enough to deadlock the election and force a conspiratorial mandate onto whoever poor sap wins the House.",
+            "color_hex": "#e82e27",
+            "secondary_color_hex": "#e82e27",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Alex_Jones_by_Gage_Skidmore.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stein/Others",
+            "election": 20,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#2be827",
+            "secondary_color_hex": "#2be827",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Menendez",
+            "election": 20,
+            "party": "Democratic",
+            "state": "New Jersey",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260310-151022_Google.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The New Jersey Senator is quickly becoming more of a liability then you'd like. Bob Menendez wishes it was him doing the deal making, handshaking, and signing instead of you. Hell, he'll rather be appointed as State secretary—a job that actually gets work done. But no, he can't move out of withholding the most useless job in American politics. But even trash can be made into something useful. Menendez's friendly persona in the media contrasts your intellectual calmness on all matters.<br><br>Still, Bob has to get out of the administration if your chances to win wishes to remain above zero. A recent investigation into Bob's personal finance ventures may return with something... deeply damaging to his reputation. And with this, you'll jump ship, leaving him to fight for himself. But to what ship you'll jump to... that is uncertain. Is the future worth taking the risk?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "The Voice Of",
+            "last_name": "Freedom",
+            "election": 20,
+            "party": "Nonpartisan",
+            "state": "Nationwide",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Libertarian.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>From Sea to Shining Sea, a voice calls out into the abyss created by the elite.<br><br>The voice yearns for true American values—liberty, freedom, and common sense. The voice yearns for an opportunity for all people to live out their best dreams without government interference. The voice yearns for an America truly founded on life, liberty, and the pursuit of happiness. For some, the voice is just noise; it's generic patriot talk mixed with being blind to the unfortunate for the poor. But for many, there's more than just freedom from interference. It's for the survival of the nation. It's for all of us.<br><br>Shall the stars go out in the darkest of times? Shall the potential to be great be cast aside in favor of the bureaucratic elite? No. This is not future America shall turn towards. Ever.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Storm",
+            "election": 20,
+            "party": "Republican?",
+            "state": "United States",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/AP_20277748154865-scaled.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>There was a time in America when it was truly great. No bullshit was widespread, no bureaucracy present to tell what the American people would act, think, and react. When was that time period of prosperity is anyone's guess. For these people, they believe—no, they know—the country has fallen into the hands of a power-hungry woke elite willing to send citizens to the meat grinder.<br><br>The storm goes by many names, yet all are under the umbrella of reactionary ideals, conspiracy theories, and anti-intellectualism. It has gained a foothold deep in Jesusland where libertarian values don't bode with the gun-toting white rural Patriots. Whether by God or by blood, the storm has a chance to throw away the two-party system and finally, once and for all, expose the strings America's held by.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Butch",
+            "last_name": "Ware",
+            "election": 20,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 157395,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 205
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 145858,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 208
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 29,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2024 - Liberty & Liberalism"
+    }
+]
+
+jet_data = {
+    "headerColor": "#182e52",
+    "windowColor": "#ffd662",
+    "containerColor": "#12356e",
+    "innerWindowColor": "#ffd662",
+    "bannerImageUrl": "https://i.postimg.cc/dVsTZH8T/D8E08BFB-F673-4112-BDD9-99E42BE7AACC.png",
+    "backgroundImageUrl": "https://files.catbox.moe/pollit.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#182e52";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffd662";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#12356e";
+
+document.getElementById("header").src = "https://i.postimg.cc/dVsTZH8T/D8E08BFB-F673-4112-BDD9-99E42BE7AACC.png";
+
+document.body.background = "https://files.catbox.moe/pollit.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffd662!important;}</style>";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/bk8166.png)"
+
+$("#game_window")[0].style.borderColor = "#90cce8"
+
+$(".container")[0].style.border = ".2em solid #90cce8"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+quotes = ["''Cannibalism is very fashionable on the West Coast.'' ~ Alex Jones", "''If you are receiving this transmission, you are the resistance.'' ~ Alex Jones", "''Get your shirt off... it's pervert time!'' ~ Alex Jones", "''When our government meddles in the internal affairs of foreign countries, it invites those governments to meddle in our affairs.'' ~ Thomas Massie", "''I am not suicidal.'' ~ Thomas Massie", "''We can't avoid justice to avoid embarrassment for some very powerful men.'' ~ Thomas Massie", "''Americans want to fund health care, not endless warfare.'' ~ Ed Markey", "''Our troops deserve a clear mission, so when it’s done they can come home. No more forever wars.'' ~ Thomas Massie", "''I’m going to literally eat my neighbors ass.'' ~ Alex Jones", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#182e52", "header_image_url": "https://files.catbox.moe/zzg71h.png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#ffd662", "main_color": "#12356e", "secondary_color": "#d3af37", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://lporegon.org/wp-content/uploads/Branding/cropped-LP-LOGO-SQUARE-TRANSPARENT-1-1.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original r/imaginaryelections post made by u/Funksley.", "Banner provided by littleamericanman_85501.", "Various codes provided by DecStarG, Mangolith, & Thatchmaster."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#e8bb27","#2751e8","#e82e27","#2be827"];
+    HistName=[" Thomas Massie"," Ed Markey"," Alex Jones"," Jill Stein/Others"];
+    HistEV=[272,245,20,0];
+    HistPV=["66,441,993","70,788,665","15,058,115","2,949,578"];
+    HistPVP=["42.8%","45.6%","9.7%","1.9%"];
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Politik",
+      "Coldplay",
+      "https://mangolith.com/ProjectPics/WfileReUp/pI6Xi8M.png",
+      "https://audio.jukehost.co.uk/J7qpKNJ4aUJNXu19QiQtQNYRISAiIB8E"
+    );
+    
+    const song2 = new Song(
+      "Waiting For The End",
+      "Linkin Park",
+      "https://upload.wikimedia.org/wikipedia/en/4/44/Wfte_Cover02.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Waiting%20for%20the%20End%204.mp3"
+    );
+  
+    const song3 = new Song(
+      "We Didn't Start The Fire",
+      "Fall Out Boy",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cover_of_Fall_Out_Boy%27s_%22We_Didn%E2%80%99t_Start_The_Fire%22.jpeg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/We%20Didn%E2%80%99t%20Start%20The%20Fire_spotdown.org.mp3"
+    );
+  
+    const song4 = new Song(
+      "Roaring 20s",
+      "Panic! At The Disco",
+      "https://upload.wikimedia.org/wikipedia/en/4/4c/Pray_for_the_Wicked.png",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Panic!%20At%20The%20Disco%20-%20Roaring%2020s%20(Official%20Audio)%204.mp3"
+    );
+  
+    const song5 = new Song(
+      "Stange Days Are Here To Stay",
+      "Green Day",
+      "https://files.catbox.moe/dploa5.jpg",
+      "https://files.catbox.moe/irr1ny.mp3"
+    );
+  
+    const song6 = new Song(
+      "Culture War",
+      "Arcade Fire",
+      "https://files.catbox.moe/8o4g40.jpg",
+      "https://audio.jukehost.co.uk/RhtuRlzsvBxm4eLoUPiAysQT1FfnIdM3"
+    );
+  
+    const song7 = new Song(
+      "Give And Take",
+      "Poor Man's Poison",
+      "https://files.catbox.moe/1n1p1s.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Poor%20Mans%20Poison%20-%20Give%20And%20Take%20(Official%20Video)%20A.K.A.%20Feed%20The%20Machine%20II%20the%20sequel%204.mp3"
+    );
+  
+  
+    const song8 = new Song(
+      "This Has Gotta Stop",
+      "Eric Clapton",
+      "https://files.catbox.moe/6j5jij.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Eric%20Clapton%20-%20This%20Has%20Gotta%20Stop%20(Official%20Music%20Video).mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://itsastronomical.com/assets/music/buttons.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #90cce8; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://itsastronomical.com/assets/music/blackbar.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+//#endcode
