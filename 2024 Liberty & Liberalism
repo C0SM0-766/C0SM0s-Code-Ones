@@ -491,7 +491,7 @@ HistHexcolour=["#e8bb27","#2751e8","#e82e27","#2be827"];
     );
   
     const song5 = new Song(
-      "Stange Days Are Here To Stay",
+      "Strange Days Are Here To Stay",
       "Green Day",
       "https://files.catbox.moe/dploa5.jpg",
       "https://files.catbox.moe/irr1ny.mp3"
