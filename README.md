@@ -2,8 +2,8 @@
 
 ![Banner 1](https://raw.githubusercontent.com/C0SM0-766/C0SM0s-Code-1s/refs/heads/main/Banner%201.jpg)
 
-> "Alright that's it, time to turn gay and be a femboy on OnlyFans!"
-> ~ William Shakespeare, probably
+> "r/thecampaigntrail users making the greatest mockups known to man (It will never be a mod):"
+> ~ u/MistaBombasticFanta
 
 Oh! Hey there! Didn't expect you to lurk around my Github repository, but I kinda should've expected that when I had linked my Github account on Discord.
 
