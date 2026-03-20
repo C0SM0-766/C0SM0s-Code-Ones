@@ -186,6 +186,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **2024 Liberty & Liberalism**
 - Creation Date: March 10th, 2026
 
+**2028 GOP Primaries: Fall Of The Giant**
+- Creation Date: March 20th, 2026
+
 -------
 
 ~~Holy shit, I've made so much of these for so long.~~ But anyways, I'm still making them even after **2 years!** More to come soon. (˶˃ ᵕ ˂˶)
