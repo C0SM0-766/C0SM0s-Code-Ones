@@ -57,6 +57,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1976 Red Dawn**
 - Creation Date: June 10th, 2024
 
+**1972 TNO: Imperium**
+- Creation Date: June 15th, 2024 *(Updated on July 3rd, 2024)*
+
 **1948 Identity War (Edited)**
 - Creation Date: June 25th, 2024 *(Updated on December 8th, 2024)*
 
