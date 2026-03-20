@@ -1,0 +1,987 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>Nobody could've thought King Trump would lose control over his peasants. The peons have woken up and noticed just how far Trump has strived away from his voter base that raised him to dealmaker. Through a prolonged war in Iran, an economic recession, and increased disillusionment, the Republican Party has fractured into four competing factions as the Democrats look stronger than ever.<br><br>Prince JD Vance struggles to hold the MAGA Coalition together as insurgent candidates from all sides seek to eat away the party. Commentator Tucker Carlson hopes to push his reactionary movement further into the mainstream as Nikki Haley & Thomas Massie seek to gain traction from the center.\n</p>",
+            "image_url": "https://files.catbox.moe/w7l8z0.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://file.garden/Zrv1pPC1HzBK0svl/webp.webp",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.georgetown.edu/wp-content/uploads/2024/07/Kritika-Sharma-1-2.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2028 GOP Primaries: Fall Of The Giant"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "",
+            "last_name": "MAGA",
+            "election": 20,
+            "party": "Republican",
+            "state": "Nationwide",
+            "priority": 1,
+            "description": "<li><b>Party Wing: MAGA</b></li><li><b>Ideology: Trumpism/Right-wing Populism</b></li><li><b>Notable Figures: Donald Trump, JD Vance</b></li><p>To those in the mainstream, MAGA appears to dominate the Republican Party. Even when King Trump has turned essentially into a Neoconservative foreign policy-wise and a flip-flopper at home, MAGA still supports him like moths drawn to a light. The cult of personality Trump has molded continues to be monstrous—essentially pulling the strings for all GOP politicians who wish to seek a future. It's no surprise why most onlookers see the party of Lincoln, Roosevelt, & Reagan as now the party of Trump. Purely Trump—and no one else.<br><br>But the blind following of Trump led to the movement's downfall. Through blank checks of hope, the Donald has run this country to the ground from failures in Iran to dollars disappearing in the common man's pockets. The extreme right and moderate right smell blood in the water of the nation: MAGA is collapsing in on itself; the GOP is ready to move on.</p>",
+            "color_hex": "#673da1",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Untitled113_20260320144209.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "",
+            "last_name": "America First",
+            "election": 20,
+            "party": "Republican",
+            "state": "Jesusland",
+            "priority": 2,
+            "description": "<li><b>Party Wing: America First</b></li><li><b>Ideology: Paleoconservatism/Reactionaryism</b></li><li><b>Notable Figures: Tucker Carlson, Nick Fuentes</b></li><p>To those on the fringe, Trump has turned his back on the American citizen. Cobbling with Zionist interests and hiding the Epstein files to protect the pedophile-run government alongside broken promises of continued mass deportations and \"no new wars\" has made the far-right break off into its own movement. It has co-opted Trump's slogan of America First and reshapes Trump's ideals into something far radical until the line blurs between conservatism & fascism.<br><br>Currently, the movement's still small but is growing at an exponential rate. But without much support from the status quo GOP, the reactionaries have to rely on social media and media spectacles to succeed. Between the more \"moderate\" Paleoconservatives and the more extremist reactionary faction, the movement is hopeful for a good showing in this year's primaries.</p>",
+            "color_hex": "#3a54ab",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Untitled113_20260320144448.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "",
+            "last_name": "Establishment",
+            "election": 20,
+            "party": "Republican",
+            "state": "United States",
+            "priority": 3,
+            "description": "<li><b>Party Wing: Establishment</b></li><li><b>Ideology: Neoconservatism</b></li><li><b>Notable Figures: Marco Rubio, Nikki Haley</b></li><p>To those looking in, the establishment is dying. For others, the establishment is already dead in the GOP; it has been that way since Trump overthrown the political order in 2016 and replaced it with a more barbaric order of anti-intellectualist voter base. But in reality, the \"establishment\" neoconservative members of the GOP haven't gone extinct: they just rebranded as pro-Trump—still being able to live out their imperialist American-policemen fantasies in real life. Marco Rubio, Nikki Haley, Lindsay Graham—all are still pretty relevant today.<br><br>However, it's crystal clear without any branding of populism, any establishment candidate won't make it far past Iowa. The wing also has baggage being the most fanatical supporters of Ukraine, Israel, & the Iranian and Cuban interventions. What will it take for the once dominant wing of the GOP to successfully make a comeback story?</p>",
+            "color_hex": "#a63c3c",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/eoMOgq2.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "",
+            "last_name": "Libertarians",
+            "election": 20,
+            "party": "Republican",
+            "state": "Ancapistan",
+            "priority": 4,
+            "description": "<li><b>Party Wing: Libertarians</b></li><li><b>Ideology: Right-Libertarianism</b></li><li><b>Notable Figures: Rand Paul, Thomas Massie</b></li><p>To those who seek pure freedom, the Libertarians deliver. Their brand of social moderate ideals mixed with unabashed support for market capitalism is something moderate voters can stomach easily. The problem? This is a Republican primary where most people are cultists—one break from the status quo and you'll be labeled a RINO on Fox News. You're better joining the Libertarian party instead of running a hopeless campaign in the party of conservation.<br><br>But some people are as determined as David against Goliath. The current Libertarian party has been invaded by far-right lunatics and losers with ideas antithetical to common sense values. Running under their banner will be betrayal of freedom. Therefore, some certainly bold candidates with nothing to lose seek the GOP's nomination. But there's a question on everyone's minds: will they even make a dent in the primaries?</p>",
+            "color_hex": "#f5c125",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Untitled113_20260320143618.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "JD",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "MAGA",
+            "state": "Ohio",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260320-133337_Google.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<i>You don't turn the Titanic around overnight. It takes time to fix what was broken.</i><br><p>When Trump called Vance to be his running mate in '24, he valiantly accepted. Throughout the campaign, he was being paraded around as an intellectual talker and a reasonable conservative against the left—a far cry from Trump's brand of unabashed schizophrenic charisma. But throughout his four years in the Observatory, he has done nothing meaningful for the administration—even being foreshadowed by cabinet members like Rubio & RFK Jr. It's clear as day the shining star has dimmed drastically in only a few years.<br><br>Vance has the unfortunate baggage of being in the Trump administration as well as managing a collapsing movement. To succeed, he must forge his own path and talk to as many dissenting politicians to keep his lead at bay.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Tucker",
+            "last_name": "Carlson",
+            "election": 20,
+            "party": "America First",
+            "state": "Maine",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/TuckerCarlson.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<i>Pray that the spell breaks and the world is saved.</i><br><p>Riding off of a wave of anti-zionist and anti-moderate sentiment culminated in the bid of commentator Tucker Carlson. Originally starring as a MAGA popstar on FOX before starting a solo career, Tucker has increasingly gone further and further to the right, now holding similar views as Pat Buchanan. The MAGA–AF division was finalized when King Trump personally called Carlson \"Not MAGA anymore\". But since then, it seems Tucker's rise to stardom has rivaled even that of the Donald's.<br><br>Carlson's unorthodox positions & decisions like giving attention to the 'Groyper' movement has made him easy pickings for mainstream non-radical conservatives to attack. Tucker must dispel the rumors he's a fascist sympathizer while exploiting the anger of the isolated, dissident, and extreme.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "Nikki",
+            "last_name": "Haley",
+            "election": 20,
+            "party": "Establishment",
+            "state": "South Carolina",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/NikkiHaley.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<i>All I’ve done with Israel is tell the truth. So when I saw something wrong, I called it out.</i><br><p>Perhaps the answer to that question is Nikki Haley... once again. A former Trump cabinet-level member in his 1st administration, she has since distanced herself from the MAGA majority—running against the Donald in 2024 and merely winning Vermont & DC. From this, the clear hypothesis is that Haley has no support in the GOP & her brand of conservatism doesn't bode well with anyone right of center.<br><br>But the times are a-changin', and among some GOP circles, Haley is talked about yet again as the nominee for this year. Yet how many dissenting MAGA voters are willing to vote for a NeoCon? Unfortunately, not many. Haley shall distance herself from the current Republicans of today and paint herself as experienced and a steady hand in times of hardship. The people buying this is another story.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Massie",
+            "election": 20,
+            "party": "Libertarians",
+            "state": "Kentucky",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260320-142612_Google.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<i>We can't avoid justice to avoid embarrassment for some very powerful men.</i><br><p>Thomas Massie is perhaps more beloved by those outside of the Republicans than his own party. It makes sense; Massie has repeatedly worked with Democrats to push for bipartisan goals—particularly, government transparency. He's one of the few GOP politicians with a spine left in his body, and his consistency against King Trump's flip-flopping & brazen lies earned him both notoriety & controversy.<br><br>Massie knows Republican voters wouldn't accept libertarian ideals. Rather, his main goal is to deadlock the convention and force a transparent minarchist-esque administration onto the victor. Sure, he may have no friends in high places and was overthrown from his congressional seat in '26, but if you own nothing, you now have nothing to lose.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2028 GOP Primaries: Fall Of The Giant"
+    }
+]
+
+jet_data = {
+    "headerColor": "#522321",
+    "windowColor": "#b55551",
+    "containerColor": "#942421",
+    "innerWindowColor": "#b55551",
+    "bannerImageUrl": "https://files.catbox.moe/p5e8bo.png",
+    "backgroundImageUrl": "https://i.imgur.com/nyNjPk4.jpeg",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#522321";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#b55551";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#942421";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/9i2tkv.png)"
+
+$("#game_window")[0].style.borderColor = "#6e2724"
+
+$(".container")[0].style.border = ".2em solid #6e2724"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/p5e8bo.png";
+
+document.body.background = "https://i.imgur.com/nyNjPk4.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#b55551!important;}</style>";
+
+var element = document.getElementById('my-invisible-element');
+if(!element){
+function changeIntroDescription() {
+  introObserver.disconnect();
+
+  const introTitle = document.querySelector("#inner_window_1 h3");
+  const listItems = document.querySelectorAll("#inner_window_1 ul li");
+
+  if (introTitle) {
+    introTitle.textContent = "Do you have what it takes to win a Primary Election?";
+  }
+
+  if (listItems) {
+    listItems.forEach(item => {
+      if (item.textContent.includes('candidate')) {
+        item.textContent = item.textContent.replace('candidate', 'candidate');
+      }
+      if (item.textContent.includes('states')) {
+        item.textContent = item.textContent.replace('states', 'states');
+      }
+      if (item.textContent.includes('Walk the fine line between appealing to your base and winning a majority of the votes.')) {
+        item.textContent = 'Walk the fine line between appealing to your base and winning a majority of the delegates.';
+      }
+    });
+  }
+
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!introObserver){
+  var introObserver = new MutationObserver(changeIntroDescription);
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function modifyForm(){
+  modifiedFormobserver.disconnect();
+
+  const form = document.querySelector('form[name="game_type_selection"]');
+
+  if (form) {
+    const select = form.querySelector('select[name="game_type_id"]');
+    const h3 = form.querySelector('h3');
+    const option = select.querySelector('option[value="1"]');
+
+    if (option && option.textContent !== 'Default (Winner-Take-All)') {
+      option.textContent = 'Proportional)';
+    }
+    if (select && select.querySelector('option[value="2"]')) {
+      const queryTwo = select.querySelector('option[value="2"]');
+      if (queryTwo) {
+        queryTwo.remove();
+      }
+    }
+    if (h3 && h3.textContent !== 'Select your game mode.') {
+      h3.textContent = 'How would you like to play the mod?';
+    }
+  }
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!modifiedFormobserver){
+  var modifiedFormobserver = new MutationObserver(modifyForm);
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function changeOpponentSelectionDescription() {
+  selectionObserver.disconnect();
+
+  const opponentSelectionDescription = document.getElementById("opponent_selection_description_window");
+  
+  if (opponentSelectionDescription) {
+    opponentSelectionDescription.innerHTML = `<p><strong>Allocate each state's delegates proportionally.</strong></p><p>Under this method, all candidates split the delegates in a state, in proportion to their popular vote %. There is still an advantage to winning a state -- the winner of the state will always receive a plurality of delegates. For instance, in a state with 4 delegates, if Candidate A wins 51% of the vote, they will be awarded 3 delegates.</p><p>Compared to a winner-take-all method, this method aligns the delegates more closely with the popular vote. It also makes it easier to smaller candidates to increase their delegates totals, since much of their support may be spread across the country, rather than localized within one state.</p>`;
+  }
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!selectionObserver){
+  var selectionObserver = new MutationObserver(changeOpponentSelectionDescription);
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your party faction:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!formobserver){
+  var formobserver = new MutationObserver(updateCandidateForm);
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your candidate:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!runformobserver){
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+function removeCandidateSummary() {
+  sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+if(!sumobserver){
+var sumobserver = new MutationObserver(removeCandidateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+  if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+var invisibleElement = document.createElement('div');
+invisibleElement.style.display = 'none';
+invisibleElement.id = 'my-invisible-element';
+document.body.appendChild(invisibleElement);
+}
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #824a4a;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #824a4a;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #824a4a;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+quotes = ["''I don't think all people yearn for freedom, actually. I think they yearn for stability.'' ~ Tucker Carlson", "''Your body, my choice. Forever.'' ~ Nick Fuentes", "''If you’re going to punch the Iranians, you punch them hard.'' ~ JD Vance", "''Sounds like we got some fans and some haters.'' ~ JD Vance", "''If you go back to every major conflict in human history, they all end with some kind of negotiation.'' ~ JD Vance", "''You’ve got to be honest about what it means to lead a country, it means killing people.'' ~ Tucker Carlson", "''They don’t care about the country at all, [...] but I do… I'm from here.'' ~ Tucker Carlson", "''If you're powerful and wise, you seek to bring stability and order and predictability and peace.'' ~ Tucker Carlson", "''America can’t buy our friends. We’ll certainly never buy off our enemies.'' ~ Nikki Haley", "''Spending is out of control. And Democrats and Republicans share the blame.'' ~ Nikki Haley", "''It's not that Israel needs America. America needs Israel.'' ~ Nikki Haley", "''When you got the truth on your side, you've got the high ground.'' ~ Thomas Massie", "''I don't vote with them and they want 100% compliance.'' ~ Thomas Massie", "''I can focus on what seems to be the most boring things for days at a time.'' ~ Thomas Massie", "''This is the golden age of America.'' ~ Donald Trump", "''We're on one Team, MAGA, and I don't like what's happening.'' ~ Donald Trump", "''... When oil prices go up, we make a lot of money.'' ~ Donald Trump", "NIKKI = CORRUPT", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#522321", "header_image_url": "https://files.catbox.moe/ysdda3.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#b55551", "main_color": "#942421", "secondary_color": "#522321", "ui_text_color": "#FFFFFF" }
+
+e.PartyText = "Party Wing:";
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #b55551;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/bcnd8u.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Banner & Election Image provided by littleamericanman_85501.", "Soundtrack code provided by Diamondy/1970 Texas Senate.", "Various codes provided by DecStarG, Mangolith, & TheMcCain."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://upload.wikimedia.org/wikipedia/commons/e/ec/Republican_Disc.png");
+
+e.music = {};
+e.music.shuffleEnabled = false;
+e.music.Volume=1;
+e.music.loopEnabled = false;
+var element = document.getElementById('my-invisible-element');
+$("#music_player")[0].children[0].style.display = "none"
+$("#music_player")[0].children[1].style.display = "none"
+document.getElementById("modLoadReveal").style.display = "none"
+document.getElementById("modloaddiv").style.display = "none"
+musicBox = document.getElementById("music_player")
+musicBox.style.display = ""
+var trackSel;
+e = campaignTrail_temp
+e.selectedSoundtrack = 0
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+}
+
+generateTime = () => {
+            // Get the audio element
+            var audio = document.getElementById("campaigntrailmusic");
+            timeTracker = document.createElement("div");
+            timeTracker.id ='timeTracker'
+            timeTracker.style = `
+      text-align:left;
+      border-style:solid;
+      border-width:3px;
+      height:180px;
+      width:200px;
+      background-color:#b55551;
+      float:right;
+      padding: 10px;
+      `
+            $("#trackSelParent")[0].prepend(timeTracker);
+            $("#trackSelParent")[0].prepend(document.createElement("br"));
+            var positionDisplay = document.createElement("gg");
+            positionDisplay.id = "position-display";
+            var timeSlider = document.createElement("input");
+            timeSlider.type = "range";
+            timeSlider.min = 0;
+            timeSlider.max = 1;
+            timeSlider.step = 0.001;
+            timeSlider.value = 0;
+            timeSlider.style.width = "200px";
+            timeSlider.id = "time-slider";
+            var pausePlay = document.createElement("button");
+            pausePlay.id = "position-display";
+            pausePlay.innerHTML = "<b>Pause</b>"
+            pausePlay.style.width = "100%";
+            pausePlay.style.margin = "2px";
+            pausePlay.addEventListener("click", event => {
+                event.preventDefault();
+                updatePositionDisplay();
+                let audio = document.getElementById("campaigntrailmusic");
+                if (audio.paused) {
+                    audio.play();
+                    event.target.innerHTML = "<b>Pause</b>";
+                    return;
+                }
+                audio.pause();
+                event.target.innerHTML = "<b>Play</b>";
+                return;
+            })
+            var shuffleButton = document.createElement("button");
+            shuffleButton.id = "shuffle-button";
+            shuffleButton.innerHTML = "<b>Shuffle</b>"
+            shuffleButton.style.width = "100%"
+            shuffleButton.style.margin = "2px";;
+            shuffleButton.addEventListener("click", event => {
+                event.preventDefault();
+                e.music.shuffleEnabled = !e.music.shuffleEnabled;
+                event.target.innerHTML = e.music.shuffleEnabled ? "<b>Unshuffle</b>" : "<b>Shuffle</b>";
+                if (e.music.shuffleEnabled) {
+                    shuffledIndices = shuffle(trackIndices.slice());
+                    let currentTrackIndex = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                    shuffledIndices = shuffledIndices.filter(index => index !== currentTrackIndex);
+                    shuffledIndices.unshift(currentTrackIndex);
+                }
+            });
+            var skipButton = document.createElement("button");
+            skipButton.id = "skip-button";
+            skipButton.innerHTML = "<b>Skip</b>"
+            skipButton.style.width = "100%";
+            skipButton.style.margin = "2px"; // Add margin
+            skipButton.addEventListener("click", event => {
+                event.preventDefault();
+                let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                let newSel;
+                if (e.music.shuffleEnabled) {
+                    if (!shuffledIndices) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                    }
+                    let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                    if (currentIndex === shuffledIndices.length - 1) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                        currentIndex = -1;
+                    }
+                    newSel = shuffledIndices[currentIndex + 1];
+                } else {
+                    newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+                }
+                let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                        return f.tagName == "LABEL"
+                    }).map(f => f.children[0])
+                buttons[newSel].click()
+            });
+            skipButton.style.width = "50%";
+            var loopButton = document.createElement("button");
+            loopButton.id = "loop-button";
+            loopButton.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Check the initial loop state
+            loopButton.style.width = "50%";  // Match the width with skipButton
+            loopButton.style.margin = "2px";
+            loopButton.addEventListener("click", event => {
+                event.preventDefault();
+                e.music.loopEnabled = !e.music.loopEnabled;
+                let audio = document.getElementById("campaigntrailmusic");
+                audio.loop = e.music.loopEnabled;  // Set the audio's loop property
+                event.target.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Toggle the button text
+            });
+            var volumeLabel = document.createElement("gg");
+            volumeLabel.id = "volume-label";
+            volumeLabel.innerHTML = "<br><b>Volume: </b>"
+            var volumeSlider = document.createElement("input");
+            volumeSlider.type = "range";
+            volumeSlider.min = 0;
+            volumeSlider.max = 1;
+            volumeSlider.step = 0.001;
+            volumeSlider.value = 0;
+            volumeSlider.style.width = "200px";
+            volumeSlider.id = "volume-slider";
+            audio.volume= e.music.Volume;
+            volumeSlider.value = audio.volume;
+            timeTracker.appendChild(pausePlay);
+            if (audio.volume === 0) {
+                audio.pause();
+                pausePlay.innerHTML = "<b>Play</b>";  // Update the pause button text to "Play"
+            }
+            timeTracker.appendChild(shuffleButton);
+            var buttonContainer = document.createElement("div");
+            buttonContainer.style.display = "flex"; // Makes children inline
+            buttonContainer.style.justifyContent = "space-between";
+            skipButton.style.flex = "1"; // Makes it take up equal space
+            skipButton.style.marginRight = "5px"; // Adds some space between the buttons
+
+            loopButton.style.marginRight = "0px";
+
+            buttonContainer.appendChild(skipButton);
+            buttonContainer.appendChild(loopButton);
+
+            timeTracker.appendChild(buttonContainer); // Add the container to timeTracker instead of individual buttons
+            timeTracker.appendChild(positionDisplay);
+            timeTracker.appendChild(timeSlider);
+            timeTracker.appendChild(volumeLabel);
+            timeTracker.appendChild(volumeSlider);
+            updatePositionDisplay();
+            function updatePositionDisplay() {
+                positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+                timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+            }
+            function changeTime() {
+                positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+                audio.currentTime = timeSlider.value * audio.duration;
+            }
+            updateVolume = event => {
+                audio.volume = event.target.value;
+                e.music.Volume=audio.volume;
+            }
+            setInterval(updatePositionDisplay, 1000);
+            timeSlider.addEventListener("input", changeTime);
+            volumeSlider.addEventListener("input", updateVolume)
+        }
+
+    function newMusicPlayer(previousBgImage = null) {
+            trackSel = document.createElement("div");
+            trackSel.id = "trackSelParent";
+            let z = `<div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#b55551;float:right;">`
+            z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+            for (i in soundtracks) {
+                if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                    z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+                }
+            }
+            z += `</select></b><br><br>`
+                // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+            for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+                let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+                let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+                z += b
+            }
+            z += "</div><br><br>"
+            trackSel.innerHTML = z
+            musicBox.appendChild(trackSel);
+            Array.from(document.getElementById("trackSel").children).filter(f => {
+                return f.tagName == "LABEL"
+            }).map(f => f.children[0])[0].checked = true
+            soundtrackSelector = document.getElementById("selectSoundtrack")
+            soundtrackSelector.onchange = function() {
+                let currentBgImage = document.getElementById("trackSel").style.backgroundImage;
+
+                for (i in soundtracks) {
+                    if (soundtracks[i].name == soundtrackSelector.value) {
+                        e.selectedSoundtrack = i;
+                        break;
+                    }
+                }
+                e.music.shuffleEnabled = false;
+                shuffledIndices = null;
+
+                document.getElementById("trackSelParent").remove();
+                newMusicPlayer(currentBgImage);  // Pass the current background image to the next function invocation.
+            };
+            var matches = document.querySelectorAll('.trackSelector');
+            for (match in matches) {
+                matches[match].onchange = function() {
+                    audio = $("#campaigntrailmusic")[0];
+                    audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                    audio.currentTime = 0
+                }
+            }
+            musicBox.children[2].loop = false
+            musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+            trackIndices = Array.from({length: soundtracks[e.selectedSoundtrack].tracklist.length}, (_, i) => i);
+
+            musicBox.children[2].onended = function() {
+                if (e.music.loopEnabled) {
+                    this.play();  // If loop is enabled, simply play the same track again
+                } else {
+                let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                let newSel;
+                if (e.music.shuffleEnabled) {
+                    if (!shuffledIndices) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                    }
+                    let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                    if (currentIndex === shuffledIndices.length - 1) {
+                        shuffledIndices = shuffle(trackIndices.slice());
+                        currentIndex = -1;
+                    }
+                    newSel = shuffledIndices[currentIndex + 1];
+                } else {
+                    newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+                }
+                let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                        return f.tagName == "LABEL"
+                    }).map(f => f.children[0])
+                buttons[newSel].click()
+                }
+            }
+
+            for (w = 0; w < 7; w++) {
+              document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+            }
+            generateTime();
+           if (previousBgImage) {
+                document.getElementById("trackSel").style.backgroundImage = previousBgImage;
+                 document.getElementById("timeTracker").style.backgroundImage = previousBgImage;
+            }
+        }
+        clamp = function(a, max, min, overflow = true) {
+            if (overflow) {
+                return a > max ? min : a < min ? max : a;
+            }
+            return a > max ? max : a < min ? min : a;
+        }
+        var soundtracks = {
+  0: { // opening song yaaay
+    name: "Opening Song",
+    tracklist: [
+    {
+      "name": "If You Want Blood (AC/DC)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/ACDC%20-%20If%20You%20Want%20Blood%20432hz%204.mp3"
+    }
+  ]
+}, 
+   1: { // Vance soundtrack
+    name: "Keep America Great",
+    tracklist: [
+    {
+      "name": "Hell's Comin' With Me (Poor Man's Poison)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Hell's%20Comin'%20with%20Me%204.mp3"
+    },
+    {
+      "name": "Am I The Only One (Aaron Lewis)",
+      "url": "https://audio.jukehost.co.uk/zGTHDcrUyZ5dqE6p83iluxB6YDgWYN2K"
+    },
+    {
+      "name": "Remember Who We Are (Krista Branch)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Krista%20Branch%20_Remember%20Who%20We%20Are_%20Official%20Video.mp3"
+    },
+    {
+      "name": "The Wanderer (U2, Johnny Cash)",
+      "url": "https://file.garden/Z7qfmQZIZjO_xV5N/TheWanderer.mp3"
+    },
+    {
+      "name": "Have We Forgotten (Darryl Worley)",
+      "url": "https://files.catbox.moe/jbjti7.mp3"
+    },
+    {
+      "name": "Won't Back Down (Sam Elliott)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Won%E2%80%99t%20Back%20Down%204.mp3"
+    }
+  ]
+}, 
+   2: { // Cucker soundtrack
+    name: "America First, Forever",
+    tracklist: [
+    {
+      "name": "L'Amour Toujours (Gigi D'Agostino)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/GIGI%20D'AGOSTINO%20-%20L'AMOUR%20TOUJOURS%20(%20OFFICIAL%20VIDEO%20)%204.mp3"
+    },
+    {
+      "name": "Shadilay (P.E.P.E)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Shadilay%20(Radio%20Edit).mp3"
+    },
+    {
+      "name": "Kiss Me Again (Roy Bee)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Kiss%20Me%20Again%20(Radio%20Edit).mp3"
+    },
+    {
+      "name": "Can't Tell Me Nothing (Kanye West)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Can't%20Tell%20Me%20Nothing%204.mp3"
+    },
+    {
+      "name": "Liars, Cheats, & Crooks (Five Times August)",
+      "url": "https://files.catbox.moe/b14mof.mp3"
+    },
+    {
+      "name": "Tomorrow Belongs To Me (Mark Lambert)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Tomorrow%20Belongs%20To%20Me.mp3"
+    }
+  ]
+}, 
+   3: { // Nimrata soundtrack
+    name: "Return To Normalcy",
+    tracklist: [
+    {
+      "name": "As Good As I Once Was (Toby Keith)",
+      "url": "https://audio.jukehost.co.uk/tCO8u2zmunpUWoSfiLStFLdrFi9VTvf9"
+    },
+    {
+      "name": "Dirt Road Anthem (Jason Aldean)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Jason%20Aldean%20-%20Dirt%20Road%20Anthem%20(Official%20Audio).mp3"
+    },
+    {
+      "name": "Small Town USA (Justin Moore)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Small%20Town%20USA.mp3"
+    },
+    {
+      "name": "Glory Days (Bruce Springsteen)",
+      "url": "https://audio.jukehost.co.uk/y81wUcqmRNHplPUtiylHECevgAhy3IH0"
+    },
+    {
+      "name": "We The People (Billy Ray Cyrus)",
+      "url": "https://files.catbox.moe/j9ozoy.mp3"
+    },
+    {
+      "name": "It's America (Rodney Atkins)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/It's%20America%20by%20Rodney%20Atkins%20with%20lyrics.mp3"
+    }
+  ]
+}, 
+   4: { // Massie soundtrack
+    name: "Live Free Or Die",
+    tracklist: [
+    {
+      "name": "I've Been Everywhere (Johnny Cash)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/I've%20Been%20Everywhere%204.mp3"
+    },
+    {
+      "name": "Don't Tread On Me (Granger Smith)",
+      "url": "https://audio.jukehost.co.uk/Q9bUrEHew5g8w7j9nOEWts6w0PyoG9O0"
+    },
+    {
+      "name": "Sons Of Liberty (Frank Turner)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Frank%20Turner%20-%20_Sons%20Of%20Liberty_.mp3"
+    },
+    {
+      "name": "Stand & Deliver (Eric Clapton & Van Morrison)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Eric%20Clapton%20%26%20Van%20Morrison%20-%20Stand%20and%20Deliver%20(Official%20Visualiser).mp3"
+    },
+    {
+      "name": "Rich Men North Of Richmond (Oliver Anthony)",
+      "url": "https://audio.jukehost.co.uk/la9HH82Sca9rj2wRNf7QoVlUlRnidbir"
+    },
+    {
+      "name": "Keep Your Rifle By Your Side (Dan Romer)",
+      "url": "https://file.garden/Zrv1pPC1HzBK0svl/Keep%20Your%20Rifle%20by%20Your%20Side%204.mp3"
+    }
+    ], 
+},
+}
+
+
+newMusicPlayer()
+
+//#endcode
