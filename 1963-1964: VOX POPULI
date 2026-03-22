@@ -69,7 +69,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 25,
         "fields": {
             "first_name": "The",
-            "last_name": "Unpledged Dipshits ",
+            "last_name": "Unpledged Bozos",
             "election": 4,
             "party": "Independent/Democratic",
             "state": "Electors",
@@ -94,7 +94,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "The Voice On The",
             "last_name": "Television",
             "election": 4,
-            "party": "Democratic",
+            "party": "???",
             "state": "Senior Advisor To The President (1963-)",
             "priority": 29,
             "description": "n/a",
@@ -339,9 +339,9 @@ document.body.background = "https://files.catbox.moe/1vhq91.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#000000!important;}</style>";
 
-$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to win in a Landslide?");
+$("#inner_window_1 h3").css("text-align", "center").text("Does someone have what it takes to win in a Landslide?");
 
-document.getElementById("inner_window_1").children[1].innerHTML =  `<li>TV Personality turned US politician <b><span style="color: #000000;">Vincent Whittman</span></b> thinks so.</li><li>In this scenario, you will play as a deeply immoral and opportunist person who only cares about his power.</li><li>As president, you will answer questions about your actions and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states. Be careful.</li><li>Utilize all propaganda tools in order to win 538 Electoral Votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, and secret endings.</li><li>Shall we proceed?</li>`;
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>TV Personality turned US politician <b><span style="color: #000000;">Vincent Whittman</span></b> thinks he has the chance.</li><li>In this scenario, you will play as a deeply immoral and opportunist person who only cares about his power.</li><li>As president, you will answer questions about your actions and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states. Be careful.</li><li>Utilize all propaganda tools in order to win 538 Electoral Votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, achievements, and secret endings.</li><li><b>Content Warning:</b> Swearing, murder, depression/suicide, and general cynicism reins galore in this mod.</li><li>Shall we proceed?</li>`;
 
 document.getElementById('game_start').innerHTML = '<b>Indeed. Trust ME With Your Country.</b>';
 
@@ -365,16 +365,24 @@ campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url"
 // Custom favicon
 $("#dynamic-favicon").attr("href", "https://files.catbox.moe/auvq4w.png");
 
+    e.SelectText = "Here's your final hurdle to destiny."
+    e.CandidText = "Introducing the President."
+    e.VpText = "Introducing the Vice President...?"
+
 e.HomeStateText = "Occupation:";
+e.ElectionPopup = "Election night is here. Let's see how much you've won, Vincent."
+e.LosePopup = "... what? Oh my God, it can't be..."
+e.WinPopup = "We all knew you would win. But the question is: did you win it all?"
+
 
 RecReading=true
 
-  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  campaignTrail_temp.credits = "<button onclick='credits()'>Vincent's Acolytes</button>";
   
 window.credits = function() {
-  const creditsList = ["C0SM0, for the writing & coding.", "", "Original code 1 concept & TV Portrait by u/SureCryptographer240.", "All fictional characters created and owned by Vivziepop.", "Various codes provided by RTTJ, DecStarG, & Mangolith."];
+  const creditsList = ["C0SM0 – General direction & design of the mod.", "Sam/FriendlyFerret – Lead Writer", "", "Original code 1 concept & TV Portrait by u/SureCryptographer240.", "All fictional characters created and owned by Vivziepop.", "Various codes provided by RTTJ, DecStarG, & Mangolith."];
 
-  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+  const text = "This Mod was made by...\n\n" + creditsList.join('\n');
 
   alert(text);
 }
@@ -384,10 +392,6 @@ HistHexcolour=["#59c7c2","#782828","#bf7d13","#2f732a"];
     HistEV=[538,0,0,0];
     HistPV=["44,713,721","25,021,654","76,277","767,992"];
     HistPVP=["63.4%","35.5%","0.1%","1.1%"];
-
-    e.SelectText = "Select your scenario:"
-    e.CandidText = "Introducing the President."
-    e.VpText = "Introducing the Vice President...?"
 
 const fontLink = document.createElement('link');
 fontLink.href = "https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oranienbaum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Six+Caps&display=swap";
@@ -533,10 +537,10 @@ const song1 = new Song(
 );
 
 const song2 = new Song(
-"Dazed And Confused",
-"Led Zeppelin",
-"https://files.catbox.moe/i1wav4.jpg",
-"https://files.catbox.moe/x0082k.mp3"
+"Sinner Man (Remastered)",
+"Les Baxter",
+"https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260322-130656_Google.jpg",
+"https://file.garden/Zrv1pPC1HzBK0svl/Sinner%20Man%20(Remastered%20Version).mp3"
 );
 
 const song3 = new Song(
@@ -554,10 +558,10 @@ const song4 = new Song(
 );
 
 const song5 = new Song(
-  "Somebody Nobody Wants",
-  "Dion",
-  "https://files.catbox.moe/rh8159.jpg",
-  "https://files.catbox.moe/vknvf9.mp3"
+  "Money (That's What I Want)",
+  "The Kingsmen",
+  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260318-150735_YouTube%20ReVanced.jpg",
+  "https://audio.jukehost.co.uk/D6tc8XyHLUY2GLISJ7zSSPZYk35idWUr"
 );
 
 const song6 = new Song(
@@ -852,7 +856,7 @@ volumeSlider.id = "volumeSlider";
 volumeSlider.min = 0;
 volumeSlider.max = 9;
 volumeSlider.step = 1;
-volumeSlider.value = 4; // Initial volume
+volumeSlider.value = 9; // Initial volume
 
 volumeSliderContainer.appendChild(volumeSlider);
 
