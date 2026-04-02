@@ -463,7 +463,7 @@ RecReading=true
   campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
   
 window.credits = function() {
-  const creditsList = ["C0SM0, for the writing & coding.", "", "Mod Concept by Gardfeld.", "Soundtrack code provided by TheMcCain.", "Some portraits provided by Metheguy.", "Various codes provided by DecStarG, Mangolith, & TheMcCain."];
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Mod Concept by Gardfeld.", "Soundtrack code provided by TheMcCain.", "Banner provided by littleamericanman_85501.", "Some portraits provided by Metheguy.", "Various codes provided by DecStarG, Mangolith, & TheMcCain."];
 
   const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
 
