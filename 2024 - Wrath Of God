@@ -1,0 +1,909 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>In the year of our Lord 2024, the stakes couldn't have been higher for America. After Satan's rigging of the 2020 election, former Vice President Mike Pence goes on a righteous Crusade to return Christian values back to the Oval Office despite his former boss' objections. Meanwhile, the diametrically opposed liberals seek to continue to spread anti-God ideals in the Free World—puppeteer Joe Biden is the face of these devil-supporting democrats.<br><br>The Road is long and treacherous for Mike, but no one said slaying the devil would be easy—God's strongest soldiers fight his toughest battles. The political environment is perfect for the reclamation for Christianity across America. Let's hope everything goes well. <b>Amen.</b>\n</p>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/original.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://file.garden/Zrv1pPC1HzBK0svl/download.webp",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2024 - Wrath Of God"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Pence",
+            "election": 20,
+            "party": "Republican (The Righteous & Good-Willed)",
+            "state": "Former Vice President Of The United States (2017-2021)",
+            "priority": 1,
+            "description": "<p>When nobody was there to stand up against the supposed fraud that came from the 2020 election, Mike Pence was there. When even the most righteous of men refused to stand for what's right, Mike Pence was there. Despite Trump claiming he had fairly lost and urged him to surrender the country, Pence knew deep down Lucifer has rigged the election in the Democrats' favor. Refusing to certify the electoral vote count made him into the Archangel he believes to be today. The country is becoming more and more Godless by the second, and Pence has been handpicked to save it from hell.<br><br>Now with the Holy Trinity on his side, Pence embarks on a great odyssey of changing the hearts and minds of all Americans—like you who are all one under Jesus Christ. Mike will reclaim this country for the true God, <b>no matter the circumstance.</b>\n</p>",
+            "color_hex": "#c23636",
+            "secondary_color_hex": "#c23636",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-1973258352-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Biden",
+            "election": 20,
+            "party": "Democratic (The Sinful & Wicked)",
+            "state": "President Of The United States (2021-)",
+            "priority": 2,
+            "description": "<p>The modern-day Moloch now controls Magog, but fortunately for the Lord, not even his own fiefdom supports him. President Joe Biden is old, out of touch, and out of his mind. Allowing God's babies to be murdered and enabling degenerate ideas to fester among our nation's youth has culminated into a culture that directly defies God's commandments. Do they have the will to repent before it's too late? No, for the Lord laughs at the wicked; for he knows their time is coming.<br><br>Unfortunately for the opposition, many people respect Church & State separation—the belief God shall have no say in the republic. Biden hopes the capitalize on this, as well as using propaganda to sway the masses the turn to wickedness, to keep the forces of Anti-God remaining at the helm and his power kept unchecked moral wise.</p>",
+            "color_hex": "#1072a1",
+            "secondary_color_hex": "#1072a1",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/087d6q8.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Robert F.",
+            "last_name": "Kennedy",
+            "election": 20,
+            "party": "We The People",
+            "state": "New York",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#db8223",
+            "secondary_color_hex": "#db8223",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Robert_F._Kennedy_Jr.%2C_official_portrait_%282025%29_%28cropped_3-4%29_%28b%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Cornel",
+            "last_name": "West/Others",
+            "election": 20,
+            "party": "Green/Various",
+            "state": "New York/Various",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#2ca853",
+            "secondary_color_hex": "#2ca853",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cornel_West_%2839223875064%29_%28cropped%29.jpg/1280px-Cornel_West_%2839223875064%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Johnson",
+            "election": 20,
+            "party": "Republican",
+            "state": "Wisconsin Senator (2011-)",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-1810325326-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Christ had the Apostles by his side, listening and later preaching his every word, and eventually winning the souls of all, righteous and sinful alike. In the modern day, Pence has an array of good-hearted advisors and running mates spreading word. One such example is Ron Johnson, Wisconsin Senator & perhaps the embodiment of a changed MAGA politician—now fully endorsing you and the Christian Nationalist movement in general.<br><br>Riding off a wave of discontent under Obama, Johnson won in a left-leaning state. Who once was the poster boy of the Tea Party Movement now became an unstoppable Warrior for God. With him, Johnson would double aid in winning the rust belt and doubling down on your firm image. Depending on your general campaign strategy however, it could work or end in disaster—not everyone's enthused by the word of the Lord, after all.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "Josh",
+            "last_name": "Hawley",
+            "election": 20,
+            "party": "Republican",
+            "state": "Missouri Senator (2019-)",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-2157620634-2048x2048-ezremove.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Josh Hawley is a Senator from Missouri and another proponent of Christian Nationalism. Coming into office in 2019, Hawley set out to reshape American politics—solidifying economic populism and hard right-wing social values in the minds of the people and his colleagues. Looking back at his objective, it seems he has succeeded in that frontier; America hates the rich, greedy, immoral elite they warned in the Holy Bible.<br><br>Well-liked among both factions in the party, Hawley can embolden your image as a revolutionary for Christ. His type of politics will also be greatly beneficial in the Midwest, where people susceptible to right-wing populism will eat his rhetoric up. However, his limited minority appeal and the multiple areas he's willing to break with Republican orthodox positions—especially regarding economics—will damage you both in the short term & long term.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Lindell",
+            "election": 20,
+            "party": "Republican",
+            "state": "CEO Of MyPillow (2004-)",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-1441761157-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Lindell is the founder and current CEO of MyPillow, alongside being one of the most fanatical MAGA supporters. In 2020, he was the leading voice within the MAGA movement that claimed the election was stolen from Satan's doing. He's perhaps the reason why you won the primaries in the first place—during the chaotic GOP primaries, he staked out a favorable opinion with you after surprisingly endorsing you over his \"dear\" Trump. Without the revolt against Trump by his cult, you wouldn't have gone far.<br><br>Still, he hasn't fully converted to the Christian right, and his eccentric and unprofessional style can damage your reputation if you're hoping to redeem America. Lindell's also seen as too far away from the mainstream to be a viable running mate—his conspiracism the main factor. If you weren't copying the Trump campaign's style, him by your side won't be the best option.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "Stephen",
+            "last_name": "Miller",
+            "election": 20,
+            "party": "Republican",
+            "state": "Former Senior Advisor To The President (2017-2021)",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-2151510273-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Stephen Miller is an Archangel or a false prophet, depending on who you ask. As a former advisor to Trump, Miller was the brains behind the ultraconservative administration—successfully drawing Trump further and further to the right. From immigration to diplomacy regarding Muslim countries to blaming the left for absolutely everything, Miller embodies the anocratic rage Trump desired. To the hard right, he's the greatest person to ever serve the administration.<br><br>To the broader electorate however, he's seen a fascist, a scumbag, an authoritarian mastermind akin to Himmler. He's completely antithetical to American values like liberty from government and will likely have no electoral future in politics. Despite being Jewish, he has become another essential figure in the Christian right. Yet, from a strategic standpoint, doubling down on faith may not be the best option...</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Kamala",
+            "last_name": "Harris",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Vice President Of The United States (2021-)",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/YEdxYG4.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Baal's true form knows no bounds. It could be either an establishment liberal or an atheist progressive—either way, it's the same coin; righteousness is all absent. Kamala Harris embodies these people. The drift away from God's word since the turn of the century has culminated into an empire that only God's strongest soldiers can defeat. She doesn't know the Man will come around, and many people won't enter the Kingdom Of God once judgement day comes.<br><br>Thankfully, her approval rating is even lower than that of her boss as lost souls wander away from the spectacle of sin. Her unlikability has made her a prime target to the Christian right, and she can do nothing but cackle on in the face of good.<br><br><b>America won't stand this administration any longer.</b></p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "Nicole",
+            "last_name": "Shanahan",
+            "election": 20,
+            "party": "We The People",
+            "state": "California",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nicole_Shanahan_2024_%283x4_cropped%29.jpg/1280px-Nicole_Shanahan_2024_%283x4_cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Melina",
+            "last_name": "Abdullah/Others",
+            "election": 20,
+            "party": "Independent/Others",
+            "state": "California/Various",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Melina_Abdullah_%2827700459240%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 151,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 205
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 152,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 206
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 154,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 208
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2024 - Wrath Of God"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#ffffff",
+    "containerColor": "#000000",
+    "innerWindowColor": "#142033",
+    "bannerImageUrl": "https://i.postimg.cc/nVy3X6XG/42084C47-4863-46CD-9290-4DE7149CF394.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/WrathBackground.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/h6ukwu.png)"
+
+$("#game_window")[0].style.borderColor = "#FFFFFF"
+
+$(".container")[0].style.border = ".2em solid #ffffff"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://i.postimg.cc/nVy3X6XG/42084C47-4863-46CD-9290-4DE7149CF394.png";
+
+document.body.background = "https://file.garden/Zrv1pPC1HzBK0svl/WrathBackground.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#142033!important;}</style>";
+
+corrr = `
+  <h2 style="
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+                 0 0 30px rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    WRATH OF GOD
+  </h2>
+`;
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://files.catbox.moe/567xwa.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#142033", "main_color": "#252626", "secondary_color": "#000000", "ui_text_color": "#FFFFFF" }
+
+$("#inner_window_1 h3").css("text-align", "center").text("''I came not to send peace, but a sword.'' ~ Matthew 10:34");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://static.wikitide.net/thefireriseswikiwiki/0/02/Ideology_Christian_Conservatism.png">\n\n<p><b>Mike Pence</b> thought the day never would've come. America has fallen yet again into the party of of sin—the Democrats—through blatant cheating and rigging. Pence knew he couldn't stand by, yet Donald Trump, his boss, sat on the sidelines. At the capitol, angry MAGA supporters flew the cross, signifying the rebirth of the Christian right and the start of something... much more different for modern America.<br><br>Pence's preaches and sermons seemingly changed the party as a whole. The short-lived age of populism has fallen; over its ashes rises perhaps another Great Awakening for the people. Within just a few years, Pence has done the impossible, and successfully pried the party away from the MAGA cult. The Republican Party has now become the Christian Party.<br><br>Pence's righteous crusade against the unholy seems unstoppable, but you never know; anything can happen. Perhaps you would join us in a prayer for the future?</p>\n</span>`;
+
+document.getElementById('game_start').innerHTML = '<b>Um... Alright.</b>';
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/qnaegw.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Mod Concept by Gardfeld.", "Soundtrack code provided by TheMcCain.", "Some portraits provided by Metheguy.", "Various codes provided by DecStarG, Mangolith, & TheMcCain."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/akg4mc.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+// Global text variables
+e.SelectText = 'Please select your crusade:';
+e.CandidText = 'Please choose your warrior:';
+e.VpText = 'Please select your Apostle:';
+e.HomeStateText = "Occupation:";
+e.ElectionPopup = "Election night is here. Good luck, you've fought a brave battle."
+e.LosePopup = "The people of this country have decided. They have chosen immorality over decency..."
+e.WinPopup = "The people of this country have decided. They have chosen the sight of God over the voices of evil!"
+
+HistHexcolour=["#c23636","#1072a1","#db8223","#2ca853"];
+    HistName=[" Mike Pence"," Joe Biden"," Robert F. Kennedy Jr."," Cornel West/Others"];
+    HistEV=[302,227,0,0];
+    HistPV=["58,228,651","54,871,532","2,018,132","1,552,409"];
+    HistPVP=["50.3%","47.4%","1.3%","1%"];
+
+// Music Player
+// Select the node that will be observed for mutations
+const windowsAdvisorTargetNode = document.getElementById("game_window");
+
+// Options for the observer (which mutations to observe)
+const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+
+// Callback function to execute when mutations are observed
+const callback = (mutationList, observer) => {
+    visitWindow = document.getElementsByClassName("overlay_window")[0];
+
+    if(visitWindow == null || visitWindow.classList.contains("done")) {
+        return;
+    }
+    visitWindow.classList.add("done");
+    visitWindow.classList.add("window");
+    let titleBar = visitWindow.querySelector("h3");
+    titleBar.classList.add("title-bar");
+    titleBar.classList.add("title-bar-text")
+    titleBar.style.paddingLeft = "3px";
+};
+
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() {
+    return this.title;
+  }
+
+  getArtist() {
+    return this.artist;
+  }
+
+  getCoverLink() {
+    return this.coverLink;
+  }
+
+  getAudioLink() {
+    return this.audioLink;
+  }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+
+  addSong(song) {
+    this.songs.push(song);
+  }
+
+  getCurrentSong() {
+    return this.songs[this.currentSongIndex];
+  }
+
+  playNext() {
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+window.Playlist=Playlist
+window.Song=Song
+
+function changePlaylist(newPlaylist) {
+  playlist = newPlaylist;
+  playlist.currentSongIndex = 0;
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+}
+window.changePlaylist=changePlaylist
+
+function updateUI(playlist) {
+    const currentSong = playlist.getCurrentSong();
+    var player = document.getElementById("player");
+    player.querySelector("#cover").src = currentSong.getCoverLink();
+    player.querySelector("#title").textContent = currentSong.getTitle();
+    player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+window.updateUI=updateUI
+
+
+function setupMusicPlayer() {
+  playlist = new Playlist();
+
+  const song1 = new Song(
+    "Gethsemane (I Only Want To Say)",
+    "Andrew Lloyd Weber",
+    "https://upload.wikimedia.org/wikipedia/en/1/1e/Jcs_us_cover.png",
+    "https://file.garden/Zrv1pPC1HzBK0svl/Gethsemane%20(I%20Only%20Want%20To%20Say).mp3"
+  );
+
+  const song2 = new Song(
+    "Monster",
+    "Skillet",
+    "https://upload.wikimedia.org/wikipedia/en/c/c1/Skillet-Monster.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/Skillet%20-%20Monster%20%5BHQ%5D%204.mp3"
+  );
+  
+  const song3 = new Song(
+    "Southtown",
+    "P.O.D.",
+    "https://upload.wikimedia.org/wikipedia/en/2/21/POD_original.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/P.O.D.%20-%20Southtown%204.mp3"
+  );
+
+  const song4 = new Song(
+    "Prayer To God",
+    "Shellac",
+    "https://upload.wikimedia.org/wikipedia/en/e/ee/Shellac-1000Hurts.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/Shellac%20%20%20Prayer%20To%20God.mp3"
+  );
+
+  const song5 = new Song(
+    "God's Gonna Cut You Down",
+    "Marilyn Manson",
+    "https://upload.wikimedia.org/wikipedia/en/0/0d/Marilyn_Manson_-_God%27s_Gonna_Cut_You_Down_%28Streaming_Cover%29.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/Marilyn%20Manson%20-%20God's%20Gonna%20Cut%20You%20Down%20-%20Lyrics.mp3"
+  );
+
+  const song6 = new Song(
+    "The Man Comes Around",
+    "Johnny Cash",
+    "https://upload.wikimedia.org/wikipedia/en/e/e0/AmericanIV.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/The%20Man%20Comes%20Around%204.mp3"
+  );
+
+  const song7 = new Song(
+    "The Last Stand",
+    "Sabaton",
+    "https://upload.wikimedia.org/wikipedia/en/6/6a/Sabaton_-_The_Last_Stand_cover.jpg",
+    "https://file.garden/Zrv1pPC1HzBK0svl/The%20Last%20Stand%204.mp3"
+  );
+
+  playlist.addSong(song1);
+  playlist.addSong(song2);
+  playlist.addSong(song3);
+  playlist.addSong(song4);
+  playlist.addSong(song5);
+  playlist.addSong(song6);
+  playlist.addSong(song7);
+
+
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+
+  const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/pQXnzV6.png')";
+  infoContainer.style.backgroundSize = "cover";
+  infoContainer.style.color = "white";
+
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'large';
+  songInfo.appendChild(titleElement);
+
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+
+  playerContainer.appendChild(displayBox);
+
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+
+  const controls = document.createElement("div");
+  controls.id = "controls";
+
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png";
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+
+  controlsContainer.appendChild(controls);
+
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // pause icon
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // play icon
+    }
+  });
+
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+  const progressBarContainer = document.createElement("div");
+  progressBarContainer.id = "progress-bar-container";
+
+  const progressBar = document.createElement("input");
+  progressBar.type = "range";
+  progressBar.id = "progress-bar";
+  progressBar.value = "0";
+  progressBar.max = "100";
+
+  progressBarContainer.appendChild(progressBar);
+  controlsContainer.appendChild(progressBarContainer);
+  playerContainer.appendChild(controlsContainer);
+
+  const volumeContainer = document.createElement("div");
+  volumeContainer.id = "volume-container";
+
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+
+  const volumeSliderContainer = document.createElement("div");
+  volumeSliderContainer.classList.add("is-vertical");
+  volumeSliderContainer.style.marginLeft = "23%";
+  volumeSliderContainer.style.height = "126px";
+
+  const volumeSlider = document.createElement("input");
+  volumeSlider.type = "range";
+  volumeSlider.id = "volumeSlider";
+  volumeSlider.min = 0;
+  volumeSlider.max = 9;
+  volumeSlider.step = 1;
+  volumeSlider.value = 9;
+
+  volumeSliderContainer.appendChild(volumeSlider);
+
+  const volumeDisplay = document.createElement("span");
+  volumeDisplay.id = "volume-display";
+  volumeDisplay.style.fontWeight = 'bold'; 
+  volumeDisplay.style.display = 'none';
+  volumeDisplay.textContent = "1";
+
+  volumeContainer.appendChild(volumeSliderContainer);
+  volumeContainer.appendChild(volumeDisplay);
+
+  playerContainer.appendChild(volumeContainer);
+
+  gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+  function updateProgressBar() {
+    const audio = document.getElementById("audio");
+    const progress = (audio.currentTime / audio.duration) * 100;
+    try{progressBar.value = progress}
+    catch{}
+  }
+
+  progressBar.addEventListener("input", function () {
+    const audio = document.getElementById("audio");
+    const seekTime = (progressBar.value / 100) * audio.duration;
+    audio.currentTime = seekTime;
+  });
+
+  const audio = document.createElement("audio");
+  audio.id = "audio";
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.volume = 9/9;
+
+  audio.addEventListener("timeupdate", updateProgressBar);
+  audio.addEventListener("ended", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+  let currentVolume = 1;
+
+  volumeSlider.addEventListener("input", function () {
+    currentVolume = parseInt(volumeSlider.value, 10);
+    updateVolumeDisplay();
+    updateAudioVolume();
+  });
+
+  function updateVolumeDisplay() {
+    volumeDisplay.textContent = currentVolume;
+  }
+
+   function updateAudioVolume() {
+    const audio = document.getElementById("audio");
+    audio.volume = currentVolume / 9;
+  }
+
+  document.body.appendChild(audio);
+  audio.play();
+
+  updateUI(playlist);
+}
+
+if (!document.getElementById("musicPlayerStyles")) {
+  const style = document.createElement("style");
+  style.id = "musicPlayerStyles";
+  style.textContent = `
+  #player {
+      border: 3px solid #ffffff;
+      display: flex;
+      flex-direction: row;
+      height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+
+    #cover {
+      width: 176px;
+      height:176px;
+    }
+
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+      width:127px;
+      margin-top: 3px;
+    }
+
+    #song-info {
+      width: 100%;
+      padding:5px;
+    }
+
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+      padding-top:15px;
+    }
+
+    .is-vertical #volumeSlider {
+      width: 16px;
+      height: 100%;
+      writing-mode: vertical-rl;
+      direction: rtl;
+    }
+
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+
+    #progress-bar-container {
+      width: 100%;
+    }
+
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-top: 20px;
+    }
+  `;
+  document.head.appendChild(style);
+}
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+//#endcode
