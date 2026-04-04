@@ -1,0 +1,1110 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "The traitorous rats emerged from the shadows, committing treason a grave sin against all of Russia. And where did they hide? In Moscow. The Ministry of Defense had attempted to kill him, to eliminate his men, and to sabotage the war effort against the Western NATO hounds.<br><br>Yevgeny Prigozhin possessed damning evidence, pointing directly to the corrupted heart of Moscow, which was squandering Russia's future. He pleaded with Putin, begged him to heed his warnings. But Putin remained silent, while the demons Sergei Shoigu and Valery Gerasimov whispered deceit into his innocent ears. Prigozhin knew he had to set the record straight—and he had the forces to do it.<br><br>His men rode from Bakhmut, swiftly capturing Rostov-on-Don, raising the banner of justice to cleanse the city. Now, the crown jewel lay ahead. <b>Moscow.</b>",
+            "image_url": "https://i.postimg.cc/mkWZD1bV/original-20681-1555441323-2.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/XYYjpb02/Fsu-Xm-WWc-AYdzbk.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://e3.365dm.com/23/09/2048x1152/skynews-wagner-prigozhin_6275937.jpg?20230906010847",
+            "creator": "Dan Bryan",
+            "display_year": "2023: March On Moscow"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Yevgeny",
+            "last_name": "Prigozhin",
+            "election": 9,
+            "party": "Leader Of PMC Wagner",
+            "state": "Spartacus",
+            "priority": 1,
+            "description": "<p>Yevgeny Prigozhin doesn't need Russia; rather, Russia needs Prigozhin. The master of the most successful PMC seen to date—seeing his men fight and conquer from Ukraine to central Africa—expected praise and rewards from those in Moscow. But no, that never occurred. Life isn't fair for the hard-working. He was spat on, overlooked by high command, and his work almost destroyed. He had done the dirty work against the evil West, and he got nothing in return.<br><br>What did they expect? In the same vain as Napoleon and Mussolini, Prigozhin thought the only solution is to teach them a lesson—head directly to them. The liars have suffered no consequences for far too long. The roads are long and deadly, but he's battle-tested, knows the ways in the Russian government, and has the army needed to force his demands. The rats will get thrown out of Moscow, one way or another.</p>",
+            "color_hex": "#612525",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Prigozhin.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Russians",
+            "election": 9,
+            "party": "Opposition Force",
+            "state": "Tyrants' Army",
+            "priority": 2,
+            "description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
+            "color_hex": "#757575",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Partisans",
+            "election": 9,
+            "party": "Partisan Rebels",
+            "state": "Figurenote",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#31733c",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "PMC",
+            "last_name": "Wagner",
+            "election": 9,
+            "party": "Funded Private Military Company",
+            "state": "The Liberatores",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Flag_of_Wagner_Group.svg.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Brilliant able-bodied men have been wronged before; the Wagner Group being no exception. Founded in 2014 after the first Ukrainian invasion, the mercenary group has its foundation built upon state-sponsored funds directly from Moscow. Fighting side by side, the Russian military and the PMC—a sight to behold. Yet those in the Defense Ministry thought otherwise, seeing them as disposable pawns on a chessboard, cheap soldiers that'll blindly fight for them no matter what. Russian high command lied their way into the second invasion, and now they're surprised karma has come to them.<br><br>Swelling in numbers since the invasion, the Group looks stronger than ever. Yet facing off against a world superpower's army is easier said than done. The chances of Prigozhin failing, or a unfavorable deal reached, remains too high to be comfortable. They only have one chance for a fairer future.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Vladimir",
+            "last_name": "Putin",
+            "election": 9,
+            "party": "President Of Russia",
+            "state": "In Bed With Tyrants",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Random",
+            "last_name": "Losers",
+            "election": 9,
+            "party": "Huh?",
+            "state": "None",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Others",
+            "election": 9,
+            "party": "None",
+            "state": "Nothing",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#3d2828",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Bozo",
+            "election": 9,
+            "party": "None",
+            "state": "None",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 123218,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Octomom & C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 28,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2023: March On Moscow"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#1c1c1c",
+    "containerColor": "#000000",
+    "innerWindowColor": "#4a3231",
+    "bannerImageUrl": "https://i.postimg.cc/pVjpHR2J/TMT2023Banner2.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/WagnerBackground.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "",
+    "gameTitle": "CAMPAIGN TRAIL SHOWCASE"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>CAMPAIGN TRAIL SHOWCASE</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#1c1c1c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://file.garden/Zrv1pPC1HzBK0svl/WagnerWindow.png)"
+
+$("#game_window")[0].style.borderColor = "#f0d90e"
+
+$(".container")[0].style.border = ".2em solid #7a1e17"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://i.postimg.cc/pVjpHR2J/TMT2023Banner2.png";
+
+document.body.background = "https://file.garden/Zrv1pPC1HzBK0svl/WagnerBackground.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#4a3231!important;}</style>";
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to overthrow a corrupt government?");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>The peons have woken up; now battle-hardened warriors await your command.</li><li>Play as <b><span style="color: #360906;">Yevgeny Prigozhin</span></b> and determine if the corrupt Moscow officials meet their fate or survive another day.</li><li>You will answer questions regarding your stances and your military strategy.</li><li>The answers will affect your success for better or worse, both nationwide and in individual cities.</li><li>Head to Moscow at all costs, no matter how the tyrants attempt to halt you.</li><li>Additionally, the game contains Choose Your Own Adventure elements alongside secret endings.</li><li>Are you ready to march, commander?</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>Да!</b>';
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://file.garden/Zrv1pPC1HzBK0svl/WagnerMap.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+quotes = ["''This is no military coup. This is a justice march.'' ~ Yevgeny Prigozhin", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>Поездка в Москву</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://file.garden/Zrv1pPC1HzBK0svl/WagnerHeaderBox.png", "header_text_color": "#f0d90e", "description_text_color": "#ffffff", "description_background_color": "#4a3231", "main_color": "#3b110f", "secondary_color": "#000000", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.postimg.cc/cLgzD97n/TMT2023Logo.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>Octomom & C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["Octomom/mediocre_jane, for the mod concept, some writing and some images.", "C0SM0, for some writing, coding, & soundtrack.", "", "Soundtrack code provided by Houseyhouse.", "Various codes provided by DecStarG & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+// Global text variables
+e.SelectText = 'Confirm your coup.';
+e.CandidText = 'Confirm your commander.';
+e.VpText = 'Confirm your PMC.';
+e.HomeStateText = "Role:";
+e.PartyText = "Occupation:";
+e.ElectionPopup = "The end is in sight. Have we made history?"
+e.LosePopup = "It seems we haven't, and Moscow's still ruled by corrupt thugs."
+e.WinPopup = "It seems we have! Change is coming to the corrupt thugs!"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+class Song {
+    constructor(title, artist, genre, coverLink, audioLink) {
+        this.title = title;
+this.artist = artist;
+        this.genre = genre;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+}
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist
+window.Song = Song
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+playSong(audio, uiElements);
+}
+window.changePlaylist = changePlaylist
+
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+uiElements.genre.textContent = song.genre;
+}
+
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+}
+
+(function () {
+    const SONGS_DATA = [{ title: "Like On War", artist: "Agatha Christie", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-194326_YouTube%20ReVanced.jpg", videoIds: ["1fm1XCJAY0s"] }, { title: "Blood Group", artist: "Group KINO", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-194403_YouTube%20ReVanced.jpg", videoIds: ["xtxjm7ciwmc"] }, { title: "I Am Russian Spetsnaz", artist: "GSN", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-194512_Google.jpg", videoIds: ["SA0gKgWVj10"] }, { title: "Detachment Of Veterans", artist: "Pavel Plamenev", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-194613_Chrome.jpg", videoIds: ["VA-7Rx1whM0"] }, { title: "And I'll Roll Up My Sleeves Higher", artist: "GSN", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-195317_Google.jpg", videoIds: ["VBjWSf3itaY"] }, { title: "Don't Tell Mom I'm In Bakhmut", artist: "Unknown Russian Soldier", coverLink: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260403-195349_Google.jpg", videoIds: ["C-aMAc8w_Wc"] }];
+    const YOUTUBE_PLAYER_DIV_ID = 'youtube-player-div';
+    const PLAYER_CONTAINER_ID = 'musicPlayerContainer';
+    const YOUTUBE_API_URL = 'https://www.youtube.com/iframe_api';
+    const RECENT_TRACKS_COUNT = 3;
+    const PLAYBACK_RATES = [1.0, 1.25, 1.5, 2.0, 0.75, 0.5];
+    
+    let ytPlayer = null;
+    let originalSongOrderForCurrentPlaylist = [];
+    let playlist = null;
+    let recentTracks = [];
+    let PLAYLISTS_DATA = [];
+    let playButton = null;
+    let nextButton = null;
+    let prevButton = null;
+    let speedButton = null;
+    let currentPlaybackRateIndex = 0;
+    let songTitleElement = null;
+    let artistElement = null;
+    let coverElement = null;
+    let playlistSelectorElement = null;
+    let progressElement = null;
+    let timeDisplayElement = null;
+    let progressInterval = null;
+    
+    class Song {
+        constructor(title, artist, coverLink, videoIds) {
+            this.title = title;
+            this.artist = artist;
+            this.coverLink = coverLink;
+            this.videoIds = Array.isArray(videoIds) ? videoIds : [videoIds];
+            this.currentVideoIndex = 0;
+        }
+        getNextVideoId() {
+            const id = this.videoIds[this.currentVideoIndex];
+            this.currentVideoIndex = (this.currentVideoIndex + 1) % this.videoIds.length;
+            return id;
+        }
+        getVideoId() {
+            return this.videoIds[this.currentVideoIndex];
+        }
+    }
+
+    class Playlist {
+        constructor(songs) {
+            this.songs = songs;
+            this.currentSongIndex = 0;
+        }
+        getCurrentSong() {
+            return this.songs[this.currentSongIndex];
+        }
+        nextSong() {
+            this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+            return this.getCurrentSong();
+        }
+        prevSong() {
+            this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+            return this.getCurrentSong();
+        }
+        setCurrentSongIndex(index) {
+            this.currentSongIndex = index;
+            updateUI();
+        }
+    }
+
+    function createPlayerElements() {
+        const playerFragment = document.createDocumentFragment();
+        const container = document.createElement("div");
+        container.id = PLAYER_CONTAINER_ID;
+
+        const mainContentPanel = document.createElement("div");
+        mainContentPanel.id = "mainContentPanel";
+
+        const coverPanel = document.createElement("div");
+        coverPanel.id = "coverPanel";
+        const coverArt = document.createElement("img");
+        coverArt.id = "coverArt";
+        coverArt.alt = "Album Cover";
+        coverElement = coverArt;
+        coverPanel.appendChild(coverArt);
+        
+        const controlInfoPanel = document.createElement("div");
+        controlInfoPanel.id = "controlInfoPanel";
+        
+        const timeAndProgressWrapper = document.createElement("div");
+        timeAndProgressWrapper.id = "timeAndProgressWrapper";
+        
+        timeDisplayElement = document.createElement("div");
+        timeDisplayElement.id = "timeDisplayElement";
+        timeDisplayElement.textContent = "0:00 / 0:00";
+        timeAndProgressWrapper.appendChild(timeDisplayElement);
+
+        progressElement = document.createElement("input");
+        progressElement.type = "range";
+        progressElement.min = "0";
+        progressElement.value = "0";
+        progressElement.style.cssText = "width: 100%; height: 10px; cursor: pointer;";
+        timeAndProgressWrapper.appendChild(progressElement);
+        
+        const infoPanel = document.createElement("div");
+        infoPanel.id = "infoPanel";
+        songTitleElement = document.createElement("div");
+        songTitleElement.id = "songTitle";
+        artistElement = document.createElement("div");
+        artistElement.id = "artistName";
+        infoPanel.appendChild(songTitleElement);
+        infoPanel.appendChild(artistElement);
+        
+        const controlsContainer = document.createElement("div");
+        controlsContainer.id = "playerControls";
+        const createControl = (id, text) => {
+            const btn = document.createElement("button");
+            btn.id = id;
+            btn.textContent = text;
+            btn.className = "player-control-button";
+            return btn;
+        };
+        prevButton = createControl("prevButton", "«");
+        playButton = createControl("playButton", "►");
+        nextButton = createControl("nextButton", "»");
+        speedButton = createControl("speedButton", "1.0x");
+        
+        controlsContainer.appendChild(prevButton);
+        controlsContainer.appendChild(playButton);
+        controlsContainer.appendChild(nextButton);
+        controlsContainer.appendChild(speedButton);
+        
+        controlInfoPanel.appendChild(timeAndProgressWrapper);
+        controlInfoPanel.appendChild(infoPanel);
+        controlInfoPanel.appendChild(controlsContainer);
+
+        const queuePanel = document.createElement("div");
+        queuePanel.id = "queuePanel";
+        
+        playlistSelectorElement = document.createElement("select");
+        playlistSelectorElement.id = "playlistSelector";
+        playlistSelectorElement.style.cssText = "width: 100%; margin-bottom: 10px; padding: 5px; display: none;";
+
+        const queueContainer = document.createElement("div");
+        queueContainer.id = "player-queue-container";
+        const queueTitle = document.createElement("div");
+        queueTitle.id = "player-queue-title";
+        queueTitle.textContent = "Свергнуть тиранов";
+        const queueListElement = document.createElement("ul");
+        queueListElement.id = "player-queue-list";
+        queueContainer.appendChild(queueTitle);
+        queueContainer.appendChild(queueListElement);
+        
+        queuePanel.appendChild(playlistSelectorElement);
+        queuePanel.appendChild(queueContainer);
+
+        const playerDiv = document.createElement("div");
+        playerDiv.id = YOUTUBE_PLAYER_DIV_ID;
+
+        mainContentPanel.appendChild(coverPanel);
+        mainContentPanel.appendChild(controlInfoPanel);
+        mainContentPanel.appendChild(queuePanel);
+
+        container.appendChild(mainContentPanel);
+        container.appendChild(playerDiv);
+        playerFragment.appendChild(container);
+        return playerFragment;
+    }
+
+    function injectStyles() {
+        const style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = `:root{
+    --color-primary:#111111;
+    --color-background:#000000;
+    --color-border:#FFFFFF;
+    --color-text:#FFFFFF;
+    --color-progress-fill:#FFFFFF;
+    --color-accent:#FFFFFF;
+    --player-width:900px;
+    --cover-size:130px;
+    --color-subtle-bg: #222222;
+}
+
+#musicPlayerContainer{
+    width:var(--player-width);
+    max-width:95%;
+    background-color:var(--color-background);
+    border:2px solid var(--color-border);
+    border-radius:8px;
+    padding:20px;
+    margin:20px auto;
+    display:flex;
+    flex-direction:column;
+    font-family:'SF Pro Text', 'Helvetica Neue', 'Arial', sans-serif;
+    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px rgba(255, 255, 255, 0.1); 
+}
+
+#mainContentPanel{
+    display:flex;
+    gap:25px;
+    align-items:stretch;
+    padding:0;
+}
+
+#coverPanel{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+    width:var(--cover-size);
+    height:var(--cover-size);
+    border:1px solid var(--color-border);
+    border-radius:4px;
+    padding:0;
+    background-color: #000000;
+    overflow: hidden;
+    box-shadow: 0 0 5px var(--color-border);
+}
+#coverArt{
+    width:100%!important;
+    height:100%!important;
+    border:none;
+    object-fit:cover;
+    border-radius:4px;
+}
+
+#controlInfoPanel{
+    display:flex;
+    flex-direction:column;
+    flex-grow:2;
+    gap:15px;
+    padding:0;
+    justify-content: space-between;
+}
+
+#timeAndProgressWrapper {
+    order: -1;
+    padding-bottom: 5px;
+}
+
+#timeDisplayElement{
+    font-size:1.2em!important;
+    text-align:center!important;
+    color:var(--color-accent)!important;
+    margin-bottom:8px;
+    font-family:'SF Mono', 'Courier New', monospace;
+    font-weight: 500;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+input[type="range"]{
+    height:8px;
+    background-color:#444444;
+    border-radius:4px;
+    cursor:pointer;
+    -webkit-appearance:none;
+    appearance:none;
+    width:100%;
+    border:none;
+    box-shadow: inset 0 1px 3px rgba(255,255,255,0.2);
+    vertical-align: middle;
+}
+input[type="range"]::-webkit-slider-thumb{
+    background:var(--color-progress-fill);
+    border:1px solid var(--color-background);
+    border-radius:50%;
+    cursor:pointer;
+    width:16px;
+    height:16px;
+    -webkit-appearance:none;
+    position: relative;
+}
+input[type="range"]::-moz-range-thumb{
+    background:var(--color-progress-fill);
+    border:1px solid var(--color-background);
+    border-radius:0%;
+    cursor:pointer;
+    width:18px;
+    height:18px;
+    position: relative;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, var(--color-progress-fill) 0%, var(--color-progress-fill) var(--progress-percent), #444444 var(--progress-percent), #444444 100%);
+    border-radius: 4px;
+}
+input[type="range"]::-moz-range-progress {background-color: var(--color-progress-fill);}
+
+#infoPanel{
+    text-align:center;
+    padding:10px 0;
+    background: var(--color-subtle-bg);
+    border: 1px solid var(--color-border);
+}
+#songTitle{
+    font-size:1.3em!important;
+    font-weight:600;
+    color:var(--color-text);
+    margin-bottom: 5px;
+}
+#artistName{
+    font-size:1em!important;
+    color:var(--color-accent);
+    font-weight: 400;
+}
+
+#playerControls{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    padding-top:10px;
+}
+.player-control-button{
+    background-color:var(--color-subtle-bg);
+    border:1px solid var(--color-border);
+    border-radius:50%;
+    color:var(--color-accent);
+    cursor:pointer;
+    font-size:1.8em!important; 
+    padding:8px 12px!important;
+    line-height:1;
+    font-weight:normal;
+    transition: all 0.2s ease-in-out;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.2);
+    font-family:'SF Pro Text', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size:1em!important;
+    text-transform: uppercase;
+}
+.player-control-button#playButton{
+    font-size:2.2em!important; 
+    width: 60px;
+    height: 60px;
+} 
+.player-control-button#prevButton, .player-control-button#nextButton {
+    font-size: 2.2em!important;
+}
+.player-control-button#speedButton {
+    font-weight: 600;
+    font-size: 0.85em!important;
+    letter-spacing: 0.5px;
+}
+.player-control-button:hover{
+    background-color:#333333;
+    color:var(--color-text);
+    box-shadow: 0 4px 10px rgba(255,255,255,0.3);
+    transform: translateY(-1px);
+}
+.player-control-button:active{
+    background-color:#222222;
+    box-shadow: inset 0 1px 3px rgba(255,255,255,0.3);
+    transform: translateY(1px);
+}
+
+#queuePanel{
+    flex-grow:1;
+    min-width: 280px;
+    height: 100%;
+    max-height: calc(var(--cover-size) + 50px);
+    overflow: hidden;
+    border-left: 1px solid var(--color-border);
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+#player-queue-container{
+    padding-top:0px;
+    margin-top:0px;
+    border-top:none;
+}
+#player-queue-title{
+    color:var(--color-accent);
+    font-size:1em;
+    font-weight:600;
+    margin-bottom:10px;
+    padding-left:0px;
+    font-family:'SF Pro Text', 'Helvetica Neue', 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+#player-queue-list{
+    max-height: calc(var(--cover-size) + 20px)!important;
+    overflow-y:auto;
+    padding:5px;
+    list-style:none;
+    margin:0;
+    background-color: var(--color-subtle-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+}
+#player-queue-list .player-queue-item{
+    font-size:0.8em!important;
+    padding:5px 8px;
+    border-bottom:1px solid #333333;
+    cursor:pointer;
+    color:var(--color-text);
+    font-family:'SF Pro Text', 'Helvetica Neue', 'Arial', sans-serif;
+}
+#player-queue-list .player-queue-item:last-child{border-bottom:none;}
+#player-queue-list .player-queue-item:hover{background-color:#1E1E1E;}
+.current-track{
+    font-weight:600;
+    color:var(--color-background) !important;
+    background-color:var(--color-accent) !important;
+    border-left: 3px solid var(--color-background);
+    padding:5px 8px 5px 5px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: #555555; 
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box; 
+}
+::-webkit-scrollbar-thumb:hover { background: #777777; }
+
+
+#youtube-player-div{position:absolute;bottom:0;left:0;width:1px;height:1px;overflow:hidden;}`;
+        document.head.appendChild(style);
+    }
+
+    function injectHeader() {
+        const headerHtml = `<div id="modHeaderBanner"></div>`;
+        document.body.insertAdjacentHTML('afterbegin', headerHtml);
+    }
+
+    function togglePlaybackSpeed() {
+        currentPlaybackRateIndex = (currentPlaybackRateIndex + 1) % PLAYBACK_RATES.length;
+        const newRate = PLAYBACK_RATES[currentPlaybackRateIndex];
+        
+        if (ytPlayer && ytPlayer.setPlaybackRate) {
+            ytPlayer.setPlaybackRate(newRate);
+        }
+
+        const speedBtn = document.getElementById("speedButton");
+        if (speedBtn) {
+            speedBtn.textContent = `${newRate.toFixed(2)}x`.replace('.00', '.0');
+        }
+    }
+
+    function bindUIEventListeners() {
+        playButton.addEventListener('click', togglePlayPause);
+        nextButton.addEventListener('click', playNext);
+        prevButton.addEventListener('click', playPrev);
+        progressElement.addEventListener('input', seekTo);
+        playlistSelectorElement.addEventListener('change', changePlaylist);
+        document.getElementById("speedButton").addEventListener('click', togglePlaybackSpeed);
+    }
+
+    function updateUI() {
+        const song = playlist.getCurrentSong();
+        if (song) {
+            songTitleElement.textContent = song.title;
+            artistElement.textContent = song.artist;
+            coverElement.src = song.coverLink;
+        }
+        playButton.textContent = (ytPlayer && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) ?
+            "❚❚" : "►";
+            
+        const speedBtn = document.getElementById("speedButton");
+        if (speedBtn) {
+            const currentRate = PLAYBACK_RATES[currentPlaybackRateIndex];
+            speedBtn.textContent = `${currentRate.toFixed(2)}x`.replace('.00', '.0');
+        }
+            
+        updateQueueDisplay();
+    }
+
+    function updateQueueDisplay() {
+        const queueListElement = document.getElementById("player-queue-list");
+        if (!queueListElement || !playlist || playlist.songs.length === 0) return;
+        queueListElement.innerHTML = '';
+        const songs = playlist.songs;
+        const currentIndex = playlist.currentSongIndex;
+        const currentSong = songs[currentIndex];
+        const currentLi = document.createElement("li");
+        currentLi.className = "player-queue-item current-track";
+        currentLi.innerHTML = `PUTTING ON: ${currentSong.title} - ${currentSong.artist}`;
+        queueListElement.appendChild(currentLi);
+        for (let i = 1; i < songs.length; i++) {
+            let nextIndex = (currentIndex + i) % songs.length;
+            if (nextIndex <= currentIndex && i !== songs.length) break;
+            const song = songs[nextIndex];
+            const li = document.createElement("li");
+            li.className = "player-queue-item";
+            li.dataset.songIndex = nextIndex;
+            li.innerHTML = `${i}. ${song.title} - ${song.artist}`;
+            li.addEventListener('click', () => {
+                playlist.setCurrentSongIndex(parseInt(li.dataset.songIndex, 10));
+                loadCurrentSong(true);
+            });
+            queueListElement.appendChild(li);
+        }
+    }
+
+    function changePlaylist() {
+        const selectedIndex = parseInt(playlistSelectorElement.value);
+        const newSongsData = PLAYLISTS_DATA[selectedIndex].songs;
+        const newSongs = newSongsData.map(d => new Song(d.title, d.artist, d.coverLink, d.videoIds || d.videoId));
+        originalSongOrderForCurrentPlaylist = [...newSongs];
+        playlist = new Playlist(newSongs);
+        playlist.setCurrentSongIndex(0);
+        loadCurrentSong(true);
+    }
+
+    function loadYouTubeAPI() {
+        return new Promise(resolve => {
+            if (window.YT && window.YT.Player) {
+                resolve();
+                return;
+            }
+            const tag = document.createElement('script');
+ 
+            tag.src = YOUTUBE_API_URL;
+            window.onYouTubeIframeAPIReady = resolve;
+            document.getElementsByTagName('script')[0].parentNode.insertBefore(tag, document.getElementsByTagName('script')[0]);
+        });
+    }
+
+    function loadCurrentSong(autoplay = true) {
+        const song = playlist.getCurrentSong();
+        if (!song || !ytPlayer || !ytPlayer.loadVideoById) return;
+        let videoId = song.getVideoId();
+        let maxAttempts = song.videoIds.length;
+        let attempts = 0;
+        while (recentTracks.includes(videoId) && attempts < maxAttempts) {
+            videoId = song.getNextVideoId();
+            attempts++;
+        }
+        if (attempts === maxAttempts) { videoId = song.getVideoId();
+        }
+        recentTracks.push(videoId);
+        if (recentTracks.length > RECENT_TRACKS_COUNT) {
+            recentTracks.shift();
+        }
+        ytPlayer.loadVideoById(videoId, 0, 'default');
+        if (autoplay) {
+            ytPlayer.playVideo();
+        } else {
+            ytPlayer.pauseVideo();
+        }
+        updateUI();
+        clearInterval(progressInterval);
+        progressInterval = setInterval(updateProgress, 1000);
+    }
+
+    function togglePlayPause() {
+        if (!ytPlayer) return;
+        if (ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) {
+            ytPlayer.pauseVideo();
+        } else {
+            ytPlayer.playVideo();
+        }
+        updateUI();
+    }
+
+    function playNext() {
+        playlist.nextSong();
+        loadCurrentSong(true);
+    }
+
+    function playPrev() {
+        playlist.prevSong();
+        loadCurrentSong(true);
+    }
+
+    function updateProgress() {
+        if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+        const currentTime = ytPlayer.getCurrentTime();
+        const duration = ytPlayer.getDuration();
+        progressElement.max = duration;
+        progressElement.value = currentTime;
+        const progressPercent = (duration > 0) ?
+            (currentTime / duration) * 100 : 0;
+        progressElement.style.setProperty('--progress-percent', `${progressPercent}%`);
+        
+        const formatTime = (seconds) => {
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60).toString().padStart(2, '0');
+            return `${min}:${sec}`;
+        };
+        timeDisplayElement.textContent = `${formatTime(currentTime)} / ${formatTime(duration)}`;
+    }
+
+    function seekTo() {
+        if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(progressElement.value, true);
+        }
+    }
+
+    window.onPlayerReady = (event) => {
+        event.target.setVolume(20);
+        event.target.setPlaybackRate(PLAYBACK_RATES[currentPlaybackRateIndex]);
+        loadCurrentSong(false);
+    };
+
+    window.onPlayerStateChange = (event) => {
+        if (event.data === YT.PlayerState.ENDED) {
+            playNext();
+        }
+        updateUI();
+    };
+    window.onPlayerError = (event) => {
+        const song = playlist.getCurrentSong();
+        if (song.videoIds.length > 1) {
+            loadCurrentSong(true);
+        } else {
+            playNext();
+        }
+    };
+    async function initializeMusicPlayer() {
+        try {
+            injectHeader();
+            injectStyles();
+            PLAYLISTS_DATA = [{ name: "The Grahamophone", songs: SONGS_DATA }];
+            const initialSongs = PLAYLISTS_DATA[0].songs.map(d => new Song(d.title, d.artist, d.coverLink, d.videoIds || d.videoId));
+            originalSongOrderForCurrentPlaylist = [...initialSongs];
+            playlist = new Playlist(initialSongs);
+            const playerFragment = createPlayerElements();
+            PLAYLISTS_DATA.forEach((pl, index) => { const option = document.createElement("option"); option.value = index.toString(); option.textContent = pl.name; playlistSelectorElement.appendChild(option); });
+            const anchorElement = document.getElementById("game_window");
+            const targetContainer = (anchorElement && anchorElement.parentNode) ? anchorElement.parentNode : document.body;
+            const insertBeforeElement = (anchorElement && anchorElement.parentNode) ? anchorElement.nextSibling : null;
+            targetContainer.insertBefore(playerFragment, insertBeforeElement);
+            bindUIEventListeners();
+            updateUI();
+            await loadYouTubeAPI();
+            const playerDiv = document.getElementById(YOUTUBE_PLAYER_DIV_ID);
+            if (!playerDiv) throw new Error(`Player element not found.`);
+            ytPlayer = new YT.Player(YOUTUBE_PLAYER_DIV_ID, {
+                height: '1', width: '1',
+                playerVars: { 'playsinline': 1, 'autoplay': 1, 'controls': 0, 'disablekb': 1, 'modestbranding': 1, 'origin': window.location.origin },
+                events: { 'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange, 'onError': onPlayerError }
+            });
+        } catch (error) {
+            if (songTitleElement) songTitleElement.textContent = "Error";
+            if (artistElement) artistElement.textContent = "Could not load player.";
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeMusicPlayer);
+    } else {
+        initializeMusicPlayer();
+    }
+})();
+
+//#endcode
