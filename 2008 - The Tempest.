@@ -596,7 +596,7 @@ function setupMusicPlayer() {
         { title: "Bu$hleaguer", artist: "Pearl Jam", genre: "Grunge", cover: "https://upload.wikimedia.org/wikipedia/en/5/5b/PearlJam-RiotAct.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Bu%24hleaguer%204.mp3" },
         { title: "George W. Told The Nation", artist: "Tom Paxton", genre: "Folk", cover: "https://m.media-amazon.com/images/I/51+aPFZb4UL._UX420_FMwebp_QL85_.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/George%20W.%20Told%20the%20Nation.mp3" },
         { title: "Boom!", artist: "System Of A Down", genre: "Nu Metal", cover: "https://upload.wikimedia.org/wikipedia/commons/4/45/StealThisAlbum.png", audio: "https://files.catbox.moe/q7w2g0.mp3" },
-        { title: "Mr. President", artist: "LL Cool J, Wyclef Jean", genre: "Rap", cover: "https://upload.wikimedia.org/wikipedia/en/d/d3/Exit13.JPG", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Mr.%20President_LLCoolJ.mp3" },
+        { title: "Mr. President", artist: "LL Cool J, Wyclef Jean", genre: "Rap", cover: "https://upload.wikimedia.org/wikipedia/en/b/b5/Exit_13_%28LL_Cool_J_album_-_cover_art%29.JPG", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Mr.%20President_LLCoolJ.mp3" },
         { title: "B.O.B. (Bombs Over Baghdad)", artist: "OutKast", genre: "Hip Hop", cover: "https://upload.wikimedia.org/wikipedia/en/f/f6/OutkastBombs_Over_Baghdad.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/B.O.B.%20(Bombs%20Over%20Baghdad)%204.mp3" },
     ];
 
