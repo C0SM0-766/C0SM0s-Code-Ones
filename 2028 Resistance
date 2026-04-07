@@ -351,49 +351,49 @@ $("#dynamic-favicon").attr("href", "https://files.catbox.moe/rjga85.png");
       "Uprising",
       "Muse",
       "https://files.catbox.moe/7q3tyv.jpg",
-      "https://files.catbox.moe/ihn8md.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Muse%20-%20Uprising%20(Lyrics).mp3"
     );
     
     const song2 = new Song(
       "The Resistance",
       "Skillet",
       "https://files.catbox.moe/a8nbcs.jpg",
-      "https://files.catbox.moe/yn0axe.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/The%20Resistance%204.mp3"
     );
   
     const song3 = new Song(
       "Point Of No Return",
       "Starset",
       "https://files.catbox.moe/qjoeqa.png",
-      "https://files.catbox.moe/89ccrj.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Point%20Of%20No%20Return.mp3"
     );
   
     const song4 = new Song(
       "Living In The 20s",
       "Green Day",
       "https://files.catbox.moe/dploa5.jpg",
-      "https://files.catbox.moe/ipb503.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Living%20in%20the%20'20s%204.mp3"
     );
   
     const song5 = new Song(
       "America Has A Problem",
       "Beyoncé (Ft. Kendrick Lamar)",
       "https://upload.wikimedia.org/wikipedia/en/f/f1/Beyonc%C3%A9_-_America_Has_a_Problem.png",
-      "https://files.catbox.moe/yunbs8.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/AMERICA%20HAS%20A%20PROBLEM.mp3"
     );
   
     const song6 = new Song(
       "Bulls On Parade",
       "Rage Against The Machine",
       "https://files.catbox.moe/spk9qr.jpg",
-      "https://files.catbox.moe/asqhpk.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Bulls%20On%20Parade%204.mp3"
     );
   
     const song7 = new Song(
       "Mein Trumpf",
       "Millions Of Dead Cops",
       "https://files.catbox.moe/hhblfg.jpg",
-      "https://files.catbox.moe/15oyfg.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Mein%20Trumpf%204.mp3"
     );
   
     playlist.addSong(song1);
