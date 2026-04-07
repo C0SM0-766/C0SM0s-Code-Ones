@@ -78,7 +78,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#3ba142",
             "secondary_color_hex": "#3ba142",
             "is_active": 1,
-            "image_url": "https://i.imgur.com/dqmUYs1.jpeg",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/IMG_0447.png",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -1113,7 +1113,7 @@ var soundtracks = {
 
         name: "I Ain't Marching Anymore (Phil Ochs)",
 
-        url: "https://files.catbox.moe/d20fug.mp3",
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/I%20Ain't%20Marching%20Anymore%204.mp3",
 
       },
 
@@ -1145,7 +1145,7 @@ var soundtracks = {
 
         name: "The Same Merry Go-Round (Peter Janovsky)",
 
-        url: "https://files.catbox.moe/zfpg3d.mp3",
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/The%20Same%20Merry%20Go-Round%20(Wallace).mp3",
 
       },
 
