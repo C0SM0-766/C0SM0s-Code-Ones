@@ -482,7 +482,7 @@ function setupMusicPlayer() {
         "Eisenhower Blues",
         "J. B. Lenoir",
         "https://files.catbox.moe/ss0q15.jpg",
-        "https://files.catbox.moe/m3c7oq.mp3"
+        "https://file.garden/Zrv1pPC1HzBK0svl/Eisenhower%20Blues%20(Single%20Version).mp3"
     );
     const song5 = new Song(
         "Farmer's Letter To The President",
