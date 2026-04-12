@@ -373,7 +373,7 @@ document.head.appendChild(customStyling);
 
 document.getElementById("inner_window_1").children[1].innerHTML =  `<li>Welcome to <b>American Calamity.</b></li><li>Play as America's Tyrant™ Donald Trump and figure out how much you can destroy this country.</li><li>You will answer questions about your platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states.</li><li>These policies both their success and ideology will effect the candidates you'll face in the 2028 election.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>Content Warning: Racism, Sexism, Islamophobia, Homophobia, Transphobia, Xenophobia, Profanity, and a general crass, crude and deeply cynical perspective on humanity.</li><li>Good luck. You're gonna need it.</li>`;
 
-document.getElementById('game_start').innerHTML = 'Proceed to Unleash the Tyrant.';
+document.getElementById('game_start').innerHTML = '<b>Proceed to Unleash the Tyrant.</b>';
 
 HistHexcolour=["#6a40be","#8e0c10","#c39e84","#5c2121"];
     HistName=[" Barack Hussein Obama"," Donald J. Trump"," George W. Bush"," Gloria La Riva"];
@@ -485,8 +485,8 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     const song1 = new Song(
       "I Thought The Future Would Be Cooler",
       "YACHT",
-      "https://files.catbox.moe/olsob6.jpg",
-      "https://files.catbox.moe/a60mdy.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/YACHTAlbum.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/I%20Thought%20The%20Future%20Would%20Be%20Cooler.mp3"
     );
     
     const song2 = new Song(
@@ -499,8 +499,8 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     const song3 = new Song(
       "We The Movement",
       "Rebel Diaz",
-      "https://files.catbox.moe/t29did.jpg",
-      "https://files.catbox.moe/3esphv.mp3"
+      "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/15/a5/f115a57c-9417-4dd3-d4ae-ad15c2b8c56c/859726666164_cover.jpg/600x600cc.webp",
+      "https://file.garden/Zrv1pPC1HzBK0svl/We%20the%20Movement.mp3"
     );
   
     const song4 = new Song(
@@ -518,38 +518,45 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     );
   
     const song6 = new Song(
+      "They're All In The Files",
+      "Kevin Lynch",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260412-131737_YouTube%20ReVanced.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/They're%20All%20In%20The%20Files.mp3"
+    );
+  
+    const song7 = new Song(
       "Who'll Stand With Us?",
       "Dropkick Murphys",
       "https://file.garden/Zrv1pPC1HzBK0svl/artworks-TDVeqP5W1HWT-0-t500x500.jpg",
       "https://file.garden/Zrv1pPC1HzBK0svl/Who'll%20Stand%20With%20Us_.mp3"
     );
-    const song7 = new Song(
-      "There's A Man In A Prison",
+    const song8 = new Song(
+      "If The People Unite",
       "Seth Staton Watkins",
-      "https://files.catbox.moe/48u7b1.jpg",
-      "https://files.catbox.moe/144qvv.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260407-195729_Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/If%20the%20People%20Unite.mp3"
     );
 
-    const song8 = new Song(
-      "Demagogue",
-      "Franz Ferdinand",
-      "https://files.catbox.moe/4fwqdc.jpg",
-      "https://files.catbox.moe/qs11w5.mp3"
-    );
     const song9 = new Song(
-      "Banker And Boss",
-      "Risky Biscuit",
-      "https://files.catbox.moe/yizr1u.jpg",
-      "https://files.catbox.moe/p0bj4i.mp3"
+      "Streets Of Minneapolis",
+      "Bruce Springsteen",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Minneapolis.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Bruce%20Springsteen%20-%20Streets%20Of%20Minneapolis%20(Official%20Audio).mp3"
     );
     const song10 = new Song(
+      "Banker And Boss",
+      "Risky Biscuit",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260407-195844_Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Banker%20and%20Boss.mp3"
+    );
+    const song11 = new Song(
       "Tear The Fascists Down",
       "Lil Darkie",
-      "https://files.catbox.moe/8zfa74.jpg",
-      "https://files.catbox.moe/topnn1.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260407-195910_Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/tear%20the%20fascists%20down.mp3"
     );
 
-    const song11 = new Song(
+    const song12 = new Song(
       "Give The People What They Want",
       "The O’Jays",
       "https://files.catbox.moe/rb8c5h.jpg",
@@ -567,6 +574,7 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     playlist.addSong(song9);
     playlist.addSong(song10);
     playlist.addSong(song11);
+    playlist.addSong(song12);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
