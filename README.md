@@ -145,7 +145,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 - Creation Date: July 9th, 2025
 
 **2025-2028 - American Calamity**
-- Creation Date: August 12th, 2025
+- Creation Date: August 12th, 2025 *(Updated on April 12th, 2026)*
 
 **2025-2028: Twilight Of A Republic**
 - Creation Date: October 14th, 2025
