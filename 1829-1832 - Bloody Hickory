@@ -1,0 +1,723 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 13,
+        "fields": {
+            "year": 1844,
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>\"Make no mistake, this is the greatest war I’ve ever fought. A war for the soul of America. I face the enemy, eternal. He bears a thousand faces but only one true name: Chaos! Many are his disguises. <br><br>Henry Clay, that whoremaster of Babylon that sold the presidency to the Yankee Adams in the last election. He’s nothing but a madame for the Banks, serving whatever sorry excuse passes for a politician to their vile and endless apetites. He leads these so-called Republicans against me. Against the people of this Republic. One in the same! Calhoun, that sleeved tongued serpent of Eden, that demagogue that turns the white, Christian men of the south against their greatest defender under the false banner of nullification.<br><br>He who panders his own country for political gain is no true American! Marshall and his Indian loving court. The African loving puritanical Yankees, who, in their sanctimonious preaching, reveal they know nothing of what makes this nation great. <b>I will destroy them all!</b>\"</p>",
+            "image_url": "https://files.catbox.moe/ehb5fj.jpg",
+            "winning_electoral_vote_number": 138,
+            "advisor_url": "https://i.postimg.cc/D0J4Zb80/wmremove-transformed.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>\nMichael Friedman - <a href=\"https://en.wikipedia.org/wiki/Bloody_Bloody_Andrew_Jackson\">Bloody Bloody Andrew Jackson</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.geographicus.com/mm5/graphics/00000001/L/PoliticalClimbingBoys-buoholzer-1844.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1829-1832"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 131,
+        "fields": {
+            "first_name": "Andrew",
+            "last_name": "Jackson",
+            "election": 13,
+            "party": "The Democracy",
+            "state": "Tennessee",
+            "priority": 1,
+            "description": "<p>\"From the glory of the American people's spirit, they have granted me the trust to rule the Republic. The unheard voice of patriotic men—South and North alike—have had their prayers answered. The Aristocrats are trembling, the Yankees sent running, and the men in tailored suits anxiously wait to hear my word. Yet the path ahead is more murky than usual. The people above are sharpening their daggers—smelling blood in the water as they prepare to dig into their trenches and stonewall my agenda. The people with me are getting impatient yet are hopeful—that I'll beat them all like I did in '28.<br><br>But it isn't the same. Not the same without Rachel. The rapscallions have made politics into a dirty battle where the righteous are drowned under a sea of sinfulness. The portrayal of an executive becomes less joyful by the year. But it's what she would've wanted. I'll find my way out of hell, and bring heaven along.\"</p>",
+            "color_hex": "#45667c",
+            "secondary_color_hex": "#45667c",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260416-203154_Google.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1844 Election</h3><p>Your first order of business will be to confirm the annexation of Texas. More generally you can fight for the expansion of the United States in line with the ideals of \"Manifest Destiny\". With a Democratic majority in Congress, you will have wide latitude to implement your program, after four years of Tyler's paralysis. Best wishes for your term in office.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1844 Election</h3><p>President Clay is sure to obstruct the annexation of Texas. Hopefully a new President can bring this to a better conclusion in four years. In the meantime, your voice may hold some influence, in an advisory capacity, with the Democratic majority in Congress. It is unlikely, however, that you will be nominated for President over the likes of Lewis Cass, James Buchanan, or others in 1848.</p>",
+            "no_electoral_majority_message": "<h3>Wow. No candidate has achieved a majority in the Electoral College</h3><p>This is surely an unusual situation, given that no candidate besides yourself and Clay seemed poised to win an electoral vote. Fortunately, the Democrats have won a majority in the House and seem likely to confirm you as the ultimate winner. Best wishes for your term in office.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 132,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Anti-Jacksonians",
+            "election": 13,
+            "party": "The Republicans",
+            "state": "Nationwide",
+            "priority": 2,
+            "description": "<p>Henry Clay runs in a Presidential election for the third time, and begins as the favorite against Polk. He must quickly define a position on Texas. It will be difficult to do so without alienating some bloc of the Whigs.</p><p>Clay would prefer to keep slavery and expansion on the back-burner, and advance his own issues like tariffs, internal improvements, and a national currency. Can he find redemption from his political defeats to Andrew Jackson, and finally break into the White House?</p>",
+            "color_hex": "#bfaa76",
+            "secondary_color_hex": "#bfaa76",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Henry_Clay_%28copy_after_Edward_Dalton_Marchant%29_%28cropped%29.jpg/1280px-Henry_Clay_%28copy_after_Edward_Dalton_Marchant%29_%28cropped%29.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1844 Election</h3><p>Your first order of business will be to block the annexation of Texas, and hopefully to end the further discussion of this issue. Then you can concentrate on undoing the damage that Andrew Jackson and his followers have inflicted on the American System. Unfortunately, it appears that you will have to deal with a Democratic majority in Congress. Best wishes for these next four years.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1844 Election</h3><p>President Polk is sure to go through with the annexation of Texas. You can only hope it doesn't lead to war. Even if the U.S. is successful in the short-term, the acquisition of such territory is sure to reopen the slavery question in a way which may hurt the Whigs. As for your own fortunes, you have likely missed your last chance to become President. How will your legacy be remembered?</p>",
+            "no_electoral_majority_message": "<h3>Wow. No candidate has achieved a majority in the Electoral College</h3><p>This is sure an unusual situation, given that no candidate besides yourself and Polk seemed poised to win an electoral vote. Unfortunately, the Democrats have won a majority in the House and seem likely to confirm James K. Polk as the ultimate winner. How will your legacy be remembered?</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 133,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Anti-Masons",
+            "election": 13,
+            "party": "The Anti-Masons",
+            "state": "Nationwide",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#457c62",
+            "secondary_color_hex": "#457c62",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/William_Wirt_by_Henry_Inman_%28frameless%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 134,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Traitors",
+            "election": 13,
+            "party": "The Nullifiers",
+            "state": "South Carolina",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#404040",
+            "secondary_color_hex": "#404040",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/John_Floyd_%28cropped%29.jpg/1280px-John_Floyd_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 135,
+        "fields": {
+            "first_name": "John C.",
+            "last_name": "Calhoun",
+            "election": 13,
+            "party": "The Democracy",
+            "state": "South Carolina",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/John_C._Calhoun.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>\"The Vice of the aristocrat Adams has joined me with guiding the States to glory. A sore mistake; and a true tragedy of the union. He has no use and all division. Hell, some sycophant like that for Godsaken man Clay—or perhaps Adams—would be easier working with than Sir Calhoun of Carolina. A man so hot-headed, he seeks the interests of his native state over the Union. Do you believe that?—a kook so vicious, he's better off in a jail cell or perhaps as a slave in Georgia.<br><br>But nevertheless, the man talks and quivers like a man possessed, and the nationalists eat it all up like hogs. He hopes to allow states to become more powerful than the government in classic Jeffersonian fashion. The man has disgusting baggage and hates my cabinet, but the only way to force his hand away from power is to convince him to do so. What could we do? That's the question.\"</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 137,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Clay",
+            "election": 13,
+            "party": "The Republicans",
+            "state": "Kentucky",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#F0C862",
+            "secondary_color_hex": "#F4E282",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Henry_Clay_%28copy_after_Edward_Dalton_Marchant%29_%28cropped%29.jpg/1280px-Henry_Clay_%28copy_after_Edward_Dalton_Marchant%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Theodore Frelinghuysen has served as a Senator from New Jersey, and as Mayor of Newark. He is known as something of an evangelist, being involved in numerous bible societies and advocating for moral uplift. Associates of Frelinghuysen have voiced anti-Catholic sympathies, however. His selection would help with nativists, but exacerbate the Whigs' problems with the Catholic vote. Southerners with a long memory also recall his loud opposition to the Indian Removal Act.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 140,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Wirt",
+            "election": 13,
+            "party": "The Anti-Masons",
+            "state": "Maryland",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/William_Wirt_by_Henry_Inman_%28frameless%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 141,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Floyd",
+            "election": 13,
+            "party": "The Nullifiers",
+            "state": "South Carolina",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/John_Floyd_%28cropped%29.jpg/1280px-John_Floyd_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 87,
+        "fields": {
+            "candidate": 131,
+            "running_mate": 135
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 89,
+        "fields": {
+            "candidate": 132,
+            "running_mate": 137
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150711,
+        "fields": {
+            "candidate": 133,
+            "running_mate": 140
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 81044,
+        "fields": {
+            "candidate": 134,
+            "running_mate": 141
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 13,
+        "candidates": [
+            131,
+            132,
+            133,
+            134
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 13,
+        "candidates": [
+            131,
+            132,
+            133,
+            134
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 13,
+        "year": 1844,
+        "is_premium": 0,
+        "display_year": "1829-1832"
+    }
+]
+
+jet_data = {
+    "headerColor": "#677791",
+    "windowColor": "#595971",
+    "containerColor": "#223a56",
+    "innerWindowColor": "#595971",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/933B700C-78E0-4950-847A-489FD7A838FA.png",
+    "backgroundImageUrl": "https://i.postimg.cc/QxgHCS55/CB9FF6D0-373E-4AF2-8A8D-16AA30E23B53.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#677791";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#595971";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/4154739b59eb.png)"
+
+$("#game_window")[0].style.borderColor = "#595971"
+
+$(".container")[0].style.border = ".2em solid #595971"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#223a56";
+
+document.getElementById("header").src = "https://file.garden/Zrv1pPC1HzBK0svl/933B700C-78E0-4950-847A-489FD7A838FA.png";
+
+document.body.background = "https://i.postimg.cc/QxgHCS55/CB9FF6D0-373E-4AF2-8A8D-16AA30E23B53.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#595971!important;}</style>";
+
+quotes = [""];
+customquote = quotes[Math.floor((Math.random() * quotes.length))];
+
+corrr = `
+  <h2 style="color: #fff; font-style: normal;">
+    𝐁𝐋𝐎𝐎𝐃𝐘 𝐇𝐈𝐂𝐊𝐎𝐑𝐘
+  </h2>
+`;
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#677791", "header_image_url": "https://cdn.imgchest.com/files/653319f6f6b8.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#595971", "main_color": "#223a56", "secondary_color": "#677791", "ui_text_color": "#FFFFFF" }
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original code 1 concept by u/Mervynhaspeaked.", "Banner & background image provided by littleamericanman_85501.", "Soundtrack code provided by someone I forgot. Oh well.", "Some thematical inspiration from TTNW & 1824.", "Various codes provided by DecStarG, StrawberryMaster, & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#bfaa76","#45667c","#457c62","#404040"];
+    HistName=[" Abram Marshall Scott"," Andrew Jackson"," William Wirt"," Other Candidates"];
+    HistEV=[266,32,0,0];
+    HistPV=["723,331","480,063","89,284","1,293"];
+    HistPVP=["55.9%","37.1%","6.9%","0.1%"];
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://www.colorhexa.com/ebebec.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+$("#inner_window_1 h3").css("text-align", "center").text("The Campaign Trail Presents... BLOODY HICKORY.");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-615294194-2048x2048%20(1).jpg">\n\n<p>This is not a story.<br><br>This is a melodramatic and deeply satirical depiction of one of the most consequential Presidents in American history. It strives deeply far apart from reality. It depicts a vision of the first "Commoner" president—a man not connected to the aristocratic dynasties of yesteryears. This is a melodramatic and exaggerated depiction surrounding Andrew Jackson.<br><br>He believed America shall be destroyed from the inside out to fit the needs of wealthy plantation owners, the rowdy explorers, the idiotic downtrodden man, and the like. Jackson dreamt of a worse, chaotic future. He sided with hate over love, with genocide over respect. His legacy would have unforseen consequences for the Republic—in the short-term and long-term.<br><br>This is the truth as he believed it to be, modernized to fit the present day. It is the story he told with near absolute exaggeration. We are nothing without fascinating epics and, so, we invite you to believe as he did. If only for a moment, we ask that you look at the chaotic presidency under Bloody Hickory.
+</p>\n</span>`;
+
+document.getElementById('game_start').innerHTML = '<b>And Now... Onto Jackson Himself!</b>';
+
+document.head.innerHTML += `
+<style>
+@font-face {
+    font-family: "Claremont";
+    /* Fixed Raw GitHub URL */
+    src: url("https://file.garden/aNtAfG887DiA_7lO/Moonbeam/Claremont_woff2") format("opentype");
+}
+
+/* The '*' selector applies the font to every single element */
+.person_summary, .inner_window_w_desc, .person_button, .candidate_id, #election_id, .inner_window_front, #election_id_button {
+    font-family: "Claremont", sans-serif !important;
+}
+</style>`;
+
+// Global text variables
+e.SelectText = 'Act I, Scene I';
+e.CandidText = 'Introducing the Commander-in-Chief!';
+e.VpText = 'And introducing his fiesty vice president!';
+    e.ElectionPopup = "The election results have arrived. Settle in and wait for the returns, however                 long it may take. Best of luck!"
+    e.WinPopup = "Cheers to the general! You've secured another four years in the executive mansion."
+    e.LosePopup = "Damn it, general. You have lost your bid for re-election."
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+// --- Song and Playlist Classes ---
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+
+// --- UI Update and Playback Functions ---
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+}
+
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/pause.png";
+}
+
+// --- Build Music Player UI ---
+function setupMusicPlayer() {
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+    playerContainer.innerHTML = `
+        <img id="cover" />
+        <div id="rightPanel">
+            <div id="info-container">
+                <div id="song-info">
+                    <div id="title-row">
+                        <h3 id="title"></h3>
+                    </div>
+                    <p id="artist"></p>
+                </div>
+            </div>
+            <div id="controls-container">
+                <div id="progress-bar-container">
+                    <div id="progress"></div>
+                </div>
+                <div id="bottom-controls">
+                    <div id="controls">
+                        <img id="prevButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/rew.png" alt="Previous">
+                        <img id="playPauseButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/play.png" alt="Play/Pause">
+                        <img id="nextButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/ff.png" alt="Next">
+                    </div>
+                    <div id="volume-container">
+                        <img src="https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/speakertron.png" alt="Volume">
+                        <input type="range" id="volumeSlider" min="0" max="9" step="1" value="9">
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // --- Controls ---
+    uiElements.playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/pause.png";
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/play.png";
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+}
+
+// --- Multiple Playlists ---
+function setupPlaylists() {
+    const playlist1 = new Playlist();
+    [
+        { title: "Populism, Yea Yea", artist: "BBAJ Cast", cover: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260405-014400_Google.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Populism%2C%20Yea%20Yea.mp3" },
+        { title: "Cult Of Personality", artist: "Living Colour", cover: "https://upload.wikimedia.org/wikipedia/en/9/97/Living_Colour_Cult_of_Personality.jpg", audio: "https://files.catbox.moe/ve0bmy.mp3" },
+        { title: "You're Gonna Go Far, Kid", artist: "The Offspring", cover: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Offspring_-_Rise_and_Fall%2C_Rage_and_Grace.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/The%20Offspring%20-%20You're%20Gonna%20Go%20Far%20Kid%20%5BExplicit%5D%204.mp3" },
+        { title: "American Bad Ass", artist: "Kid Rock", cover: "https://upload.wikimedia.org/wikipedia/en/9/98/American_Bad_Ass.jpg", audio: "https://files.catbox.moe/vxragj.mp3" },
+        { title: "I Fought The Law", artist: "Dead Kennedys", cover: "https://upload.wikimedia.org/wikipedia/en/b/bf/Dead_Kennedys_-_Give_Me_Convenience_or_Give_Me_Death_cover.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Dead%20Kennedys%20-%20I%20Fought%20the%20Law%20(lyrics).mp3" },
+        { title: "Elected", artist: "Alice Cooper", cover: "https://upload.wikimedia.org/wikipedia/en/7/7c/Alice_Cooper_-_Elected.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/mix_8m19s%20(audio-joiner.com).mp3" }
+    ].forEach(s => playlist1.addSong(new Song(s.title, s.artist, s.cover, s.audio)));
+
+    const playlist2 = new Playlist();
+    [
+        { title: "Hail, Columbia", artist: "Raymond Manton", cover: "https://upload.wikimedia.org/wikipedia/commons/8/89/Hail%2C_Columbia_-_Project_Gutenberg_eText_21566.jpg", audio: "https://audio.jukehost.co.uk/rMyyR4s4DlLmRQO9RXiqspCQMImHodS5" },
+        { title: "Free America", artist: "Blutraum", cover: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260416-172452_YouTube%20ReVanced.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/_Free%20America_%20-%20American%20Revolutionary%20Song.mp3" },
+        { title: "Let Thy Hand Be Strengthened", artist: "The Sixteen", cover: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260416-172611_YouTube%20ReVanced.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/%5BScore%5D%20Handel%20-%20Let%20Thy%20Hand%20Be%20Strengthened%2C%20HWV%20259%20(Coronation%20Anthem%20No.%202)%204.mp3" },
+        { title: "String Symphony No. 4 In C Minor", artist: "Felix Mendelssohn", cover: "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260416-172633_YouTube%20ReVanced.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Felix%20Mendelssohn%20-%20String%20Symphony%20No.%204%2C%20in%20C%20minor.mp3" },
+        { title: "1812 Overture", artist: "Pyotr Ilyich Tchaikovsky", cover: "https://i.discogs.com/0H3W7VhUlOtHQXaG7ZgRLBgwL3oh3HZArdiD8whHL2E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODM0/MzQzLTE3MjczNjUz/OTAtMTI3MS5qcGVn.jpeg", audio: "https://audio.jukehost.co.uk/MT5gEkIqdx0J1UGU2uKDjD473miHVDHg" },
+        { title: "The Battle Of New Orleans", artist: "Johnny Horton", cover: "https://m.media-amazon.com/images/I/71o44V7EMPL._UF1000,1000_QL80_FMwebp_.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/mix_5m32s%20(audio-joiner.com).mp3" }
+    ].forEach(s => playlist2.addSong(new Song(s.title, s.artist, s.cover, s.audio)));
+
+    return { playlist1, playlist2 };
+}
+
+// --- Playlist Selector ---
+function addPlaylistSelector(playlists) {
+    const selectorContainer = document.createElement("div");
+    selectorContainer.id = "playlistSelectorContainer";
+    selectorContainer.innerHTML = `
+        <select id="playlistSelector">
+            <option value="playlist1">Modern Soundtrack</option>
+            <option value="playlist2">Classical Soundtrack</option>
+        </select>
+    `;
+
+    // You can move this selector anywhere by editing these coordinates:
+    selectorContainer.style.position = "absolute";
+    selectorContainer.style.left = "815px";  // ← horizontal position
+    selectorContainer.style.top = "1020px";   // ← vertical position
+    selectorContainer.style.zIndex = "9999";
+
+    document.body.appendChild(selectorContainer);
+
+    const selector = selectorContainer.querySelector("#playlistSelector");
+    selector.addEventListener("change", (e) => {
+        const selected = e.target.value;
+        if (selected === "playlist1") changePlaylist(playlists.playlist1);
+        else if (selected === "playlist2") changePlaylist(playlists.playlist2);
+    });
+}
+// --- CSS ---
+const musicPlayer = `
+#player {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 40px;
+  height: 332px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+  background-image: url(https://file.garden/ZP0tRnn29AiCnZ0g/hafr/music%20player/pbag4.png);
+  color: white;
+  overflow: hidden;
+}
+
+#cover { width: 180px; height: 180px; padding: 0 40px; flex-shrink: 0; }
+
+#rightPanel { display: flex; flex-direction: column; flex-grow: 1; min-width: 0; }
+
+#title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#song-info #title { font-size: 1.5em; font-weight: 600; margin: 0; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#song-info #artist { font-size: 1em; margin: 0; color: #ccc; }
+
+#playlistSelectorContainer { display: inline-block; }
+#playlistSelector {
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+#playlistSelector:hover { background-color: #333; }
+
+#controls-container {
+  display: flex; flex-direction: column; justify-content: center;
+  background-color: rgba(0,0,0,0.3); margin-top: .5em;
+  padding: 8px; width: 87%; border-radius: 4px;
+}
+#controls { display: flex; align-items: center; gap: 15px; }
+#controls img { cursor: pointer; opacity: 0.9; transition: opacity 0.2s; height: 36px; }
+#controls img:hover { opacity: 1; }
+#progress-bar-container { width: 100%; height: 6px; background-color: #333; border-radius: 3px; cursor: pointer; margin-bottom: 8px; }
+#progress { height: 100%; width: 0%; background-color: #aaa; border-radius: 3px; }
+#volume-container { display: flex; align-items: center; gap: 8px; }
+#volumeSlider { -webkit-appearance: none; width: 100px; height: 4px; background: #666; border-radius: 2px; opacity: 0.8; transition: opacity .2s; }
+#volumeSlider:hover { opacity: 1; }
+#volumeSlider::-webkit-slider-thumb { width: 14px; height: 14px; background: #fff; border: 1px solid #444; border-radius: 50%; cursor: pointer; }
+`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+// --- Initialize ---
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+const playlists = setupPlaylists();
+addPlaylistSelector(playlists);
+changePlaylist(playlists.playlist1);
+
+//#endcode
