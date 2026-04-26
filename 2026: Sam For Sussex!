@@ -1,0 +1,1096 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>Fortune favors the bold. The prestigious Sussex Tech High School in Georgetown, Delaware is seeking a qualified leader to lead its At-Large position in Student Government. Only the good-hearted are bold enough to take such a responsibility. But in America, the good-hearted have all but vanished; over their ashes are the symptoms of division planted by the feelings of hate and despair.<br><br>Fortunately, one man looks to the future. One man dreams of a brighter future, not obscured by the lens of darkness. In a sea of sin, the righteous stands out clearly. That man is <b>Sam Kratohwill,</b> and he's ready to embark on an odyssey for change.</p>",
+            "image_url": "https://i.postimg.cc/JnPTGH1K/Widener-bldg-side.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://quop-veuk-priov.yolasite.com/ws/alt-imgs/orig/6ecd984f0c860a6e531cd35e3912f195.webp",
+            "recommended_reading": "<h4 style=\\\"margin-top: 0.5em;\\\">Further Reading</h4><a href=\\\"https://quop-veuk-priov.yolasite.com/\\\" target=\\\"_blank\\\">Official Campaign Website</a><br><a href=\\\"https://www.sussexvt.org/\\\" target=\\\"_blank\\\">School Website</a><h4>Lore</h4><p>Something about hope, I guess? lmao<br><br><img src=\\\"https://quop-veuk-priov.yolasite.com/ws/media-library/7de7697883198cf1eaec5fc68fa00f93/screenshot-2026-04-15-213618.png\\\" width=\\\"120px\\\"><br><br>Dedicated to Sam! ^^</p>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://bloximages.newyork1.vip.townnews.com/wdel.com/content/tncms/assets/v3/editorial/0/e2/0e205c7b-728b-5ac7-86c2-1774ced5ba5f/5aaa7590960a2.image.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2026: Sam For Sussex!"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Samuel",
+            "last_name": "Kratohwill",
+            "election": 20,
+            "party": "Nonpartisan",
+            "state": "To Bring Hope And Change For All",
+            "priority": 1,
+            "description": "<p>A straight-talker, a visionary, an idealist: Sam Kratohwill embodies those character traits, and then some. Born from a broken man, Sam has experienced tragedy and pain at an early age. Yet when many succumb to the abyss of despair, depression, or drugs, Sam pushes on. He believes a better world is possible. He has used his past experiences as a guide; to not repeat the mistakes of the past into the future. The great men of the past—Washington, Lincoln, Kennedy, King—have turned pain into a formula for love. Sam is following the same tried and tested path.<br><br>Heading into the election, he portrays himself as a sensible, no-nonsense candidate—a far cry from the emotion politics many have tried to play. Through communication, common sense, and playing the non-biased card, Sam hopes to convince his classmates to give hope a chance.</p>",
+            "color_hex": "#808080",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Red_And_Yellow_Modern_Happy_Cinco_de_Mayo_Instagram_Post.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "",
+            "last_name": "Despair",
+            "election": 20,
+            "party": "Despair",
+            "state": "To Bring Despair",
+            "priority": 2,
+            "description": "<p>As expected, Hillary Clinton has carried her party's nomination, and now faces an unexpected opponent in Donald Trump. She was traditionally known as a mainstream Democrat, but tacked significantly to the left during the primary campaign. Clinton enters the general election in a strong position, but she'll be under relentless attack on a number of fronts. Can she make the case that she truly in touch with the American people -- or that Trump would be an even worse option?</p>",
+            "color_hex": "#610000",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "",
+            "last_name": "Hatred",
+            "election": 20,
+            "party": "Hatred",
+            "state": "To Unleash Hatred",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#1f2c4f",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "",
+            "last_name": "Pessimism",
+            "election": 20,
+            "party": "Pessimism",
+            "state": "To Destroy The Future",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#2b183d",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "The Spirit Of",
+            "last_name": "Optimism",
+            "election": 20,
+            "party": "Independent",
+            "state": "To Let People Dream A Brighter Day",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Sunset%2Bat%2BStatue%2Bof%2BLiberty.webp",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>From the halls of Congress to the streets of commonville, pessimism is on everyone's mind. Is that a healthy mindset for the republic? All this hate and petty bickering akin to tribalism a hundred thousand years prior? It will undoubtedly destroy the bright future we have. Once we lose faith in our neighbors, we lose faith in ourselves, and eventually our country. This mindset must not become the norm. The status quo is far too dehumanizing and divided to allow us onto a brighter road.<br><br>But there's a Spirit high in the sky. It says to look to the future and dream. Dream of a brighter day, dream that you'll have love in your hearts again and your life becomes easier. The path to love and righteousness begins with you, it says. To some, its optimism doesn't prey on emotion, and is lost in their minds. But to others? It's a guide to the stairway of love and stability. <b>Sam is following.</b></p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "",
+            "last_name": "Pandemonium",
+            "election": 20,
+            "party": "Despair",
+            "state": "To Continue Chaos",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "",
+            "last_name": "Rage",
+            "election": 20,
+            "party": "Hatred",
+            "state": "To Make Men Furious",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "",
+            "last_name": "Apathy",
+            "election": 20,
+            "party": "Pessimism",
+            "state": "To Kill Dreams",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2026: Sam For Sussex!"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://i.postimg.cc/3xmn2cK6/Screenshot-20260425-205930-Chrome.jpg",
+    "backgroundImageUrl": "https://i.postimg.cc/XNf6LQsJ/image-(3).png",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5e5e5e";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#969696";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/3088a99cdf23.png)"
+
+$("#game_window")[0].style.borderColor = "#5e5e5e"
+
+$(".container")[0].style.border = ".2em solid #5e5e5e"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://i.postimg.cc/3xmn2cK6/Screenshot-20260425-205930-Chrome.jpg";
+
+document.body.background = "https://i.postimg.cc/XNf6LQsJ/image-(3).png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#5e5e5e!important;}</style>";
+
+quotes = ["''I’m not here for an agenda; I’m here for the facts.'' ~ Sam Kratohwill", "''Trust me with the highlights. Trust me as The People's Voice.''", "''A voice is useless if it isn't listening first.'' ~ Sam Kratohwill", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE SUSSEX TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://i.postimg.cc/134dkHrJ/image-(4).png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#5e5e5e", "main_color": "#969696", "secondary_color": "#5e5e5e", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://www.sussexvt.org/wp-content/smush-webp/2023/11/Sussex-Tech-Raven-Logo-Color-768x556.png.webp");
+
+// Global text variables
+e.SelectText = 'Please confirm you will play:';
+e.CandidText = 'Please select your nominee:';
+e.VpText = 'Please select your guiding spirit:';
+e.HomeStateText = "Motive:";
+e.ElectionPopup = "The votes have been casted. You've fought a brave battle."
+e.LosePopup = "The people of this school have decided. They have chosen pessimism over optimism..."
+e.WinPopup = "The people of this school have decided. They have chosen optimism over pessimism!"
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to bring change?");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>Delaware native Samuel Kratohwill believes he can fulfill that question.</li><li>Play as him and find out if you can win the election for head of the At-Large position.</li><li>You will answer questions about your platform, positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both classwide and in individual people.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains various fun paths and secret endings to discover.</li><li>Are you ready to bring hope and change?</li>`;
+
+document.getElementById('game_start').innerHTML = 'I Was Born Ready.';
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    {
+      name: "Sam",
+      text: "for the original mod concept and for being the love of C0SM0's life.",
+      image: "https://file.garden/Zrv1pPC1HzBK0svl/Ferret.webp"
+    },
+    "Various codes provided by Mangolith, TheMcCain, Thatchmaster, & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #999999;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #123780;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #df1600;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election_description_window {background-color:#5e5e5e!important} .campaign_trail_start_emphasis {background-color:#000000!important; color:#f2f2f2!important} .game_start {color:#f2f2f2!important} .inner_window_front {background-color:#525452!important}.inner_window_w_desc {background-color:#21211f!important;} .person_description_window {background-color:#5e5e5e!important} .person_summary {color:#f2f2f2!important} .inner_window_w_desc {color:#f2f2f2!important} .description_window_small {background-color:#5e5e5e!important} </style>";
+
+    document.head.innerHTML += `<style>
+    h3 {
+      font-size:1.17em!important;
+      color: #f2f2f2;
+    }
+    h4 {
+      color: #f2f2f2;
+    }
+    h2 {
+      color: #f2f2f2;
+    }
+    h1 {
+      color: #f2f2f2;
+    }
+    p {
+        color: #ffffff;
+    }
+    tooltiptext {
+        color: #f2f2f2;
+    }
+    b {
+        color: #ffffff;
+    }
+    label {
+        color: #000000;
+    }
+    robco {
+        color: #000000;
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    robcored {
+      font-family: Times New Roman;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    robcodeath {
+      font-family: Times New Roman;
+      font-size: 1em;
+      font-style: italic;
+      text-shadow: violet 1px 1px 1px;
+      color: #000000;
+    }
+    robcodeathlarge {
+      font-family: Times New Roman;
+      font-size: 2em;
+      font-style: italic;
+      text-shadow: violet 1px 1px 1px;
+      color: #f2f2f2;
+    }
+    label {
+      font-size:1em!important;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+  body {display:flex!important;}
+  #game_window{max-width:1000px;}
+button {
+            appearance: none;
+            background-color: #000!important;
+            border: #0f1!important;
+            color: #f2f2f2;
+}
+button:active {
+            appearance: none;
+            background-color: #0f1!important;
+            border: #000!important;
+            color: #f2f2f2;
+}
+button:hover {
+            appearance: none;
+            background-color: #192642!important;
+            border: #192642!important;
+            color: #f2f2f2;
+}
+select {
+    color: #f2f2f2;
+    appearance: none;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-rtl-ordering: logical;
+    background-color: #000;
+    cursor: default;
+    margin: 0em;
+    white-space: pre;
+    border-width: 2px;
+    border-style: solid;
+    border-color: light-dark(rgb(242, 242, 242), rgb(242, 242, 242));
+    border-image: initial;
+    border-radius: 0px;
+}
+    </style>`
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Come On!",
+      "Kyle Exum",
+      "https://i1.sndcdn.com/artworks-OV3BINave5uhqN2p-aUlJrQ-t500x500.png",
+      "https://file.garden/Z7qfmQZIZjO_xV5N/Exum.mp3"
+    );
+    
+    const song2 = new Song(
+      "E85",
+      "Don Toliver",
+      "https://i1.sndcdn.com/artworks-NOioyiKyM0UQ2o1I-JdXuTw-t500x500.png",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Don%20Toliver%20-%20E85%20(Clean%20-%20Lyrics).mp3"
+    );
+  
+    const song3 = new Song(
+      "HEAR ME NOW",
+      "3OH!3",
+      "https://i.postimg.cc/Wb56Pc5r/Screenshot-20260425-225236-Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/HEAR%20ME%20NOW.mp3"
+    );
+  
+    const song4 = new Song(
+      "Bad Company",
+      "Five Finger Death Punch",
+      "https://upload.wikimedia.org/wikipedia/en/d/dd/FFDPBadCompany.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Five%20Finger%20Death%20Punch%20-%20Bad%20Company%20(Official%20Audio)%204.mp3"
+    );
+  
+    const song5 = new Song(
+      "Wonderful Life",
+      "Bring Me The Horizon",
+      "https://upload.wikimedia.org/wikipedia/en/b/b1/WonderfulLifeBringMeTheHorizon.jpeg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/wonderful%20life.mp3"
+    );
+  
+    const song6 = new Song(
+      "Glory",
+      "The Score",
+      "https://i1.sndcdn.com/artworks-N4378wLJiU3Q-0-t500x500.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/The%20Score%20-%20Glory%20(Official%20Audio)%204.mp3"
+    );
+  
+    const song7 = new Song(
+      "Booker T",
+      "Bad Bunny",
+      "https://i.postimg.cc/7Zb1Htc6/Screenshot-20260425-225446-Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Bad%20Bunny%20%20-%20BOOKER%20T%20(Letra_Lyric).mp3"
+    );
+  
+  
+    const song8 = new Song(
+      "Take Me Home",
+      "GAWNE",
+      "https://i1.sndcdn.com/artworks-gQ1rYABngxI9-0-t500x500.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Take%20Me%20Home%204.mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://itsastronomical.com/assets/music/buttons.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 4; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 9; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #5e5e5e; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://itsastronomical.com/assets/music/blackbar.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+//#endcode
