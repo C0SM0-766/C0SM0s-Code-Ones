@@ -1,0 +1,1222 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 14,
+        "fields": {
+            "year": 1916,
+            "summary": "<p>A great power has proven itself incapable of a military victory. The United States has lost the War To End All Wars. Joining the side of the Kaiser proved to be a fatal mistake. Despite early successes on the Canadian front, the Central Powers overextended themselves and exhausted their populace, leading to total collapse of order. America, left on their own against the Entente, faced defeat after defeat, and laid down their arms.<br><br>The American pride has been wounded; in the Treaty of Boston, America gave up all territorial possessions overseas. The fallout is catastrophic for President Charles Evans Hughes, whose presidency is certain to be overthrown from challenges by the left, right, and center.</p>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/AromaElection.webp",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://i.postimg.cc/76FXZ4Hs/Screenshot-20260515-001125-Chrome.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>A. Scott Berg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0425270068/amhius20-20\" target=\"_blank\">Wilson</a></br>Arthur Link - <a href=\"B00350CVHM\" target=\"_blank\">Woodrow Wilson and the Progressive Era, 1910-1917</a></br><a href=\"https://presidentialcampaignselectionsreference.wordpress.com/overviews/20th-century/1916-overview/\" target=\"_blank\">Presidential Campaigns and Elections - 1916</a></br><a href=\"http://millercenter.org/president/biography/wilson-campaigns-and-elections\" target=\"_blank\">Woodrow Wilson's Campaigns</a></br><a href=\"http://articles.latimes.com/2005/oct/23/opinion/oe-shaffer23\" target=\"_blank\">The Great GOP Spat -- of 1916</a></br><a href=\"http://maxkade.iupui.edu/adams/chap8.html\" target=\"_blank\">German-Americans as Voters and Office-Seekers</a></br><a href=\"http://www.jstor.org/stable/1900319?seq=1#page_scan_tab_contents\">Woodrow Wilson, Irish-Americans, and the Election of 1916</a></br><a href=\"https://feminist.org/blog/index.php/2014/07/08/july-8-1916-alice-paul-pushes-presidential-nominee-to-support-suffrage/\" target=\"_blank\">July 8, 1916: Alice Paul Pushes Presidential Nominee to Support Suffrage</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1920 - Aroma Of Humiliation"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 142,
+        "fields": {
+            "first_name": "James M.",
+            "last_name": "Cox",
+            "election": 14,
+            "party": "Democratic",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>The Democratic Party constantly visits Wilsonian ideals to see what the future could've been. James Cox embodies that spirit. The Ohio Governor, a progressive democrat, the Wilsonian idealist; there's no better moment for his presidential ambitions than now. With an admirable track record and the party feeling hopeful, Cox is presumed to easily cruise to victory, especially against an unpopular president.<br><br>However, Cox has many roadblocks that threaten the automobile he's driving. His party's extremely divided—with many candidates vying for dominance over Wilson's legacy. Furthermore, party bosses & immigrants have more faith in other candidates, which may spell doom in the primary, the only election that really matters. Nevertheless, if Cox manages to win at the convention, he shouldn't have any problem in the general... hopefully.</p>",
+            "color_hex": "#3262a8",
+            "secondary_color_hex": "#3262a8",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/James_M._Cox_Portrait_(3x4_cropped_b).jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1916 election.</h3><p>In spite of a hard-fought challenge from Charles Evans Hughes, you have held on to the Presidency.</p><p>On the domestic front, it appears that your support of labor and progressivism has been rewarded. Internationally, let's all hope that fears of war with Germany prove to be unfounded.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1916 election.</h3><p>Maybe 1912 was just an anomaly, brought about by Roosevelt's grandstanding. It has been over 20 years since the Democrats defeated a united Republican Party, and that advantage shows no sign of abating.</p><p>On the domestic front, let's hope that your achievements survive. Internationally, no one can say what might happen next. In a novel move, you have offered to do your part by resigning immediately, rather than waiting until March 4th.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has captured an Electoral College majority.</h3><p>Elections for Congress have also resulted in an even split among members, and it is extremely unclear who might ultimately win this election. Best of luck in what is sure to be a contentious process.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 143,
+        "fields": {
+            "first_name": "Charles Evans",
+            "last_name": "Hughes",
+            "election": 14,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 2,
+            "description": "<p>The most foolish title one can bestow in 1920 America is the title of President. Charles Evans Hughes is unfortunately the bearer of that shame. The man who many blame for the setback of all American dominance since the beginning of the century, Hughes wishes he was lucked out of winning California four years earlier. Signing the treaty of Boston with his name is a deeply shameful act to do, but what else could he do? Continue the war? Charles wishes the American people would just listen to his ideas for the future.<br><br>With ongoing race riots, an economic recession, a red scare, and the wounded pride America has, Charles has a limited amount of achievements he could tout. To salvage his already dim chances, he must quell the chaos on the streets, repair the economy, and reassure the people that a major setback isn't the end of the world.</p>",
+            "color_hex": "#a83832",
+            "secondary_color_hex": "#a83832",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260515-223147_Gallery.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1916 election.</h3><p>After the tumultuous 1912, the natural supremacy of the Republican Party has reasserted itself. The next steps are up to you -- perhaps you can lead the repeal of the Adamson Act, or replace it with something more measured and comprehensive. In regards to Europe, best of luck in whatever may occur over the next four years. Finally, Wilson plans to resign before your March 4th inauguration, so that you might assume the office now.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1916 election.</h3><p>Ultimately, the popularity of Woodrow Wilson was just a little much to overcome.</p><p>It appears that Wilson's agenda will remain in effect domestically. In world affairs, it remains to be seen how the situation in Europe will finally resolve itself. As to your own prospects, it is unclear what your next steps will be. The Supreme Court seat you once enjoyed has now been lost for the foreseeable future.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has captured an Electoral College majority.</h3><p>Elections for Congress have also resulted in an even split among members, and it is extremely unclear who might ultimately win this election. Best of luck in what is sure to be a contentious process.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 144,
+        "fields": {
+            "first_name": "Eugene",
+            "last_name": "Debs",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Indiana",
+            "priority": 3,
+            "description": "<p>With the failure of the republic's chances in the war, people are desperate for answers. Workers are sent to die in fields for the politicians' game of chess. And for what? More land, or more of their comrades' blood being spilled; no in-between. In these dire times, the once-feared red ballot option of Socialism seems more appealing to the public than ever. Already a noticeable public figure himself, Eugene Debs and his chances seem to be increasing. His anti-war anti-capitalist rhetoric have made him a target of the state, landing him a lengthy prison sentence, ironically increasing his popularity.<br><br>Despite Debs' hopes, him being stuck behind bars and his rhetoric being eerily similar to Lenin has caused immense pushback from all walks of life. If Eugene can differentiate himself from Marxism and unite his quickly dividing party, there's nothing stopping him from obtaining a sizeable share in the election.</p>",
+            "color_hex": "#451b19",
+            "secondary_color_hex": "#451b19",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-515948158-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 145,
+        "fields": {
+            "first_name": "Parley",
+            "last_name": "Christensen/Others",
+            "election": 14,
+            "party": "Farmer–Labor/Various",
+            "state": "Illinois/Various",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#3aa832",
+            "secondary_color_hex": "#3aa832",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Parley_Parker_Christensen_circa_1920_Crop_Edit.jpg/1280px-Parley_Parker_Christensen_circa_1920_Crop_Edit.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 146,
+        "fields": {
+            "first_name": "Thomas J.",
+            "last_name": "Walsh",
+            "election": 14,
+            "party": "Democratic",
+            "state": "Montana",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Thomas_J._Walsh_cph.3c02581.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Progressive soldier doesn't cut it; Thomas Walsh is a general of reform, the man leading the vanguard of progress for the worker, farmer and laborer everywhere. A supporter of Wilsonian internationalism and a great orator, he's perhaps the most well-qualified running mate you could've chosen this year. After such a divided convention, Walsh may be the one to reclaim the support of friends and foes within the party and assure your odds at winning remain eextremely high.<br><br>Yet even a righteous man has downsides. His support for American intervention overseas may hurt in more pro-isolation regions nationwide. His faith—believing in Roman Catholicism—will be an immense source of controversy; Protestants & Baptists will turn away from the ballot box and the issue of Pope obedience will be a constant annoying issue throughout the campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 147,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "Lansing",
+            "election": 14,
+            "party": "Democratic",
+            "state": "Michigan",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://itsastronomical.com/assets/1920/lansing.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The War Secretary of the Wilson administration has repeatedly been a critic of Hughesian foreign policy. Robert Lansing has gained notoriety from these public clashes from the president. After seeing Hughes lead the country to catastrophe, Lansing saw his popularity—both among the populace and the party—skyrocket to high levels. From this, he was considered the early frontrunner in the convention, but his numerous undefined stances and gaffes have made him fail to garner any loyal delegate base behind him.<br><br>Lansing leans more toward the conservative business-friendly wing of the party, which would depress turnout in the competitive battlegrounds out West. Plus, his expressed opposition against the Kaiser may hurt you with the heavy German immigrant vote in the Midwest, where Hughes has a disproportionate advantage against you.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 148,
+        "fields": {
+            "first_name": "Carter",
+            "last_name": "Glass",
+            "election": 14,
+            "party": "Democratic",
+            "state": "Virginia",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Picture_of_Carter_Glass.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Senator Glass would be considered one of Dixie's finest men, according to the party. The Virginian had laid out what would've been the Wilsonian economic vision had he won a second term—an expansion of the New Freedom & the creation of the Federal Reserve. Now stuck out of influencing presidential matters, he rallies the democrat dogs in congress for a perhaps even more ambitious and statesman-like approach to the ongoing malaise. Well liked among party delegates, he ran a respectable showing at the convention, and his selection may help unite such a divided party.<br><br>His economic expertise would be a large boon for your campaign, especially in such econonic turmoil as today, but his stubbornness and bombastic temper may lead to clashes with your campaign message if you ever strive too far away from his planned progressive economic reforms.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 149,
+        "fields": {
+            "first_name": "Charles W.",
+            "last_name": "Fairbanks",
+            "election": 14,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-2167585605-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The current Vice President, Charles Fairbanks has quietly managed the government behind the scenes, being relatively inoffensive and attracting little media attention. Yet, in a desperate time of malaise, he may have more downsides than at a first glance. Representing the more conservative Old Guard wing of the party, his influence wanes by the moment—most people view the Old Guard, alongside you, with the defeat in the Great War. He also won't expand your base much; the new battlegrounds of the West Coast & the Plain States aren't fond of a Hoosier native that speaks the words of Gilded Age men.<br><br>Yet with limited options available and the clock ticking, perhaps a strategy you can predict how it'll go is better than one you can't. Changing horses mid-stream will likely end in disaster, after all.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 150,
+        "fields": {
+            "first_name": "Hiram",
+            "last_name": "Johnson",
+            "election": 14,
+            "party": "Republican",
+            "state": "California",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-640480661-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>To appease the splintering progressive faction—now lost searching for a leader now that their dear Roosevelt's gone—dire action is needed, especially in a re-election bid as uphill as a mountain. Hiram Johnson may be that answer, albeit a very risky one. The Bull Moose ticket back in 1912 had Johnson beside Teddy, and since Roosevelt's passing, Johnson has been the de facto leader of the progressive anti-war movement, despite various objections about his role. Hiram has been an outspoken critic of the war's handling, even opting to mount a serious primary challenge against you this year. It's clear as day: your relationship with him is cold.<br><br>Yet you feel there are more pressing issues at hand that could remedy your chances of success. His dynastic progressive policies may upset the business wing but expand your appeal out west. He also has a history of supporting nativist policies against immigrants. Avove all else, he's a double-eged sword meant to be used carefully.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 151,
+        "fields": {
+            "first_name": "John J.",
+            "last_name": "Pershing",
+            "election": 14,
+            "party": "Republican",
+            "state": "Missouri",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-640459215-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>At a glance, general John Pershing will be a huge liability for your ticket. As current general of the armies, you'd expect many to be repulsed by the idea of a general that led America soldiers to their deaths across the Northeastern front to possibly be the future vice president. But no dice for this opinion on general \"Black Jack\", as they see him as a war hero—perhaps next in line to men like Washington, Taylor, and Grant. The people see the general as a highly effective commander as he was the reason of American successes in the opening stages of the Northern Front. And perhaps his image as a unifer that has broad appeal across party lines could be the push you need.<br><br>His image may be tough, but his ideology is still largely undefined across the board—only mere acknowledging his failed draft movement in the convention. This may lead to the ticket be viewed as indecisive at times.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "Seymour",
+            "last_name": "Stedman",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Illinois",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Seymore_Stedman_Trim.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Seymour Stedman was Baptized by fire from the Pullman strike. Who was once a strong Democrat with Cleveland has turned into a laborer acting as a vanguard of the working class. He shares the same feelings as many soldiers returning home to be labeled as \"losers\". No, the only losers will be the big men in Washington who have exploited the working man for far too long. A long-time socialist since then and political ally of yours, he'll double down on your economic and social leftist image.<br><br>However, his stint in politics—briefly a state representative for Illinois—has been negatively impacted by his inability to organize the commoners into advocating for the socialist banner on the streets. Furthermore, his lack of oratory skills will lead to you doing more of the socialist messaging than your aging self would like to handle.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "Victor",
+            "last_name": "Berger",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Wisconsin",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Victor_Berger_LOC_npcc.07425_(cropped_ii).jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>If you're hoping to capitalize on the anti-war movement, then representative Victor Berger is the best answer. The man who convinced you to adopt the Socialist label and a close comrade of yours, his career fighting for the working man traces back to the populist movement. In 1910, he became the first socialist candidate to win elected office—serving as a Wisconsin congressman. Throughout the war, he has been a vocal isolationist, causing him to be imprisoned by the state and making him a sort of martyr for the pacifist fervor in America.<br><br>Within the party, there's a huge divide between the social-conservative nativists and the pro-immigrant leftists. Berger, representing the former, has repeatedly espoused racist & xenophobic rhetoric immigrants and minorities may find troubling, undermining the party's message for the commoner and will likely cause a massive headache for you during the campaign.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 154,
+        "fields": {
+            "first_name": "James H.",
+            "last_name": "Maurer",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/J.H._Maurer_LCCN2014709441_Trim.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Bryan & Roosevelt revolutionized the art of on-the-ground speaking to the masses, using it as an effective medium to campaign. The American knight of labor could perhaps be utilized to exploit this new style of campaigning further. Originally a Georgist, James Maurer converted to socialism in the late 1890s, becoming one of the most publicly well-known socialists with deep connections in labor. Spared from the anti-war crackdowns during the war, Maurer's image has remained consistently high among onlookers and party-goers alike.<br><br>Maurer can repair the party's image after the Great War, but his staunch position in the right nativist faction of the party and his tribalist attitude towards other unions—despising the Wobblies, viewing them as detrimental to the labor movement—may do more harm than good for your chances, especially when there's a dire need of a United Front to succeed this year.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 155,
+        "fields": {
+            "first_name": "Max S.",
+            "last_name": "Hayes/Various",
+            "election": 14,
+            "party": "Farmer—Labor/Various",
+            "state": "Ohio/Various",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Max_S._Hayes_1920.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 92,
+        "fields": {
+            "candidate": 142,
+            "running_mate": 146
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 93,
+        "fields": {
+            "candidate": 142,
+            "running_mate": 147
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 95,
+        "fields": {
+            "candidate": 143,
+            "running_mate": 149
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 92236,
+        "fields": {
+            "candidate": 142,
+            "running_mate": 148
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 98460,
+        "fields": {
+            "candidate": 143,
+            "running_mate": 150
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 148093,
+        "fields": {
+            "candidate": 143,
+            "running_mate": 151
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 111035,
+        "fields": {
+            "candidate": 144,
+            "running_mate": 152
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 107459,
+        "fields": {
+            "candidate": 144,
+            "running_mate": 153
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 110012,
+        "fields": {
+            "candidate": 144,
+            "running_mate": 154
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 148489,
+        "fields": {
+            "candidate": 145,
+            "running_mate": 155
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 14,
+        "candidates": [
+            142,
+            143,
+            144,
+            145
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 14,
+        "candidates": [
+            142,
+            143,
+            144,
+            145
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 14,
+        "year": 1916,
+        "is_premium": 0,
+        "display_year": "1920 - Aroma Of Humiliation"
+    }
+]
+
+jet_data = {
+    "headerColor": "#404040",
+    "windowColor": "#f7f7f7",
+    "containerColor": "#f7f7f7",
+    "innerWindowColor": "#f7f7f7",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/946E74F1-0745-48CC-BAD3-F13D197C7AD7.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/AromaBackground.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#404040";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f7f7f7";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#f7f7f7";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/b09e36a3db8a.png)"
+
+document.getElementsByClassName("container")[0].style="background-image: url('https://file.garden/Zrv1pPC1HzBK0svl/AromaContainer.png')"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://file.garden/Zrv1pPC1HzBK0svl/946E74F1-0745-48CC-BAD3-F13D197C7AD7.png";
+
+document.body.background = "https://file.garden/Zrv1pPC1HzBK0svl/AromaBackground.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f7f7f7!important;}</style>";
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://i.imgur.com/eZJL6TZ.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+document.head.innerHTML += `
+<style>
+@font-face {
+    font-family: "Claremont";
+    /* Fixed Raw GitHub URL */
+    src: url("https://file.garden/aNtAfG887DiA_7lO/Moonbeam/Claremont_woff2") format("opentype");
+}
+
+/* The '*' selector applies the font to every single element */
+.person_summary, .inner_window_w_desc, .person_button, .candidate_id, #election_id, .inner_window_front, #election_id_button {
+    font-family: "Claremont", sans-serif !important;
+}
+</style>`;
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>Aroma Of Humiliation.</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#404040", "header_image_url": "https://i.postimg.cc/dQRGyrnb/image-(3).png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#f7f7f7", "main_color": "#ffffff", "secondary_color": "#404040", "ui_text_color": "#ffffff" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.ebayimg.com/images/g/CEgAAOSwQ9lls6hA/s-l1200.webp");
+
+HistHexcolour=["#3262a8","#a83832","#451b19","#3aa832"];
+    HistName=[" James M. Cox"," Charles Evans Hughes"," Eugene Debs"," Parley Christensen/Others"];
+    HistEV=[378,153,0,0];
+    HistPV=["13,394,112","11,411,783","1,366,199","616,129"];
+    HistPVP=["50.0%","42.6%","5.1%","2.3%"];
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    "<b>Burrito2045</b>, for providing coding addons & the soundtrack code.",
+    "<b>LittleAmericanMan_85501</b> for providing the lovely banner.",
+    "Various codes provided by Mangolith, Obummer, & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #000000;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #404040;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #000000;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+// Initialize custom music player UI and functionality
+$("#music_player")[0].children[0].style.display = "none";
+$("#music_player")[0].children[1].style.display = "none";
+document.getElementById("modLoadReveal").style.display = "none";
+document.getElementById("modloaddiv").style.display = "none";
+
+let musicBox = document.getElementById("music_player");
+musicBox.style.display = "";
+
+// Track list and settings
+e = campaignTrail_temp;
+e.selectedSoundtrack = 0;
+
+// Function to format time in HH:MM:SS
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+};
+
+// Create and display the song name display element
+function createSongNameDisplay() {
+  let songNameDisplay = document.getElementById("song-name-display");
+  if (!songNameDisplay) {
+    songNameDisplay = document.createElement("div");
+    songNameDisplay.id = "song-name-display";
+    songNameDisplay.style.textAlign = "center";
+    songNameDisplay.style.marginTop = "10px";
+    songNameDisplay.style.fontSize = "16px";
+    songNameDisplay.style.color = "#000000"; // Text color
+    songNameDisplay.innerHTML = "No Song Playing"; // Initial text
+
+    // Append to the existing footer
+    let footer = document.querySelector(".footer");
+    if (footer) {
+      footer.appendChild(songNameDisplay);
+    } else {
+      console.error("Footer element with class 'footer' not found.");
+    }
+  }
+  return songNameDisplay;
+}
+
+
+// Function to update the song name display based on the current track
+function updateSongNameDisplay() {
+  let selectedTrackIndex = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+  let currentSongName = soundtracks[e.selectedSoundtrack].tracklist[selectedTrackIndex].name;
+  let songNameDisplay = createSongNameDisplay(); // Ensure song name display exists
+  songNameDisplay.innerHTML = `Now Playing: ${currentSongName}`;
+}
+
+// Function to set up the music player UI and event handlers
+function newMusicPlayer() {
+  trackSel = document.createElement("div");
+  trackSel.id = "trackSelParent";
+
+  let z = `<div id='trackSel' style="overflow-x: hidden;height:200px; width:400px;background-color:#fff;float:right;display:none;">`;
+  z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>";
+  for (i in soundtracks) {
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+      z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`;
+    }
+  }
+  z += `</select></b><br><br>`;
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i];
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`;
+    z += b;
+  }
+  z += "</div><br><br>";
+  trackSel.innerHTML = z;
+
+  musicBox.appendChild(trackSel);
+
+  // Check the first track by default
+  Array.from(document.getElementById("trackSel").children).filter(f => f.tagName == "LABEL").map(f => f.children[0])[0].checked = true;
+
+  // Event listener for soundtrack selection change
+  soundtrackSelector = document.getElementById("selectSoundtrack");
+  soundtrackSelector.onchange = function () {
+    for (i in soundtracks) {
+      if (soundtracks[i].name == soundtrackSelector.value) {
+        e.selectedSoundtrack = i;
+        break;
+      }
+    }
+    document.getElementById("trackSelParent").remove();
+    newMusicPlayer();
+  };
+
+  // Event listener for track selection change
+  var matches = document.querySelectorAll('.trackSelector');
+  for (let match of matches) {
+    match.onchange = function () {
+      let audio = $("#campaigntrailmusic")[0];
+      audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url;
+      audio.currentTime = 0;
+      audio.play(); // Automatically play the new track
+      updateSongNameDisplay(); // Update song name display when track is changed
+    };
+  }
+
+  // Initialize the audio element
+  let audio = $("#campaigntrailmusic")[0];
+  audio.loop = false;
+  audio.src = soundtracks[e.selectedSoundtrack].tracklist[0].url;
+
+  // Event listener for when the current track ends
+  audio.onended = function () {
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0);
+    
+    // Set the new track's value in the audio element directly
+    audio.src = soundtracks[e.selectedSoundtrack].tracklist[newSel].url;
+    audio.currentTime = 0;
+    audio.play(); // Start playing the new track
+
+    // Update the radio button selection visually
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f => f.tagName === "LABEL").map(f => f.children[0]);
+    buttons[newSel].checked = true; // Set the new radio button as checked
+
+    // Call updateSongNameDisplay to update the title display
+    updateSongNameDisplay();
+  };
+
+  // Set the initial song name display
+  updateSongNameDisplay();
+
+  // Generate play/pause button and time tracker
+  generateTime();
+}
+
+// Function to set up the play/pause button and time display
+generateTime = () => {
+  // Get the audio element
+  var audio = document.getElementById("campaigntrailmusic");
+
+  // Set initial volume
+  audio.volume = 1;
+
+  // Create and style the timeTracker container
+  let timeTracker = document.createElement("div");
+  timeTracker.style = `
+    text-align: center;
+    border: none;
+    height: 0px;
+    width: 450px;
+    background-color: transparent;
+    float: right;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    align-items: center;
+    gap: 10px;
+    z-index: 9999;
+  `;
+  if ($("#trackSelParent")[0]) {
+    $("#trackSelParent")[0].prepend(timeTracker);
+  } else {
+    document.body.appendChild(timeTracker);
+  }
+
+  // Create play/pause button
+  let pausePlay = document.createElement("button");
+  pausePlay.id = "play-pause-button";
+  pausePlay.innerHTML = "<b>❚❚</b>";
+  pausePlay.style = `
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #6d7ca1;
+    background-color: #6d7ca1;
+    color: #fff;
+    cursor: pointer;
+    z-index: 99999;
+  `;
+  pausePlay.addEventListener("click", (event) => {
+    event.preventDefault();
+    if (audio.paused) {
+      audio.play();
+      event.target.innerHTML = "<b>❚❚</b>";
+      updateSongNameDisplay(); // Update the song name when playing
+    } else {
+      audio.pause();
+      event.target.innerHTML = "<b>▶</b>";
+      createSongNameDisplay().innerHTML = "Playback paused"; // Update text when paused
+    }
+  });
+
+  // Create "Previous" and "Next" buttons (similar to original code)
+  let prevButton = document.createElement("button");
+  prevButton.id = "prev-button";
+  prevButton.innerHTML = "<b>⇦</b>";
+  prevButton.style = pausePlay.style;
+  prevButton.addEventListener("click", () => {
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected - 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0);
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f => f.tagName === "LABEL").map(f => f.children[0]);
+    buttons[newSel].checked = true;
+    audio.src = soundtracks[e.selectedSoundtrack].tracklist[newSel].url;
+    audio.currentTime = 0;
+    audio.play();
+    updateSongNameDisplay();
+  });
+
+  let nextButton = document.createElement("button");
+  nextButton.id = "next-button";
+  nextButton.innerHTML = "<b>⇨</b>";
+  nextButton.style = pausePlay.style;
+  nextButton.addEventListener("click", () => {
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0);
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f => f.tagName === "LABEL").map(f => f.children[0]);
+    buttons[newSel].checked = true;
+    audio.src = soundtracks[e.selectedSoundtrack].tracklist[newSel].url;
+    audio.currentTime = 0;
+    audio.play();
+    updateSongNameDisplay();
+  });
+
+  // Append buttons to timeTracker
+  timeTracker.appendChild(prevButton);
+  timeTracker.appendChild(pausePlay);
+  timeTracker.appendChild(nextButton);
+
+  // Create Volume Slider
+  let volumeContainer = document.createElement("div");
+  volumeContainer.style.marginTop = "0px"; // Margin to separate from buttons
+
+  let volumeLabel = document.createElement("label");
+  volumeLabel.htmlFor = "volume-slider";
+  volumeLabel.style.color = "#1a213a";
+  volumeLabel.innerHTML = "";
+  volumeContainer.appendChild(volumeLabel);
+
+  let volumeSlider = document.createElement("input");
+  volumeSlider.id = "volume-slider";
+  volumeSlider.type = "range";
+  volumeSlider.min = "0";
+  volumeSlider.max = "1";
+  volumeSlider.step = "0.01";
+  volumeSlider.value = audio.volume; // Set initial volume to the audio's current volume
+  volumeSlider.style.width = "150px"; // Adjust the width as needed
+  volumeSlider.style.marginLeft = "-210px"; // Adjust the width as needed
+
+  volumeSlider.addEventListener("input", function () {
+    audio.volume = this.value; // Set the audio volume to the slider's value
+  });
+
+  volumeContainer.appendChild(volumeSlider);
+  timeTracker.appendChild(volumeContainer);
+}
+
+// Clamp function to prevent out-of-bounds selection
+clamp = function (a, max, min, overflow = true) {
+  if (overflow) {
+    return a > max ? min : a < min ? max : a;
+  }
+  return a > max ? max : a < min ? min : a;
+};
+
+// Define the soundtracks and track list
+var soundtracks = {
+  0: {
+    name: "The Defeated Republic",
+    tracklist: [
+      { name: "Istanbul (Not Constantinople) – They Might Be Giants", url: "https://file.garden/Zrv1pPC1HzBK0svl/Istanbul%20(Not%20Constantinople)%204.mp3" },
+      { name: "Political Science – Chonny Jash", url: "https://file.garden/Zrv1pPC1HzBK0svl/Chonny%20Jash%20-%20Political%20Science.mp3" },
+      { name: "It's Lonely At The Top – Randy Newman", url: "https://file.garden/Zrv1pPC1HzBK0svl/Lonely%20at%20the%20Top%20(2002%20Remaster).mp3" },
+      { name: "Better Hold Tight – The Great Gatsby Cast", url: "https://file.garden/Zrv1pPC1HzBK0svl/Better%20Hold%20Tight%20(Noah%20J%20Ricketts%20%2B%20Samantha%20Pauly)%20_%20The%20Great%20Gatsby%20on%20Broadway%204.mp3" },
+      { name: "Why Should I Cry Over You – Frank Sinatra", url: "https://file.garden/Zrv1pPC1HzBK0svl/Why%20Should%20I%20Cry%20Over%20You_%20(Remastered).mp3" },
+      { name: "Satiated – Seven Sky", url: "https://file.garden/Zrv1pPC1HzBK0svl/Satiated.mp3" },
+      { name: "Kiss Me, Son Of God – They Might Be Giants", url: "https://files.catbox.moe/eser1n.mp3" },
+    ]
+  }
+};
+
+let style = document.createElement("style");
+style.innerHTML = `
+
+#trackSelParent > div {
+  background: #d0d6db !important;       /* parchment */
+  border: 2px solid #4a3926;             /* dark leather/brown */
+  border-radius: 6px;
+  padding: 6px 10px;
+  box-shadow:
+      inset 0 0 4px rgba(0,0,0,0.25),
+      0 2px 3px rgba(0,0,0,0.35);
+}
+
+/* Buttons */
+#play-pause-button,
+#prev-button,
+#next-button {
+  background: linear-gradient(#1f2226, #1f2226) !important; /* brass/bronze */
+  border: 2px solid #1a213a !important;
+  color: #e6e9f0 !important;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  border-radius: 4px !important;
+  width: 62px !important;
+  height: 38px !important;
+
+  box-shadow:
+     inset 0 1px 1px rgba(255,255,255,0.2),
+     0 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Hover effect: subtle brass shine */
+#play-pause-button:hover,
+#prev-button:hover,
+#next-button:hover {
+  background: linear-gradient(#1f2226, #1f2226) !important;
+}
+
+/* Remove the modern blue outline */
+#play-pause-button:focus,
+#prev-button:focus,
+#next-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(255,245,190,0.5); /* warm sepia glow instead */
+}
+
+#volume-slider {
+  width: 140px !important;
+  margin-left: 0 !important;     /* FIX */
+  margin-right: 0 !important;
+  accent-color: #1f2226;         /* blue-gray pin color */
+}
+#volume-slider::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #1f2226;
+  border: 2px inset #1f2226;
+  border-radius: 6px;
+}
+
+#volume-slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #6e6f70;
+  border: 2px solid #000;
+  margin-top: -7px;
+}
+/* ============================
+   GAME WINDOW – newspaper look
+============================ */
+#game_window {
+  border: 2px solid #404040 !important; /* dark military metal */
+  box-shadow:
+    inset 0 0 12px rgba(0,0,0,0.4),
+    0 0 20px rgba(30,20,10,0.4);
+  border-radius: 6px !important;
+  background: #404040; /* weathered khaki */
+}
+
+/* global borders */
+.container,
+.content_single,
+.footer,
+.footer hr {
+  border-color: #404040;
+}
+
+/* ============================
+   HEADER – WWI command board
+============================ */
+.game_header {
+  background-color: #f7f7f7;  /* leather binder brown */
+  border: 2px solid #404040;
+  color: #fff8e6;
+  font-family: "Georgia", serif;
+  letter-spacing: 1px;
+}
+
+/* Accent bar (field map marker) */
+.campaign_trail_start_emphasis {
+  background-color: #1f2226; /* gray blue tone */
+}
+
+/* Popup window */
+#election_description_window,
+#candidate_description_window,
+#running_mate_description_window,
+#opponent_selection_description_window {
+  background-color: #f7f7f7;
+  border: 2px solid #1f2226;
+  border-radius: 6px;
+  animation: popupWindow 0.35s ease-out;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+}
+
+/* Images: sepia photograph frame */
+#inner_window_1,
+#candidate_image,
+#running_mate_image,
+#election_image {
+  border: 3px solid #1f2226;
+  background-color: #f7f7f7; /* sepia matte */
+  padding: 6px;
+
+  box-shadow:
+    inset 2px 2px 2px rgba(255,255,255,0.6),
+    inset -2px -2px 2px rgba(0,0,0,0.2),
+    3px 3px 4px rgba(0,0,0,0.35);
+  
+  border-radius: 4px;
+}
+
+  #election_summary {
+	padding-top: 0 !important;
+  }
+#candidate_description_window,
+#running_mate_description_window,
+#election_description_window {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+
+  height: auto;
+  overflow: visible;
+  line-height: 1.5;
+  padding: 10px;
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.75); /* SAME COLOR, semi-transparent */
+  border-radius: 6px;
+}
+#candidate_description_window ul, #running_mate_description_window ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+#election_id_button {
+    margin-top: 40px;
+}
+#inner_window_2,#inner_window_3,#inner_window_4 {
+  border: 2px solid #1f2226;
+  background-image: url("https://i.imgur.com/5Sd7UzH.png");
+  background-size: cover;       /* fill the box */
+  background-position: center;  /* keep it centered */
+}
+`;
+document.head.appendChild(style);
+// Call the function to create the music player
+
+newMusicPlayer();
+
+//#endcode
