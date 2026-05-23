@@ -1,0 +1,1481 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p>After 5 years of the Cameron-Clegg coalition, Britain prepares to go to the polls again. Labour has taken a more left-wing direction following Ed Miliband's upset leadership election victory. UKIP and the SNP have both surged in the polls and shaken up the political environment. Meanwhile, the Liberal Democrats have seen their support collapse as a result of their controversial coalition deal with the Conservatives.<br><br>With another hung parliament looking likely, any result is possible: another Cameron-Clegg coalition, a deal between the Tories and UKIP, or maybe a \"Progressive Alliance\" between the left-wing parties. Or perhaps... one party will manage to secure an outright majority after all? <b>We shall see in 2015.</b></p>",
+            "image_url": "https://i.postimg.cc/15vvrwgY/election-leaders-d-3255461b.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://nest.csc.liv.ac.uk/projects/uk-election-2015/images/home/General-Election-2015.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2015 UK"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Cameron",
+            "election": 20,
+            "party": "Conservative",
+            "state": "Whitney",
+            "priority": 1,
+            "description": "<p>Widely regarded as a moderate conservative, David Cameron has been the Conservative Party Leader since 2005, and has served as Prime Minister since 2010 through a coalition with the Liberal Democrats. While the Tories fell far behind in polls in the middle of their tenure, the economy has since started to rebound, and consequently they have begun to catch up to Labour. With the eurosceptic UK Independence Party (UKIP) also rising in the polls, Cameron has attempted to snatch back UKIP's voterbase of disaffected right-wing populists by setting out an ambitious reform programme for the European Union, including treaty change, regaining powers for British courts, a curve on migrant access to welfare, and a referendum on the UK's membership in the EU.<br><br>The polls all seem to indicate another hung parliament, so Cameron will have to be prepared to broker another deal with the Liberal Democrats or a new one with UKIP if he wants to stay in 10 Downing Street.</p>",
+            "color_hex": "#0087dc",
+            "secondary_color_hex": "#0087dc",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-495461228-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Miliband",
+            "election": 20,
+            "party": "Labour",
+            "state": "Doncaster North",
+            "priority": 2,
+            "description": "<p>Ed Miliband shocked most observers with his upset victory in the 2010 Labour Party leadership election against older brother David, the former Foreign Secretary. Miliband is widely considered to be more left-wing and populist than his predecessors Gordon Brown and Tony Blair, and has enjoyed a consistent polling lead over the Prime Minister. However, as the election draws nearer, the Opposition Leader has seen his lead diminish, and to complicate matters even further, the right-wing populist UK Independence Party (UKIP) is posing an unprecedented threat to Labour's heartland voterbase.<br><br>With the possibility of an outright Labour majority looking increasingly unlikely, will Miliband do what his predecessor couldn't and form a \"Progressive Alliance\" with the Liberal Democrats and Scottish National Party (SNP)? Or will Cameron once again weasel his way to victory?</p>",
+            "color_hex": "#dc241f",
+            "secondary_color_hex": "#dc241f",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-469892686-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Nick",
+            "last_name": "Clegg",
+            "election": 20,
+            "party": "Liberal Democrats",
+            "state": "Sheffield Hallam",
+            "priority": 3,
+            "description": "<p>Nick Clegg, who has led the Liberal Democrats since 2007, achieved a historical breakthrough for his party in the 2010 general election, holding the balance of power in an unprecedented hung parliament. This situation enabled him to form a coalition government, with himself serving as Deputy Prime Minister. However, Clegg's decision to abandon much of his manifesto promises and strike a deal with the Conservative Party was deeply controversial, with the Liberal Democrats' polling figures going into free fall after the election.<br><br>Although it's clear that the party is set to lose a significant portion of their seats, the contentious nature of this election could produce yet another deadlocked parliament, and Clegg could once again find himself being a kingmaker. Can he retain enough seats to cause another deadlock? Or will the Liberal Democrats lose their traditional position as Britain's third party?</p>",
+            "color_hex": "#faa61a",
+            "secondary_color_hex": "#faa61a",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-472544426-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Nigel",
+            "last_name": "Farage",
+            "election": 20,
+            "party": "Independence",
+            "state": "South Thanet",
+            "priority": 4,
+            "description": "<p>Nigel Farage has been a Member of the European Parliament since 1999, but has not previously been in the House of Commons, and is now hoping to make a breakthrough in South Thanet. Serving as Leader of the eurosceptic UK Independence Party (UKIP) on-and-off since 2006, the party won the fourth-most votes at the 2010 election, but failed to win any seats. It subsequently won two seats at by-elections in 2014; both former sitting Conservative MPs, and became the largest party in the 2014 European Parliament elections.<br><br>With UKIP polling at record-high figures, and their populist politics attracting disaffected ex-voters of both major parties (as well as the near-extinct British National Party), Farage has a historical opportunity to reshape the British political landscape, and to achieve his life-long political ambition to get the UK out of the European Union.</p>",
+            "color_hex": "#401f5c",
+            "secondary_color_hex": "#401f5c",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Farage.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Tories",
+            "election": 20,
+            "party": "Conservative",
+            "state": "Nationwide",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://itsastronomical.com/assets/2024-UK/tory.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Labourites",
+            "election": 20,
+            "party": "Labour",
+            "state": "Nationwide",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://itsastronomical.com/assets/2024-UK/labour.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Liberal Democrats",
+            "election": 20,
+            "party": "Liberal Democrats",
+            "state": "Nationwide",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Liberal_Democrats_ballot_logo.svg/1280px-Liberal_Democrats_ballot_logo.svg.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Independents",
+            "election": 20,
+            "party": "Independence",
+            "state": "Michigan",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/d/d3/UKIP_Logo_2026.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Ben Carson was a candidate for President in 2016, with a long history within the evangelical community. He has never served in political office, a fact which may be an asset in this election. Carson was one of the Trump's first opponents to publicly endorse him, and he consistently polled relatively high in the black community during the primary season. However, he has also made a number of bizarre statements and may be vulnerable to a sustained attack campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 207,
+        "fields": {
+            "first_name": "Nicola",
+            "last_name": "Sturgeon",
+            "election": 20,
+            "party": "SNP",
+            "state": "N/A",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Jeff Sessions, a Senator from Alabama, was the first major Republican politician to endorse your candidacy. He could help shore up some potentially shaky support on the right of the Republican party. Conversely, Alabama is not competitive, and sustained attacks on Hillary Clinton may be all that is needed to keep that wing in line.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Natalie",
+            "last_name": "Bennett",
+            "election": 20,
+            "party": "Green",
+            "state": "Holborn & St. Pancras",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#5ebf49",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 210,
+        "fields": {
+            "first_name": "The",
+            "last_name": "DUP",
+            "election": 20,
+            "party": "DUP",
+            "state": "Northern Ireland",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#ad7131",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/bernie-sanders-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Bernie Sanders was your main opponent in the nomination battle. There's no pretending that the two of you have a warm relationship, but he does have fierce support from many of your potential voters. On the other hand, if you want to make the case that you're a moderate alternative to Trump's extremism, having Bernie on the ticket will not help on that front.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 211,
+        "fields": {
+            "first_name": "",
+            "last_name": "Sinn Fein",
+            "election": 20,
+            "party": "Sinn Fein",
+            "state": "Northern Ireland",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#174218",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/cory-booker-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Cory Booker is a Senator from New Jersey and was also the Mayor of Newark for several years. Politically, he is a mainstream Democrat, relatively similar to Barack Obama. He is also relatively youthful, with somewhat of a national profile. Turning out the black vote, and preventing even a handful of defectors to Trump, will be essential to a Clinton victory. However, Booker inspires limited enthusiasm amongst Sanders supporters.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 212,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Irish Parties",
+            "election": 20,
+            "party": "Various",
+            "state": "Northern Ireland",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#b0b0b0",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/elizabeth-warren-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 213,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Plaid Cymru",
+            "election": 20,
+            "party": "Plaid Cymru",
+            "state": "Wales",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#57a15c",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/sherrod-brown-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Speaker",
+            "election": 20,
+            "party": "None",
+            "state": "Buckingham",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#5c5c5c",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 164517,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 205
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 127210,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 208
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 81656,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 206
+        }
+    }
+]
+
+campaignTrail_temp.credits = "CampaignTrailFan"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203,
+            207,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203,
+            207,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2015 UK"
+    }
+]
+
+jet_data = {
+    "headerColor": "#071f4d",
+    "windowColor": "#b3403e",
+    "containerColor": "#1d2c45",
+    "innerWindowColor": "#b3403e",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/B0E210E3-C41E-4499-8F1A-CBFD0E713A59.png",
+    "backgroundImageUrl": "https://i.postimg.cc/fRkB2ymJ/Screenshot-20260522-195711-Google.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#071f4d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#b3403e";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#1d2c45";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/7b4990daeeef.png)"
+
+$("#game_window")[0].style.borderColor = "#ffffff"
+
+$(".container")[0].style.border = ".2em solid #ffffff"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://file.garden/Zrv1pPC1HzBK0svl/B0E210E3-C41E-4499-8F1A-CBFD0E713A59.png";
+
+document.body.background = "https://i.postimg.cc/fRkB2ymJ/Screenshot-20260522-195711-Google.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#b3403e!important;}</style>";
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>HER MAJESTY'S CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#071f4d", "header_image_url": "https://file.garden/Zrv1pPC1HzBK0svl/2015UKModBox.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#b3403e", "main_color": "#1d2c45", "secondary_color": "#071f4d", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://www.newcampaigntrail.com/static/mod_icons/2017%20UK.png");
+
+HistHexcolour=["#0087dc","#dc241f","#fcf38e","#faa61a"];
+    HistName=[" David Cameron"," Ed Miliband"," Nicola Sturgeon"," Nick Clegg"];
+    HistEV=[330,232,56,8];
+    HistPV=["11,334,726","9,347,324","1,454,436","2,415,862"];
+    HistPVP=["36.9%","30.4%","4.7%","7.9%"];
+
+// Global text variables
+e.SelectText = 'Please select your election:';
+e.CandidText = 'Please select your candidate:';
+e.VpText = 'Please select your party:';
+e.HomeStateText = "Seat:";
+e.ElectionPopup = "Election night is here. May tonight be glorious when Big Ben strikes 10."
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to rule Britannia?");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>Welcome to the 2015 general election.</li><li>Play as either <b><span style="color: #0087dc;">the Tories</span></b>, <b><span style="color: #dc241f;">Labour</span></b>, <b><span style="color: #faa61a;">the Liberal Democrats</span></b>, or <b><span style="color: #462369;">the UKIP</span></b>, and find out if you can win the general election for the British Parliament.</li><li>You will answer questions about your platform, positions, and your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual seats.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements alongside secret endings.</li><li>Are you ready to preserve or change the British status quo?</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>Indeed I Am, Sir.</b>';
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "CampaignTrailFan",
+      text: "for writing & providing the original mod concept.",
+      image: "https://i.postimg.cc/1Xtqmn9g/RDT-20260522-2030036371547841046264797.png"
+    },
+    {
+      name: "C0SM0",
+      text: "for coding & providing the theme. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    "<b>StrawberryMaster</b>, for providing the soundtrack code.",
+    "<b>LittleAmericanMan_85501,</b> for providing the lovely banner.",
+    "Various codes provided by Mangolith, TheMcCain, & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>CampaignTrailFan</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #69110d;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #123780;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #df1600;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+if (!e.done) {
+e.done = true;
+
+// paste the rest of your code 1 here - it has to be wrapped around the "if (!e.done)" line for it to work on the loader
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+
+
+z.observe(document, { subtree: true, childList: true });
+
+}
+
+// A QuickTime player implementation, initially
+// made for 2019 DOTP, a remake of 2019NK.
+class Song {
+	constructor(title, artist, album, coverLink, audioLink) {
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.coverLink = coverLink;
+		this.audioLink = audioLink;
+	}
+}
+
+class Playlist {
+	constructor(songs = []) {
+		this.songs = songs;
+		this.currentSongIndex = 0;
+	}
+
+	addSong(song) {
+		this.songs.push(song);
+	}
+
+	getCurrentSong() {
+		if (this.songs.length === 0) {
+			return new Song("No Songs", "N/A", "Unknown Album", "N/A", "https://itsastronomical.com/assets/music/buttons.png", "");
+		}
+		return this.songs[this.currentSongIndex];
+	}
+
+	playNext() {
+		if (this.songs.length === 0) return;
+		this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+	}
+
+	playPrevious() {
+		if (this.songs.length === 0) return;
+		this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+	}
+}
+
+// player logic
+const QuickTimePlayer = {
+	playlist: null,
+	audio: null,
+	isPlaying: false,
+	dom: {},
+
+	init(targetSelector, initialPlaylist) {
+		const targetElement = document.querySelector(targetSelector);
+		if (!targetElement) {
+			console.error("Music player: target element not found.", targetSelector);
+			return;
+		}
+
+		this._injectCSS();
+		this._createPlayerHTML(targetElement);
+		this._cacheDOMElements();
+
+		this.audio = new Audio();
+
+		this._bindEvents();
+		this._bindScrubbing();
+		this.loadPlaylist(initialPlaylist);
+		this._setVolume(parseFloat(this.dom.volumeSlider.value));
+	},
+
+	loadPlaylist(newPlaylist) {
+		this.playlist = newPlaylist;
+		this.playlist.currentSongIndex = 0;
+		this._playSongAtIndex(0, false);
+	},
+
+	_createPlayerHTML(targetElement) {
+		const playerHTML = `
+			<div class="player qt-window">
+				<div class="qt-title-bar">
+					<div class="qt-window-controls">
+						<div class="qt-control-button qt-close"></div>
+						<div class="qt-control-button qt-minimize"></div>
+						<div class="qt-control-button qt-maximize"></div>
+					</div>
+					<span class="qt-title-bar-text">QuickTime Player</span>
+				</div>
+
+				<div class="qt-menu-bar">
+					<span>File</span>
+					<span>Edit</span>
+					<span>View</span>
+					<span>Window</span>
+					<span>Help</span>
+				</div>
+
+				<div class="player__chrome">
+					<div class="player__top-row">
+						<div class="player__art-container">
+							<img src="" alt="Album Cover" class="player__album-art">
+						</div>
+
+						<div class="player__info-panel">
+							<div class="player__lcd">
+								<div class="player__song-title"></div>
+								<div class="player__song-artist"></div>
+								<div class="player__song-album"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="player__progress-section">
+						<span class="player__timecode">00:00:00</span>
+						<div class="progress-bar-wrapper">
+							<div class="player__progress-bar"></div>
+						</div>
+					</div>
+
+					<div class="player__bottom-row">
+						<div class="player__volume-container">
+							<svg viewBox="0 0 24 24" class="volume-icon">
+								<path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+							</svg>
+							<input type="range" class="player__volume-slider" min="0" max="1" step="0.01" value="1">
+						</div>
+
+						<div class="player__buttons">
+							<button class="player__btn player__btn--start" title="Go to Start">
+								<svg viewBox="0 0 24 24"><path d="M6 6 H 8 V 18 H 6 Z M 18 12 L 10 18 V 6 Z"></path></svg>
+							</button>
+							<button class="player__btn player__btn--prev" title="Previous">
+								<svg viewBox="0 0 24 24"><path d="M18 6 L 18 18 L 13 12 Z M 11 6 L 11 18 L 6 12 Z"></path></svg>
+							</button>
+							<button class="player__btn player__btn--toggle player__btn--main" title="Play/Pause">
+								<svg viewBox="0 0 24 24" class="player__toggle-icon">
+									<path d="M8 5v14l11-7z"></path>
+								</svg>
+							</button>
+							<button class="player__btn player__btn--next" title="Next">
+								<svg viewBox="0 0 24 24"><path d="M6 18 l 5 -6 l -5 -6 z M 13 18 l 5 -6 l -5 -6 z"></path></svg>
+							</button>
+							<button class="player__btn player__btn--stop" title="Stop">
+								<svg viewBox="0 0 24 24"><path d="M7 7h10v10H7z"></path></svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		`;
+		targetElement.insertAdjacentHTML('afterend', playerHTML);
+	},
+
+	_cacheDOMElements() {
+		const player = document.querySelector('.player');
+		this.dom = {
+			player,
+			albumArt: player.querySelector('.player__album-art'),
+			songTitle: player.querySelector('.player__song-title'),
+			songArtist: player.querySelector('.player__song-artist'),
+			songAlbum: player.querySelector('.player__song-album'),
+			startBtn: player.querySelector('.player__btn--start'),
+			prevBtn: player.querySelector('.player__btn--prev'),
+			toggleBtn: player.querySelector('.player__btn--toggle'),
+			stopBtn: player.querySelector('.player__btn--stop'),
+			nextBtn: player.querySelector('.player__btn--next'),
+			progressBar: player.querySelector('.player__progress-bar'),
+			progressWrapper: player.querySelector('.progress-bar-wrapper'),
+			volumeSlider: player.querySelector('.player__volume-slider'),
+			timecode: player.querySelector('.player__timecode'),
+			toggleIcon: player.querySelector('.player__toggle-icon'),
+		};
+	},
+
+	_bindEvents() {
+		this.dom.toggleBtn.addEventListener('click', () => {
+			if (this.audio.paused) {
+				this.play();
+			} else {
+				this.pause();
+			}
+		});
+
+		this.dom.stopBtn.addEventListener('click', () => this.stop());
+
+		this.dom.startBtn.addEventListener('click', () => {
+			this.audio.currentTime = 0;
+			this._updateProgress();
+		});
+
+		this.dom.nextBtn.addEventListener('click', () => this.playNext());
+		this.dom.prevBtn.addEventListener('click', () => this.playPrev());
+
+		this.audio.addEventListener('timeupdate', () => this._updateProgress());
+		this.audio.addEventListener('loadedmetadata', () => this._updateProgress());
+
+		this.audio.addEventListener('ended', () => {
+			this.isPlaying = false;
+			this._updateControlsState();
+			this.playNext();
+		});
+
+		this.audio.addEventListener('play', () => {
+			this.isPlaying = true;
+			this._updateControlsState();
+		});
+
+		this.audio.addEventListener('pause', () => {
+			this.isPlaying = false;
+			this._updateControlsState();
+		});
+
+		this.dom.volumeSlider.addEventListener('input', (e) => {
+			this._setVolume(parseFloat(e.target.value));
+		});
+
+		this.dom.progressWrapper.addEventListener('click', (e) => {
+			const rect = this.dom.progressWrapper.getBoundingClientRect();
+			const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+			if (!isNaN(this.audio.duration)) {
+				this.audio.currentTime = percent * this.audio.duration;
+			}
+		});
+	},
+
+	_playSongAtIndex(index, autoplay = this.autoplay) {
+		this.playlist.currentSongIndex = index;
+		const song = this.playlist.getCurrentSong();
+
+		this.audio.src = song.audioLink;
+		this._updateUI();
+
+		if (autoplay) {
+			this.play();
+		} else {
+			this.audio.pause();
+			this.audio.currentTime = 0;
+			this._updateProgress();
+		}
+	},
+
+	_setVolume(value) {
+		this.audio.volume = value;
+	},
+
+	_updateUI() {
+		const song = this.playlist.getCurrentSong();
+		this.dom.albumArt.src = song.coverLink;
+		this.dom.songTitle.textContent = song.title;
+		this.dom.songArtist.textContent = song.artist;
+		this.dom.songAlbum.textContent = song.album;
+	},
+
+	play() {
+		if (!this.audio.src) return;
+
+		this.audio.play().catch(e => {
+			this.isPlaying = false;
+			this._updateControlsState();
+			console.warn("Playback failed or autoplay was blocked.", e);
+		});
+	},
+
+	pause() {
+		this.audio.pause();
+	},
+
+	stop() {
+		this.audio.pause();
+		this.audio.currentTime = 0;
+		this._updateProgress();
+	},
+
+	playNext() {
+		this.playlist.playNext();
+		this._playSongAtIndex(this.playlist.currentSongIndex, true);
+	},
+
+	playPrev() {
+		this.playlist.playPrevious();
+		this._playSongAtIndex(this.playlist.currentSongIndex, true);
+	},
+
+	_updateControlsState() {
+		if (this.isPlaying) {
+			this.dom.toggleBtn.title = 'Pause';
+			this.dom.toggleIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>';
+		} else {
+			this.dom.toggleBtn.title = 'Play';
+			this.dom.toggleIcon.innerHTML = '<path d="M8 5v14l11-7z"></path>';
+		}
+	},
+
+	_formatTime(seconds) {
+		const h = Math.floor(seconds / 3600).toString().padStart(2, '0');
+		const m = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+		const s = Math.floor(seconds % 60).toString().padStart(2, '0');
+		return `${h}:${m}:${s}`;
+	},
+
+	_updateProgress() {
+		const currentTime = this.audio.currentTime;
+		const duration = this.audio.duration;
+		const progressPercent = (currentTime / duration) * 100;
+		const safePercent = isNaN(progressPercent) ? 0 : progressPercent;
+
+		this.dom.progressBar.style.width = `${safePercent}%`;
+		this.dom.timecode.textContent = this._formatTime(isNaN(currentTime) ? 0 : currentTime);
+	},
+
+	_bindScrubbing() {
+		let isScrubbing = false;
+
+		const seek = (clientX) => {
+			const rect = this.dom.progressWrapper.getBoundingClientRect();
+			const percent = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+			if (!isNaN(this.audio.duration)) {
+				this.audio.currentTime = percent * this.audio.duration;
+			}
+		};
+
+		this.dom.progressWrapper.addEventListener('mousedown', (e) => {
+			isScrubbing = true;
+			seek(e.clientX);
+		});
+
+		document.addEventListener('mousemove', (e) => {
+			if (!isScrubbing) return;
+			seek(e.clientX);
+		});
+
+		document.addEventListener('mouseup', () => {
+			isScrubbing = false;
+		});
+
+		this.dom.progressWrapper.addEventListener('click', (e) => {
+			seek(e.clientX);
+		});
+	},
+
+	_injectCSS() {
+		const style = document.createElement('style');
+		style.textContent = `
+			.player * { box-sizing: border-box; }
+
+			.qt-window {
+				width: 760px;
+				margin: 20px auto;
+				border-radius: 10px;
+				overflow: hidden;
+				border: 1px solid #6e6e6e;
+				background:
+					linear-gradient(to bottom, #f6f6f6 0%, #dddddd 8%, #cfcfcf 50%, #bebebe 100%);
+				box-shadow:
+					0 10px 28px rgba(0,0,0,0.35),
+					inset 0 1px 0 rgba(255,255,255,0.85);
+				font-family: "Lucida Grande", "Segoe UI", Arial, sans-serif;
+				color: #222;
+			}
+
+			.qt-title-bar {
+				position: relative;
+				height: 24px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: linear-gradient(to bottom, #efefef, #cfcfcf);
+				border-bottom: 1px solid #9d9d9d;
+				user-select: none;
+				font-size: 12px;
+				font-weight: bold;
+				color: #3a3a3a;
+				text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+			}
+
+			.qt-title-bar-text {
+				pointer-events: none;
+			}
+
+			.qt-window-controls {
+				position: absolute;
+				left: 8px;
+				top: 50%;
+				transform: translateY(-50%);
+				display: flex;
+				gap: 6px;
+			}
+
+			.qt-control-button {
+				width: 11px;
+				height: 11px;
+				border-radius: 50%;
+				border: 1px solid rgba(0,0,0,0.25);
+				box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+			}
+
+			.qt-close { background: #ff5f57; }
+			.qt-minimize { background: #ffbd2e; }
+			.qt-maximize { background: #28c840; }
+
+			.qt-menu-bar {
+				display: flex;
+				gap: 18px;
+				padding: 4px 10px 5px;
+				font-size: 12px;
+				background: linear-gradient(to bottom, #ececec, #d9d9d9);
+				border-bottom: 1px solid #b3b3b3;
+				color: #1f1f1f;
+				user-select: none;
+			}
+
+			.player__chrome {
+				padding: 14px;
+				background:
+					linear-gradient(to bottom, rgba(255,255,255,0.28), rgba(0,0,0,0.04)),
+					linear-gradient(to bottom, #d7d7d7, #bfbfbf);
+			}
+
+			.player__top-row {
+				display: flex;
+				gap: 14px;
+				align-items: stretch;
+				margin-bottom: 14px;
+			}
+
+			.player__art-container {
+				width: 110px;
+				height: 110px;
+				flex-shrink: 0;
+				padding: 4px;
+				background: linear-gradient(to bottom, #f2f2f2, #bdbdbd);
+				border: 1px solid #8c8c8c;
+				border-radius: 6px;
+				box-shadow:
+					inset 0 1px 0 rgba(255,255,255,0.75),
+					0 1px 2px rgba(0,0,0,0.15);
+			}
+
+			.player__album-art {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				display: block;
+				border-radius: 3px;
+				border: 1px solid #5f5f5f;
+				background: #111;
+			}
+
+			.player__info-panel {
+				flex: 1;
+				display: flex;
+				align-items: stretch;
+			}
+
+			.player__lcd {
+				width: 100%;
+				min-height: 110px;
+				padding: 12px 14px;
+				border-radius: 7px;
+				border: 1px solid #5b5f52;
+				background:
+					linear-gradient(to bottom, #3f4a35, #1f281a);
+				box-shadow:
+					inset 0 2px 6px rgba(0,0,0,0.45),
+					inset 0 1px 0 rgba(255,255,255,0.05);
+				color: #d8f2b8;
+				text-shadow: 0 0 4px rgba(170,255,120,0.18);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 6px;
+				overflow: hidden;
+			}
+
+			.player__song-title,
+			.player__song-artist,
+			.player__song-album {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+			.player__song-title {
+				font-size: 20px;
+				font-weight: bold;
+				letter-spacing: 0.2px;
+			}
+
+			.player__song-artist {
+				font-size: 14px;
+				color: #c8e7a6;
+			}
+
+			.player__song-album {
+				font-size: 12px;
+				color: #a9c98d;
+			}
+
+			.player__progress-section {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				margin-bottom: 14px;
+				padding: 0 2px;
+			}
+
+			.player__timecode {
+				width: 64px;
+				flex-shrink: 0;
+				font-size: 11px;
+				font-family: Consolas, IBM Courier, Couriew New, monospace;
+				color: #2d2d2d;
+				text-align: right;
+				user-select: none;
+			}
+
+			.progress-bar-wrapper {
+				position: relative;
+				flex: 1;
+				height: 12px;
+				padding: 2px;
+				border-radius: 999px;
+				border: 1px solid #7f7f7f;
+				background: linear-gradient(to bottom, #8e8e8e, #cfcfcf);
+				box-shadow:
+					inset 0 1px 3px rgba(0,0,0,0.35),
+					0 1px 0 rgba(255,255,255,0.5);
+			}
+
+			.player__progress-bar {
+				position: relative;
+				width: 0%;
+				height: 100%;
+				border-radius: 999px;
+				background: linear-gradient(to bottom, #c6ecff, #4fa4df);
+				box-shadow: inset 0 1px 0 rgba(255,255,255,0.55);
+			}
+
+			.player__progress-bar::after {
+				content: '';
+				position: absolute;
+				right: -6px;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: linear-gradient(to bottom, #ffffff, #dcdcdc);
+				border: 1px solid #777;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+			}
+
+			.player__bottom-row {
+				display: grid;
+				grid-template-columns: 140px 1fr 140px;
+				align-items: center;
+				gap: 10px;
+			}
+
+			.player__volume-container {
+				display: flex;
+				align-items: center;
+				gap: 6px;
+			}
+
+			.volume-icon {
+				width: 16px;
+				height: 16px;
+				fill: #4f4f4f;
+				flex-shrink: 0;
+			}
+
+			input[type=range].player__volume-slider {
+				-webkit-appearance: none;
+				appearance: none;
+				width: 100px;
+				height: 6px;
+				border-radius: 999px;
+				border: 1px solid #7f7f7f;
+				background: linear-gradient(to bottom, #8e8e8e, #d1d1d1);
+				box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+				outline: none;
+			}
+
+			input[type=range].player__volume-slider::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				appearance: none;
+				width: 13px;
+				height: 13px;
+				border-radius: 50%;
+				border: 1px solid #7f7f7f;
+				background: linear-gradient(to bottom, #ffffff, #d8d8d8);
+				box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+				cursor: pointer;
+				margin-top: -4px;
+			}
+
+			input[type=range].player__volume-slider::-moz-range-thumb {
+				width: 13px;
+				height: 13px;
+				border-radius: 50%;
+				border: 1px solid #7f7f7f;
+				background: linear-gradient(to bottom, #ffffff, #d8d8d8);
+				box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+				cursor: pointer;
+			}
+
+			.player__buttons {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 8px;
+			}
+
+			.player__btn {
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				border: 1px solid #7b7b7b;
+				background: linear-gradient(to bottom, #fefefe, #d3d3d3);
+				box-shadow:
+					inset 0 1px 0 rgba(255,255,255,0.8),
+					0 1px 2px rgba(0,0,0,0.25);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+			}
+
+			.player__btn:hover {
+				filter: brightness(1.03);
+			}
+
+			.player__btn:active {
+				background: linear-gradient(to bottom, #cdcdcd, #f3f3f3);
+				box-shadow: inset 0 2px 3px rgba(0,0,0,0.22);
+			}
+
+			.player__btn svg {
+				width: 14px;
+				height: 14px;
+				fill: #4f4f4f;
+			}
+
+			.player__btn--main {
+				width: 40px;
+				height: 40px;
+			}
+
+			.player__btn--main svg {
+				width: 18px;
+				height: 18px;
+			}
+
+			.player__btn--play {
+				background: linear-gradient(to bottom, #ffffff, #cfcfcf);
+			}
+
+			@media (max-width: 820px) {
+				.qt-window {
+					width: 95%;
+				}
+
+				.player__bottom-row {
+					grid-template-columns: 1fr;
+					gap: 12px;
+				}
+
+				.player__volume-container {
+					justify-content: center;
+				}
+
+				.player__top-row {
+					flex-direction: column;
+				}
+
+				.player__art-container {
+					width: 120px;
+					height: 120px;
+					margin: 0 auto;
+				}
+			}
+		`;
+		document.head.appendChild(style);
+	}
+};
+
+
+const mainPlaylist = new Playlist([
+	new Song("Bohemian Rhapsody", "Queen", "A Night At The Opera", "https://i0.wp.com/classicsongoftheday.com/wp-content/uploads/2024/09/R-486489-1432753423-4760.jpg?w=600&ssl=1", "https://file.garden/Zrv1pPC1HzBK0svl/Bohemian%20Rhapsody%20(Remastered%202011)%204.mp3"),
+	new Song("Find No Enemy", "Akala", "Single", "https://i1.sndcdn.com/artworks-000007610401-c3qtkt-t240x240.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Find%20No%20Enemy.mp3"),
+	new Song("Electioneering", "Radiohead", "OK Computer", "https://files.catbox.moe/9vx49d.jpeg", "https://files.catbox.moe/dsp88c.mp3"),
+	new Song("London Calling", "The Clash", "London Calling", "https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/MusicLondonCalling.jpeg", "https://file.garden/Zrv1pPC1HzBK0svl/London%20Calling%20(Remastered)%204.mp3"),
+	new Song("Mad World", "Tears For Fears", "Single", "https://upload.wikimedia.org/wikipedia/en/2/20/TFF_Mad_World.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Mad%20World%204.mp3"),
+	new Song("Swords Of A Thousand Men", "Tenpole Tudor", "Single", "https://vinylrecords.fyi/cdn/shop/products/Ny5qcGVn_38e61f8e-fa5d-4694-bb96-a9818928fe69.jpg?v=1706274037&width=493", "https://file.garden/Zrv1pPC1HzBK0svl/Swords%20Of%20A%20Thousand%20Men.mp3"),
+	new Song("Stand And Deliver", "Adam And The Ants", "Prince Charming", "https://upload.wikimedia.org/wikipedia/en/7/77/Stand_and_Deliver_-_single.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Stand%20and%20Deliver.mp3"),
+]);
+
+// kick it off!
+QuickTimePlayer.init("#game_window", mainPlaylist);
+
+//#endcode
