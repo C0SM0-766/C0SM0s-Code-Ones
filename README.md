@@ -154,7 +154,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 - Creation Date: November 23rd, 2025
 
 **The Hazbin Trail Redux**
-- Creation Date: December 13th, 2025
+- Creation Date: December 13th, 2025 *(Updated on May 27th, 2026)*
 
 **1996: A New Age**
 - Creation Date: December 31st, 2025
