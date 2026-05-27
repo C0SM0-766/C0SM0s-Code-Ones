@@ -1,15 +1,13 @@
-// NOTE: Many images don't work, & I'm aware. It's a catbox problem. If it's not fixed soon, I'll upload the images onto file garden (P.S: I'm pissed off at this situation; for this Code 1, I put a lot of effort into it)
-
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
         "pk": 9,
         "fields": {
             "year": 2000,
-            "summary": "<div style='overflow-y:scroll;height:200px;'><p>The Demon's lair remains conquered, the evil beast's dead body still rotting. Hell, the land of the evil and wicked, is still occupied by humanity–those who fear God. However, continuous economic strains by the occupying forces, mainly led by the US, have considered a thought once unthinkable: a presidential election for the residents of Hell. After a narrow pass in a United Nations vote, people on Earth grit their teeth and tune into what's quickly becoming the most interesting election in modern history.<br><br>Based off of the U.S. electoral college system, Hell now has the opportunity to elect a \"president\"—who'll still largely serve the interests of the Earth nations. With most overlords jailed or have served their sentences, politicians and religious figures are hopeful for a leader that'll align with their existing views. If only for a little while, this election will be historical event.<br><br>Is Hell able to elect a competent candidate, someone hell bent on attacking Earth, or perhaps someone else entirely?</p>",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>The Demon's lair remains conquered, the evil beast's dead body still rotting. Hell, the land of the evil and wicked, is still occupied by humanity–those who fear God. However, continuous economic strains by the occupying forces, mainly led by the US, have considered a thought once unthinkable: a presidential election for the residents of Hell. After a narrow pass in a United Nations vote, people on Earth grit their teeth and tune into what's quickly becoming the most interesting election in modern history.<br><br>Based off of the U.S. electoral college system, Hell now has the opportunity to elect a \"president\"—who'll still largely serve the interests of the Earth nations. With most overlords jailed or have served their sentences, politicians and religious figures are hopeful for a leader that'll align with their existing views. If only for a little while, this election will be a historical event.<br><br>Is Hell able to elect a competent candidate, someone hell bent on attacking Earth, or perhaps someone else entirely?</p>",
             "image_url": "https://files.catbox.moe/7f0aht.jpg",
             "winning_electoral_vote_number": 309,
-            "advisor_url": "https://files.catbox.moe/pn6i2j.jpg",
+            "advisor_url": "https://i.postimg.cc/fRV59gkG/Screenshot-20260523-125219-You-Tube-Re-Vanced.jpg",
             "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Shows</h4><a href=\"https://youtu.be/Zlmswo0S0e0\" target=”_blank”>Hazbin Hotel (Pilot Episode)</a></br><a href=\"https://youtube.com/playlist?list=PL-uopgYBi65HwiiDR9Y23lomAkGr9mm-S\" target=”_blank”>Helluva Boss (Episode Playlist)</a></br><a href=\"https://watch.amazon.com/detail?gti=amzn1.dv.gti.5ef0ebcd-ce37-4f68-9438-82e9bde9cd00&ref_=atv_lp_share_ser&r=web\" target=”_blank”>Hazbin Hotel (Amazon Prime)</a><h4>Mike Pence & The GOP</h4><a href=\"https://www.forbes.com/sites/alisondurkee/2024/05/09/trump-trial-gop-considered-ousting-trump-after-access-hollywood-tape-ex-assistant-testifies/\" target=”_blank”>Source 1</a></br><a href=\"https://www.businessinsider.com/donald-trump-replace-ballot-access-hollywood-tape-testimony-hush-money-2024-5\" target=”_blank”>Source 2</a>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://pbs.twimg.com/media/E2GEG9pVUAQcovG?format=png&name=900x900",
@@ -462,8 +460,8 @@ jet_data = {
     "windowColor": "#990052",
     "containerColor": "#4a0119",
     "innerWindowColor": "#990052",
-    "bannerImageUrl": "https://files.catbox.moe/0wmh90.jpeg",
-    "backgroundImageUrl": "https://files.catbox.moe/atbgls.jpeg",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/HazbinBanner.jpeg",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/HazbinBackground.jpeg",
     "endingTextColor": "#ffffff",
     "customQuote": "",
     "gameTitle": "THE HAZBIN TRAIL"
@@ -491,9 +489,14 @@ $("#game_window")[0].style.borderColor = "#8a0037"
 
 $(".container")[0].style.border = ".2em solid #8a0037"
 
-document.getElementById("header").src = "https://files.catbox.moe/0wmh90.jpeg";
+$(".footer")[0].style.borderColor = "#8a0037";
 
-document.body.background = "https://files.catbox.moe/atbgls.jpeg";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://file.garden/Zrv1pPC1HzBK0svl/HazbinBanner.jpeg";
+
+document.body.background = "https://file.garden/Zrv1pPC1HzBK0svl/HazbinBackground.jpeg";
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#990052!important;}</style>";
 
@@ -700,7 +703,7 @@ customquote = quotes[Math.floor((Math.random() * quotes.length))]
                                    
 corrr=`\n<h2>THE HAZBIN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
 
-campaignTrail_temp.modBoxTheme = { "header_color": "#8a0037", "header_image_url": "https://files.catbox.moe/mm8o1r.png", "header_text_color": "#f5f3f4", "description_text_color": "#ffffff", "description_background_color": "#990052", "main_color": "#4a0119", "secondary_color": "#8a0037", "ui_text_color": "#FFFFFF" }
+campaignTrail_temp.modBoxTheme = { "header_color": "#8a0037", "header_image_url": "https://i.postimg.cc/4dQjSFvY/image-(3).png", "header_text_color": "#f5f3f4", "description_text_color": "#ffffff", "description_background_color": "#990052", "main_color": "#4a0119", "secondary_color": "#8a0037", "ui_text_color": "#FFFFFF" }
 
 nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
 
@@ -717,7 +720,7 @@ window.credits = function() {
 }
 
 // Custom favicon
-$("#dynamic-favicon").attr("href", "https://files.catbox.moe/3rgvif.png");
+$("#dynamic-favicon").attr("href", "https://file.garden/Zrv1pPC1HzBK0svl/Untitled63_20260503142105.png");
 
 HistHexcolour=["#851448","#611313","#16b5ba","#6c7373"];
     HistName=[" Charlie Morningstar"," Alastor"," Vox"," Travis/Others"];
@@ -744,7 +747,7 @@ document.getElementById('game_start').innerHTML = '<b>Fast Forward 5 Years Later
 
 const customStyling = document.createElement("style");
 customStyling.innerHTML = `#map_container {
-    background-image: url("https://files.catbox.moe/n3yt54.png");
+    background-image: url("https://cdn.imgchest.com/files/89b411090830.png");
     background-size: cover;
 }`;
 customStyling.id=`map_image`
@@ -781,47 +784,47 @@ campaignTrail_temp.achievements = {
     // Achievements
     "Utopia" : {
     "image" : "https://files.catbox.moe/u0memt.jpg",
-    "description" : "Sing your way to a landslide.",
+    "description" : "As Charlie, sing your way to a landslide.",
     "cannotBeCheated" : true
     },
     "Puttin' On The Ritz" : {
     "image" : "https://files.catbox.moe/nsklie.jpeg",
-    "description" : "Fully revive radio.",
+    "description" : "As Alastor, fully revive radio.",
     "cannotBeCheated" : true
     },
     "The New World Order" : {
     "image" : "https://files.catbox.moe/l27jqu.webp",
-    "description" : "Bury Hell beneath a telescreen.",
+    "description" : "As Vox, bury Hell beneath a telescreen.",
     "cannotBeCheated" : true
     },
     "The Second Jackson" : {
     "image" : "https://files.catbox.moe/mx9spi.jpg",
-    "description" : "Achieve the unexpected.",
+    "description" : "As Travis, achieve the unexpected.",
     "cannotBeCheated" : true
     },
     "Sympathy For The Wicked" : {
     "image" : "https://files.catbox.moe/7bjge3.jpg",
-    "description" : "Save face.",
+    "description" : "As Blitzø, save face.",
     "cannotBeCheated" : true
     },
     "Usurpation" : {
     "image" : "https://files.catbox.moe/ecd07u.jpg",
-    "description" : "Go against everything you stood for.",
+    "description" : "As Charlie, go against everything you stood for.",
     "cannotBeCheated" : true
     },
     "At What Cost?" : {
     "image" : "https://files.catbox.moe/p5dub9.jpg",
-    "description" : "Lose an old colleague, but still reach the finish line.",
+    "description" : "As Charlie, lose an old colleague, but still reach the finish line.",
     "cannotBeCheated" : true
     },
     "Master Of Puppets" : {
     "image" : "https://files.catbox.moe/c4efpg.jpg",
-    "description" : "Reveal the strings.",
+    "description" : "Aa Charlie, reveal the strings.",
     "cannotBeCheated" : true
     },
     "Catching The Devil" : {
     "image" : "https://i.postimg.cc/DzWcfXvB/image.jpg",
-    "description" : "Fight the law... and lose.",
+    "description" : "As Alastor, fight the law... and lose.",
     "cannotBeCheated" : true
     },
     "Fire & Brimstone" : {
@@ -836,12 +839,12 @@ campaignTrail_temp.achievements = {
     },
     "It's Lonely At The Top" : {
     "image" : "https://files.catbox.moe/a1fihn.jpg",
-    "description" : "Betray everyone & succeed.",
+    "description" : "As Vox, betray everyone & succeed.",
     "cannotBeCheated" : true
     },
     "#Resist" : {
     "image" : "https://files.catbox.moe/gjwi53.jpg",
-    "description" : "RESIST.",
+    "description" : "As Vox, RESIST.",
     "cannotBeCheated" : true
     },
     "Farenheit 451" : {
@@ -861,7 +864,7 @@ campaignTrail_temp.achievements = {
     },
     "Darwin Award" : {
     "image" : "https://files.catbox.moe/cjycsu.jpeg",
-    "description" : "Do a stupid stunt.",
+    "description" : "As Travis, do a stupid stunt.",
     "cannotBeCheated" : true
     },
     "Now That You're Gone" : {
@@ -871,7 +874,7 @@ campaignTrail_temp.achievements = {
     },
     "Kids Die For Free!" : {
     "image" : "https://files.catbox.moe/71dl6m.jpg",
-    "description" : "Feel the sweet sense of killing... again.",
+    "description" : "As Blitzø, feel the sweet sense of killing... again.",
     "cannotBeCheated" : true
     },
     "Apology Tour" : {
@@ -1003,70 +1006,70 @@ campaignTrail_temp.achievements = {
     const track1 = new Track(
       "Hazbin Guarantee (Trust Us)",
       "Hazbin Hotel OST",
-      "https://files.catbox.moe/h0il3a.png",
-      "https://files.catbox.moe/f827pi.mp3"
+      "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Hazbin%20Guarantee%20(Trust%20Us).mp3"
     );
  
     const track2 = new Track(
       "Fire",
       "The Crazy World Of Arthur Brown",
-      "https://files.catbox.moe/adeeyi.jpg",
+      "https://m.media-amazon.com/images/I/81dyIIZm6EL._UF1000,1000_QL80_FMwebp_.jpg",
       "https://audio.jukehost.co.uk/ov0PpriJoopP5AQHcrgFcx1g2XTlBqk9"
     );
 	
 	const track3 = new Track(
       "Burn In Hell",
       "Twisted Sister",
-      "https://files.catbox.moe/jwn5ri.jpg",
-      "https://files.catbox.moe/59oer6.mp3"
+      "https://m.media-amazon.com/images/I/91MAKm8qyoL._UF1000,1000_QL80_FMwebp_.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Burn%20in%20Hell.mp3"
     );
 	
 	const track4 = new Track(
 	  "Lucifer Sam",
       "Pink Floyd",
-      "https://files.catbox.moe/ckhm0l.jpg",
+      "https://cdn-images.dzcdn.net/images/cover/2ce3a33d1659ce59bccc5083a7fdf7c6/1200x1200-000000-81-0-0.webp",
       "https://audio.jukehost.co.uk/D5dUEhJCwHZP7ROHBzKBQPpCHpIkon3F"
     );
 	
 	const track5 = new Track(
       "Hell Ain't A Bad Place To Be",
       "AC/DC",
-      "https://files.catbox.moe/aw6tkm.jpg",
-      "https://files.catbox.moe/vige6q.mp3"
+      "https://i1.sndcdn.com/artworks-000643298437-syziiu-t500x500.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Hell%20Ain't%20a%20Bad%20Place%20to%20Be%204.mp3"
     );
 	
 	const track6 = new Track(
       "Sympathy For The Devil",
       "The Rolling Stones",
-      "https://files.catbox.moe/bwzyif.jpg",
+      "https://i.discogs.com/JHZ5fN4fs4OtTACRZdtg1akeuGT9WLH8Hltm7TZENe0/rs:fit/g:sm/q:90/h:473/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MDg0/OTA5LTE2MjMzMDA3/OTAtNzUzNS5qcGVn.jpeg",
       "https://files.catbox.moe/xa4wj5.mp3"
     );
 	
 	const track7 = new Track(
       "Hell's Comin' With Me",
       "Poor Man's Poison",
-      "https://files.catbox.moe/i3cbx0.jpg",
-      "https://files.catbox.moe/rxyx6f.mp3"
+      "https://i1.sndcdn.com/artworks-EtxE4HLdOGg5SjcZ-zdFULg-t500x500.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Hell's%20Comin'%20with%20Me%204.mp3"
     );
 	
 	const track8 = new Track(
       "Devil Inside",
       "INXS",
-      "https://files.catbox.moe/6gtvdp.jpg",
-      "https://files.catbox.moe/dz4v2b.mp3"
+      "https://m.media-amazon.com/images/I/613MXvOS+1L._UF1000,1000_QL80_FMwebp_.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Devil%20Inside.mp3"
     );
 	
 	const track9 = new Track(
       "This Is Hell",
       "Elvis Costello",
-      "https://files.catbox.moe/e8yqai.jpg",
-      "https://files.catbox.moe/iux1xo.mp3"
+      "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-145975-96a08f6ec04e7b06eeb1336ea8dc58e554412cc9.jpg?w=300&h=300&crop=1",
+      "https://file.garden/Zrv1pPC1HzBK0svl/This%20Is%20Hell.mp3"
     );
 	
 	const track10 = new Track(
       "Highway To Hell",
       "AC/DC",
-      "https://files.catbox.moe/axpsnk.jpg",
+      "https://m.media-amazon.com/images/I/810F+tttJHL._UF1000,1000_QL80_FMwebp_.jpg",
       "https://audio.jukehost.co.uk/Rb7tsCl01WKJrUeL9OM0LRi5jtAQtJ6b"
     );
   
@@ -1095,7 +1098,7 @@ campaignTrail_temp.achievements = {
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://files.catbox.moe/02xdau.png')";
+  infoContainer.style.backgroundImage = "url('https://file.garden/Zrv1pPC1HzBK0svl/Untitled86.png')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -1124,19 +1127,19 @@ campaignTrail_temp.achievements = {
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://files.catbox.moe/sidgv4.png";
+  prevButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled87_20260503135804.png";
   prevButton.alt = "Skip Back";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://files.catbox.moe/beot67.png"; // Set the default play image
+  playPauseButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled89_20260503135854.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://files.catbox.moe/sbay7m.png";
+  nextButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled88_20260503135845.png";
   nextButton.alt = "Skip";
   controls.appendChild(nextButton);
   
@@ -1146,10 +1149,10 @@ campaignTrail_temp.achievements = {
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://files.catbox.moe/beot67.png"; // Set the pause image
+      playPauseButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled89_20260503135854.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://files.catbox.moe/z9qlkj.png"; // Set the play image
+      playPauseButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled90_20260503135900.png"; // Set the play image
     }
   });
   
@@ -1209,19 +1212,19 @@ campaignTrail_temp.achievements = {
 	
 	const playlistButton = document.createElement("img");
 	playlistButton.id = "playlistButton";
-	playlistButton.src = "https://files.catbox.moe/3cxpjc.png";
+	playlistButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled85.png";
 	playlistButton.alt = "Playlist ''Embers";
 	playlistButton.style.marginTop = "10px";
 
 	const redemptionButton = document.createElement("img");
 	redemptionButton.id = "redemptionButton";
-	redemptionButton.src = "https://files.catbox.moe/00sn2e.png";
+	redemptionButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled82.png";
 	redemptionButton.alt = "Playlist ''Redemption''";
 	redemptionButton.style.marginTop = "10px";
 
 	const assassinButton = document.createElement("img");
 	assassinButton.id = "assassinButton";
-	assassinButton.src = "https://files.catbox.moe/a9tii9.png";
+	assassinButton.src = "https://file.garden/Zrv1pPC1HzBK0svl/Untitled91.png";
 	assassinButton.alt = "Playlist ''Assassin''";
 	assassinButton.style.marginTop = "10px";
 
@@ -1237,224 +1240,224 @@ campaignTrail_temp.achievements = {
 		const redemptionTrack1 = new Track(
 		  "Inside Of Every Demon Is A Rainbow",
 		  "Hazbin Hotel Pilot OST",
-		  "https://files.catbox.moe/ctyec0.jpg",
-		  "https://files.catbox.moe/b6wdk4.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260523-131530_YouTube%20ReVanced.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Inside%20of%20Every%20Demon%20Is%20a%20Rainbow%20(From%20_Hazbin%20Hotel_)%204.mp3"
 		);
 
 		const redemptionTrack2 = new Track(
 		  "Addict",
 		  "Silva Hound ft. Michael Kovach & Chi-Chi",
-		  "https://files.catbox.moe/9uner8.jpg",
-		  "https://files.catbox.moe/qka88v.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/ADDICT_cover%20(1).webp",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Addict.mp3"
 		);
 		
 		const redemptionTrack3 = new Track(
 		  "Insane",
 		  "Black Gryph0n ft. Baasik",
 		  "https://files.catbox.moe/zminvc.jpg",
-		  "https://files.catbox.moe/jl2af6.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Insane.mp3"
 		);
 		
 		const redemptionTrack4 = new Track(
 		  "The Other Side",
 		  "Caleb Hyles & Jonathan Young",
-		  "https://files.catbox.moe/z2spft.jpg",
-		  "https://files.catbox.moe/588vub.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260523-132308_YouTube%20ReVanced.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/The%20Other%20Side%20(Alastor%20%26%20Husk's%20Song)%20%20Hazbin%20Hotel.mp3"
 		);
 		
 		const redemptionTrack5 = new Track(
 		  "Happy Day In Hell",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/ockuw6.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/HappyDayinHellCoverArt%20(1).webp",
 		  "https://files.catbox.moe/eanwaw.mp3"
 		);
 		
 		const redemptionTrack6 = new Track(
 		  "Hell Is Forever",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/m1rl2e.mp3"
 		);
 		
 		const redemptionTrack7 = new Track(
 		  "Stayed Gone",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/l9lhic.mp3"
 		);
 		
 		const redemptionTrack8 = new Track(
 		  "Respectless",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/uy9pkb.mp3"
 		);
 		
 		const redemptionTrack9 = new Track(
 		  "Poison",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/i48o3l.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/HHPoisonAlbumCover.webp",
 		  "https://files.catbox.moe/rcnpmc.mp3"
 		);
 		
 		const redemptionTrack10 = new Track(
 		  "Loser, Baby",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/2y93h7.mp3"
 		);
 		
 		const redemptionTrack11 = new Track(
 		  "Hell's Greatest Dad",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/vn5qjv.mp3"
 		);
 		
 		const redemptionTrack12 = new Track(
 		  "More Than Anything",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/ydtjly.mp3"
 		);
 		
 		const redemptionTrack13 = new Track(
 		  "You Didn't Know",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
-		  "https://files.catbox.moe/7a8nky.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/You%20Didnt%20Know.mp3"
 		);
 		
 		const redemptionTrack14 = new Track(
 		  "Out For Love",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/7ywgoj.mp3"
 		);
 		
 		const redemptionTrack15 = new Track(
 		  "Ready For This",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/b6pfd7.mp3"
 		);
 		
 		const redemptionTrack16 = new Track(
 		  "Season 1 Finale",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/w320wv.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-143931_Google.jpg",
 		  "https://files.catbox.moe/afbgsb.mp3"
 		);
 		
 		const redemptionTrack17 = new Track(
 		  "Once We Get Up There",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/dmrfqk.mp3"
 		);
 		
 		const redemptionTrack18 = new Track(
 		  "Like You",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/j03xkf.mp3"
 		);
 		
 		const redemptionTrack19 = new Track(
 		  "Sera's Confession",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/wyoup6.mp3"
 		);
 		
 		const redemptionTrack20 = new Track(
 		  "Gravity",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/n3cc4e.mp3"
 		);
 		
 		const redemptionTrack21 = new Track(
 		  "Piss (A Love Song)",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/6f1zn5.mp3"
 		);
 		
 		const redemptionTrack22 = new Track(
 		  "Don't You Forget",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/dyiqsj.mp3"
 		);
 		
 		const redemptionTrack23 = new Track(
 		  "Don't You Forget (Reprise)",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/owscfn.mp3"
 		);
 		
 		const redemptionTrack24 = new Track(
 		  "Bad With Us",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/d3fbxi.mp3"
 		);
 		
 		const redemptionTrack25 = new Track(
 		  "Vox Populi",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/sqxbn9.mp3"
 		);
 		
 		const redemptionTrack26 = new Track(
 		  "Vox Dei",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/e9xqiw.mp3"
 		);
 		
 		const redemptionTrack27 = new Track(
 		  "Love In A Bottle",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/fpxi18.mp3"
 		);
 		
 		const redemptionTrack28 = new Track(
 		  "Losin' Streak",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/hee8xy.mp3"
 		);
 		
 		const redemptionTrack29 = new Track(
 		  "Easy",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/ukrz6l.mp3"
 		);
 		
 		const redemptionTrack30 = new Track(
 		  "Brighter",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/uejpxx.mp3"
 		);
 		
 		const redemptionTrack31 = new Track(
 		  "When I Think About The Future",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/5mmqj0.mp3"
 		);
 		
 		const redemptionTrack32 = new Track(
 		  "Hear My Hope",
 		  "Hazbin Hotel OST",
-		  "https://files.catbox.moe/h0il3a.png",
+		  "https://i.postimg.cc/L80zBYrL/Screenshot-20260217-021601-Google.jpg",
 		  "https://files.catbox.moe/cbn30k.mp3"
 		);
 
@@ -1529,107 +1532,107 @@ assassinButton.addEventListener("click", function () {
 
 		const assassinTrack1 = new Track(
 		  "IMP Jingle",
-		  "Helluva Boss Pilot OST",
-		  "https://files.catbox.moe/s2k9uk.jpg",
-		  "https://files.catbox.moe/phrvxl.mp3"
+		  "Helluva Boss OST",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144135_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/I.M.P.%20Jingle.mp3"
 		);
 
 		const assassinTrack2 = new Track(
 		  "Just Look My Way (Stolas' Lament)",
 		  "PARANOiD DJ",
-		  "https://files.catbox.moe/0quhg4.jpeg",
-		  "https://files.catbox.moe/69licb.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260527-102632_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Stolas's%20Lament%20(Just%20Look%20My%20Way).mp3"
 		);
 
 		const assassinTrack3 = new Track(
 		  "Your Soul Is Mine!",
 		  "Caleb Hyles",
-		  "https://files.catbox.moe/hxext8.jpg",
-		  "https://files.catbox.moe/kwduov.mp3"
+		  "https://i.postimg.cc/L8RQRKFV/Screenshot-20260527-102734-You-Tube-Music.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Your%20Soul%20Is%20Mine!.mp3"
 		);
 
 		const assassinTrack4 = new Track(
 		  "Root Of All Evil",
 		  "Silva Hound ft. Erica Lindbeck & The Stupendium",
-		  "https://files.catbox.moe/afwqq4.jpg",
-		  "https://files.catbox.moe/cwiqyn.mp3"
+		  "https://i.postimg.cc/L8TC8CHt/Screenshot-20260527-102721-You-Tube-Music.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Silva%20Hound%20ft.%20Erica%20Lindbeck%20and%20The%20Stupendium%20-%20Root%20of%20All%20Evil.mp3"
 		);
 
 		const assassinTrack5 = new Track(
 		  "You Will Be Okay",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/45aphv.jpeg",
-		  "https://files.catbox.moe/2637i7.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144135_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/You%20Will%20Be%20Okay%20(1).mp3"
 		);
 
 		const assassinTrack6 = new Track(
 		  "Moxxie's Bad Trip",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/45aphv.jpeg",
-		  "https://files.catbox.moe/5znh1e.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144135_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Moxxie%E2%80%99s%20Bad%20Trip.mp3"
 		);
 
 		const assassinTrack7 = new Track(
 		  "House Of Asmodeus",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/45aphv.jpeg",
-		  "https://files.catbox.moe/b7bz97.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144135_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/House%20of%20Asmodeus.mp3"
 		);
 
 		const assassinTrack8 = new Track(
 		  "Cotton Candy",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/45aphv.jpeg",
-		  "https://files.catbox.moe/b7m50p.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144135_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Cotton%20Candy.mp3"
 		);
 
 		const assassinTrack9 = new Track(
 		  "Look At This",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/17mrvt.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Helluva%20Boss_%20Season%20Two%20(Original%20Soundtrack)%20-%20Look%20At%20This%20%5BOfficial%20Audio%5D.mp3"
 		);
 
 		const assassinTrack10 = new Track(
 		  "Klown Bitch",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/7e8biu.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Klown%20Bitch.mp3"
 		);
 
 		const assassinTrack11 = new Track(
 		  "Two Minutes Notice",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/a1rmc4.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Helluva%20Boss_%20Season%20Two%20(Original%20Soundtrack)%20-%20Two%20Minutes%20Notice%20%5BOfficial%20Audio%5D.mp3"
 		);
 
 		const assassinTrack12 = new Track(
 		  "When I See Him",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/vy7diw.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/When%20I%20See%20Him.mp3"
 		);
 
 		const assassinTrack13 = new Track(
 		  "All 2 U (Motherfucker)",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/bj79ro.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/All%202%20U%20(Motherfucker).mp3"
 		);
 
 		const assassinTrack14 = new Track(
 		  "Mastermind",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/s90uda.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Mastermind.mp3"
 		);
 
 		const assassinTrack15 = new Track(
 		  "I Will Be Okay",
 		  "Helluva Boss OST",
-		  "https://files.catbox.moe/3cr38w.jpeg",
-		  "https://files.catbox.moe/4yn7c1.mp3"
+		  "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260503-144144_Google.jpg",
+		  "https://file.garden/Zrv1pPC1HzBK0svl/I%20Will%20Be%20Okay.mp3"
 		);
 		
 
