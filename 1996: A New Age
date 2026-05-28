@@ -305,7 +305,7 @@ jet_data = {
     "containerColor": "#a9a9a9",
     "innerWindowColor": "#d3d3d3",
     "bannerImageUrl": "https://files.catbox.moe/cd0xgv.png",
-    "backgroundImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/New_York_City_1996_007.jpg/2560px-New_York_City_1996_007.jpg",
+    "backgroundImageUrl": "https://i.postimg.cc/BvNHq0ps/wmremove-transformed.jpg",
     "endingTextColor": "#000000",
     "customQuote": ""
 }
@@ -331,7 +331,7 @@ document.body.style.backgroundSize = "cover";
 
 document.getElementById("header").src = "https://files.catbox.moe/cd0xgv.png";
 
-document.body.background = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/New_York_City_1996_007.jpg/2560px-New_York_City_1996_007.jpg";
+document.body.background = "https://i.postimg.cc/BvNHq0ps/wmremove-transformed.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#d3d3d3!important;}</style>";
 
@@ -561,7 +561,7 @@ function updateUI(playlist, root) {
 function setupMusicPlayer() {
   const songs = [
     ["Pressure","Billy Joel","https://upload.wikimedia.org/wikipedia/en/e/e8/PressureBillyJoel.jpg","https://files.catbox.moe/59ikq4.mp3"],
-    ["Walkin' On The Sun","Smash Mouth","https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690","https://files.catbox.moe/jgcx50.mp3"],
+    ["Walkin' On The Sun","Smash Mouth","https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690","https://file.garden/Zrv1pPC1HzBK0svl/Walkin'%20On%20The%20Sun%204.mp3"],
     ["Man In The Box","Alice In Chains","https://upload.wikimedia.org/wikipedia/en/4/43/Alice_In_Chains-Facelift.jpg","https://files.catbox.moe/2yhy6l.mp3"],
     ["Burnout","Green Day","https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg","https://files.catbox.moe/6fmlsj.mp3"],
     ["Mailman","Soundgarden","https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg","https://files.catbox.moe/3s6s6n.mp3"],
