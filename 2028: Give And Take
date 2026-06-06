@@ -1,0 +1,1569 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2028,
+            "summary": "In America, the common man has been exploited for far too long. And finally, some have woken up and started to fight against the establishment. They've faced backlash, scrutiny, threats from those in power as they continue liquidating the lower classes below. But alas, the indomitable human spirit for liberty marches on, bloody and bruised yet trudging forward—knowing stopping at any time will lead to disaster.<br><br>The uniparty has elevated the American Psycho and the American Reactionary to battle together for fun—the true elites above will remain unharmed and deeply entertained. They know how to separate, to divide, to defend their power. The moderates, the third parties, and the dissidents all form a single, grand conclusion:<br><br><b>There's no Give And Take.</b>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-2276616743-2048x2048.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/vTcb8gQ6/gettyimages-2276605940-2048x2048.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2028: Give And Take",
+            "recommended_reading_enabled": false
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2028,
+        "is_premium": 0,
+        "display_year": "2028: Give And Take"
+    }
+];
+
+campaignTrail_temp.credits = "C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 28,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Gavin",
+            "last_name": "Newsom",
+            "election": 21,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 1,
+            "description": "<p>Joe Biden came back from the dead to win the Democratic Party's nomination, and seems to enter the campaign slightly ahead in the polls against incumbent Donald Trump. Emotions are running high, even more than usual, in this campaign. Can Biden live up to his promise to calm tensions, or will he be overwhelmed by events?</p>",
+            "color_hex": "#348feb",
+            "secondary_color_hex": "#348feb",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2020.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>Things may have been closer and more contested than you hoped for, but the final result remains. Can you help bring the country back together after a tumultuous few years? Or will you be seen as a lame duck from the first day -- unable to keep the two wings of your party coordinated? Time will tell.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024. As for yourself, it seems that your long, illustrious political career has surely drawn to a close.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024.</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "JD",
+            "last_name": "Vance",
+            "election": 21,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 2,
+            "description": "<p>President Donald Trump enters the campaign with the advantages of incumbency, yet seems to be the underdog for a second time. Can Trump piece together a winning coalition again, and will it be the same one that got him over the finish line in 2016? The pandemic and Black Lives Matter movement only serve to complicate his task even further.</p>",
+            "color_hex": "#eb3734",
+            "secondary_color_hex": "#eb3734",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2020.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Massie",
+            "election": 21,
+            "party": "Populist",
+            "state": "Kentucky",
+            "priority": 3,
+            "description": "<p>Enter Thomas Massie: public enemy no. 1 for the Deep State. Considered a larger threat to the duopoly than Bernie, the Pauls, and the third party challengers of old, Tom is no stranger to being attacked by the elites. A principled right-libertarian, he has voted for not what the party expects, but what he expects to be righteous. From his principles, he had to fight like hell to keep his congressional seat against a pedophile-endorsed candidate. Since that battle, he has looked towards the greater conflict—that one of commoner vs. Elitist.<br><br>He has many options to make a dent on the uniparty: he could moderate with a liberal, double down on his enemies' dissidents with a conservative, or emphasize his true values with a like-minded libertarian. Above all else, he knows reality: the state could win and preserve the unfair unbalance in America. Massie must aim high, hard, and fast to survive. There can be no setbacks for him.</p>",
+            "color_hex": "#ebc334",
+            "secondary_color_hex": "#ebc334",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/ThomasMassie.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Kshama",
+            "last_name": "Sawant/Others",
+            "election": 21,
+            "party": "Green/Various",
+            "state": "Washington/Various",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#34eb3a",
+            "secondary_color_hex": "#34eb3a",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Gretchen",
+            "last_name": "Whitmer",
+            "election": 21,
+            "party": "Democratic",
+            "state": "Michigan",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/kamala-harris-2020.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Kamala Harris is a Senator from California who made her own run for President in 2020. She would be acceptable to moderates and financial supporters, has some appeal to progressives, and brings diversity to the ticket. She's not the preferred choice of most progressives.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Marco",
+            "last_name": "Rubio",
+            "election": 21,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/susan-rice-2020.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Susan Rice was a UN Ambassador and a National Security Advisor to Barack Obama, and brings decades of foreign policy experience. She would be a true center-left pick, but has never run for elected office. Her foreign policy record would also be a turnoff to progressives.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Ro",
+            "last_name": "Khanna",
+            "election": 21,
+            "party": "Democratic/Populist",
+            "state": "California",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Khanna.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>From the left, there are few friends and many foes. Fortunately, some see a greater enemy in the elitist party duopoly. From this shared interest, you've made friends with California representative Ro Khanna. Hailing from Silicon Valley, Khanna has supported many progressive ideals—particularly Medicare For All—and has reached across and down the aisle to moderates and conservatives. In his desire for government accountability, he found you fighting the same battle. Since that turning point, he has grown more disillusioned with his own party after Newsom took his title as democrat nominee. Now, he seeks to change the system forever.<br><br>Despite being a Bernie Bro, Khanna is unable to command crowds like the Vermont socialist, nor is he able to whip up a storm like AOC on social media. His \"progressive capitalist\" image may fail to bring either progressive or the tech elite to endorse your candidacy. But perhaps it's better the devil you know than the devil you don't, right?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 308,
+        "fields": {
+            "first_name": "Bill",
+            "last_name": "Cassidy",
+            "election": 21,
+            "party": "Independent Republican",
+            "state": "Louisiana",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-2274178928-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>From the right, the storm of MAGA continues to purge dissenting opinion left, right and center: former senator Bill Cassidy was unfortunately a victim to this all-consuming storm. \"The beauty of democracy\" to the Storm is overthrowing dissents and silencing the freedom of opposing opinions within the party. Cassidy has lost all faith in the party he once held dear—he saw how much of a monster Trump was, and he lost his job for questioning him. Realizing it's now or never for a third option—a better brand of conservatism—he turns towards you for a brighter future against the machine.<br><br>A standard conservative man from the pre-Trump years, his appeal would be best within moderate republican states like Alaska, Utah, & New Hampshire. His appeal would be limited: he won't appeal to Democrats at all, forcing the campaign to gamble on the ailing Never Trump Republican movement—a risky investment.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Justin",
+            "last_name": "Amash",
+            "election": 21,
+            "party": "Republican/Libertarian",
+            "state": "Michigan",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-1145735610-2048x2048.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>From the center, many join your yearning for a brighter, transparent future—completely sick of either party's inaction for the common man. Justin Amash is one of them. In him, you see another version of yourself: a libertarian-leaning Republican sick of Trump, the party duopoly, and increasing government oversight across all of America—and all fights lead to the same conclusion: having your position threatened by the powers that be. Coming back to his own brethren in the Libertarian party, he hopes to hop on the growing ship of a legitimatizing third-party you're heading.<br><br>Unfortunately, your and Amash's brand of Libertarianism doesn't appeal to much in the divided states. For an impressive showing, certain aspects of the ideology must he shifted or thrown away to be more palpable to the public. Amash also voted against bills that most would consider to be morally disgusting. Nevertheless, if the center's the goal, then Amash will hit the spot with them.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 312,
+        "fields": {
+            "first_name": "Leonard",
+            "last_name": "Peltier/Various",
+            "election": 21,
+            "party": "Green/Various",
+            "state": "South Dakota",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 201,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 305
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 202,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 306
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 203,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 308
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 204,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 309
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 207,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 312
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303,
+            312
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303,
+            312
+        ]
+    }
+];
+
+jet_data = {
+    "headerColor": "#101529",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#e0dc90",
+    "containerColor": "#ebb434",
+    "innerWindowColor": "#e0dc90",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#ebb434",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/927CBDCB-7B9E-47C8-80DC-748D0CF6BD70.png",
+    "backgroundImageUrl": "https://i.postimg.cc/D04S3q3f/image-(5).png",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000"
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #e0dc90 !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #ebb434 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/9ffb0e9cac0a.png)"
+
+$("#game_window")[0].style.borderColor = "#efff94"
+
+$(".container")[0].style.border = ".2em solid #efff94"
+
+$(".footer")[0].style.borderColor = "#efff94";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#101529";
+theme.coloring_window    = "#e0dc90";
+theme.coloring_container = "#ebb434";
+theme.header_image = "https://file.garden/Zrv1pPC1HzBK0svl/927CBDCB-7B9E-47C8-80DC-748D0CF6BD70.png";
+theme.body_background = "https://i.postimg.cc/D04S3q3f/image-(5).png";
+
+applyTheme(theme);
+
+corrr = `
+  <h2 style="
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9),
+                 0 0 30px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    Give And Take.
+  </h2>
+`;
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#101529", "header_image_url": "https://i.postimg.cc/zXdbDVHk/image-(3).png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#e0dc90", "main_color": "#ebb434", "secondary_color": "#101529", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.postimg.cc/tJMP7xF4/61qgh-D-yh9L-AC-UY1000-removebg-preview.png");
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://i.postimg.cc/wMw0nYHh/image-(4).png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+HistHexcolour=["#348feb","#eb3734","#ebc334","#34eb3a"];
+    HistName=[" Gavin Newsom"," JD Vance"," Thomas Massie"," Kshama Sawant/Others"];
+    HistEV=[319,210,9,0];
+    HistPV=["72,546,814","62,264,589","7,711,669","310,481"];
+    HistPVP=["50.8%","43.6%","5.4%","0.2%"];
+
+$("#inner_window_1 h3").css("text-align", "center").text("Give And Take.");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://i.postimg.cc/wjzFj6wW/gettyimages-2276612580-2048x2048-(1).jpg">\n\n<p>America is in trouble.<br><br>It was Jean-Jacques Rousseau who theorized the Social Contract between the people and the government. The people elect the government and the government enacts legislation on behalf of the people; it's a simple and effective concept to stability. But the truth is this: in America, the general will has all but been ignored to protect the pedophile-run government and to cobble to Zionist, reactionary, nationalist interests. America can't stand this torture. Why are people in power, who got their job from the people, backstabbing their fellow countrymen?<br><br>Across the kingdom, there are people—many people—who call for a righteous man to transcend American politics—one revered by both sides and moderates alike. The kingdom desires a man who won't sacrifice freedom for safety or foreign desires. The kingdom wants a man to no longer take the bullshit the government espouses every day.<br><br>Who will be that man?</p>\n</span>`;
+
+document.getElementById('game_start').innerHTML = '<b>It will be me, congressman Thomas Massie.</b>';
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    {
+      name: "Hawkeye",
+      text: "for helping with ideas.",
+      image: "https://i.postimg.cc/qqQzTxg4/Screenshot-20260604-162726-Chrome.jpg"
+    },
+    "<b>StrawberryMaster</b>, for providing the soundtrack code.",
+    "<b>LittleAmericanMan_85501,</b> for providing the lovely banner.",
+    "Various codes provided by Mangolith & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #000000;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #cf7c29;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #000000;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #df7e00;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+// This music player was made
+// for 2028: An Old Cycle.
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() { return this.title; }
+  getArtist() { return this.artist; }
+  getCoverLink() { return this.coverLink; }
+  getAudioLink() { return this.audioLink; }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+
+  playNext() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let activePlaylist = new Playlist();
+let audioInstance = null;
+let currentVolume = 11;
+
+const playerRefs = {
+  player: null,
+  cover: null,
+  title: null,
+  artist: null,
+  playPauseBtn: null,
+  prevBtn: null,
+  nextBtn: null,
+  progressBar: null,
+  progressBarContainer: null,
+  currentTimeEl: null,
+  durationEl: null,
+  volumeSlider: null,
+  volumeIcon: null,
+  volumeDisplay: null
+};
+
+// assets
+const svgToDataUri = (svg) =>
+  `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+
+const ASSETS = {
+  btnPrev: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.149V14.3a.7.7 0 0 1-.7.7H1.7a.7.7 0 0 1-.7-.7V1.7a.7.7 0 0 1 .7-.7z"/>
+    </svg>
+  `),
+
+  btnPlay: svgToDataUri(`
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <circle cx="24" cy="24" r="22" fill="#1DB954"/>
+    <g transform="translate(14.8 14.8) scale(1.15)">
+      <path fill="#fff" d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"/>
+    </g>
+  </svg>
+`),
+
+  btnPause: svgToDataUri(`
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <circle cx="24" cy="24" r="22" fill="#1DB954"/>
+    <g transform="translate(14.8 14.8) scale(1.15)">
+      <path fill="#fff" d="M2.7 1a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7zm8 0a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7z"/>
+    </g>
+  </svg>
+`),
+
+  btnNext: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7z"/>
+    </svg>
+  `),
+
+  volMute: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M13.86 5.47a.75.75 0 0 0-1.061 0l-1.47 1.47-1.47-1.47A.75.75 0 0 0 8.8 6.53L10.269 8l-1.47 1.47a.75.75 0 1 0 1.06 1.06l1.47-1.47 1.47 1.47a.75.75 0 0 0 1.06-1.06L12.39 8l1.47-1.47a.75.75 0 0 0 0-1.06"/>
+      <path fill="#fff" d="M10.116 1.5A.75.75 0 0 0 8.991.85l-6.925 4a3.64 3.64 0 0 0-1.33 4.967 3.64 3.64 0 0 0 1.33 1.332l6.925 4a.75.75 0 0 0 1.125-.649v-1.906a4.7 4.7 0 0 1-1.5-.694v1.3L2.817 9.852a2.14 2.14 0 0 1-.781-2.92c.187-.324.456-.594.78-.782l5.8-3.35v1.3c.45-.313.956-.55 1.5-.694z"/>
+    </svg>
+  `),
+
+  volLow: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.64 3.64 0 0 1-1.33-4.967 3.64 3.64 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.14 2.14 0 0 0 0 3.7l5.8 3.35V2.8zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88"/>
+    </svg>
+  `),
+
+  volMedium: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.64 3.64 0 0 1-1.33-4.967 3.64 3.64 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.14 2.14 0 0 0 0 3.7l5.8 3.35V2.8zm8.683 6.087a4.502 4.502 0 0 0 0-8.474v1.65a3 3 0 0 1 0 5.175z"/>
+    </svg>
+  `),
+
+  volHigh: svgToDataUri(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#fff" d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.64 3.64 0 0 1-1.33-4.967 3.64 3.64 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.14 2.14 0 0 0 0 3.7l5.8 3.35V2.8zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88"/>
+      <path fill="#fff" d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127z"/>
+    </svg>
+  `)
+};
+
+function setRangeFill(el, direction = "horizontal", fillColor = "#1DB954", restColor = "#4d4d4d") {
+  if (!el) return;
+
+  const min = Number(el.min || 0);
+  const max = Number(el.max || 100);
+  const value = Number(el.value || 0);
+  const percent = ((value - min) / (max - min)) * 100;
+  const safePercent = Math.max(0, Math.min(100, percent));
+
+  el.style.background =
+    direction === "vertical"
+      ? `linear-gradient(to top, ${fillColor} 0%, ${fillColor} ${safePercent}%, ${restColor} ${safePercent}%, ${restColor} 100%)`
+      : `linear-gradient(to right, ${fillColor} 0%, ${fillColor} ${safePercent}%, ${restColor} ${safePercent}%, ${restColor} 100%)`;
+}
+
+function isProgressBarInteractive() {
+  const bar = document.getElementById("progress-bar");
+  const container = document.getElementById("progress-bar-container");
+
+  if (!bar) return false;
+
+  return (
+    bar.matches(":hover") ||
+    bar.matches(":active") ||
+    bar.matches(":focus") ||
+    document.activeElement === bar ||
+    (container && container.matches(":hover"))
+  );
+}
+
+let lastProgressPercent = null;
+let lastProgressInteractive = null;
+
+function paintProgressBar(force = false) {
+  const bar = playerRefs.progressBar || document.getElementById("progress-bar");
+  if (!bar) return;
+
+  const min = Number(bar.min || 0);
+  const max = Number(bar.max || 100);
+  const value = Number(bar.value || 0);
+  const percent = Math.max(0, Math.min(100, ((value - min) / (max - min)) * 100));
+  const interactive = isProgressBarInteractive();
+
+  if (!force &&
+    percent === lastProgressPercent &&
+    interactive === lastProgressInteractive) {
+    return;
+  }
+
+  lastProgressPercent = percent;
+  lastProgressInteractive = interactive;
+
+  setRangeFill(
+    bar,
+    "horizontal",
+    interactive ? "#1DB954" : "#ffffff",
+    "#4d4d4d"
+  );
+}
+
+function repaintProgressBarSoon() {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      paintProgressBar();
+    });
+  });
+}
+
+function paintVolumeBar() {
+  setRangeFill(document.getElementById("volumeSlider"), "vertical", "#1DB954", "#4d4d4d");
+}
+
+function getVolumeIconByLevel(level) {
+  if (level <= 0) return ASSETS.volMute;
+  if (level <= 33) return ASSETS.volLow;
+  if (level <= 66) return ASSETS.volMedium;
+  return ASSETS.volHigh;
+}
+
+function updateVolumeIcon(level = currentVolume) {
+  const icon = document.getElementById("volumeIcon");
+  if (!icon) return;
+
+  icon.src = getVolumeIconByLevel(level);
+  icon.alt = level <= 0 ? "Muted" : "Volume";
+}
+
+function changePlaylist(newPlaylist) {
+  activePlaylist = newPlaylist;
+  activePlaylist.currentSongIndex = 0;
+
+  updateUI(activePlaylist);
+
+  // ensure audio exists before trying to access it
+  const audio = getAudioElement();
+  const song = activePlaylist.getCurrentSong();
+
+  if (song) {
+    audio.src = song.audioLink;
+
+    const progressBar = document.getElementById("progress-bar");
+    const currentTimeEl = document.getElementById("current-time");
+    const durationEl = document.getElementById("duration");
+
+    if (progressBar) {
+      progressBar.value = 0;
+      paintProgressBar();
+    }
+
+    if (currentTimeEl) currentTimeEl.textContent = "0:00";
+    if (durationEl) durationEl.textContent = "0:00";
+
+    audio.play().catch(e => console.log("Autoplay blocked or waiting for interaction", e));
+    updatePlayPauseIcon(true);
+  }
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  if (!currentSong || !playerRefs.player) return;
+
+  playerRefs.cover.src = currentSong.getCoverLink();
+  playerRefs.title.textContent = currentSong.getTitle();
+  playerRefs.artist.textContent = currentSong.getArtist();
+}
+window.updateUI = updateUI;
+
+// helpers
+function getAudioElement() {
+  if (!audioInstance) {
+    audioInstance = document.createElement("audio");
+    audioInstance.id = "audio";
+    document.body.appendChild(audioInstance);
+  }
+  return audioInstance;
+}
+
+function updatePlayPauseIcon(isPlaying) {
+  const btn = document.getElementById("playPauseButton");
+  if (btn) {
+    btn.src = isPlaying ? ASSETS.btnPause : ASSETS.btnPlay;
+  }
+}
+
+function formatTime(seconds) {
+  if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
+
+  const hrs = Math.floor(seconds / 3600);
+  const mins = Math.floor((seconds % 3600) / 60);
+  const secs = Math.floor(seconds % 60).toString().padStart(2, "0");
+
+  return hrs > 0
+    ? `${hrs}:${String(mins).padStart(2, "0")}:${secs}`
+    : `${mins}:${secs}`;
+}
+
+// setup
+function setupMusicPlayer() {
+  const gameWindow = document.getElementById("game_window");
+  if (!gameWindow) {
+    console.warn("game_window element not found. Player will not be attached.");
+    return;
+  }
+
+  // prevent duplicate players
+  if (document.getElementById("player")) return;
+
+  const defaultSongs = [
+    ["Poor Man's Poison", "Poor Man's Poison", "https://m.media-amazon.com/images/I/51rnFBKhUxL._UX420_FMwebp_QL85_.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Poor%20Man's%20Poison%204.mp3"],
+    ["The American War", "Kyle Ray", "https://i.postimg.cc/TwS5ZGVR/Screenshot-20260523-161244-Google.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Kyle%20Ray%20-%20The%20American%20War%20(Official%20Music%20Video).mp3"],
+    ["Stuck In The Middle With You", "Stealers Wheel", "https://bloximages.newyork1.vip.townnews.com/vieravoice.com/content/tncms/assets/v3/editorial/c/d3/cd3aeb3a-e903-11ed-b596-43d4fa6c0572/645136093e57f.image.jpg", "https://audio.jukehost.co.uk/KWrHBYwAV9iVb6ZjYfvNeNW8ShcRmqIJ"],
+    ["Let's Go!", "Poor Man's Poison", "https://m.media-amazon.com/images/I/51kR5YSLPQL._UX420_FMwebp_QL85_.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Let's%20Go!.mp3"],
+    ["This Has Gotta Stop", "Eric Clapton", "https://files.catbox.moe/6j5jij.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Eric%20Clapton%20-%20This%20Has%20Gotta%20Stop%20(Official%20Music%20Video).mp3"],
+    ["Sons Of Liberty", "Frank Turner", "https://m.media-amazon.com/images/I/81Ln14OtzoL._UF1000,1000_QL80_FMwebp_.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Frank%20Turner%20-%20_Sons%20Of%20Liberty_.mp3"],
+    ["Keep Your Rifle By Your Side", "Alderon Tyran", "https://i.postimg.cc/CLbcYMc8/Screenshot-20260523-161739-Google.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Keep%20Your%20Rifle%20By%20Your%20Side%20-%20Alderon%20Tyran.mp3"],
+    ["Are You Ready For The Country", "Neil Young", "https://m.media-amazon.com/images/I/71nfqQrz6zL._UF1000,1000_QL80_FMwebp_.jpg", "https://files.catbox.moe/j1e6cy.mp3"],
+  ];
+
+  if (activePlaylist.songs.length === 0) {
+    defaultSongs.forEach(data => activePlaylist.addSong(new Song(...data)));
+  }
+
+  // inject CSS
+  if (!document.getElementById("spotify-player-style")) {
+    const style = document.createElement("style");
+    style.id = "spotify-player-style";
+    style.textContent = `
+      #player, #player * { box-sizing: border-box; }
+
+      #player {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        display: flex;
+        flex-direction: row;
+        height: 191px;
+        padding: 0 .5em;
+        color: white;
+        font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background:
+          radial-gradient(circle at 12% 14%, rgba(29, 185, 84, 0.18), transparent 32%),
+          linear-gradient(180deg, #1d1d1d 0%, #121212 100%);
+        border-radius: 14px;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+        overflow: hidden;
+      }
+
+      #display-box {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        gap: 8px;
+        min-width: 0;
+      }
+
+      #cover {
+        width: 176px;
+        height: 176px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.28);
+      }
+
+      #info-container {
+	  display: flex;
+	  height: 178px;
+	  width: 127px;
+	  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+	  border: 1px solid rgba(255,255,255,0.05);
+	  border-radius: 12px;
+	  color: white;
+	  backdrop-filter: blur(4px);
+	  min-width: 0;
+	}
+
+	#song-info {
+	  width: 100%;
+	  min-width: 0;
+	  overflow: hidden;
+	  padding: 10px 8px 8px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	}
+
+	#now-playing-label {
+	  font-size: 10px;
+	  font-weight: 700;
+	  letter-spacing: 0.14em;
+	  color: #1DB954;
+	  opacity: 0.95;
+	  margin-bottom: 8px;
+	}
+
+	#title {
+	  width: 100%;
+	  min-width: 0;
+	  margin: 0 0 6px 0;
+	  font-size: 15px;
+	  font-weight: 700;
+	  line-height: 1.18;
+	  color: #fff;
+	  display: block;
+	  white-space: normal;
+	  overflow: hidden;
+	  overflow-wrap: anywhere;
+	  word-break: break-word;
+	  hyphens: auto;
+	  max-height: 72px;
+	}
+
+	#artist {
+	  width: 100%;
+	  min-width: 0;
+	  margin: 0;
+	  font-size: 11.5px;
+	  line-height: 1.32;
+	  color: #b3b3b3;
+	  display: block;
+	  white-space: normal;
+	  overflow: hidden;
+	  overflow-wrap: anywhere;
+	  word-break: break-word;
+	  max-height: 48px;
+	}
+
+      #controls-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        width: 100%;
+        min-width: 0;
+      }
+
+      #controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      }
+
+	#controls img {
+	  cursor: pointer;
+	  transition: transform 0.12s ease, opacity 0.12s ease, filter 0.12s ease;
+	  user-select: none;
+	  display: block;
+	}
+
+	#controls img:hover {
+	  transform: scale(1.08);
+	}
+
+	#controls img:active {
+	  transform: scale(0.95);
+	}
+
+	#prevButton,
+	#nextButton {
+	  width: 24px;
+	  height: 24px;
+	  opacity: 0.72;
+	}
+
+	#prevButton:hover,
+	#nextButton:hover,
+	#prevButton:focus-visible,
+	#nextButton:focus-visible {
+	  opacity: 1;
+	}
+
+	#playPauseButton {
+	  width: 48px;
+	  height: 48px;
+	  opacity: 1;
+	  filter: drop-shadow(0 4px 10px rgba(29,185,84,0.25));
+	}
+
+	#volumeIcon {
+	  width: 16px;
+	  height: 16px;
+	  opacity: 0.72;
+	  display: block;
+	  cursor: pointer;
+	  user-select: none;
+	  transition: transform 0.12s ease, opacity 0.12s ease, filter 0.12s ease;
+	}
+
+	#volumeIcon:hover,
+	#volumeIcon:focus-visible {
+	  transform: scale(1.08);
+	  opacity: 1;
+	}
+
+	#volumeIcon:active {
+	  transform: scale(0.95);
+	}
+
+	#progress-bar-container {
+	  width: 80%;
+	  margin-top: 18px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 8px;
+	  padding: 8px 0;
+	}
+
+	#current-time,
+	#duration {
+	  font-size: 11px;
+	  line-height: 1;
+	  color: #b3b3b3;
+	  min-width: 36px;
+	  text-align: center;
+	  font-variant-numeric: tabular-nums;
+	  user-select: none;
+	}
+
+	#progress-bar,
+	#volumeSlider {
+	  appearance: none;
+	  -webkit-appearance: none;
+	  border: none;
+	  outline: none;
+	  background: #4d4d4d;
+	}
+
+	#progress-bar {
+	  flex: 1;
+	  width: auto;
+	  height: 5px;
+	  border-radius: 999px;
+	  cursor: pointer;
+	}
+
+	#progress-bar::-webkit-slider-runnable-track {
+	  height: 5px;
+	  background: transparent;
+	  border-radius: 999px;
+	}
+
+	#progress-bar::-webkit-slider-thumb {
+	  -webkit-appearance: none;
+	  appearance: none;
+	  width: 12px;
+	  height: 12px;
+	  border-radius: 50%;
+	  background: #fff;
+	  border: none;
+	  margin-top: -4px;
+	  box-shadow: 0 0 0 2px rgba(0,0,0,0.15);
+	  opacity: 0;
+	  transition: opacity 0.12s ease;
+	}
+
+	#progress-bar-container:hover #progress-bar::-webkit-slider-thumb,
+	#progress-bar:hover::-webkit-slider-thumb,
+	#progress-bar:active::-webkit-slider-thumb,
+	#progress-bar:focus-visible::-webkit-slider-thumb {
+	  opacity: 1;
+	}
+
+	#progress-bar::-moz-range-track {
+	  height: 5px;
+	  background: transparent;
+	  border: none;
+	  border-radius: 999px;
+	}
+
+	#progress-bar::-moz-range-thumb {
+	  width: 12px;
+	  height: 12px;
+	  border-radius: 50%;
+	  background: #fff;
+	  border: none;
+	  box-shadow: 0 0 0 2px rgba(0,0,0,0.15);
+	  opacity: 0;
+	  transition: opacity 0.12s ease;
+	}
+
+	#progress-bar-container:hover #progress-bar::-moz-range-thumb,
+	#progress-bar:hover::-moz-range-thumb,
+	#progress-bar:active::-moz-range-thumb,
+	#progress-bar:focus-visible::-moz-range-thumb {
+	  opacity: 1;
+	}
+
+      #volume-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        padding-right: 10px;
+      }
+
+	#volume-container img {
+	  width: 16px;
+	  height: 16px;
+	  opacity: 0.9;
+	  display: block;
+	}
+
+      .vol-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 126px;
+        margin-top: 8px;
+        padding: 10px 0;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.05);
+        border-radius: 999px;
+      }
+
+      #volumeSlider {
+	  --vol-track-size: 8px;
+	  --vol-thumb-size: 12px;
+
+	  width: var(--vol-track-size);
+	  height: 100%;
+	  writing-mode: vertical-lr;
+	  direction: rtl;
+	  border-radius: 999px;
+	  cursor: pointer;
+	  display: block;
+	}
+
+	#volumeSlider::-webkit-slider-runnable-track {
+	  width: var(--vol-track-size);
+	  background: transparent;
+	  border-radius: 999px;
+	}
+
+	#volumeSlider::-webkit-slider-thumb {
+	  -webkit-appearance: none;
+	  appearance: none;
+	  width: var(--vol-thumb-size);
+	  height: var(--vol-thumb-size);
+	  border-radius: 50%;
+	  background: #fff;
+	  border: none;
+	  box-shadow: 0 0 0 2px rgba(0,0,0,0.15);
+	  margin-left: calc((var(--vol-track-size) - var(--vol-thumb-size)) / 2);
+	}
+
+	#volumeSlider::-moz-range-track {
+	  width: var(--vol-track-size);
+	  background: transparent;
+	  border: none;
+	  border-radius: 999px;
+	}
+
+	#volumeSlider::-moz-range-thumb {
+	  width: var(--vol-thumb-size);
+	  height: var(--vol-thumb-size);
+	  border-radius: 50%;
+	  background: #fff;
+	  border: none;
+	}
+
+      #volume-display {
+        font-weight: bold;
+        display: none;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // create HTML
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+  playerContainer.innerHTML = `
+    <div id="display-box">
+      <img id="cover" src="" alt="Album cover">
+      <div id="info-container">
+        <div id="song-info">
+          <span id="now-playing-label">NOW PLAYING</span>
+          <h3 id="title"></h3>
+          <p id="artist"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="controls-container">
+      <div id="controls">
+        <img id="prevButton" src="${ASSETS.btnPrev}" alt="Previous">
+        <img id="playPauseButton" src="${ASSETS.btnPlay}" alt="Play/Pause">
+        <img id="nextButton" src="${ASSETS.btnNext}" alt="Next">
+      </div>
+
+      <div id="progress-bar-container">
+	    <span id="current-time">0:00</span>
+	    <input type="range" id="progress-bar" value="0" max="100" step="0.1">
+	    <span id="duration">0:00</span>
+	  </div>
+    </div>
+
+    <div id="volume-container">
+      <img id="volumeIcon" src="${getVolumeIconByLevel(currentVolume)}" alt="Volume">
+      <div class="vol-wrapper">
+        <input type="range" id="volumeSlider" min="0" max="100" step="0.1" value="${currentVolume}" orient="vertical">
+      </div>
+      <span id="volume-display">${currentVolume}</span>
+    </div>
+  `;
+
+  gameWindow.insertAdjacentElement("afterend", playerContainer);
+
+  playerRefs.player = playerContainer;
+  playerRefs.cover = playerContainer.querySelector("#cover");
+  playerRefs.title = playerContainer.querySelector("#title");
+  playerRefs.artist = playerContainer.querySelector("#artist");
+  playerRefs.playPauseBtn = playerContainer.querySelector("#playPauseButton");
+  playerRefs.prevBtn = playerContainer.querySelector("#prevButton");
+  playerRefs.nextBtn = playerContainer.querySelector("#nextButton");
+  playerRefs.progressBar = playerContainer.querySelector("#progress-bar");
+  playerRefs.progressBarContainer = playerContainer.querySelector("#progress-bar-container");
+  playerRefs.currentTimeEl = playerContainer.querySelector("#current-time");
+  playerRefs.durationEl = playerContainer.querySelector("#duration");
+  playerRefs.volumeSlider = playerContainer.querySelector("#volumeSlider");
+  playerRefs.volumeIcon = playerContainer.querySelector("#volumeIcon");
+  playerRefs.volumeDisplay = playerContainer.querySelector("#volume-display");
+
+  // set up audio & logic
+  const audio = getAudioElement();
+  const startSong = activePlaylist.getCurrentSong();
+  if (startSong) audio.src = startSong.audioLink;
+  audio.volume = currentVolume / 100;
+
+  const playPauseBtn = document.getElementById("playPauseButton");
+  const prevBtn = document.getElementById("prevButton");
+  const nextBtn = document.getElementById("nextButton");
+  const progressBar = document.getElementById("progress-bar");
+  const progressBarContainer = document.getElementById("progress-bar-container");
+  const currentTimeEl = document.getElementById("current-time");
+  const durationEl = document.getElementById("duration");
+  const volumeSlider = document.getElementById("volumeSlider");
+  const volDisplay = document.getElementById("volume-display");
+  const volumeIcon = document.getElementById("volumeIcon");
+
+  ["pointerenter", "pointerleave", "focus", "blur"].forEach(evt => {
+    progressBar.addEventListener(evt, repaintProgressBarSoon);
+  });
+
+  if (progressBarContainer) {
+    ["pointerenter", "pointerleave"].forEach(evt => {
+      progressBarContainer.addEventListener(evt, repaintProgressBarSoon);
+    });
+  }
+
+  ["pointerup", "mouseup", "touchend", "touchcancel"].forEach(evt => {
+    document.addEventListener(evt, repaintProgressBarSoon);
+  });
+
+  volumeSlider.value = currentVolume;
+  volDisplay.textContent = currentVolume;
+  paintProgressBar();
+  paintVolumeBar();
+  updateVolumeIcon(currentVolume);
+
+
+  // play/pause
+  playPauseBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play()
+        .then(() => updatePlayPauseIcon(true))
+        .catch(() => updatePlayPauseIcon(false));
+    } else {
+      audio.pause();
+      updatePlayPauseIcon(false);
+    }
+  });
+
+  // next/prev
+  const playSongAtIndex = () => {
+    const song = activePlaylist.getCurrentSong();
+    if (!song) return;
+
+    updateUI(activePlaylist);
+    audio.src = song.audioLink;
+    progressBar.value = 0;
+    paintProgressBar();
+    currentTimeEl.textContent = "0:00";
+    durationEl.textContent = "0:00";
+
+    audio.play()
+      .then(() => updatePlayPauseIcon(true))
+      .catch(() => updatePlayPauseIcon(false));
+  };
+
+  nextBtn.addEventListener("click", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    activePlaylist.playPrevious();
+    playSongAtIndex();
+  });
+
+  // progress bar
+  audio.addEventListener("timeupdate", () => {
+    const currentText = formatTime(audio.currentTime);
+    if (playerRefs.currentTimeEl && playerRefs.currentTimeEl.textContent !== currentText) {
+      playerRefs.currentTimeEl.textContent = currentText;
+    }
+
+    if (Number.isFinite(audio.duration)) {
+      const durationText = formatTime(audio.duration);
+      if (playerRefs.durationEl && playerRefs.durationEl.textContent !== durationText) {
+        playerRefs.durationEl.textContent = durationText;
+      }
+
+      const progress = (audio.currentTime / audio.duration) * 100;
+      if (playerRefs.progressBar) playerRefs.progressBar.value = progress;
+    } else {
+      if (playerRefs.durationEl && playerRefs.durationEl.textContent !== "0:00") {
+        playerRefs.durationEl.textContent = "0:00";
+      }
+      if (playerRefs.progressBar) playerRefs.progressBar.value = 0;
+    }
+
+    paintProgressBar();
+  });
+
+  audio.addEventListener("loadedmetadata", () => {
+    currentTimeEl.textContent = formatTime(audio.currentTime || 0);
+    durationEl.textContent = formatTime(audio.duration);
+    paintProgressBar();
+  });
+
+  audio.addEventListener("durationchange", () => {
+    durationEl.textContent = formatTime(audio.duration);
+  });
+
+  audio.addEventListener("play", () => updatePlayPauseIcon(true));
+  audio.addEventListener("pause", () => updatePlayPauseIcon(false));
+
+  audio.addEventListener("ended", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  progressBar.addEventListener("input", () => {
+    if (Number.isFinite(audio.duration)) {
+      audio.currentTime = (progressBar.value / 100) * audio.duration;
+      paintProgressBar();
+    }
+  });
+
+  // volume
+  let lastNonZeroVolume = currentVolume > 0 ? currentVolume : 50;
+
+  volumeIcon.addEventListener("click", () => {
+    if (currentVolume === 0) {
+      currentVolume = lastNonZeroVolume;
+    } else {
+      lastNonZeroVolume = currentVolume;
+      currentVolume = 0;
+    }
+
+    volumeSlider.value = currentVolume;
+    volDisplay.textContent = currentVolume;
+    audio.volume = currentVolume / 100;
+    paintVolumeBar();
+    updateVolumeIcon(currentVolume);
+  });
+
+  volumeSlider.addEventListener("input", (e) => {
+    currentVolume = parseFloat(e.target.value);
+    volDisplay.textContent = Math.round(currentVolume);
+    audio.volume = currentVolume / 100;
+    paintVolumeBar();
+    updateVolumeIcon(currentVolume);
+  });
+
+  // initial play
+  updateUI(activePlaylist);
+
+  audio.play()
+    .then(() => updatePlayPauseIcon(true))
+    .catch(() => updatePlayPauseIcon(false));
+}
+setupMusicPlayer();
+
+//#endcode
