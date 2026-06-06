@@ -12,7 +12,7 @@ campaignTrail_temp.election_json = [
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": "Dan Bryan",
-            "display_year": "2024 - Liberty & Liberalism"
+            "display_year": "2024 Liberty & Liberalism"
         }
     }
 ]
@@ -295,7 +295,7 @@ campaignTrail_temp.temp_election_list = [
         "id": 20,
         "year": 2016,
         "is_premium": 0,
-        "display_year": "2024 - Liberty & Liberalism"
+        "display_year": "2024 Liberty & Liberalism"
     }
 ]
 
@@ -336,10 +336,12 @@ $("#game_window")[0].style.borderColor = "#90cce8"
 
 $(".container")[0].style.border = ".2em solid #90cce8"
 
+$(".footer")[0].style.borderColor = "#90cce8";
+
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover";
 
-quotes = ["''Cannibalism is very fashionable on the West Coast.'' ~ Alex Jones", "''If you are receiving this transmission, you are the resistance.'' ~ Alex Jones", "''Get your shirt off... it's pervert time!'' ~ Alex Jones", "''When our government meddles in the internal affairs of foreign countries, it invites those governments to meddle in our affairs.'' ~ Thomas Massie", "''I am not suicidal.'' ~ Thomas Massie", "''We can't avoid justice to avoid embarrassment for some very powerful men.'' ~ Thomas Massie", "''Americans want to fund health care, not endless warfare.'' ~ Ed Markey", "''Our troops deserve a clear mission, so when it’s done they can come home. No more forever wars.'' ~ Thomas Massie", "''I’m going to literally eat my neighbors ass.'' ~ Alex Jones", ]
+quotes = ["''Cannibalism is very fashionable on the West Coast.'' ~ Alex Jones", "''If you are receiving this transmission, you are the resistance.'' ~ Alex Jones", "''Get your shirt off... it's pervert time!'' ~ Alex Jones", "''When our government meddles in the internal affairs of foreign countries, it invites those governments to meddle in our affairs.'' ~ Thomas Massie", "''I am not suicidal.'' ~ Thomas Massie", "''We can't avoid justice to avoid embarrassment for some very powerful men.'' ~ Thomas Massie", "''Americans want to fund health care, not endless warfare.'' ~ Ed Markey", "''Our troops deserve a clear mission, so when it’s done they can come home. No more forever wars.'' ~ Thomas Massie", "''I’m going to literally eat my neighbor's ass.'' ~ Alex Jones", ]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
                                    
 corrr=`\n<h2>THE NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
@@ -463,10 +465,10 @@ HistHexcolour=["#e8bb27","#2751e8","#e82e27","#2be827"];
   
   
     const song1 = new Song(
-      "Politik",
-      "Coldplay",
-      "https://mangolith.com/ProjectPics/WfileReUp/pI6Xi8M.png",
-      "https://audio.jukehost.co.uk/J7qpKNJ4aUJNXu19QiQtQNYRISAiIB8E"
+      "Fallen Kingdom",
+      "CaptainSparklez",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ3xaelc4QKxSoSjwVNpu2s8QuP9kM-h9m08R-wGidIAAO1K4KdR8MlCuS&s=10",
+      "https://file.garden/Zrv1pPC1HzBK0svl/_Fallen%20Kingdom_%20-%20A%20Minecraft%20Parody%20of%20Coldplay's%20Viva%20la%20Vida%20(Music%20Video)%204%20(mp3cut.net).mp3"
     );
     
     const song2 = new Song(
@@ -477,10 +479,10 @@ HistHexcolour=["#e8bb27","#2751e8","#e82e27","#2be827"];
     );
   
     const song3 = new Song(
-      "We Didn't Start The Fire",
+      "Thnks Fr Th Mmrs",
       "Fall Out Boy",
-      "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cover_of_Fall_Out_Boy%27s_%22We_Didn%E2%80%99t_Start_The_Fire%22.jpeg",
-      "https://file.garden/Zrv1pPC1HzBK0svl/We%20Didn%E2%80%99t%20Start%20The%20Fire_spotdown.org.mp3"
+      "https://m.media-amazon.com/images/I/51RnFuZwiQL._UF1000,1000_QL80_FMwebp_.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Thnks%20fr%20th%20Mmrs%204.mp3"
     );
   
     const song4 = new Song(
@@ -494,7 +496,7 @@ HistHexcolour=["#e8bb27","#2751e8","#e82e27","#2be827"];
       "Strange Days Are Here To Stay",
       "Green Day",
       "https://files.catbox.moe/dploa5.jpg",
-      "https://files.catbox.moe/irr1ny.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/Strange%20Days%20Are%20Here%20to%20Stay%204.mp3"
     );
   
     const song6 = new Song(
