@@ -27,6 +27,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **2024 Election Theory**
 - Creation Date: February 4th, 2024
 
+**1976 Afton (Edited)**
+- Creation Date: April 2nd, 2024
+
 **1972 Mao**
 - Creation Date: April 18th, 2024
 
