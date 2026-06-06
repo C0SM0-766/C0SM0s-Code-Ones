@@ -52,8 +52,8 @@ campaignTrail_temp.candidate_json = [
             "state": "California",
             "priority": 2,
             "description": "<p>Riding a wave of youth displeasure, Edmund Gerald Brown Jr. has a serious shot at winning the Presidency here.<br><br>With the assassination of Ford happening right outside his office, Brown took it upon himself to ensure that Squeaky Fromme received the harsh hand of the law, becoming famous for his prosecution of her. Using that fame, he instantly became a front-runner for the nomination, and, snatched up the nomination using momentum carried by wins in Illinois and New York. At 38, Brown is the youngest person ever nominated for the Democrats.<br><br>Brown supports a variety of odd and quirky policies for a Democrat, key among them being his fiscal conservatism, which could open up some interesting coalitions. Despite that, he is still a solid liberal on the day's social topics. To win, Brown needs to hammer his strengths and argue that the Republicans can't be trusted from Watergate.</p>",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "color_hex": "#3761b5",
+            "secondary_color_hex": "#3761b5",
             "is_active": 1,
             "image_url": "https://files.catbox.moe/zvc6z9.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
@@ -1056,7 +1056,7 @@ var soundtracks = {
 
         name: "New York's A Lonely Town (The Tradewinds)",
 
-        url: "https://files.catbox.moe/7jgiyc.mp3",
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/New%20York's%20A%20Lonely%20Town.mp3",
 
       },
 
