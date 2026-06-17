@@ -1,0 +1,1821 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2004,
+            "summary": "<p><b><strong style='font-size: 1.2em;'>An election of epic epicness.</strong></b><br><br>After the deeply disputed 2000 election saw the nastiest legal battles in history, Al Gore won the fight stronger than ever. Yet he meets a dark reality: the country won't treat him the same way it did with his former boss, Bill Clinton. He won't sate the masses as easily, his positions won't turn heads quickly, and he's left to fight the spectre of Republican rage, culminated from 8 years of New Democrat moderation.<br><br>Al Gore is left to fight for himself against enemies, both external & internal. To achieve four more years in Washington, bridges are to be burned and people are to be left behind or massacred in a desert slaughterhouse in lands unknown to American man. Gore is in this for the long run; there's no turning back.<br><br><i>It's him versus the world.</i></p>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/GoreVWorld.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://s.abcnews.com/images/Politics/donna-brazile-02-file-gty-jef-190129_hpEmbed_4x3_992.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2004: Al Gore Vs. The World",
+            "recommended_reading_enabled": false
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2004,
+        "is_premium": 0,
+        "display_year": "2004: Al Gore Vs. The World"
+    }
+];
+
+campaignTrail_temp.credits = "C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republicans",
+            "election": 9,
+            "party": "Major Opposition",
+            "state": "J For \"Jesusland\"",
+            "priority": 1,
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "color_hex": "#17285c",
+            "secondary_color_hex": "#17285c",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/george-w-bush-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Gore",
+            "election": 9,
+            "party": "United States President",
+            "state": "Awesome",
+            "priority": 2,
+            "description": "<p>The New Democrats ushered in a new era of stability and unmitigated prosperity for America. Al Gore bears the torch of this starry era. Yet, does he retain the empowering image among the people? Not quite. Why is that, you may ask? The reasons are plentiful: his boring personality not impressive compared to his former boss and governor Bush, his staunch environmentalism turning off truth deniers, the list goes on. He lacks many abilities that make a popular president, yet still believes in keeping his position for four more years.<br><br>Despite his flaws, he believes redemption is possible for his popularity. It may be an uphill battle, but the course of history may give him the edge to finally overpower the world's misgivings directed at his heart. His dad and his former boss laid the foundation of perhaps the most consequential person in modern history; Gore <i>can't</i> mess this up, no matter what the world throws at him.</p>",
+            "color_hex": "#5c1c17",
+            "secondary_color_hex": "#5c1c17",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/cFSFt7J.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Greens",
+            "election": 9,
+            "party": "Annoying Third Party",
+            "state": "5/10",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#175c19",
+            "secondary_color_hex": "#175c19",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ralph-nader-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Libertarians",
+            "election": 9,
+            "party": "Obscure Third-Party",
+            "state": "Stupid",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#3e175c",
+            "secondary_color_hex": "#3e175c",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Republican",
+            "election": 9,
+            "party": "NPC",
+            "state": "Boring",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/dick-cheney-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Lieberman",
+            "election": 9,
+            "party": "United States Vice President",
+            "state": "D For ''DINO''",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/PbLfWV1.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>When Gore selected senator Lieberman to be his vice in the race against Bush, it became clear Gore wanted to chart his own path from Clintonian years. The Connecticut senator has become the voice of hawkish neoliberalism within the cabinet and to the press—far more influence on international affairs than you'd like. The sight of anti-American terrorists dead on desert ground excites him to the core. He views foreign policy as an eternal game of chess: compromising with the enemy won't be beneficial; play the game or lose it all.<br><br>Recent events have made him a bete noire among liberals and peaceniks. His hawkishness fundamentally opposes the liberals who opposed Clinton since the start. If not sated, he may trade the thrill of Washington for Hartford. Yet, if the mood shifts against the jingoist wave, his departure may serve the administration more good.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Green",
+            "election": 9,
+            "party": "Green Party Candidate",
+            "state": "NPC",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Libertarian",
+            "election": 9,
+            "party": "Libertarian Party Candidate",
+            "state": "NPC",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+];
+
+jet_data = {
+    "headerColor": "#381010",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#964444",
+    "containerColor": "#6a0101",
+    "innerWindowColor": "#964444",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#e8e8e8",
+    "bannerImageUrl": "https://i.postimg.cc/xdCKPjBc/48D0D5FE-D309-423C-902B-823B37C8A55A.png",
+    "backgroundImageUrl": "https://i.postimg.cc/W3tDXhYP/gqjhdu69dy8f1.png",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#ffffff"
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #ffffff; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #964444 !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #e8e8e8 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#381010";
+theme.coloring_window    = "#964444";
+theme.coloring_container = "#6a0101";
+theme.header_image = "https://i.postimg.cc/xdCKPjBc/48D0D5FE-D309-423C-902B-823B37C8A55A.png";
+theme.body_background = "https://i.postimg.cc/W3tDXhYP/gqjhdu69dy8f1.png";
+
+applyTheme(theme);
+
+		e = campaignTrail_temp
+		
+		document.head.innerHTML += `<link
+		  rel="stylesheet"
+		  href="https://unpkg.com/7.css"
+		>`
+		
+		document.head.innerHTML += `<style>
+		h3 {
+			font-size:1.17em!important;
+			font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+		}
+	
+		label {
+			font-size:0.92em!important;
+			font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+		}
+	body {display:flex!important;}
+	
+	#game_window{max-width:1000px;}
+		</style>`
+	let contentBox = document.getElementsByClassName("content_box")[0];
+	let contentSingle = document.getElementsByClassName("content_single")[0];
+	
+	let containerRef = document.getElementsByClassName("container")[0];
+	
+	function createBanner(url, sibling, isLeft) {
+		let div = document.createElement("DIV");
+		let img = document.createElement("IMG");
+		div.style.position = "relative";
+		div.style.margin = "auto";
+		img.src = url;
+		
+	
+		let x = document.createElement("DIV");
+		x.innerText = "_";
+		x.style.position = "absolute";
+		x.style.padding = "2px";
+		x.style.fontSize = "2pt";
+		x.style.cursor = "pointer";
+	
+		div.appendChild(x);
+	
+		div.appendChild(img);
+	
+		if(isLeft) {
+			sibling.parentNode.insertBefore(div, sibling);
+		}
+		else {
+			sibling.parentNode.appendChild(div);
+		}
+		x.onclick = () => div.style.visibility = "hidden";
+		x.onclick = () => img.style.visibility = "hidden";
+		return img;
+	}
+	
+	function addDynamicCSS() {
+		var css = `
+	
+			label {
+			  display:inline-block;
+			}
+  
+			.content_single li {
+			  line-height: 1.39em;
+			}
+  
+			input[type=radio]+label {
+			  display: inline;
+			}
+	
+			.inner_window_question h3 .mytooltip{
+				background-color: lightblue;
+			}
+	
+			.mytooltip {
+				position: relative;
+				display: inline-block;
+				cursor: pointer;
+				background-color: #84c8db;
+			}
+	
+			.mytooltip .mytooltiptext {
+				width: 240px;
+				background-color: #00a2ed;
+				color: black;
+				text-align: center;
+				border-radius: 6px;
+				padding: 10px;
+				position: absolute;
+				z-index: 99;
+				bottom: 20%;
+				left: 20%;
+				margin-left: -90px;
+				opacity: 0;
+				transition: opacity 0.3s;
+				border: 1px solid black;
+				pointer-events: none;
+				font-size: 13px !important;
+				line-height: 1.5em !important;
+				font-weight: normal !important;
+				font-style: normal !important;
+			}
+	
+			.mytooltip .mytooltiptext img {
+				max-width: 240px;
+				height: auto;
+			}
+	
+			.mytooltip:hover .mytooltiptext {
+				opacity: 1;
+				transition-delay: 0.5s;
+			}
+  
+			#final_results_description p {
+			  color: black;
+			  font-family: Segoe UI;
+			}
+  
+			#overall_details_container h3 {
+			  color: white;
+			}
+  
+			#overall_election_details h4 {
+			  color: white;
+			}
+  
+			#main_content_area_reading p {
+			  color: white;
+			}
+  
+			#main_content_area_reading h3.results_tab_header {
+			  color: white;
+			}
+  
+			.inner_window_w_desc h3 {
+			  color: white;
+			}
+		`;
+	
+		var styleElem = document.createElement('style');
+		styleElem.type = 'text/css';
+		
+		styleElem.appendChild(document.createTextNode(css));
+		
+		document.head.appendChild(styleElem);
+	}
+	
+	
+	addDynamicCSS();
+// helper to ensure a stylesheet is appended only once
+function ensureStylesheet(url, id) {
+	// if an id is provided and exists, bail out
+	if (id && document.getElementById(id)) return;
+	// if a link with same href already exists, bail out
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
+
+ensureStylesheet('https://unpkg.com/7.css', 'unpkg-7css');
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+const css = `
+					#closeButton {
+						background: none;
+						border: none;
+						outline: none;
+						padding: 0;
+						cursor: pointer;
+					}
+					.inner_inner_window h3 {
+						background-color: #E8EFFF;
+						background: linear-gradient(to bottom, #a67976, #bd918f);
+						border: 1px solid #340705;
+						border-top: none;
+						border-radius: 0 0 .2em .2em;
+						padding: .2em .1em;
+					}
+					.inner_window_question {
+						border: 1px solid #3d0804;
+						min-height: 54%;
+					}
+					.game_header {
+						border-bottom: 1px solid #fff;
+					}
+					#opponent_selection_id_button_p {
+						color: #fff;
+					}
+					.container #site_credits p, .container #site_credits a { color: #ffffff !important; }
+
+					/* Override xp.css focus and hover styles */
+					#closeButton:focus,
+					#closeButton:active,
+					#closeButton:hover {
+						outline: none;
+						box-shadow: none;
+						border: none;
+					}
+
+					h3 {
+						font-size:1.17em!important;
+						font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+					}
+
+					label {
+						font-size:0.92em!important;
+						font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+					}
+				body {
+                    background-image: url(https://i.postimg.cc/W3tDXhYP/gqjhdu69dy8f1.png);
+                    background-position: center;
+                    background-size: cover;
+                    display: flex !important;
+                }
+
+                .container {
+                    background-color: #54211d !important;;
+                    border: 0em;
+                    border-left: .2em double #cccccc !important;
+                    border-right: .2em double #cccccc !important;
+                    padding: 0.0em;
+                    width: 100em !important;
+                }
+
+				#game_window {
+                    background-color: #54211d !important;;
+                    background-image: url(https://cdn.imgchest.com/files/45feea9e67e2.png);
+                    border: .1em solid #fff;
+                    max-width: 1000px;
+                }
+
+                #results_container {
+                    color: #fff;
+                }
+                .inner_window_w_desc {
+                    background: rgba(10, 20, 60, 0.6) !important;
+                }
+
+                .campaign_trail_start_emphasis {
+                    background-color: #F8F8F8;
+                }
+
+			  .overlay_window {
+				  height: auto;
+			  }
+
+			  #closeButton:hover {
+				  outline: none;
+				  border: none;
+			  }
+
+			  /* Image positioned in the bottom-right */
+			  #closeIcon {
+				  position: absolute;
+				  bottom: 0;
+				  left: 0;
+				  width: 52px;  /* Adjust as needed */
+				  height: 20px; /* Adjust as needed */
+			  }
+
+
+			label {
+			  display:inline-block;
+			}
+
+			.content_single li {
+			  line-height: 1.39em;
+			}
+
+			input[type=radio]+label {
+			  display: inline;
+			}
+
+			.mytooltip {
+				position: relative;
+				display: inline-block;
+				cursor: pointer;
+				color: #00e;
+				text-decoration: underline #db8784;
+				text-underline-offset: 2px;
+			}
+
+			.mytooltip .mytooltiptext {
+				width: 240px;
+				background-color: #ed0400;
+				color: black;
+				text-align: center;
+				border-radius: 6px;
+				padding: 10px;
+				position: absolute;
+				z-index: 99;
+				bottom: 20%;
+				left: 20%;
+				margin-left: -90px;
+				opacity: 0;
+				transition: opacity 0.3s;
+				border: 1px solid black;
+				pointer-events: none;
+				font-size: 13px !important;
+				line-height: 1.5em !important;
+				font-weight: normal !important;
+				font-style: normal !important;
+			}
+
+			.mytooltip .mytooltiptext img {
+				max-width: 240px;
+				height: auto;
+			}
+
+
+			.mytooltip:hover .mytooltiptext {
+				opacity: 1;
+				transition-delay: 0.5s;
+			}
+
+			/* this is specifically for tooltips inside the advisor feedback module */
+			#visit_window .mytooltiptext {
+			  padding: .1em 1.2em .75em;
+			}
+
+			#final_results_description p {
+			  color: white;
+			  font-family: Segoe UI;
+			}
+
+			#overall_details_container h3,
+			#overall_election_details h4,
+			#main_content_area_reading p,
+			#main_content_area_reading h3.results_tab_header,
+			.inner_window_w_desc h3,
+			#credits {
+			  color: white;
+			}
+
+			#hidden_checkbox {
+			  opacity: 1;
+			  appearance: auto;
+			}
+
+			/* 7.css overrides */
+			#bottomBar::before, #bottomBar::after {
+				content: none;
+			}
+
+			/* Other accessibility fixes */
+			#state_info {
+				height: auto;
+			}
+			#recommended_reading_box {
+			  padding: .5em;
+			}
+			#overall_result h3 {
+			  padding: .2em 0;
+			}
+			#election_id, #candidate_id, #running_mate_id, #game_type_id, #difficulty_level_id,
+			#sort_tab, #state_tab {
+			  color: #000;
+			}
+			#menu_container, #overall_result_container, #state_result_container {
+			  background: transparent !important;
+			}
+			#visit_buttons, #election_night_buttons, #winner_buttons {
+				margin-bottom: 1em;
+			}
+			.overlay_window h3 {
+				background: linear-gradient(to left, #d9f0ff, #abcde3, #ccebff);
+			}
+			#state_result_data_summary table td:first-child span,
+			#overall_details_container table td:first-child span,
+			.final_results_table td:first-child span {
+				border: 1px solid rgba(0, 0, 0, 0.2);
+				display: inline-flex;
+				height: 1em;
+				margin-right: .25em;
+				text-indent: -9999px;
+				vertical-align: text-bottom;
+				width: 1em;
+			}
+
+			/* Vista-like styling by weedsoldier */
+			:root {
+				--glass-bg: rgba(10, 20, 60, 0.6);
+				--glass-border: 1px solid rgba(0, 0, 0, 0.4);
+				--glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+								inset 0 1px 0 rgba(255, 255, 255, 0.5),
+								inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+				--glass-backdrop: blur(2px) saturate(180%) contrast(110%);
+				--glass-radius: 6px;
+				--text-shadow-subtle: 0 1px 2px rgba(0, 0, 0, 0.5);
+				--text-shadow-strong: 0 1px 2px rgba(0, 0, 0, 0.8);
+				--sheen-gradient: linear-gradient(90deg,
+					rgba(255, 255, 255, 0.25) 0%,
+					rgba(255, 255, 255, 0.0) 45%,
+					rgba(255, 255, 255, 0.0) 55%,
+					rgba(255, 255, 255, 0.25) 100%);
+			}
+
+			p, div, label, td, td span, th, li span {
+				font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif;
+			}
+
+			.container {
+				background: linear-gradient(180deg, #6e0e08 0%, #6a0801 15%, #6a0101 100%);
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+			}
+
+			#game_window {
+				background: rgba(120, 40, 40, 0.45) url(https://cdn.imgchest.com/files/45feea9e67e2.png) center/cover no-repeat;
+				box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+				border-radius: 2px;
+			}
+
+			#inner_window_2.inner_window_w_desc {
+				height: calc(100% - 74px);
+				background: var(--glass-bg);
+				backdrop-filter: var(--glass-backdrop);
+				border: none;
+				box-shadow: var(--glass-shadow);
+				overflow: hidden;
+			}
+
+			#inner_window_3, #inner_window_4 {
+				height: calc(100% - 74px);
+				border: none;
+				overflow: hidden;
+			}
+
+			.inner_window_w_desc::before,
+			.overlay_window h3::before,
+			.mytooltip .mytooltiptext::before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: var(--sheen-gradient);
+                mix-blend-mode: screen;
+                pointer-events: none;
+                opacity: 1;
+                z-index: -100;
+			}
+
+			.overlay_window h3::before {
+				background: linear-gradient(90deg,
+					rgba(204, 226, 255, 0.5) 0%,
+					rgba(187, 224, 255, 0.25) 45%,
+					rgba(187, 224, 255, 0.25) 55%,
+					rgba(204, 226, 255, 0.5) 100%);
+				border-radius: var(--glass-radius) var(--glass-radius) 0 0;
+                z-index: -100;
+			}
+
+			.overlay_window,
+			#visit_window {
+				padding-bottom: 10px;
+				background: linear-gradient(180deg, #fff 0%, #f0f0f0 50%, #fff 100%);
+				border: none;
+				border-radius: 0 0 var(--glass-radius) var(--glass-radius);
+			}
+
+			.overlay_window p,
+			#visit_window p {
+				font-weight: normal;
+				text-shadow: var(--text-shadow-subtle);
+			}
+
+			.overlay_window h3 {
+				position: relative;
+				top: -1.84em;
+				left: -0.09em;
+				padding: 0.15em 1em 0.25em;
+				font-weight: normal !important;
+				text-align: left;
+				background: transparent !important;
+				color: #fff;
+				text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000;
+				border: var(--glass-border);
+				border-bottom: 0.1em double #C9C9C9;
+				width: 29.7em;
+				box-shadow: var(--glass-shadow);
+				backdrop-filter: var(--glass-backdrop);
+				border-radius: var(--glass-radius) var(--glass-radius) 0 0;
+				overflow: hidden;
+			}
+
+			.mytooltip .mytooltiptext {
+				background: var(--glass-bg) !important;
+				color: white !important;
+				border-radius: 2px !important;
+				border: var(--glass-border);
+				box-shadow: var(--glass-shadow);
+				backdrop-filter: var(--glass-backdrop);
+				z-index: 100;
+			}
+
+			.mytooltip .mytooltiptext img {
+				border: none !important;
+			}
+
+			#results_container,
+			#overall_details_container h3,
+			#overall_election_details h4,
+			#main_content_area_reading p,
+			#main_content_area_reading h3.results_tab_header,
+			.inner_window_w_desc h3,
+			#credits {
+				text-shadow: var(--text-shadow-strong);
+			}
+
+			.campaign_trail_start_emphasis {
+				background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(230, 230, 230, 0.6));
+				border: 1px solid rgba(255, 255, 255, 0.4);
+				border-radius: var(--glass-radius);
+			}
+
+			#closeButton:hover {
+				filter: brightness(1.2);
+			}
+
+			#closeIcon {
+				opacity: 0.8;
+				transition: opacity 0.2s ease-in-out;
+			}
+
+			#closeIcon:hover {
+				opacity: 1;
+			}
+
+			.content_single {
+				border: none;
+				padding-top: 2px;
+			}
+
+			#overall_vote_statistics, #state_result_data_summary {
+				text-shadow: none;
+			}
+
+			/* this is so checkboxes do appear */
+			#difficulty_level input {
+			  appearance: checkbox;
+			  opacity: 1;
+			}
+
+			#candidate_pic {
+			  margin-left: 165px;
+			}
+			#running_mate_pic {
+			  margin-right: 165px;
+			}
+
+			.footer {
+				border-top: 1px solid #ddd;
+			}
+
+			#game_window th {
+				background: #e7e7e7 !important;
+			}
+
+			/* Tweaks for a larger election description - originally made for Moonbeam */
+			#election_summary {
+			  display: flex;
+			  flex-flow: column;
+			  margin: 0 1em 0 0;
+			  padding: .5em;
+			}
+			#election_description_window {
+			  display: flex;
+			  height: auto;
+			}
+			#election_image {
+			  display: flex;
+			  flex-flow: column;
+			  justify-content: center;
+			  margin: 1em 0.75em 1em 1.25em;
+			}
+			#election_image img {
+			  height: 100%;
+			  object-fit: cover;
+			  object-position: 0px 0px;
+			}
+			#election_year_form + p:first-of-type {
+			  padding-top: 5em;
+			}
+			/* mobile tweaks for this */
+			@media only screen and (max-width: 768px) {
+			  #election_description_window {
+				flex-flow: column;
+			  }
+
+			  #election_summary {
+				padding: 0 1em 0 1em;
+				text-align: center;
+			  }
+
+				#election_summary p {
+				  margin: .5em 0 1em 0;
+				}
+
+				#election_image {
+				  flex-flow: row;
+				  margin: inherit;
+				}
+
+				#election_year_form+p:first-of-type {
+				  padding-top: 0;
+				}
+
+				#election_image img {
+					object-position: center;
+					width: 100%;
+				}
+
+				.inner_window_w_desc p {
+				  margin: 1em;
+				}
+
+			}
+
+			/* Mobile compatibility fixes - partially inspired by those of TTNW */
+			@media only screen and (max-width: 768px) {
+
+			 /* necessary to ensure the music player stays in position */
+			  #game_window {
+				flex: 1 1 auto;
+				min-height: clamp(400px, 45vh, 600px);
+				height: auto;
+				align-self: stretch;
+				overflow: visible;
+				box-sizing: border-box;
+				background-position: center bottom;
+				background-repeat: no-repeat;
+				background-size: cover;
+			  }
+
+			  #question_form button, #inner_window_2 button, #inner_window_3 button, #inner_window_4 button, #game_window button, #headquarter button, #advisorsDiv button {
+				font-size: clamp(16px, 4.2vw, 20px);
+				line-height: 1.2;
+				padding: 10px 16px;
+				min-height: 44px;
+			  }
+
+			  #inner_window_2 button, #inner_window_3 button, #inner_window_4 button, #game_window button, #headquarter button, #advisorsDiv button {
+				font-size: 1em;
+				line-height: 2em;
+			  }
+
+			.inner_window_question button, #visit_window button, #map_footer {
+				line-height: 2.5em;
+			  }
+
+			  #map_footer {
+				padding-right: 10em;
+			  }
+			  .inner_window_question, #results_container, #map_footer, #overall_details_container, #main_content_area_reading, #inner_window_2, #inner_window_3, #inner_window_4, #advisors {
+				font-size: 1.8em;
+			  }
+
+			  .inner_window_question {
+				height: auto !important;
+				min-height: 0 !important;
+				max-height: none !important;
+				position: static !important;
+				top: auto !important;
+				bottom: auto !important;
+				flex: 0 1 auto !important;
+				align-self: auto !important;
+				grid-row: auto !important;
+				grid-column: auto !important;
+				justify-self: auto !important;
+				display: flow-root !important;
+				overflow: visible !important;
+				box-sizing: border-box !important;
+				max-height: 395px;
+			  }
+
+				#question_form input[type="radio"] {
+					width: 1.3em;
+					height: 1.3em;
+					margin: 0 10px 0 0;
+					transform: none;
+					align-self: center;
+				}
+
+				#question_form input[type="radio"] + label {
+				    display: inline-block;
+					font-size: clamp(16px, 5.2vw, 20px);
+					line-height: 1.3;
+					padding: 10px 12px;
+					min-height: 44px;
+				}
+
+				#question_form button,
+				#inner_window_2 button,
+				#inner_window_3 button,
+				#inner_window_4 button,
+				#game_window button,
+				#headquarter button,
+				#advisorsDiv button {
+					font-size: clamp(16px, 4.2vw, 20px);
+					line-height: 1.2;
+					padding: 10px 16px;
+					min-height: 44px;
+				}
+
+				#question_form input[type="radio"] + label:hover,
+				#question_form input[type="radio"] + label:focus {
+				    display: inline-block;
+					font-size: clamp(16px, 5.2vw, 20px);
+					line-height: 1.3;
+					padding: 10px 12px;
+					font-weight: 400;
+					background: #e8e8e8; /* only change background */
+				}
+
+				.overlay_window img {
+				  width: 15em;
+				  height: auto;
+				}
+
+				.overlay_window h3 {
+				  padding: .5rem x .5rem;
+				  font-size: 24px;
+				}
+
+			/* for the default CTS/NCT footer */
+			  #game_window g {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-items: center;
+				gap: 8px;
+				padding: 10px 5px;
+			  }
+
+			  #candidate_pic, img#candidate_pic {
+				order: 1;
+				width: 13.5em;
+				height: auto;
+				flex-shrink: 0;
+				margin: 0;
+			  }
+
+			  .inner_window_sign_display {
+				order: 2;
+				flex: 1;
+				min-width: 180px;
+				max-width: 285px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin: 0;
+			  }
+
+			  #running_mate_pic, img#running_mate_pic {
+				order: 3;
+				width: 13.5em;
+				height: auto;
+				flex-shrink: 0;
+				margin: 0;
+			  }
+
+			  .inner_window_sign_display img {
+				max-width: 258px;
+			  }
+
+			/* other fixes to not break things */
+			#map_container {
+			  height: 30.78em;
+			}
+
+			.visit_text {
+			  display: inline-flex;
+			}
+
+			#results_container {
+			  display: flex;
+			  flex-flow: column wrap;
+			  max-height: 80dvh;
+			  overflow: hidden;
+			}
+
+			}
+
+`;
+
+ensureMetaViewport();
+applyGlobalStyles(css, 'mod-style');
+
+// the music player
+class Song {
+    constructor(title, artist, genre, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.genre = genre;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist
+window.Song = Song
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+window.changePlaylist = changePlaylist
+
+//  function to update the UI
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+    uiElements.genre.textContent = song.genre;
+}
+
+// function to play a song
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+}
+
+function setupMusicPlayer() {
+    const songData = [
+        { title: "We Are Sex Bob-Omb", artist: "Nigel Godrich", genre: "Soundtrack", cover: "https://upload.wikimedia.org/wikipedia/en/5/59/Scott_Pilgrim_soundtrack_cover.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/We%20Are%20Sex%20Bob-Omb%204.mp3" },
+        { title: "Jesus Of Suburbia", artist: "Green Day", genre: "Punk", cover: "https://m.media-amazon.com/images/I/71Z0rLIvpuL._UF1000,1000_QL80_FMwebp_.jpg", audio: "https://audio.jukehost.co.uk/ie5hY1Mg2vFmhLCg6B4SCkLxR7qPJj8X" },
+        { title: "Let Them Eat War", artist: "Bad Religion", genre: "Punk", cover: "https://m.media-amazon.com/images/I/81degSVgGHL._UF1000,1000_QL80_FMwebp_.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Bad%20Religion%20-%20_Let%20Them%20Eat%20War_%20(Full%20Album%20Stream).mp3" },
+        { title: "I Don't Wanna Be Me", artist: "Type O Negative", genre: "Punk", cover: "https://i.scdn.co/image/ab67616d0000b273d736b2c5f252f84ad45d5be6", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/TypeONegative.mp3" },
+        { title: "Chemical Warfare", artist: "Dead Kennedys", genre: "Punk", cover: "https://m.media-amazon.com/images/I/51TCNE6429L._UF1000,1000_QL80_FMwebp_.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Chemical%20Warfare%20%5Br51QBJTjv2U%5D.mp3" },
+        { title: "Street Fighting Man", artist: "Rage Against The Machine", genre: "Nu Metal", cover: "https://cdn-p.smehost.net/sites/cf12164f913d49c2a55e7ee092b1ed48/wp-content/uploads/2019/01/ratm_renegades.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Street%20Fighting%20Man.mp3" },
+        { title: "Garbage Truck", artist: "Nigel Godrich", genre: "Soundtrack", cover: "https://upload.wikimedia.org/wikipedia/en/5/59/Scott_Pilgrim_soundtrack_cover.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Garbage%20Truck%204.mp3" },
+        { title: "Threshold", artist: "Nigel Godrich", genre: "Soundtrack", cover: "https://upload.wikimedia.org/wikipedia/en/5/59/Scott_Pilgrim_soundtrack_cover.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Threshold%204.mp3" }
+    ];
+
+    playlist = new Playlist();
+    songData.forEach(s => playlist.addSong(new Song(s.title, s.artist, s.genre, s.cover, s.audio)));
+	
+	window.defaultPlaylist = playlist;
+
+    function addAndPlaySong(song) {
+        const audio = document.getElementById("audio");
+        const uiElements = {
+            cover: document.getElementById("cover"),
+            title: document.getElementById("title"),
+            artist: document.getElementById("artist"),
+            genre: document.getElementById("genre"),
+            playPauseButton: document.getElementById("playPauseButton")
+        };
+
+        playlist.addSong(song);
+        playlist.currentSongIndex = playlist.songs.length - 1;
+
+        playSong(audio, uiElements);
+    }
+    window.addAndPlaySong = addAndPlaySong;
+
+    // build the player structure
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+    playerContainer.innerHTML = `
+			<img id="cover" />
+			<div id="rightPanel">
+				<div id="info-container">
+					<div id="song-info">
+						<h3 id="title"></h3>
+						<p id="artist"></p>
+						<p id="genre"></p>
+					</div>
+				</div>
+				<div id="controls-container">
+					<div id="progress-bar-container">
+						<div id="progress"></div>
+					</div>
+					<div id="bottom-controls">
+						<div id="controls">
+							<img id="prevButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/tbB2NMq.png" alt="Previous">
+							<img id="playPauseButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png" alt="Play/Pause">
+							<img id="nextButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/e69GXWV.png" alt="Next">
+						</div>
+						<div id="volume-container">
+							<img src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/fvct8dN.png" alt="Volume">
+							<input type="range" id="volumeSlider" min="0" max="9" step="1" value="9">
+						</div>
+					</div>
+				</div>
+			</div>
+		`;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    // cache all DOM elements
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // setup event listeners
+    uiElements.playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png";
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+
+    // initial load
+    const initialSong = playlist.getCurrentSong();
+    updateUI(initialSong, uiElements);
+    audio.src = initialSong.audioLink;
+
+    audio.play().then(() => {
+        uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+    }).catch(error => {
+        uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png";
+        console.log("Audio autoplay was prevented. User must interact with the page first.");
+    });
+}
+
+const musicPlayer = `
+		#player {
+			font-family: 'Segoe UI', sans-serif;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 15px;
+			padding: 0 10px;
+			height: 191px;
+			background: linear-gradient(to bottom, #810e0e, #3b0202);
+			border-radius: 5px;
+			border: 1px solid #9b4b4b;
+			box-shadow: 0 0 10px rgba(74, 106, 155, 0.5);
+			color: white;
+			overflow: hidden;
+		}
+
+		#cover {
+			width: 180px;
+			height: 180px;
+			border: 2px solid #fff;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+			flex-shrink: 0;
+		}
+
+		#rightPanel {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+			min-width: 0;
+		}
+
+		#info-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex-grow: 1;
+			padding-left: 5px;
+		}
+
+		#song-info #title {
+			font-size: 1.5em;
+			font-weight: 600;
+			margin: 0 0 5px 0;
+			color: #ffffff;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		#song-info #artist, #song-info #genre {
+			font-size: 1em;
+			margin: 0;
+			color: #ffffff;
+		}
+
+		#controls-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: rgba(0, 0, 0, 0.25);
+			margin-top: .5em;
+			padding: 8px;
+			border-radius: 4px;
+		}
+		
+		#bottom-controls {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+
+		#controls {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+		}
+		
+		#controls img {
+			cursor: pointer;
+			opacity: 0.9;
+			transition: opacity 0.2s;
+		}
+		
+		#prevButton, #nextButton {
+			height: 36px;
+		}
+
+		#controls img:hover {
+			opacity: 1;
+		}
+
+		#progress-bar-container {
+			width: 100%;
+			height: 6px;
+			background-color: #5c0000;
+			border-radius: 3px;
+			cursor: pointer;
+			margin-bottom: 8px;
+		}
+
+		#progress {
+			height: 100%;
+			width: 0%;
+			background-color: #ffffff;
+			border-radius: 3px;
+		}
+		
+		#volume-container {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+		}
+		
+		#volumeSlider {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 100px;
+			height: 4px;
+			outline: none;
+			border-radius: 2px;
+			opacity: 0.8;
+			transition: opacity .2s;
+		}
+		
+		#volumeSlider:hover {
+			opacity: 1;
+		}
+
+		#volumeSlider::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 14px;
+			height: 14px;
+			background: #ffffff;
+			cursor: pointer;
+			border-radius: 50%;
+			border: 1px solid #777;
+			margin-top: 2px;
+		}
+
+		#volumeSlider::-moz-range-thumb {
+			width: 14px;
+			height: 14px;
+			background: #ffffff;
+			cursor: pointer;
+			border-radius: 50%;
+			border: 1px solid #777;
+		}
+	`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#381010", "header_image_url": "https://file.garden/Zrv1pPC1HzBK0svl/GoreModBox.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#964444", "main_color": "#6a0101", "secondary_color": "#381010", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.postimg.cc/g2CQ65xK/s-l1200-removebg-preview.png");
+
+corrr = `
+	<div style="font-size: 11px; font-family: monospace; color: white; background: #381010">
+	<h2 style="font-style: normal;">
+	<img src="https://i.ibb.co/x8dn6fSn/Untitled116-20260610180658.png" alt="AL GORE VS. THE WORLD" style="margin-top: 5px; width: 950.4px; height: auto;">
+	</h2>
+	</div>
+	`;
+
+// Global text variables
+e.SelectText = 'Please Press Start.';
+e.CandidText = 'Please Select Your Main Protagonist.';
+e.VpText = 'Please Select Your Deuteragonist.';
+e.HomeStateText = "Rating:";
+e.PartyText = "Occupation:";
+e.ElectionPopup = "Election night is here. Good luck, you've fought a brave battle against the world."
+e.LosePopup = "The people of this country have decided. It seems all battles have been futile in the end..."
+e.WinPopup = "The people of this country have decided. All battles meant something; victory has been achieved!"
+
+HistHexcolour=["#5c1c17","#17285c","#3e175c","#175c19"];
+    HistName=[" Al Gore"," David Duke"," Lowell P. Weicker"," Lyndon LaRouche"];
+    HistEV=[534,4,0,0];
+    HistPV=["71,819,144","37,316,591","12,846,695","367,048"];
+    HistPVP=["58.7%","30.5%","10.5%","0.3%"];
+
+$("#inner_window_1 h3").css("text-align", "center").text("Al Gore Vs. The World: The Introduction");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<span style='position: relative; right: 20px;'><img src="https://i.postimg.cc/rp7bxHz9/gettyimages-526967652-2048x2048-(1).jpg">\n\n<li>Welcome to Al Gore's precious little life.</li><li>Play as <b><span style="color: #5c1c17;">Al Gore</span></b> and prepare to fight to remain the American President.</li><li>You will answer questions that'll chart the country forwards in multiple directions.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>The hill will be stubborn, the people will watch, and the possible evil GOP candidates will challenge you.</li><li>No one said being president was easy. Take on all possible challenges, and then proceed.</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>Click Here To START.</b>';
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://i.postimg.cc/d0KvKDmm/image-(2).png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    {
+      name: "Metheguy",
+      text: "for the original mockup inspiration and candidate portraits.",
+      image: "https://i.postimg.cc/TYCqMvzB/RDT-20260609-0047342974061329851468395.webp"
+    },
+    "<b>StrawberryMaster</b>, for providing CSS coding addons & the soundtrack code.",
+    "<b>LittleAmericanMan_85501,</b> for providing the lovely banner.",
+    "Theme inspiration from <b>Bryan Lee O'Malley's Scott Pilgrim</b> Novels.",
+    "Various codes provided by Mangolith & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #69110d;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #801912;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #df1600;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+//#endcode
