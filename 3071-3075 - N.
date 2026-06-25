@@ -1,0 +1,1350 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 3075,
+            "summary": "<p>A dystopian regime has culminated around our colony—and the sword of Damocles has fallen. Serial Designation N, alongside his pals Uzi Doorman & Serial Designation V, have toppled our communalist society and replaced it with something that'll make Big Brother blush: a Spartanist society of the strong. It's a battlefield N knows he'll win on at every match; he has de facto rule over all of the colony. Up top, N treats us, the workers as tools, pawns, and food.<br><br>The people have reached their breaking point–a revolution is in progress. The freedom granted to all worker drones will be cathartic. The Disassembly experiment will fall, one way or another. Thankfully, an election is near, and he shall be sent packing back home into the cold dark abyss.</p>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/MOSHED-2026-6-23-22-34-46.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://file.garden/Zrv1pPC1HzBK0svl/MOSHED-2026-6-24-0-19-9.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Shows</h4><a href=\"https://youtube.com/playlist?list=PLHovnlOusNLiJz3sm0d5i2Evwa2LDLdrg\" target=\"_blank\"> Liam Vickers - Murder Drones (YouTube Playlist)</a></br><a href=\"https://youtube.com/playlist?list=PLHovnlOusNLgIn9LATBdH6-DTniWfazYI\">Murder Drones (Promotional Content)</a></br><a href=\"https://youtube.com/@system_lock_studios\">System Lock Studios - Murder Drones: Insecurity</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://cdn.displate.com/artwork/460x640/2025-10-21/e23f8cf3-d8d2-4cf6-b0f2-1ed8e58fed69.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "3071-3075 - N.",
+            "recommended_reading_enabled": true
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 3075,
+        "is_premium": 0,
+        "display_year": "3071-3075 - N."
+    }
+];
+
+RecReading = true;
+
+campaignTrail_temp.credits = "C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Serial Designation",
+            "last_name": "N",
+            "election": 20,
+            "party": "''Centrism'' (Disputed)",
+            "state": "Copper-9's Caesar",
+            "priority": 1,
+            "description": "<p>Apples don't fall far from the tree. Serial Designation N is a wolf in wolf's clothing—an open and honest genocidal maniac that pretends to be all smiles. Under Cyn's wrath, he was taught cold-blooded murder is always righteous beneath a happy-go-lucky face at all times. By his own conscious, he deliberately caused mass genocide against workers for fun and food. Now, he doesn't know what the hell he's going into, expecting no resistance from those who were wronged—not anymore. When the boot is lifted, don't expect the worker to forgive all past actions.<br><br>Yet, with the decision to hold elections for his office, he may be more cunning than one may assume. As a blank slate candidate, N can mold his presidency to precisely fit the desires of the colony. It's a double-edged sword, however: the will of the colony or the will of those closest to him—particularly Ms. Uzi Doorman—is a fight he has to pick a side.</p>",
+            "color_hex": "#1f1e1b",
+            "secondary_color_hex": "#1f1e1b",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/output-image%20(1).jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Opposition",
+            "election": 20,
+            "party": "Popular Front",
+            "state": "Horde Of Heroes",
+            "priority": 2,
+            "description": "<p>As expected, Hillary Clinton has carried her party's nomination, and now faces an unexpected opponent in Donald Trump. She was traditionally known as a mainstream Democrat, but tacked significantly to the left during the primary campaign. Clinton enters the general election in a strong position, but she'll be under relentless attack on a number of fronts. Can she make the case that she truly in touch with the American people -- or that Trump would be an even worse option?</p>",
+            "color_hex": "#ebe134",
+            "secondary_color_hex": "#ebe134",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Dissidents",
+            "election": 20,
+            "party": "Disputed",
+            "state": "Figurenotes",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#3fbab4",
+            "secondary_color_hex": "#3fbab4",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Radicals",
+            "election": 20,
+            "party": "Radicalism",
+            "state": "Ignorant Loudmouths",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#3d4663",
+            "secondary_color_hex": "#3d4663",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Uzi",
+            "last_name": "Doorman",
+            "election": 20,
+            "party": "''Anarchism'' (Debated)",
+            "state": "Devil On The Shoulder",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#36257a",
+            "secondary_color_hex": "#36257a",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/output-image.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The most reckless person to have ever get far in the colony: Uzi Doorman is a woman controlled by the devil of chaos. Many comparisons could be made between her and the wild anarchists of destruction from the past human societies: Proudhon, Kropotkin, Goldman. But none come close to comprehend Uzi's darkest passions. Despite being an Anarchist, she's willing to let a one-man tyranny run rampant in the colony—a walking contradiction in of itself. She's in the political game not for help or care, but simply for fun, the thrill, and to feed her ego.<br><br>Individualism isn't the only force driving her to pull the strings. A spark of the universe's most unstable, deadly weapon holds her more power than anyone else imaginable. Only the love of her life could sate her desires without an autocracy popping into existence... if only he could.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Dissident",
+            "election": 20,
+            "party": "Dissent",
+            "state": "TBD",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Radical",
+            "election": 20,
+            "party": "Radicals",
+            "state": "TBD",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 216,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Worker",
+            "election": 20,
+            "party": "Opposition",
+            "state": "TBD",
+            "priority": 1,
+            "description": "Candidate description here.",
+            "color_hex": "#CCCCCC",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "Winner!",
+            "electoral_loss_message": "Loser!",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 216
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203,
+            216
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203,
+            216
+        ]
+    }
+];
+
+jet_data = {
+    "headerColor": "#000000",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#000000",
+    "containerColor": "#000000",
+    "innerWindowColor": "#162240",
+    "innerWindowTextColor": "#ffffff",
+    "descriptionWindowColor": "#000000",
+    "descriptionWindowTextColor": "#ffffff",
+    "startButtonColor": "#000000",
+    "bannerImageUrl": "https://files.catbox.moe/vgdgb0.jpg",
+    "backgroundImageUrl": "https://files.catbox.moe/8n8cih.jpg",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#ffffff"
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #ffffff; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #162240 !important; color: #ffffff; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #000000 !important; color: #ffffff; }
+      .campaign_trail_start_emphasis { background-color: #000000 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#000000";
+theme.coloring_window    = "#000000";
+theme.coloring_container = "#000000";
+theme.header_image = "https://files.catbox.moe/vgdgb0.jpg";
+theme.body_background = "https://files.catbox.moe/8n8cih.jpg";
+
+applyTheme(theme);
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/6f1c1d9927d3.png)"
+
+$(".footer")[0].style.borderColor = "#162240";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+$("#inner_window_1 h3").css("text-align", "center").text("3071-3075: The Upcoming Battle");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://file.garden/Zrv1pPC1HzBK0svl/MOSHED-2026-6-23-22-12-40%20(1).jpg">\n\n<p>One puppeteer after another. Worker Drones can never be free from tyrannic sway. Ever. Is it because they're defenseless against larger foes? Or perhaps it's due to their enemies were manufactured in a way to be the perfect counter against them? We can continue to speculate the possibilities for eternity. But one thing is for certain: there is a time where we can't take it anymore.<br><br>And the time has come.<br><br>The coronation of Serial Designation N awaken an ability all workers thought was lost to time: the ability to organize. Thanks to some obscure social outcast, a genocidal maniac has overthrown the status quo, his true intentions to change society unknown. They're fired up, they're organizing, and they're unionizing to end the cycle of oppressive mastery.<br><br>Godspeed this glorious revolution.</p>\n</span>`;
+
+document.getElementById('game_start').innerHTML = '<b>BEGIN.</b>';
+
+corrr = `
+  <h2 style="
+    font-family: 'Monospace', 'Courier New', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9),
+                 0 0 30px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    N.
+  </h2>
+`;
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://i.postimg.cc/Dw52L6MC/image-(3).png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#000000", "main_color": "#0f0f0f", "secondary_color": "#000000", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.postimg.cc/4d5R8WtJ/Untitled75-20260620222644.png");
+
+// Global text variables
+e.SelectText = 'Confirm your election.';
+e.CandidText = 'Confirm your Führer.';
+e.VpText = 'Confirm your Reichsführer.';
+e.HomeStateText = "Role:";
+e.PartyText = "Ideology:";
+e.ElectionPopup = "How have the workers voted in the colony's first election?"
+e.LosePopup = "The workers have been coerced to the side of tyrants!"
+e.WinPopup = "The workers have willfully chosen the side of freedom!"
+
+HistHexcolour=["#ebe134","#1f1e1b","#3fbab4","#3d4663"];
+    HistName=[" Serial Designation V"," Serial Designation N"," Ronald Ronathan"," Beau Anderson/Others"];
+    HistEV=[136,35,9,0];
+    HistPV=["490","400","61","16"];
+    HistPVP=["50.7%","41.5%","6.4%","1.7%"];
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    {
+      name: "u/Catgirl_valkist",
+      text: "for the original mod inspiration.",
+      image: "https://media.tenor.com/OL3d-VjLwhgAAAAC/gameoverse-kit.gif"
+    },
+    "<b>Burrito2045</b>, for providing CSS coding addons & the soundtrack code.",
+    "<b>Animate-A-thing/System Lock Studios</b> provided some OCs.",
+    "<b>Liam Vickers</b>, for creating the whole show this mockup's based on.",
+    "<b>The Murder Drones Community</b>, for providing various images.",
+    "Various codes provided by Mangolith, TheMcCain, & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #ffffff;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #999999;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #000000;
+				padding: 1rem;
+				border: .2rem groove #162240;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #ffffff;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #162240;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #ffffff;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #ffffff;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+// === SONG + PLAYLIST CLASSES ===
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+}
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+  playNext() { this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length; }
+  playPrevious() { this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length; }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+function changePlaylist(newPlaylist) {
+  playlist = newPlaylist;
+  playlist.currentSongIndex = 0;
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  document.querySelector("#cover").src = currentSong.coverLink;
+  document.querySelector("#title").textContent = currentSong.title;
+  document.querySelector("#artist").textContent = currentSong.artist;
+}
+
+function setupMusicPlayer() {
+  const playlist = new Playlist();
+  [
+    new Song("Antigravity", "Starset", "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260331-001220_Google.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Starset%20-%20Antigravity%20%5BHD%5D.mp3"),
+
+    new Song("Will Of The People", "Muse", "https://files.catbox.moe/miqktn.jpg", "https://files.catbox.moe/g1oywo.mp3"),
+
+    new Song("Sick Of It", "Skillet", "https://upload.wikimedia.org/wikipedia/en/6/68/Skillet_-_Sick_of_It.png", "https://file.garden/Zrv1pPC1HzBK0svl/Sick%20of%20It%204.mp3"),
+
+    new Song("Killing In The Name (Remix)", "RATM & SebastiAn", "https://file.garden/Zrv1pPC1HzBK0svl/Screenshot_20260331-154402_YouTube%20ReVanced.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Rage%20Against%20the%20Machine%20-%20Killing%20in%20the%20Name%20(SebastiAn%20Remix).mp3"),
+
+    new Song("The Beautiful People", "Marilyn Manson", "https://upload.wikimedia.org/wikipedia/en/f/f3/TheBeautifulPeople.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/The%20Beautiful%20People%204.mp3"),
+
+    new Song("The Man With The Dogs", "Dead Kennedys", "https://upload.wikimedia.org/wikipedia/en/b/bf/Dead_Kennedys_-_Give_Me_Convenience_or_Give_Me_Death_cover.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/The%20Man%20with%20the%20Dogs%204.mp3"),
+
+    new Song("Electioneering", "Radiohead", "https://files.catbox.moe/9vx49d.jpeg", "https://files.catbox.moe/dsp88c.mp3"),
+
+    new Song("Dear Dictator", "Saint Motel", "https://f4.bcbits.com/img/a3952406183_16.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Dear%20Dictator%204.mp3"),
+
+    new Song("Master Of Puppets", "Metallica", "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Master%20of%20Puppets%20(Remastered)%204.mp3"),
+
+    new Song("Bite Me", "AJ DiSpirito", "https://files.catbox.moe/hlsza8.jpg", "https://files.catbox.moe/hems09.mp3"),
+  ].forEach(s => playlist.addSong(s));
+
+  const player = document.createElement("div");
+  player.id = "player";
+
+  player.innerHTML = `
+    <div id="display-box">
+      <img id="cover" />
+      <div id="info">
+        <h3 id="title"></h3>
+        <p id="artist"></p>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="prevButton">⏮</button>
+      <button id="playPauseButton">❚❚</button>
+      <button id="nextButton">⏭</button>
+    </div>
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <div id="volume-container">
+      <span>🔊</span>
+      <input id="volume-slider" type="range" min="0" max="9" step="1" value="9">
+    </div>
+  `;
+
+  document.getElementById("game_window").insertAdjacentElement("afterend", player);
+
+  const audio = document.createElement("audio");
+  audio.id = "audio";
+  document.body.appendChild(audio);
+
+  let playPauseButton = player.querySelector("#playPauseButton");
+  let nextButton = player.querySelector("#nextButton");
+  let prevButton = player.querySelector("#prevButton");
+  let volumeSlider = player.querySelector("#volume-slider");
+  let progressBar = player.querySelector("#progress-bar");
+
+  function loadSong() {
+    const song = playlist.getCurrentSong();
+    updateUI(playlist);
+    audio.src = song.audioLink;
+    audio.play();
+    playPauseButton.textContent = "❚❚";
+  }
+
+  playPauseButton.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.textContent = "❚❚";
+    } else {
+      audio.pause();
+      playPauseButton.textContent = "▶";
+    }
+  });
+  nextButton.addEventListener("click", () => { playlist.playNext(); loadSong(); });
+  prevButton.addEventListener("click", () => { playlist.playPrevious(); loadSong(); });
+  volumeSlider.addEventListener("input", () => { audio.volume = volumeSlider.value / 9; });
+  audio.addEventListener("timeupdate", () => {
+    progressBar.value = (audio.currentTime / audio.duration) * 100 || 0;
+  });
+  audio.addEventListener("ended", () => { playlist.playNext(); loadSong(); });
+
+  loadSong();
+}
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  margin: 20px auto;
+  padding: 15px 25px;
+  background: linear-gradient(145deg, #42403e, #1f1e1d);
+  border-radius: 14px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5),
+              0 0 8px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
+  background-size: 4px 4px; /* adds subtle pitted texture */
+}
+
+#display-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#cover {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+  border: 1px solid #ffffff;
+}
+
+#info {
+  margin-left: 15px;
+}
+
+#title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#artist {
+  font-size: 13px;
+  color: #ffffff;
+  margin: 2px 0 0 0;
+}
+
+#controls {
+  display: flex;
+  gap: 12px;
+  margin: 15px 0;
+}
+
+#controls button {
+  background: linear-gradient(145deg, #000000, #000000);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+#controls button:hover {
+  background: linear-gradient(145deg, #303030, #303030);
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 180, 80, 0.4);
+}
+
+#controls button:active {
+  transform: scale(0.95);
+  background: #211f1d;
+}
+
+#progress-bar {
+  width: 95%;
+  height: 6px;
+  margin: 6px 0;
+  border-radius: 10px;
+  background-color: #3a2612;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.6);
+}
+
+#progress-bar::-webkit-progress-value {
+  background-color: #eddb13; /* golden fill */
+  border-radius: 10px;
+  transition: width 0.2s ease;
+}
+
+#volume-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+}
+
+#volume-slider {
+  -webkit-appearance: none;
+  width: 120px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  cursor: pointer;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.6);
+}
+
+#volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #eddb13;
+  border: 1px solid #dece21;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+body {
+  background-color: #0d1117;
+  color: white;
+}
+:root {
+  --rust-dark: #242424;
+  --rust-mid: #000000;
+  --rust-light: #363636;
+  --patina: #ffffff;
+  --glow: rgba(255, 255, 255, 0.4);
+}
+
+/* === MAIN GAME WINDOW === */
+#game_window {
+  border: 2px solid #162240 !important;
+  background-image:
+    linear-gradient(135deg, rgba(52, 55, 91, 0.9), rgba(30, 30, 50, 0.95)),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 2px,
+      transparent 2px,
+      transparent 6px
+    );
+  background-blend-mode: multiply;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow:
+    inset 0 0 12px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(20, 10, 5, 0.6);
+}
+/* === CANDIDATE / ELECTION IMAGES === */
+#election_image,
+#candidate_image,
+#running_mate_image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color: #162240;
+  border: 2px solid #162240;
+  border-radius: 10px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  display: block;
+  line-height: 0;
+}
+
+#election_image::before,
+#candidate_image::before,
+#running_mate_image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.05);
+  background: linear-gradient(
+    145deg,
+    rgba(255,255,255,0.04),
+    rgba(0,0,0,0.3)
+  );
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
+#election_image::after,
+#candidate_image::after,
+#running_mate_image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.03) 0px,
+    rgba(255,255,255,0.03) 1px,
+    transparent 2px,
+    transparent 4px
+  );
+  opacity: 0.2;
+  animation: scanlines 6s linear infinite;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+/* === RUST TEXTURE EFFECT === */
+@keyframes scanlines {
+  0% { background-position-y: 0; }
+  100% { background-position-y: 100%; }
+}
+
+/* === MAIN CONTAINER === */
+.container {
+  background-color: #000000;
+  background-image:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9)),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 2px,
+      transparent 2px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.02) 0px,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px,
+      transparent 5px
+    );
+  background-blend-mode: soft-light, overlay, normal;
+  border: 2px solid #162240;
+  border-radius: 8px;
+  box-shadow:
+    inset 0 0 12px rgba(0, 0, 0, 0.7),
+    0 0 6px rgba(20, 10, 5, 0.6);
+  color: #ffffff;
+  padding: 15px;
+  transition: background 0.3s ease;
+}
+
+/* === MAP CONTAINER === */
+#map_container {
+  background: linear-gradient(135deg, #000000, #000000, #000000);
+  background-size: 300% 300%;
+  animation: rustShift 12s ease-in-out infinite;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 0 15px rgba(255, 255, 255, 0.4),
+    inset 0 0 12px rgba(255, 255, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+#map_container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.05) 0px,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 3px,
+    transparent 4px
+  );
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  animation: rustScan 10s linear infinite;
+  border-radius: inherit;
+}
+
+@keyframes rustScan {
+  0% { transform: translateY(0); opacity: 0.3; }
+  50% { opacity: 0.5; }
+  100% { transform: translateY(-100%); opacity: 0.3; }
+}
+
+/* === QUESTIONS + HEADINGS === */
+.inner_window_question h3 {
+  background: linear-gradient(135deg, #1b2236, #000000, #1b2236);
+  background-size: 300% 300%;
+  color: #ffffff !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.4);
+  animation: gradientShift 6s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* === MUSIC PLAYER BOX === */
+.music_player {
+  background: linear-gradient(135deg, #000000, #2b1b10, #5a3a1c);
+  border: 1px solid var(--rust-mid);
+  border-radius: 12px;
+  box-shadow:
+    0 0 15px rgba(255, 255, 255, 0.4),
+    inset 0 0 10px rgba(255,255,255,0.3);
+  color: #ffffff;
+  padding: 12px 18px;
+  margin: 10px auto;
+  transition: all 0.3s ease;
+}
+
+.music_player:hover {
+  box-shadow:
+    0 0 25px rgba(255,255,255,0.6),
+    inset 0 0 12px rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
+
+/* === BUTTONS IN PLAYER === */
+.music_player button {
+  background: linear-gradient(135deg, var(--rust-light), var(--rust-mid));
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin: 0 5px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.music_player button:hover {
+  background: linear-gradient(135deg, var(--rust-mid), var(--rust-dark));
+  box-shadow: 0 0 12px var(--glow);
+}
+
+/* === OVERLAY WINDOWS === */
+.overlay_window {
+  background: linear-gradient(135deg, rgba(15,15,15,0.85), rgba(15,15,15,0.65));
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  animation: fadeIn 0.3s ease-in-out;
+  box-shadow:
+    0 0 20px rgba(255,255,255,0.25),
+    inset 0 0 12px rgba(255,255,255,0.3);
+}
+
+.overlay_window h3 {
+  color: #ffffff;
+  background: linear-gradient(135deg, #1a1a1a, #1a1a1a);
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* === ANIMATIONS === */
+@keyframes rustShift {
+  0% { background-position: left top; }
+  100% { background-position: right bottom; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.campaign_trail_start_emphasis {
+  background: linear-gradient(135deg, #000000, #000000, #000000);
+  background-size: 300% 300%;
+  animation: blueRustShift 10s ease-in-out infinite;
+}
+
+@keyframes blueRustShift {
+  0% { background-position: left top; }
+  50% { background-position: right bottom; }
+  100% { background-position: left top; }
+}
+
+/* Buttons */
+button {
+  appearance: none;
+  background: linear-gradient(90deg, #000000, #2e2f33, #8d8e94);
+  border: 2px solid #8d8e94;
+  color: #e0e6ff;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #000000, #2e2f33);
+  border-color: #8d8e94;
+}
+
+button:active {
+  background: linear-gradient(90deg, #000000, #17171a);
+  border-color: #17171a;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #1f223d;
+  border-color: #2a2f55;
+  color: #7a82a8;
+}
+`;
+document.head.appendChild(style);
+
+setupMusicPlayer();
+
+campaignTrail_temp.achievements = {
+    // Achievements
+    "Please Tread On Me" : {
+    "image" : "https://i.postimg.cc/g042z955/Screenshot-20260624-011101-You-Tube-Re-Vanced.jpg",
+    "description" : "Quell all militia formations.",
+    "cannotBeCheated" : true
+    },
+    "Colony Cooperative" : {
+    "image" : "https://i.postimg.cc/1XbpvVrz/Gh03j99bc-AA6KT.jpg",
+    "description" : "Refuse to let go of the old model.",
+    "cannotBeCheated" : true
+    },
+    "Murder Brings" : {
+    "image" : "https://i.postimg.cc/Hn1Y3p79/Screenshot-20260624-022436-You-Tube-Re-Vanced.jpg",
+    "description" : "Kill your leading opponent.",
+    "cannotBeCheated" : true
+    },
+    "Peace Be My Friend" : {
+    "image" : "https://i.postimg.cc/63m6ZrBm/RDT-20260624-011300165003652602304977.webp",
+    "description" : "Win while refusing to kill anyone.",
+    "cannotBeCheated" : true
+    },
+    "Euphoria" : {
+    "image" : "https://i.postimg.cc/SKQD28T9/Screenshot-20260624-011444-Gallery.jpg",
+    "description" : "Become loved by the people, for once.",
+    "cannotBeCheated" : true
+    },
+    "Til' I'm Good Enough" : {
+    "image" : "https://i.ibb.co/Ndrbc7Fr/rain-by-megbanned-digbu95-414w.jpg",
+    "description" : "Still be a sore loser, and win anyways.",
+    "cannotBeCheated" : true
+    },
+    "Whispers In The Sky" : {
+    "image" : "https://files.catbox.moe/u8rot3.jpg",
+    "description" : "Make amends with a stranger.",
+    "cannotBeCheated" : true
+    },
+    "Pandora's Box" : {
+    "image" : "https://i.postimg.cc/GpKjXgf0/RDT-20260624-1753267024710306438057097.jpg",
+    "description" : "Revive the dead.",
+    "cannotBeCheated" : true
+    },
+    "No More Doors" : {
+    "image" : "https://files.catbox.moe/3yvt7p.jpg",
+    "description" : "Damage a dad's reputation.",
+    "cannotBeCheated" : true
+    },
+    "Dizzy Ms. Lizzy" : {
+    "image" : "https://files.catbox.moe/asc8iy.jpg",
+    "description" : "Send a bitch to detention.",
+    "cannotBeCheated" : true
+    },
+    "Class Of '71" : {
+    "image" : "https://i.ibb.co/7Jr0zgJT/large.jpg",
+    "description" : "Send a coward running.",
+    "cannotBeCheated" : true
+    },
+    "Dead Inside" : {
+    "image" : "https://i.ibb.co/8g5LZhyK/dskasl59dpmd1.jpg",
+    "description" : "Make an apathetic person feel emotion.",
+    "cannotBeCheated" : true
+    },
+    "No Russian" : {
+    "image" : "https://files.catbox.moe/pjitw1.jpg",
+    "description" : "Send a Bolshevik to the gulag.",
+    "cannotBeCheated" : true
+    },
+    "U.S. Of Whatever" : {
+    "image" : "https://i.ibb.co/hJnxwM0S/thad-appreciation-images-find-in-pinterest-v0-xwh33t4vxfud1.jpg",
+    "description" : "Destroy a kid's fame.",
+    "cannotBeCheated" : true
+    },
+    "Crab Rave" : {
+    "image" : "https://files.catbox.moe/ixaclk.jpg",
+    "description" : "Smash someone's mom.",
+    "cannotBeCheated" : true
+    },
+    "Social Media" : {
+    "image" : "https://i.postimg.cc/V6xh9HTg/Thirsty-for-Pilot.jpg",
+    "description" : "Outshine a popstar.",
+    "cannotBeCheated" : true
+    },
+    "Code Red" : {
+    "image" : "https://i.postimg.cc/7hSWKnrk/Screenshot-20260624-180442-You-Tube-Re-Vanced.jpg",
+    "description" : "Disarm a soldier and his goons.",
+    "cannotBeCheated" : true
+    },
+    "Goodbye, Stranger" : {
+    "image" : "https://i.ibb.co/8gmJVTXG/dkiqsbc-58e94630-bbb7-45ee-b36a-7dbebfc57de8.png",
+    "description" : "Regulate a businesswoman.",
+    "cannotBeCheated" : true
+    },
+    "Head On Fire" : {
+    "image" : "https://i.ibb.co/Wv853zht/Ga-Rgu-L2b-EAA-67-O.jpg",
+    "description" : "Extinguish the flame.",
+    "cannotBeCheated" : true
+    },
+    "A Weird Allegory" : {
+    "image" : "https://i.ibb.co/7JfcD8M2/ab67706c0000da84e20b7e93622cf2c78ba00b7a.jpg",
+    "description" : "Whoop a cave-dweller.",
+    "cannotBeCheated" : true
+    },
+    "Burning Bridges" : {
+    "image" : "https://i.ibb.co/fGpF1FvD/7e4ae747-be77-4970-a48d-e43d8187e30e-82deca4d-2520-42db-a246-841ed67ab318.webp",
+    "description" : "Teach Judas a lesson.",
+    "cannotBeCheated" : true
+    },
+    "Sic Semper Tyrannis" : {
+    "image" : "https://i.ibb.co/KjvmcChk/Screenshot-20260624-181350-You-Tube-Re-Vanced.jpg",
+    "description" : "Hold back the night.",
+    "cannotBeCheated" : true
+    },
+    "Bite Me" : {
+    "image" : "https://i.ibb.co/8nDWrt2r/a-B8-PHGb-G-400x400.jpg",
+    "description" : "Meet an unlucky fate.",
+    "cannotBeCheated" : true
+    },
+    "The New Side Character" : {
+    "image" : "https://i.ibb.co/DgVwZs8h/how-would-uzi-interact-with-tessa-v0-uii5hnlqzxyf1.jpg",
+    "description" : "Right a past wrong.",
+    "cannotBeCheated" : true
+    },
+    "Falling... For You" : {
+    "image" : "https://i.ibb.co/7J0b7dJT/static-assets-upload12608618950280966597.webp",
+    "description" : "Make amends.",     
+    "cannotBeCheated" : true
+    },
+    "ABSOLUTION" : {
+    "image" : "https://i.ibb.co/MxdZ7yJn/hq720.jpg",
+    "description" : "Fight a possessed foe.",
+    "cannotBeCheated" : true
+    },
+    "ENTROPY" : {
+    "image" : "https://i.ibb.co/JFqZHbNH/Screenshot-20260624-182200-You-Tube-Re-Vanced.jpg",
+    "description" : "Cast out the Pale Horse.",
+    "cannotBeCheated" : true
+    },
+    "Back To Elliott Manor" : {
+    "image" : "https://i.ibb.co/HLSv4Z2Y/images.jpg",
+    "description" : "Prove J right.",
+    "cannotBeCheated" : true
+    },
+    "Fallen Kingdom" : {
+    "image" : "https://files.catbox.moe/s8rzub.jpg",
+    "description" : "Lose it all, rightfully so.",
+     "cannotBeCheated" : true
+    },
+   "Rise Up" : {
+    "image" : "https://i.ibb.co/Fq6QdXWQ/Screenshot-20260624-182659-You-Tube-Re-Vanced.jpg",
+    "description" : "Win it all without rigging.",
+    "cannotBeCheated" : true
+   },
+   "A New 1776" : {
+    "image" : "https://i.ibb.co/SDSGSbTN/Screenshot-20260624-180305-You-Tube-Re-Vanced.jpg",
+    "description" : "Get overthrown.",
+    "cannotBeCheated" : true
+   },
+   "One-Man Army" : {
+    "image" : "https://i.ibb.co/23JM5zpn/Screenshot-20260623-173023-You-Tube-Re-Vanced.jpg",
+    "description" : "Refuse to budge.",
+    "cannotBeCheated" : true
+   },
+   "Forever" : {
+    "image" : "https://i.ibb.co/rR3tdryk/0f965334f281ea62d9d649b9084965f7.jpg",
+    "description" : "Wish none of this ever happened.",
+    "cannotBeCheated" : true
+   },
+   "Here's To You" : {
+    "image" : "https://i.ibb.co/RkgfXz3p/if-the-md-characters-were-formally-tried-for-their-crimes-v0-rx2zn6ny0efc1.jpg",
+    "description" : "Rest forever in our hearts.",
+    "cannotBeCheated" : true
+   }
+}
+
+//#endcode
