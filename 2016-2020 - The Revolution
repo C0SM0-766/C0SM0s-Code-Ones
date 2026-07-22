@@ -1,0 +1,1110 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2020,
+            "summary": "If not for Ten Thousand compounding factors, each with ten thousand reasons behind them, Bernie Sanders would not be sitting behind the Resolute Desk and looking out to the South Lawn. And yet, He has climbed to the top of the heap to claim the mandate for Revolution in America. The glittering eyes of the crowds as state after state falls under a curtain of blue, the silent curses exchanged in headquarters, stories all culminating to one point: Democratic Socialism is triumphant.<br><br>In the halls of the powerbrokers, a sore silence can be heard. In the homes of Middle America, the fire of reaction has been inflamed once again. The jubilant celebrations of the oppressed, overshadowed by the old world plotting to return. Now in office, he must deliver on his agenda, lest he be puppeteered by the same people he despises or be swept away by the same tide that got him into office.",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/ezgif-53602652b4d1c9fc.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/vBHJfrMS/bernie-sanders-bernie-(1).gif",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Literature</h4><a href=\"https://www.marxists.org/archive/marx/works/1848/communist-manifesto/\" target=\"_blank\">Karl Marx, Friedrich Engels - The Communist Manifesto</a></br><a href=\"https://www.marxists.org/archive/marx/works/1867-c1/\">Karl Marx - Das Kapital</a></br><a href=\"https://www.marxists.org/ebooks/mao/Quotations_from_Chairman_Mao_Tse-tung.pdf\">Mao Zedong - Little Red Book</a></br><a href=\"https://www.marxists.org/archive/lenin/works/1917/staterev/\">Vladimir Lenin - The State & Revolution</a></br><a href=\"https://www.arvindguptatoys.com/arvindgupta/orwellanimalfarm.pdf\">George Orwell - Animal Farm</a><h4>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2016-2020 - The Revolution",
+            "recommended_reading_enabled": true,
+            "site_description": "<b>The Revolution</b><br><p>It was, by all means, supposed to be a Republican's year. The age-old American march of ''left''-right would continue, and the system would remain unflinchingly stagnant, a status-quo consecrated with the defeat of a man calling himself a Socialist, destined to lose so terribly that the term would never be raised ever again in good company, rendered like that tool McGovern all those years ago. It was only natural for tears of joy and shock in that cool November evening to wash the gutters of DC anew.<br><br>Now, the system is upon him. Hesitant even to call himself a Democrat, his party's leadership seeks to tame him, while much of its base of ''moderates'' want to see That Revolutionary flayed alive. The Republican Party, meanwhile, shudders, driven mad with bloodlust and hate–their enemy is practically begging for a merciless defeat, yet after their third successive loss, the Republicans find themselves truly rudderless, driven ruthlessly yet aimlessly. It is only the nebulous ''Left'', that coalition of disaffected workers and urban intellectuals that find themselves hopeful of the opportunities ahead.<br><br>That fateful night in that fateful November, President-Elect Bernie Sanders gave his victory speech. How, he wondered, might he keep it all together? How might he secure and continue this grand revolution? He knew not, yet he hoped that soon, somehow, some way, these United States of America may be saved yet.</p>"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2016-2020 - The Revolution"
+    }
+];
+
+RecReading = true;
+
+campaignTrail_temp.credits = "Emmy & C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "",
+            "last_name": "The Elites",
+            "election": 20,
+            "party": "Republican",
+            "state": "Wall Street",
+            "priority": 1,
+            "description": "<p>Donald Trump has shocked the political establishment by winning the Republican nomination in a divisive contest. He has taken a hard line on immigration and tax cuts, along with unorthodox positions on many other issues. He must unite his own party while finding some way to peel off potential Clinton voters -- or to blunt their enthusiasm for Clinton enough that they stay home. Will he continue the strategy of relentless attack that served him so well in the primary season?</p>",
+            "color_hex": "#a83232",
+            "secondary_color_hex": "#a83232",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Sanders",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Vermont",
+            "priority": 2,
+            "description": "Two different Bernie's exist in the American psyche. On one hand, the working-class messiah, the adrenaline shot for an anemic post-Occupy left; on the other, the Stalin to Obama's Lenin, the Brooklyn-accented nail in our once-great nation's coffin.<br><br>The real Bernie, the one behind the caricature, is a far more pragmatic individual. With an ideology as divisive as his, he knows his mandate–if it even exists at all–is limited. The establishment, bruised but still standing, is already flooding backdoor coffers to find someone, anyone to cut him down in 2020. Congress remains hopelessly deadlocked to say nothing of the coming midterms. America's standing in the world grows shakier by the day. The revolution, his revolution, has been stuck in feverish celebration since November, blind to the struggles that still lie ahead.<br><br>And if the wisps of white hair on his head are any indication, Bernie's time to change all that may already be running out.",
+            "color_hex": "#3268a8",
+            "secondary_color_hex": "#3268a8",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/ezgif-3e29a047166715a2.gif",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "",
+            "last_name": "The Dissidents",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#a86b32",
+            "secondary_color_hex": "#a86b32",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "",
+            "last_name": "The Purists",
+            "election": 20,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#77a832",
+            "secondary_color_hex": "#77a832",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Republican",
+            "election": 20,
+            "party": "Republican",
+            "state": "The Swamp",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-pence-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "Chris",
+            "last_name": "Christie",
+            "election": 20,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/chris-christie-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "Sarah",
+            "last_name": "Palin",
+            "election": 20,
+            "party": "Republican",
+            "state": "Alaska",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/sarah-palin-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Ben",
+            "last_name": "Carson",
+            "election": 20,
+            "party": "Republican",
+            "state": "Michigan",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ben-carson-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Ben Carson was a candidate for President in 2016, with a long history within the evangelical community. He has never served in political office, a fact which may be an asset in this election. Carson was one of the Trump's first opponents to publicly endorse him, and he consistently polled relatively high in the black community during the primary season. However, he has also made a number of bizarre statements and may be vulnerable to a sustained attack campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 207,
+        "fields": {
+            "first_name": "Jeff",
+            "last_name": "Sessions",
+            "election": 20,
+            "party": "Republican",
+            "state": "Alabama",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/jeff-sessions-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Jeff Sessions, a Senator from Alabama, was the first major Republican politician to endorse your candidacy. He could help shore up some potentially shaky support on the right of the Republican party. Conversely, Alabama is not competitive, and sustained attacks on Hillary Clinton may be all that is needed to keep that wing in line.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Amy",
+            "last_name": "Klobuchar",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Minnesota",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/ezgif-3de5c6c96780dbb2.gif",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "What was Joe Biden? He searched for the Presidency his whole life, worked day and night in the Senate for decades, then played second fiddle to a man that outmatched him with a fraction's fraction of the experience.<br><br>Amy Klobuchar has had more than enough conversations with Joe to know precisely what fate could well befall her, too. How could she not? She's the same \"moderating influence\" to the \"change candidate\" he was, and she didn't even get a lifetime of lawmaking first. She knows better than to sit back and let this happen to her. If Joe hadn't taught her by accident, she'd still have known from a good deal of experience in the DFL that if you don't seize life, it seizes you.<br><br>She doesn't agree with Bernie on a lot, heck, not even on most issues, but she knows that good can still be done here. She just prays she's not forgotten about it.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 210,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Sanders",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Vermont",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/bernie-sanders-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Bernie Sanders was your main opponent in the nomination battle. There's no pretending that the two of you have a warm relationship, but he does have fierce support from many of your potential voters. On the other hand, if you want to make the case that you're a moderate alternative to Trump's extremism, having Bernie on the ticket will not help on that front.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 211,
+        "fields": {
+            "first_name": "Cory",
+            "last_name": "Booker",
+            "election": 20,
+            "party": "Democrat",
+            "state": "New Jersey",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/cory-booker-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Cory Booker is a Senator from New Jersey and was also the Mayor of Newark for several years. Politically, he is a mainstream Democrat, relatively similar to Barack Obama. He is also relatively youthful, with somewhat of a national profile. Turning out the black vote, and preventing even a handful of defectors to Trump, will be essential to a Clinton victory. However, Booker inspires limited enthusiasm amongst Sanders supporters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 212,
+        "fields": {
+            "first_name": "Elizabeth",
+            "last_name": "Warren",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Massachusetts",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/elizabeth-warren-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 213,
+        "fields": {
+            "first_name": "Sherrod",
+            "last_name": "Brown",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/sherrod-brown-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Libertarian",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "The Office",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Ms.",
+            "last_name": "Green",
+            "election": 20,
+            "party": "Green",
+            "state": "The Forest",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 161,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 215
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 160,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 214
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#083154", "header_image_url": "https://i.postimg.cc/SQdgngSj/image-(4).png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#1163ac", "main_color": "#232333", "secondary_color": "#083154", "ui_text_color": "#FFFFFF" }
+
+jet_data = {
+    "headerColor": "#083154",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#1163ac",
+    "containerColor": "#132242",
+    "innerWindowColor": "#1163ac",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#1163ac",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/66155D50-D743-4591-97FD-76C6FAF9474E.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/RevolutionBackground.png",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#ffffff",
+    "modBoxTheme": {
+        "header_color": "#0f172a",
+        "header_text_color": "#ffffff",
+        "description_background_color": "#ffffff",
+        "description_text_color": "#111827",
+        "main_color": "#bfe6ff",
+        "secondary_color": "#2563eb",
+        "ui_text_color": "#ffffff",
+        "site_title": "",
+        "site_image_url": ""
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #1163ac !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #1163ac !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#083154";
+theme.coloring_window    = "#1163ac";
+theme.coloring_container = "#132242";
+theme.header_image = "https://file.garden/Zrv1pPC1HzBK0svl/66155D50-D743-4591-97FD-76C6FAF9474E.png";
+theme.body_background = "https://file.garden/Zrv1pPC1HzBK0svl/RevolutionBackground.png";
+
+$("#game_window")[0].style.backgroundImage = "url(https://file.garden/Zrv1pPC1HzBK0svl/RevolutionWindow.png)"
+
+$("#game_window")[0].style.borderColor = "#1163ac"
+
+$(".container")[0].style.border = ".2em solid #1163ac"
+
+$(".footer")[0].style.borderColor = "#1163ac";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+applyTheme(theme);
+
+corrr = `
+	<div style="font-size: 11px; font-family: monospace; color: white; background: #083154">
+	<h2 style="font-style: normal;">
+	<img src="https://file.garden/Zrv1pPC1HzBK0svl/Untitled119_20260721021919.png" alt="THE REVOLUTION" style="margin-top: 0px; width: 951px; height: auto;">
+	</h2>
+	</div>
+	`;
+
+$("#inner_window_1 h3").css("text-align", "center").text("Weeks Where Decades Happen.");
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<span style='position: relative; right: 20px;'><img src="https://file.garden/Zrv1pPC1HzBK0svl/RevolutionIntro.png">\n\n<p>It was, by all means, supposed to be a Republican's year. The age-old American march of ''left''-right would continue, and the system would remain unflinchingly stagnant, a status-quo consecrated with the defeat of a man calling himself a Socialist, destined to lose so terribly that the term would never be raised ever again in good company, rendered like that tool McGovern all those years ago. It was only natural for tears of joy and shock in that cool November evening to wash the gutters of DC anew.<br><br>Now, the system is upon him. Hesitant even to call himself a Democrat, his party's leadership seeks to tame him, while much of its base of ''moderates'' want to see That Revolutionary flayed alive. The Republican Party, meanwhile, shudders, driven mad with bloodlust and hate–their enemy is practically begging for a merciless defeat, yet after their third successive loss, the Republicans find themselves truly rudderless, driven ruthlessly yet aimlessly. It is only the nebulous ''Left'', that coalition of disaffected workers and urban intellectuals that find themselves hopeful of the opportunities ahead.<br><br>That fateful night in that fateful November, President-Elect Bernie Sanders gave his victory speech. How, he wondered, might he keep it all together? How might he secure and continue this grand revolution? He knew not, yet he hoped that soon, somehow, some way, these United States of America may be saved yet.</p>\n</span>`;
+
+document.getElementById('game_start').innerHTML = '<b>Onwards, Ever Onwards.</b>';
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FEELTHEBERN.svg/500px-FEELTHEBERN.svg.png");
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://i.postimg.cc/tR5mjZ3P/image-(6).png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+HistHexcolour=["#3268a8","#a83232","#8932a8","#77a832"];
+    HistName=[" Bernie Sanders"," Tucker Carlson"," Joe Lieberman"," Vermin Supreme/Others"];
+    HistEV=[412,126,0,0];
+    HistPV=["88,085,960","64,321,762","3,960,699","2,059,563"];
+    HistPVP=["55.6%","40.6%","2.5%","1.3%"];
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "Emmy",
+      text: "for writing & planning the OG mod.",
+      image: "https://i.postimg.cc/kGRwQvsN/RDT-20260720-1724148754669327631607762.webp"
+    },
+    {
+      name: "C0SM0",
+      text: "for exporting the code 1. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    "<b>StrawberryMaster</b>, for providing coding addons & the soundtrack code.",
+    "<b>LittleAmericanMan_85501</b>, for providing the lovely banner & candidate portraits.",
+    "<b>The Sunrise Team</b>, for some song suggestions & theme inspiration.",
+    "Various codes provided by Mangolith & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>Emmy & C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #1163ac;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #1163ac;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #1163ac;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+// This is a modified version of the music player
+// used in the mod American Carnage.
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() { return this.title; }
+  getArtist() { return this.artist; }
+  getCoverLink() { return this.coverLink; }
+  getAudioLink() { return this.audioLink; }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+
+  playNext() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let activePlaylist = new Playlist();
+let audioInstance = null;
+let currentVolume = 9;
+
+// assets
+const ASSETS = {
+  bg: "https://i.imgur.com/Ok791w6.png",
+  infoBg: "https://i.imgur.com/BB1ejv6.png",
+  btnPrev: "https://i.imgur.com/imIqTEA.png",
+  btnPlay: "https://i.imgur.com/ttdoyfG.png",
+  btnPause: "https://i.imgur.com/oQbfTxw.png",
+  btnNext: "https://i.imgur.com/7TtaN04.png",
+  volIcon: "https://i.imgur.com/0BJYsXt.png"
+};
+
+function changePlaylist(newPlaylist) {
+  activePlaylist = newPlaylist;
+  activePlaylist.currentSongIndex = 0;
+
+  updateUI(activePlaylist);
+
+  // ensure audio exists before trying to access it
+  const audio = getAudioElement();
+  const song = activePlaylist.getCurrentSong();
+
+  if (song) {
+    audio.src = song.audioLink;
+    audio.play().catch(e => console.log("Autoplay blocked or waiting for interaction", e));
+    updatePlayPauseIcon(true);
+  }
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  const player = document.getElementById("player");
+
+  if (!player || !currentSong) return;
+
+  const cover = player.querySelector("#cover");
+  const title = player.querySelector("#title");
+  const artist = player.querySelector("#artist");
+
+  if (cover) cover.src = currentSong.getCoverLink();
+  if (title) title.textContent = currentSong.getTitle();
+  if (artist) artist.textContent = currentSong.getArtist();
+}
+window.updateUI = updateUI;
+
+// helpers
+function getAudioElement() {
+  if (!audioInstance) {
+    audioInstance = document.createElement("audio");
+    audioInstance.id = "audio";
+    document.body.appendChild(audioInstance);
+  }
+  return audioInstance;
+}
+
+function updatePlayPauseIcon(isPlaying) {
+  const btn = document.getElementById("playPauseButton");
+  if (btn) {
+    btn.src = isPlaying ? ASSETS.btnPause : ASSETS.btnPlay;
+  }
+}
+
+// setup
+function setupMusicPlayer() {
+  const gameWindow = document.getElementById("game_window");
+  if (!gameWindow) {
+    console.warn("game_window element not found. Player will not be attached.");
+    return;
+  }
+
+  // prevent duplicate players
+  if (document.getElementById("player")) return;
+
+  const defaultSongs = [
+    ["Reaganomics", "Lemon Demon", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F540d7b92e6edc1a41c9843d43baf953f.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/Lemon%20Demon%20-%20Reaganomics.mp3"],
+    ["Back In The USSR", "The Beatles", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F159d7acf815796d72353773d4fd50649.1000x1000x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Back%20In%20The%20U.S.S.R.%20(Remastered%202009)%204.mp3"],
+    ["You Don't Know Me", "Ben Folds", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F0be07615c42efa667f14cd50a14f89c2.280x280x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Ben%20Folds%20-%20You%20Don't%20Know%20Me%204.mp3"],
+    ["Look Who's Inside Again", "Bo Burnham", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F0d685ffce69468b89cf3fb3414a7ed3a.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/Bo%20Burnham%20-%20Look%20Who's%20Inside%20Again%20%5BLONG%20VERSION%5D.mp3"],
+    ["Helpless", "Hamilton Cast", "https://images.genius.com/3d49fcb34aa21fccd06f2b3c818146fd.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/Phillipa%20Soo%2C%20Hamilton%20Broadway%20Cast%20-%20Helpless%20(Lyrics)%20_%20from%20hamilton.mp3"],
+    ["When You Die", "MGMT", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F86e67d8f8f1c13622e58496cc3ab702e.1000x1000x1.png", "https://files.catbox.moe/gxjsob.mp3"],
+    ["Providence", "Poor Man's Poison", "https://t2.genius.com/unsafe/547x547/https%3A%2F%2Fimages.genius.com%2F64073bf68242015418c437e697f9b312.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/Providence.mp3"],
+    ["Tubthumping", "They Might Be Giants", "https://f4.bcbits.com/img/a3676791668_10.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/They%20Might%20Be%20Giants%20-%20Tubthumping.mp3"],
+  ];
+
+  if (activePlaylist.songs.length === 0) {
+    defaultSongs.forEach(data => activePlaylist.addSong(new Song(...data)));
+  }
+
+  // inject CSS
+  const style = document.createElement("style");
+  style.textContent = `
+    #player {
+      border: 3px solid rgba(17, 9, 172, 0.5);
+      display: flex;
+      flex-direction: row;
+      height: 191px;
+      background-image: url("${ASSETS.bg}");
+      font-family: sans-serif;
+	  padding: 0 .5em;
+    }
+    #display-box { display: flex; align-items: center; width: 50%; }
+    #cover { width: 176px; height: 176px; object-fit: cover; }
+    #info-container {
+      display: flex;
+      height: 178px; width: 127px; margin-top: 3px;
+      background-image: url("${ASSETS.infoBg}");
+      background-size: cover; color: white;
+    }
+    #song-info { width: 100%; padding: 5px; box-sizing: border-box; }
+    #artist { margin: 0; font-size: 12px; opacity: 0.9; }
+    #controls-container {
+      display: flex; flex-direction: column; align-items: center;
+      margin: 10px; width: 100%; padding-top: 15px;
+    }
+    #controls { display: flex; flex-direction: row; justify-content: center; gap: 10px; cursor: pointer; }
+    #controls img { transition: transform 0.1s; }
+    #controls img:active { transform: scale(0.95); }
+    #progress-bar-container { width: 100%; margin-top: 15px; text-align: center; }
+    #progress-bar { width: 80%; cursor: pointer; }
+    #volume-container { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: -1em; }
+    .vol-wrapper { position: relative; height: 126px; margin-top: 5px; }
+    #volumeSlider {
+      width: 8px; height: 100%;
+	  writing-mode: vertical-lr;
+	  direction: rtl;
+    }
+    #volume-display { font-weight: bold; display: none; }
+  `;
+  document.head.appendChild(style);
+
+  // create HTML
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+  playerContainer.innerHTML = `
+    <div id="display-box">
+      <img id="cover" src="">
+      <div id="info-container">
+        <div id="song-info">
+          <h3 id="title"></h3>
+          <p id="artist"></p>
+        </div>
+      </div>
+    </div>
+    <div id="controls-container">
+      <div id="controls">
+        <img id="prevButton" src="${ASSETS.btnPrev}" alt="Previous">
+        <img id="playPauseButton" src="${ASSETS.btnPlay}" alt="Play/Pause">
+        <img id="nextButton" src="${ASSETS.btnNext}" alt="Next">
+      </div>
+      <div id="progress-bar-container">
+        <input type="range" id="progress-bar" value="0" max="100" step="0.1">
+      </div>
+    </div>
+    <div id="volume-container">
+      <img src="${ASSETS.volIcon}" alt="Volume">
+      <div class="vol-wrapper">
+        <input type="range" id="volumeSlider" min="0" max="9" step="1" value="1" orient="vertical">
+      </div>
+      <span id="volume-display">1</span>
+    </div>
+  `;
+
+  gameWindow.insertAdjacentElement("afterend", playerContainer);
+
+  // set up audio & logic
+  const audio = getAudioElement();
+  const startSong = activePlaylist.getCurrentSong();
+  if (startSong) audio.src = startSong.audioLink;
+  audio.volume = currentVolume / 9;
+
+  const playPauseBtn = document.getElementById("playPauseButton");
+  const prevBtn = document.getElementById("prevButton");
+  const nextBtn = document.getElementById("nextButton");
+  const progressBar = document.getElementById("progress-bar");
+  const volumeSlider = document.getElementById("volumeSlider");
+  const volDisplay = document.getElementById("volume-display");
+
+  // play/pause
+  playPauseBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      updatePlayPauseIcon(true);
+    } else {
+      audio.pause();
+      updatePlayPauseIcon(false);
+    }
+  });
+
+  // next/prev
+  const playSongAtIndex = () => {
+    updateUI(activePlaylist);
+    audio.src = activePlaylist.getCurrentSong().audioLink;
+    audio.play();
+    updatePlayPauseIcon(true);
+  };
+
+  nextBtn.addEventListener("click", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    activePlaylist.playPrevious();
+    playSongAtIndex();
+  });
+
+  // progress bar
+  audio.addEventListener("timeupdate", () => {
+    if (Number.isFinite(audio.duration)) {
+      const progress = (audio.currentTime / audio.duration) * 100;
+      progressBar.value = progress;
+    }
+  });
+
+  audio.addEventListener("ended", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  progressBar.addEventListener("input", () => {
+    if (Number.isFinite(audio.duration)) {
+      audio.currentTime = (progressBar.value / 100) * audio.duration;
+    }
+  });
+
+  // volume
+  volumeSlider.addEventListener("input", (e) => {
+    currentVolume = parseInt(e.target.value, 10);
+    volDisplay.textContent = currentVolume;
+    audio.volume = currentVolume / 9;
+  });
+
+  // initial play
+  updateUI(activePlaylist);
+  audio.play()
+    .then(() => updatePlayPauseIcon(true))
+    .catch(() => updatePlayPauseIcon(false));
+}
+setupMusicPlayer();
+
+//#endcode
