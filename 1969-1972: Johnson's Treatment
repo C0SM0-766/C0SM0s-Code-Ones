@@ -1,0 +1,1270 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1972,
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p><b>He did it.</b> After everything, after the nation has experienced the worst foreign crisis since Hitler's time and the worst internal crises since the Civil War, the president has pulled through. Lyndon Johnson stands atop the Oval Office above the corpses of many, friends and foes alike. Nixon's campaign couldn't hide their treasonous collusion as Southern scumbags failed to muster massive resistance in the name of their chosen messiah.<br><br>What's left in the Texan cowboy past 1968? A mere husk of himself. He isn't the man he was in 1960, '64–hell, not even a year prior. Boys are still being sent to an alien slaughterhouse while inflation and racial tensions flame the riots & violence nationwide.<br><br>This is the legacy the Texan chose for himself. <i>There's no treatment for his pain.</i></p>",
+            "image_url": "https://i.postimg.cc/vm4dFsjz/a5905f16-7c79-467a-91e2-8a6706b72ce0.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/pLdR4FY6/MOSHED-2026-10-24-23-45-28.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://thecampaigntrail.net/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "is_historical": true,
+            "display_year": "1969-1972: Johnson's Treatment",
+            "recommended_reading_enabled": true,
+            "site_description": "<b>Johnson's Treatment.</b><br><p><b>He did it.</b> After everything, after the nation has experienced the worst foreign crisis since Hitler's time and the worst internal crises since the Civil War, the president has pulled through. Lyndon Johnson stands atop the Oval Office above the corpses of many, friends and foes alike. Nixon's campaign couldn't hide their treasonous collusion as Southern scumbags failed to muster massive resistance in the name of their chosen messiah.<br><br>What's left in the Texan cowboy past 1968? A mere husk of himself. He isn't the man he was in 1960, '64–hell, not even a year prior. Boys are still being sent to an alien slaughterhouse while inflation and racial tensions flame the riots & violence nationwide.<br><br>This is the legacy the Texan chose for himself. <i>There's no treatment for his pain.</i></p>"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1972,
+        "is_premium": 0,
+        "display_year": "1969-1972: Johnson's Treatment"
+    }
+];
+
+RecReading = true;
+
+campaignTrail_temp.credits = "C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Lyndon B.",
+            "last_name": "Johnson",
+            "election": 10,
+            "party": "Distressed & Tired",
+            "state": "To Keep Going, No Matter What",
+            "priority": 1,
+            "description": "<p>Since growing up in poverty, Lyndon was taught to chase power at every corner. His father was a loser, disgraced by his own people. Lyndon made sure never to follow in his footsteps. Crawling up the political ladder through corruption & backroom deals, he secured his place as the Big Boss after Jack left this earth from a bullet. Since taking office, the one job he chased his life has caged & tortured him–his legacy forever infamous and tarnished by his own doing.<br><br>Hippies, conservatives, moderates, the negroes, his own southern people–they're all dissatisfied with him, no matter how much blood & guts he poured to let their lives be a bit better the next day. Everywhere he looks, he sees an American nightmare, the blood trickling down the US flag every passing day. No matter how much he tries to remedy anything–taking up alcohol & smoking, or the solemn hymns on the radio–nothing will cure his pain...</p>",
+            "color_hex": "#25377a",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/501RPPh0/RDT-20261007-164359942428019133254260.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republicans",
+            "election": 10,
+            "party": "Republican",
+            "state": "Nationwide",
+            "priority": 2,
+            "description": "<p>Gerald Ford assumed the Presidency on August 9, 1974, after the resignation of Richard Nixon. His pardon of Nixon is deeply unpopular and is feeding the sentiment for an outsider to assume office. Inflation and unemployment have both weighed on Ford's popularity. On the other hand, Ford enjoys the stature of a President and has negotiated with many foreign leaders. He starts the campaign in second place, and must make up ground quickly while keeping his party united.</p>",
+            "color_hex": "#7a2525",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/gerald-ford-1976.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Confederates",
+            "election": 10,
+            "party": "Independent",
+            "state": "Minnesota",
+            "priority": 3,
+            "description": "''",
+            "color_hex": "#7a5025",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Dissenters",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#2a7a25",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "Hubert H.",
+            "last_name": "Humphrey",
+            "election": 10,
+            "party": "Left Out Yet Hopeful",
+            "state": "To Inspire Hope For A Fairer Day",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/4d5Fj6Gz/RDT-20261010-1442544228336821854813556.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Hubert once dreamed of a fairer America, and one that could be accomplished with his help—he still does today. However, with the machinations of his boss, Hubert has been left alone sitting in the Observatory in his doubts. The image he's a \"Happy Warrior\" is long gone, corroded after years of playing second fiddle to a corrupt mud-smelling jackass. He's now seen as a mere puppet, or a directionless child following their parent, to those who were once his most vocal supporters.<br><br>Fortunately for him, the chance for redemption lies in the next election cycle–naturally, being second in importance in America, he's the frontrunner for '72. Yet, he has little to no power in dictating his chances. Instead, his boss chooses if he's truly a good successor. Lyndon's legacy impacts his likelihood to win a bright future for himself, and he sits with his tail wagging, hoping he'll get the treat he think he deserves.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "Frank",
+            "last_name": "Church",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Idaho",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/frank-church-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Frank Church is a Senator from Idaho, and one of Carter's rivals in the 1976 primaries. He is known for his opposition to the Vietnam War, and his investigations of America's intelligence bureaus. Both of these factors make him appealing to the anti-war bloc of the Democratic Party, and have made him a well-known, national figure in politics. He is also outgoing and charismatic, and could overshadow a more soft-spoken Carter.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 97,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Glenn",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/john-glenn-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "Scoop",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Washington",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/scoop-jackson-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Republican",
+            "election": 10,
+            "party": "Republican",
+            "state": "Who Cares",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/bob-dole-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Bob Dole is a well-respected, conservative Senator from Kansas. He could unite the party after a divisive primary fight -- Ronald Reagan has singled Dole out as a good choice for running mate. He is popular in the farm states and could help consolidate support in the Plains and Midwest. He is also known to have loose lips on the campaign trail, and does not hold back in his attacks.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Howard",
+            "last_name": "Baker",
+            "election": 10,
+            "party": "Republican",
+            "state": "Tennessee",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/howard-baker-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Howard Baker is a Senator from Tennessee who has served since 1967, and who was nearly appointed to the Supreme Court by Richard Nixon. The first Republican since Reconstruction to be elected to the Senate from his state, he is heavily involved in the passage of most legislation, and is a leading voice among Congressional Republicans. He has a moderate reputation, and is not a first choice of the Reaganites.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Anderson",
+            "election": 10,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/john-anderson-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Anderson is a long-time Congressman from Illinois who has conservative fiscal views, moderate social views, and was a strong critic of Richard Nixon during the Watergate hearings. His presence could help win moderates and could swing the state of Illinois. He could also help mitigate, at least somewhat, against Carter's outsider reputation. He would not do much to win back the conservative, Reaganite wing of the party.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connally",
+            "election": 10,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/john-connally-1968.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Connally bolted from the Democrats to the Republicans in 1973. He was Governor of Texas for six years, and could help greatly in winning that state. He is strong on defense issues and conservative on social issues, and could even be seen as an olive branch to the Reaganites. He has good name-recognition, having been wounded in Kennedy's assassination.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "...",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "...",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 67,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 104
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 66,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 62,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#1f233d",
+    "header_text_color": "#ffffff",
+    "header_image_url": "https://i.postimg.cc/MKhH4W6v/image-(3).png",
+    "description_background_color": "#232854",
+    "description_text_color": "#ffffff",
+    "main_color": "#2a347a",
+    "secondary_color": "#1f233d",
+    "scrollbar_color": "3px #232854",
+    "image_border": "3px solid #232854",
+    "ui_text_color": "#ffffff"
+};
+
+jet_data = {
+    "headerColor": "#1f233d",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#232854",
+    "containerColor": "#2a347a",
+    "innerWindowColor": "#232854",
+    "innerWindowTextColor": "#f8f8f8",
+    "descriptionWindowColor": "#000000",
+    "descriptionWindowTextColor": "#ffffff",
+    "startButtonColor": "#232854",
+    "bannerImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/JohnsonTreatment.png",
+    "backgroundImageUrl": "https://i.postimg.cc/sD13sb6Y/Screenshot-20261115-122123-Chrome.jpg",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#1f233d",
+        "header_text_color": "#ffffff",
+        "header_image_url": "https://i.postimg.cc/MKhH4W6v/image-(3).png",
+        "header_text_shadow": "",
+        "header_font": "",
+        "header_margin": "",
+        "description_background_color": "#232854",
+        "description_text_color": "#ffffff",
+        "main_color": "#2a347a",
+        "secondary_color": "#1f233d",
+        "secondary_hover_color": "",
+        "scrollbar_color": "3px #232854",
+        "scrollbar_width": "",
+        "image_border": "3px solid #232854",
+        "election_image_display": "",
+        "ui_text_color": "#ffffff"
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #232854 !important; color: #f8f8f8; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #000000 !important; color: #ffffff; }
+      .campaign_trail_start_emphasis { background-color: #232854 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#1f233d";
+theme.coloring_window    = "#232854";
+theme.coloring_container = "#2a347a";
+theme.header_image = "https://file.garden/Zrv1pPC1HzBK0svl/JohnsonTreatment.png";
+theme.body_background = "https://i.postimg.cc/sD13sb6Y/Screenshot-20261115-122123-Chrome.jpg";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/0ae87427f6b0.png)"
+
+$("#game_window")[0].style.borderColor = "#232854"
+
+document.getElementsByClassName("container")[0].style="background-image: url('https://file.garden/Zrv1pPC1HzBK0svl/TreatmentContainer.png')"
+
+document.getElementById("header").src = "https://file.garden/Zrv1pPC1HzBK0svl/JohnsonTreatment.png";
+
+$(".footer")[0].style.borderColor = "#232854";
+
+$(".container")[0].style.border = ".2em solid #232854"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+applyTheme(theme);
+
+corrr = `
+  <h2 style="
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+                 0 0 30px rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    Johnson's Treatment.
+  </h2>
+`;
+
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://i.postimg.cc/3NT9nMk6/image-(2).png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+// Global text variables
+e.SelectText = 'Confirm your second term.';
+e.CandidText = 'Confirm your President.';
+e.VpText = 'Confirm your Vice President.';
+e.HomeStateText = "Motive:";
+e.PartyText = "Status:";
+e.SelAnsContText = "Uhh... you didn't answer us, Mr. President. Please try again."
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.postimg.cc/zGX740cf/il-fullxfull-3463056578-9uex-removebg-preview.png");
+document.title = "Johnson's Treatment.";
+
+HistHexcolour=["#7a2525","#25377a","#2a7a25","#58257a"];
+    HistName=[" Barry Goldwater"," Hubert Humphrey"," Pete McCloskey"," Abbie Hoffman"];
+    HistEV=[352,178,8,0];
+    HistPV=["34,698,442","32,292,063","8,849,267","1,785,378"];
+    HistPVP=["44.7%","41.6%","11.4%","2.3%"];
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    "<b>StrawberryMaster</b>, for providing coding addons.",
+    "<b>u/atlascarlos</b>, for providing the lovely banner.",
+    "<b>Thatchmaster</b>, for providing the soundtrack code & theme inspiration.",
+    "<b>Gardfeld</b>, for providing the candidate portraits.",
+    "Various codes provided by Mangolith & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #1f233d;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #1f233d;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #232854;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+// This is a modified version of the music player
+// used in the mod All The Way.
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() { return this.title; }
+  getArtist() { return this.artist; }
+  getCoverLink() { return this.coverLink; }
+  getAudioLink() { return this.audioLink; }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+
+  playNext() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let activePlaylist = new Playlist();
+let audioInstance = null;
+let currentVolume = 9;
+let getAudioAmplitude = (time) => 0;
+
+// assets
+const ASSETS = {
+  bg: "https://i.imgur.com/57IeWZc.png",
+  infoBg: "https://i.imgur.com/BSXotSO.png",
+  needle: "https://i.imgur.com/ohd0XR3.png",
+  btnPrev: "https://i.imgur.com/Zkk16Uy.png",
+  btnPlay: "https://i.imgur.com/Kb4y3wX.png",
+  btnPause: "https://i.imgur.com/LxQnVBj.png",
+  btnNext: "https://i.imgur.com/P39RRW4.png",
+  volIcon: "https://i.imgur.com/jjUzV10.png"
+};
+
+function changePlaylist(newPlaylist) {
+  activePlaylist = newPlaylist;
+  activePlaylist.currentSongIndex = 0;
+  updateUI(activePlaylist);
+
+  // ensure audio exists before trying to access it
+  const audio = getAudioElement();
+  const song = activePlaylist.getCurrentSong();
+
+  if (song) {
+    audio.src = song.audioLink;
+    decodeAudio(audio.src);
+    audio.play().catch(e => console.log("Autoplay blocked or waiting for interaction", e));
+    updatePlayPauseIcon(true);
+  }
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  const player = document.getElementById("player");
+
+  if (!player || !currentSong) return;
+
+  const cover = player.querySelector("#cover");
+  const title = player.querySelector("#title");
+  const artist = player.querySelector("#artist");
+
+  if (cover) cover.src = currentSong.getCoverLink();
+  if (title) title.textContent = currentSong.getTitle();
+  if (artist) artist.textContent = currentSong.getArtist();
+}
+window.updateUI = updateUI;
+
+// helpers
+function getAudioElement() {
+  if (!audioInstance) {
+    audioInstance = document.createElement("audio");
+    audioInstance.id = "audio";
+    document.body.appendChild(audioInstance);
+  }
+  return audioInstance;
+}
+
+function updatePlayPauseIcon(isPlaying) {
+  const btn = document.getElementById("playPauseButton");
+  if (btn) btn.src = isPlaying ? ASSETS.btnPause : ASSETS.btnPlay;
+}
+
+// audio decoding for needle animation
+async function isBraveBrowser() {
+  return (window.navigator.brave && await window.navigator.brave.isBrave());
+}
+
+async function decodeAudio(audioSrc) {
+  try {
+    if (await isBraveBrowser()) return null;
+
+    const audioContext = new AudioContext();
+    const response = await fetch(audioSrc);
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = await audioContext.decodeAudioData(arrayBuffer);
+
+    const sampleRate = buffer.sampleRate;
+    const totalSamples = buffer.length;
+    const numChannels = buffer.numberOfChannels;
+
+    const downsampleFactor = 32;
+    const reducedSize = Math.floor(totalSamples / downsampleFactor);
+
+    let amplitudes = new Float32Array(reducedSize);
+    let meanAmplitude = 0;
+
+    for (let i = 0; i < reducedSize; i++) {
+      let sum = 0;
+      for (let channel = 0; channel < numChannels; channel++) {
+        sum += buffer.getChannelData(channel)[i * downsampleFactor] ** 2;
+      }
+      amplitudes[i] = sum / numChannels;
+      meanAmplitude += amplitudes[i];
+    }
+
+    meanAmplitude /= reducedSize;
+
+    getAudioAmplitude = function (time) {
+      const delay = 0.17;
+      let index = Math.floor((time + delay) * sampleRate / downsampleFactor);
+      index = Math.min(index, reducedSize - 1);
+      let amplitudeNorm = amplitudes[index] / (2 * meanAmplitude);
+      return Math.min(amplitudeNorm, 1);
+    };
+
+    console.log("Audio decoded successfully!");
+  } catch (error) {
+    console.error("Error decoding audio:", error);
+  }
+}
+
+// setup
+function setupMusicPlayer() {
+  const gameWindow = document.getElementById("game_window");
+  if (!gameWindow) {
+    console.warn("game_window element not found. Player will not be attached.");
+    return;
+  }
+
+  // prevent duplicate players
+  if (document.getElementById("player")) return;
+
+  const defaultSongs = [
+    ["Could We Start Again, Please", "Andrew Lloyd Weber", "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Jesus_Christ_Superstar_%28soundtrack%29.jpg/1280px-Jesus_Christ_Superstar_%28soundtrack%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail", "https://file.garden/Zrv1pPC1HzBK0svl/Could%20We%20Start%20Again%2C%20Please_%20(From%20_Jesus%20Christ%20Superstar_%20Soundtrack).mp3"],
+    ["Peace Frog", "The Doors", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2Fefe47b92ed67ba3bb6583560eb16c3d9.1000x1000x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/The%20Doors%20-%20Peace%20Frog%204.mp3"],
+    ["I Can See For Miles", "The Who", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2F3acffa3b6c9c718852adc8dba67e1560.1000x1000x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/I%20Can%20See%20For%20Miles.mp3"],
+    ["Hey Joe", "Jimi Hendrix", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2F764369def419d80f9538c3bdc1424436.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/jimi%20Hendrix%20-%20Hey%20Joe%204.mp3"],
+    ["Cowboy Song", "Thin Lizzy", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2Feb0e1641a2b6e09caceaf24a6df2ee7d.1000x1000x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/Cowboy%20Song.mp3"],
+    ["Breathe (In The Air)", "Pink Floyd", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2Fe7aacf0af81cf270fa2b67833c018872.1000x1000x1.png", "https://file.garden/Zrv1pPC1HzBK0svl/Pink%20Floyd%20-%20Breathe%20(In%20The%20Air)%20(2023%20Remaster)%204.mp3"],
+    ["I'm Movin' On", "Elvis Presley", "https://t2.genius.com/unsafe/546x546/https%3A%2F%2Fimages.genius.com%2F6bfb89dfaa1e92386bfda174e27a0b7b.1000x1000x1.jpg", "https://file.garden/Zrv1pPC1HzBK0svl/I'm%20Movin'%20On%204.mp3"],
+    ["Let It Be", "The Beatles", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Beatles_-_Let_It_Be.png/250px-The_Beatles_-_Let_It_Be.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail", "https://audio.jukehost.co.uk/h6nWtrWZRI1oVGD3wqAhLENDwWLLaNb7"],
+    ["Bridge Over Troubled Water", "Simon & Garfunkel", "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png/250px-Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail", "https://files.catbox.moe/v9b57r.mp3"],
+  ];
+
+  if (activePlaylist.songs.length === 0) {
+    defaultSongs.forEach(data => activePlaylist.addSong(new Song(...data)));
+  }
+
+  // inject CSS
+  const style = document.createElement("style");
+  style.textContent = `
+    #player {
+      border: 3px solid #232854;
+      display: flex;
+      flex-direction: row;
+      height: 191px;
+      background-image: url("${ASSETS.bg}");
+    }
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+    #cover {
+      width: 176px;
+      height: 176px;
+    }
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height: 178px;
+      width: 127px;
+      margin-top: 3px;
+      background-image: url('${ASSETS.infoBg}');
+      background-size: cover;
+      color: #cfcfcf;
+      position: relative;
+    }
+    #song-info {
+      width: 100%;
+      padding: 5px;
+    }
+    #title {
+      font-weight: normal;
+      font-size: 1.025em;
+      line-height: 17px;
+    }
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width: 100%;
+      padding-top: 15px;
+    }
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+    #controls img {
+      cursor: pointer;
+    }
+    #controls img:active {
+      filter: brightness(0.4);
+    }
+    #needle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 127px;
+      height: 352px;
+      transform-origin: 50% 50%;
+      transform: rotate(-45deg);
+      transition: transform 0.3s ease;
+      pointer-events: none;
+      user-select: none;
+      z-index: 9999;
+      outline: none;
+      border: none;
+    }
+
+    input[type=range] {
+      appearance: none;
+      background: #e0e0e0;
+      border-radius: 2px;
+      outline: none;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+    }
+
+    #progress-bar-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #progress-bar {
+      width: 80%;
+      height: 4px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    #progress-bar::-webkit-slider-thumb {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background: #333;
+      border: 2px solid #f1f1f1;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.7);
+    }
+    #progress-bar::-moz-range-thumb {
+      width: 12px;
+      height: 12px;
+      background: #333;
+      border: 2px solid #f1f1f1;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.7);
+    }
+
+    /* Vertical Volume Slider */
+    .is-vertical {
+      margin-left: -16%;
+      height: 126px;
+      display: flex;
+      justify-content: center;
+    }
+    #volumeSlider {
+      width: 4px;
+      height: 100%;
+      writing-mode: vertical-rl;
+      direction: rtl;
+      cursor: pointer;
+    }
+    #volumeSlider::-webkit-slider-thumb {
+      appearance: none;
+      width: 22px;
+      height: 12px;
+      background: #a86b32;
+      border: 1px solid #4a2a10;
+      border-radius: 2px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+    #volumeSlider::-moz-range-thumb {
+      width: 22px;
+      height: 10px;
+      background: #a86b32;
+      border: 1px solid #4a2a10;
+      border-radius: 2px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    #volume-display {
+      font-weight: bold;
+      display: none;
+    }
+    `;
+  document.head.appendChild(style);
+
+  // create HTML
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+  playerContainer.innerHTML = `
+    <div id="display-box">
+      <img id="cover" src="">
+      <div id="info-container">
+        <img id="needle" src="${ASSETS.needle}">
+        <div id="song-info">
+          <h3 id="title"></h3>
+          <p id="artist"></p>
+        </div>
+      </div>
+    </div>
+    <div id="controls-container">
+      <div id="controls">
+        <img id="prevButton" src="${ASSETS.btnPrev}" alt="Previous">
+        <img id="playPauseButton" src="${ASSETS.btnPause}" alt="Play/Pause">
+        <img id="nextButton" src="${ASSETS.btnNext}" alt="Next">
+      </div>
+      <div id="progress-bar-container">
+        <input type="range" id="progress-bar" value="0" max="100" step="0.1">
+      </div>
+    </div>
+    <div id="volume-container">
+      <img src="${ASSETS.volIcon}" alt="Volume">
+      <div class="is-vertical">
+        <input type="range" id="volumeSlider" min="0" max="9" step="1" value="${currentVolume}">
+      </div>
+      <span id="volume-display">${currentVolume}</span>
+    </div>
+  `;
+
+  gameWindow.insertAdjacentElement("afterend", playerContainer);
+
+  // set up audio & logic
+  const audio = getAudioElement();
+  const startSong = activePlaylist.getCurrentSong();
+  if (startSong) {
+    audio.src = startSong.audioLink;
+    decodeAudio(audio.src);
+  }
+  audio.volume = currentVolume / 9;
+
+  const playPauseBtn = document.getElementById("playPauseButton");
+  const prevBtn = document.getElementById("prevButton");
+  const nextBtn = document.getElementById("nextButton");
+  const progressBar = document.getElementById("progress-bar");
+  const volumeSlider = document.getElementById("volumeSlider");
+  const volDisplay = document.getElementById("volume-display");
+  const needle = document.getElementById("needle");
+
+  // play/pause
+  playPauseBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      updatePlayPauseIcon(true);
+    } else {
+      audio.pause();
+      needle.style.transform = "rotate(-45deg)";
+      updatePlayPauseIcon(false);
+    }
+  });
+
+  // next/prev
+  const playSongAtIndex = () => {
+    updateUI(activePlaylist);
+    audio.src = activePlaylist.getCurrentSong().audioLink;
+    decodeAudio(audio.src);
+    audio.play()
+      .then(() => updatePlayPauseIcon(true))
+      .catch(() => updatePlayPauseIcon(false));
+  };
+
+  nextBtn.addEventListener("click", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    activePlaylist.playPrevious();
+    playSongAtIndex();
+  });
+
+  // progress bar & needle update
+  audio.addEventListener("timeupdate", () => {
+    if (Number.isFinite(audio.duration)) {
+      progressBar.value = (audio.currentTime / audio.duration) * 100;
+    }
+
+    // needle dynamic rotation based on amplitude
+    const MIN_DEG = -45, MAX_DEG = 45;
+    let amplitude = audio.paused ? 0 : getAudioAmplitude(audio.currentTime);
+    let degrees = MIN_DEG + amplitude * (MAX_DEG - MIN_DEG);
+    needle.style.transform = `rotate(${degrees}deg)`;
+  });
+
+  audio.addEventListener("ended", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  progressBar.addEventListener("input", () => {
+    if (Number.isFinite(audio.duration)) {
+      audio.currentTime = (progressBar.value / 100) * audio.duration;
+    }
+  });
+
+  // volume
+  volumeSlider.addEventListener("input", (e) => {
+    currentVolume = parseInt(e.target.value, 10);
+    volDisplay.textContent = currentVolume;
+    audio.volume = currentVolume / 9;
+  });
+
+  // initial play
+  updateUI(activePlaylist);
+  audio.play()
+    .then(() => updatePlayPauseIcon(true))
+    .catch(() => updatePlayPauseIcon(false));
+}
+setupMusicPlayer();
+
+//#endcode
